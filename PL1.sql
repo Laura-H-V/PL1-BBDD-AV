@@ -1,5 +1,3 @@
--- Crear la base de datos PL1
-CREATE DATABASE PL1;
 
 
 -- Crear la tabla productos
