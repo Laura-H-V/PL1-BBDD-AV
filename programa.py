@@ -4,6 +4,7 @@ import random
 # Definir el número de registros
 NUM_REGISTROS = 25000000
 NOMBRE_ARCHIVO = "productos.csv"
+random.seed(1)
 
 # Crear el archivo CSV
 with open(NOMBRE_ARCHIVO, "w", newline="", encoding="utf-8") as file:

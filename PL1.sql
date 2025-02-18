@@ -11,4 +11,25 @@ CREATE TABLE productos (
 );
 
 
+
 \COPY productos FROM ./productos.csv WITH (FORMAT csv, HEADER, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
+
+
+/*
+SELECT blks_read, blks_hit
+FROM pg_stat_database
+WHERE datname = 'pl1';
+
+SELECT count(*)
+FROM productos
+WHERE  precio = 3000;
+
+
+SELECT blks_read, blks_hit
+FROM pg_stat_database
+WHERE datname = 'pl1';
+
+
+EXPLAIN (ANALYZE, BUFFERS)
+SELECT * FROM productos WHERE precio = 3000;
+*/
