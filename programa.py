@@ -15,7 +15,7 @@ with open(NOMBRE_ARCHIVO, "w", newline="", encoding="utf-8") as file:
     
     # Generar los registros
     for producto_id in range(1, NUM_REGISTROS + 1):
-        nombre = f"Producto {producto_id}"
+        nombre = "productos"
         stock = random.randint(0, 20000)
         precio = round(random.uniform(10, 5000), 2)
         writer.writerow([producto_id, nombre, stock, precio])
