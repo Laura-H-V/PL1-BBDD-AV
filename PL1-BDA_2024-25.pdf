@@ -12,60 +12,60 @@ endobj
 <</AP<</N 2 0 R >>/DR<<>>/F 132/FT/Sig/P 5 0 R /Rect[ 0 0 0 0]/Subtype/Widget/T(Signature1)/Type/Annot/V 1 0 R >>
 endobj
 5 0 obj
-<</Annots 909 0 R /Contents[ 910 0 R  911 0 R  912 0 R  913 0 R  914 0 R  915 0 R  916 0 R  917 0 R ]/CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 10 0 R /Resources<</Font<</TT0 13 0 R /TT1 12 0 R /TT2 11 0 R /TT3 918 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 0/Tabs/S/Type/Page>>
+<</Annots 909 0 R /Contents[ 910 0 R  911 0 R  912 0 R  913 0 R  914 0 R  915 0 R  916 0 R  917 0 R ]/CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 10 0 R /Resources<</Font<</TT0 13 0 R /TT1 12 0 R /TT2 11 0 R /TT3 918 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 0/Tabs/S/Type/Page>>
 endobj
 6 0 obj
-<</Length 4261/Subtype/XML/Type/Metadata>>stream
+<</Length 3728/Subtype/XML/Type/Metadata>>stream
 <?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.1-c001 79.675d0f7, 2023/06/11-19:21:16        ">
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-      <rdf:Description rdf:about=""
-            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
-            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
-            xmlns:dc="http://purl.org/dc/elements/1.1/"
-            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
-            xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/"
-            xmlns:adhocwf="http://ns.adobe.com/AcrobatAdhocWorkflow/1.0/"
-            xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/">
-         <xmp:ModifyDate>2025-01-29T11:46:19+01:00</xmp:ModifyDate>
-         <xmp:CreateDate>2025-01-29T11:08:05+01:00</xmp:CreateDate>
-         <xmp:MetadataDate>2025-01-29T11:46:19+01:00</xmp:MetadataDate>
-         <xmp:CreatorTool>Acrobat PDFMaker 24 para Word</xmp:CreatorTool>
-         <xmpMM:DocumentID>uuid:02e0e631-71e3-4c49-8a61-7aeb0b024385</xmpMM:DocumentID>
-         <xmpMM:InstanceID>uuid:daa80d30-cc3e-4f5c-a202-eada3cf7c422</xmpMM:InstanceID>
-         <xmpMM:subject>
-            <rdf:Seq>
-               <rdf:li>111</rdf:li>
-            </rdf:Seq>
-         </xmpMM:subject>
-         <dc:format>application/pdf</dc:format>
-         <dc:title>
-            <rdf:Alt>
-               <rdf:li xml:lang="x-default">Bases de Datos Avanzadas</rdf:li>
-            </rdf:Alt>
-         </dc:title>
-         <dc:description>
-            <rdf:Alt>
-               <rdf:li xml:lang="x-default">Practica 1</rdf:li>
-            </rdf:Alt>
-         </dc:description>
-         <dc:creator>
-            <rdf:Seq>
-               <rdf:li>Iv√°n</rdf:li>
-            </rdf:Seq>
-         </dc:creator>
-         <pdf:Producer>Cliente @firma</pdf:Producer>
-         <pdfx:SourceModified/>
-         <pdfx:Company>yo</pdfx:Company>
-         <adhocwf:state>1</adhocwf:state>
-         <adhocwf:version>1.1</adhocwf:version>
-         <photoshop:headline>
-            <rdf:Seq>
-               <rdf:li>Practica 1</rdf:li>
-            </rdf:Seq>
-         </photoshop:headline>
-      </rdf:Description>
-   </rdf:RDF>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 6.1.10">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about=""
+xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/"
+xmlns:adhocwf="http://ns.adobe.com/AcrobatAdhocWorkflow/1.0/"
+xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/">
+<xmp:ModifyDate>2025-02-21T13:28:26.818+01:00</xmp:ModifyDate>
+<xmp:CreateDate>2025-01-29T11:08:05+01:00</xmp:CreateDate>
+<xmp:MetadataDate>2025-01-29T11:46:19+01:00</xmp:MetadataDate>
+<xmp:CreatorTool>Acrobat PDFMaker 24 para Word</xmp:CreatorTool>
+<xmpMM:DocumentID>uuid:02e0e631-71e3-4c49-8a61-7aeb0b024385</xmpMM:DocumentID>
+<xmpMM:InstanceID>uuid:daa80d30-cc3e-4f5c-a202-eada3cf7c422</xmpMM:InstanceID>
+<xmpMM:subject>
+<rdf:Seq>
+<rdf:li>111</rdf:li>
+</rdf:Seq>
+</xmpMM:subject>
+<dc:format>application/pdf</dc:format>
+<dc:title>
+<rdf:Alt>
+<rdf:li xml:lang="x-default">Bases de Datos Avanzadas</rdf:li>
+</rdf:Alt>
+</dc:title>
+<dc:description>
+<rdf:Alt>
+<rdf:li xml:lang="x-default">Practica 1</rdf:li>
+</rdf:Alt>
+</dc:description>
+<dc:creator>
+<rdf:Seq>
+<rdf:li>Iv√°n</rdf:li>
+</rdf:Seq>
+</dc:creator>
+<pdf:Producer>Cliente @firma</pdf:Producer>
+<pdfx:SourceModified/>
+<pdfx:Company>yo</pdfx:Company>
+<adhocwf:state>1</adhocwf:state>
+<adhocwf:version>1.1</adhocwf:version>
+<photoshop:headline>
+<rdf:Seq>
+<rdf:li>Practica 1</rdf:li>
+</rdf:Seq>
+</photoshop:headline>
+</rdf:Description>
+</rdf:RDF>
 </x:xmpmeta>
                                                                                                     
                                                                                                     
@@ -92,10 +92,10 @@ endobj
 endstream
 endobj
 7 0 obj
-<</Annots 8 0 R /Contents 9 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 10 0 R /Resources<</Font<</TT0 11 0 R /TT1 12 0 R /TT2 13 0 R /TT3 14 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 1/Tabs/S/Type/Page>>
+<</Annots 8 0 R /Contents 9 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 10 0 R /Resources<</Font<</TT0 11 0 R /TT1 12 0 R /TT2 13 0 R /TT3 14 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 1/Tabs/S/Type/Page>>
 endobj
 8 0 obj
-[ 124 0 R ]
+[ 124 0 R]
 endobj
 9 0 obj
 <</Filter/FlateDecode/Length 3843>>stream
@@ -136,10 +136,10 @@ endobj
 <</BaseFont/CNDSEU+ArialMT/Encoding/WinAnsiEncoding/FirstChar 32/FontDescriptor 164 0 R /LastChar 32/Subtype/TrueType/ToUnicode 81 0 R /Type/Font/Widths[ 278]>>
 endobj
 15 0 obj
-<</Annots 16 0 R /Contents 17 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 10 0 R /Resources<</Font<</TT0 12 0 R /TT1 13 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 2/Tabs/S/Type/Page>>
+<</Annots 16 0 R /Contents 17 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 10 0 R /Resources<</Font<</TT0 12 0 R /TT1 13 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 2/Tabs/S/Type/Page>>
 endobj
 16 0 obj
-[ 125 0 R  126 0 R ]
+[ 125 0 R 126 0 R]
 endobj
 17 0 obj
 <</Filter/FlateDecode/Length 929>>stream
@@ -151,10 +151,10 @@ K‚ÕÈ⁄ã∆+#Ã§Ü∂Â"ˇ§îùÇ§b∂€uÁH;G•ö‰=9GØàBú0-e>§≈.ÙRÿ∑≥’Ñ.âb≈CÙ£+¯w5Óût1+7
 endstream
 endobj
 18 0 obj
-<</Annots 19 0 R /Contents 20 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 10 0 R /Resources<</Font<</TT0 12 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 3/Tabs/S/Type/Page>>
+<</Annots 19 0 R /Contents 20 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 10 0 R /Resources<</Font<</TT0 12 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 3/Tabs/S/Type/Page>>
 endobj
 19 0 obj
-[ 127 0 R  128 0 R ]
+[ 127 0 R 128 0 R]
 endobj
 20 0 obj
 <</Filter/FlateDecode/Length 1372>>stream
@@ -167,10 +167,10 @@ YºÖq6™0«·PÇ	ùä!Z€IäπK–9Pî⁄ß…	FV’πD!√°&Ïc—˛Ó·ÜƒzO¯|`IáàßÂOC∏éú÷‰Ù‹(ƒ˙\IïÒ	¥
 endstream
 endobj
 21 0 obj
-<</Annots 22 0 R /Contents 23 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 10 0 R /Resources<</Font<</TT0 12 0 R /TT1 13 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 4/Tabs/S/Type/Page>>
+<</Annots 22 0 R /Contents 23 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 10 0 R /Resources<</Font<</TT0 12 0 R /TT1 13 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 4/Tabs/S/Type/Page>>
 endobj
 22 0 obj
-[ 129 0 R  130 0 R ]
+[ 129 0 R 130 0 R]
 endobj
 23 0 obj
 <</Filter/FlateDecode/Length 1351>>stream
@@ -182,7 +182,7 @@ HâºWKo€8æ˚WÃQ:àz(Zlú€tﬂí=(≤‚j«IÏlëø‰IQ[ÿã-â‰<æô˘fxÒ>|∏∏ﬁ|πÇ>~ºº⁄
 endstream
 endobj
 24 0 obj
-<</Annots 25 0 R /Contents 26 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 27 0 R /Resources<</Font<</TT0 12 0 R /TT1 13 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 5/Tabs/S/Type/Page>>
+<</Annots 25 0 R /Contents 26 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 27 0 R /Resources<</Font<</TT0 12 0 R /TT1 13 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 5/Tabs/S/Type/Page>>
 endobj
 25 0 obj
 [ 131 0 R  132 0 R ]
@@ -198,7 +198,7 @@ endobj
 <</Count 5/Kids[ 24 0 R  28 0 R  31 0 R  37 0 R  40 0 R ]/Parent 906 0 R /Type/Pages>>
 endobj
 28 0 obj
-<</Annots 29 0 R /Contents 30 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 27 0 R /Resources<</Font<</TT0 12 0 R /TT1 13 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 6/Tabs/S/Type/Page>>
+<</Annots 29 0 R /Contents 30 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 27 0 R /Resources<</Font<</TT0 12 0 R /TT1 13 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 6/Tabs/S/Type/Page>>
 endobj
 29 0 obj
 [ 133 0 R  134 0 R ]
@@ -213,7 +213,7 @@ s1”8Îœ—DÑ—Áp§”QèœSvÔ·!aı¥äoü®å±™Vé‹Y¨f±{‹0÷o,	6$ˆ¶ªWhˇX¯É1ôN‚q2v≈•ˆÃ
 endstream
 endobj
 31 0 obj
-<</Annots 32 0 R /Contents 33 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 27 0 R /Resources<</Font<</TT0 12 0 R /TT1 13 0 R /TT2 34 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 7/Tabs/S/Type/Page>>
+<</Annots 32 0 R /Contents 33 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 27 0 R /Resources<</Font<</TT0 12 0 R /TT1 13 0 R /TT2 34 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 7/Tabs/S/Type/Page>>
 endobj
 32 0 obj
 [ 135 0 R ]
@@ -320,7 +320,7 @@ Hâ\êœjƒ ∆Ô>≈wãŸú%P∂rËöˆåNR°eby˚é6l°*„˜˝‰sÙ≠Ï)d–o›Ä¶@ûqç;ÑÁ@Í⁄Ç.]
 endstream
 endobj
 37 0 obj
-<</Annots 38 0 R /Contents 39 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 27 0 R /Resources<</Font<</TT0 13 0 R /TT1 12 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 8/Tabs/S/Type/Page>>
+<</Annots 38 0 R /Contents 39 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 27 0 R /Resources<</Font<</TT0 13 0 R /TT1 12 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 8/Tabs/S/Type/Page>>
 endobj
 38 0 obj
 [ 137 0 R  138 0 R ]
@@ -336,7 +336,7 @@ Hâ¥W[o€6~˜Ø‡£5‘¨HZñ-ñ§Z A˝÷É"9©ã&Nmßm˙Î«s£(Yælÿ^,ô:˜ÛùœÊ£óóÍ’´óŒﬂ]®TΩ~}v
 endstream
 endobj
 40 0 obj
-<</Annots 41 0 R /Contents 42 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 27 0 R /Resources<</Font<</TT0 12 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 9/Tabs/S/Type/Page>>
+<</Annots 41 0 R /Contents 42 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 27 0 R /Resources<</Font<</TT0 12 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 9/Tabs/S/Type/Page>>
 endobj
 41 0 obj
 [ 139 0 R  140 0 R ]
@@ -358,7 +358,7 @@ I—Ó?ﬂÆCîSZóN~çÕ&p109î=√‰T˘z*ßñÛΩúﬂËÛ¸F/Á7z9ø—Èy√Ÿr√˘r√≈r≠Âr≠’ŸpLÚ≤aÄˇ0 {ì¿
 endstream
 endobj
 43 0 obj
-<</Annots 44 0 R /Contents 45 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 46 0 R /Resources<</Font<</TT0 12 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 10/Tabs/S/Type/Page>>
+<</Annots 44 0 R /Contents 45 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 46 0 R /Resources<</Font<</TT0 12 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 10/Tabs/S/Type/Page>>
 endobj
 44 0 obj
 [ 141 0 R  142 0 R ]
@@ -373,7 +373,7 @@ endobj
 <</Count 10/Kids[ 43 0 R  47 0 R  50 0 R  53 0 R  56 0 R  60 0 R  65 0 R  68 0 R  74 0 R  77 0 R ]/Parent 906 0 R /Type/Pages>>
 endobj
 47 0 obj
-<</Annots 48 0 R /Contents 49 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 46 0 R /Resources<</Font<</TT0 12 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 11/Tabs/S/Type/Page>>
+<</Annots 48 0 R /Contents 49 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 46 0 R /Resources<</Font<</TT0 12 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 11/Tabs/S/Type/Page>>
 endobj
 48 0 obj
 [ 143 0 R  144 0 R ]
@@ -392,7 +392,7 @@ Fv/„¢`‹≈0Q	MÊ¨∂Væ»ÍbßËzXgƒÓ^‰^¥∂£âch˝ˆÜ§*4Ó0~ãCv¥8∞oË…îß6áhC¢’·ë-†KbûﬁÅxÑ
 endstream
 endobj
 50 0 obj
-<</Annots 51 0 R /Contents 52 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 46 0 R /Resources<</Font<</TT0 12 0 R /TT1 13 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 12/Tabs/S/Type/Page>>
+<</Annots 51 0 R /Contents 52 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 46 0 R /Resources<</Font<</TT0 12 0 R /TT1 13 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 12/Tabs/S/Type/Page>>
 endobj
 51 0 obj
 [ 145 0 R  146 0 R ]
@@ -405,7 +405,7 @@ Hâ¨WKo€FæÎWÃQ,¿5˜¡$®ÂZ‘@ÇÚf˜@K¥≠¿ëbŸn‡˛˙Œcó\J≤≈Öâ+ŒŒ7œo∆ÁÕÏÏ|¯pvπ¯Ì¨Öèœ
 endstream
 endobj
 53 0 obj
-<</Annots 54 0 R /Contents 55 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 46 0 R /Resources<</Font<</TT0 13 0 R /TT1 12 0 R /TT2 14 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 13/Tabs/S/Type/Page>>
+<</Annots 54 0 R /Contents 55 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 46 0 R /Resources<</Font<</TT0 13 0 R /TT1 12 0 R /TT2 14 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 13/Tabs/S/Type/Page>>
 endobj
 54 0 obj
 [ 147 0 R  148 0 R ]
@@ -424,7 +424,7 @@ z˝»3[ˆû;%5&'z{H§’ôVÜÈŒÊ ¶›ô∂Ì8õ íu!GòË2“$ƒ`h<©[œ¢–ò(—∂aH6∑{rn+ﬂ"e
 endstream
 endobj
 56 0 obj
-<</Annots 57 0 R /Contents 58 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 46 0 R /Resources<</Font<</TT0 59 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 14/Tabs/S/Type/Page>>
+<</Annots 57 0 R /Contents 58 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 46 0 R /Resources<</Font<</TT0 59 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 14/Tabs/S/Type/Page>>
 endobj
 57 0 obj
 [ 149 0 R  150 0 R  151 0 R ]
@@ -440,7 +440,7 @@ endobj
 <</BaseFont/UYDBWK+Georgia/Encoding/WinAnsiEncoding/FirstChar 32/FontDescriptor 190 0 R /LastChar 250/Subtype/TrueType/ToUnicode 191 0 R /Type/Font/Widths[ 241 0 0 0 0 0 0 0 375 375 0 643 270 374 270 469 614 430 559 552 565 528 566 502 596 566 313 0 0 643 0 479 0 671 654 642 749 653 599 725 815 390 0 0 604 927 767 744 610 744 702 561 619 756 667 0 0 0 602 0 0 0 0 643 0 504 560 454 574 483 325 509 582 293 292 536 286 881 591 539 571 560 410 432 345 575 497 0 505 492 444 0 0 0 0 0 642 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 227 410 410 0 643 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 479 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 504 0 0 0 0 0 0 0 483 0 0 0 293 0 0 0 591 0 539 0 0 0 0 0 0 575]>>
 endobj
 60 0 obj
-<</Annots 61 0 R /Contents 62 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 46 0 R /Resources<</Font<</TT0 63 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 15/Tabs/S/Type/Page>>
+<</Annots 61 0 R /Contents 62 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 46 0 R /Resources<</Font<</TT0 63 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 15/Tabs/S/Type/Page>>
 endobj
 61 0 obj
 [ 152 0 R  153 0 R  154 0 R ]
@@ -461,7 +461,7 @@ Hâ\‘Õé¢@‡=OQÀÓE§n›“Ñò¯âã˘…8Û •C2Az·€ONß'ı(‘ÂÛD*=úéßæõM˙}ösòÕµÎ€)<Ü˜©	Ê
 endstream
 endobj
 65 0 obj
-<</Annots 66 0 R /Contents 67 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 46 0 R /Resources<</Font<</TT0 12 0 R /TT1 14 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 16/Tabs/S/Type/Page>>
+<</Annots 66 0 R /Contents 67 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 46 0 R /Resources<</Font<</TT0 12 0 R /TT1 14 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 16/Tabs/S/Type/Page>>
 endobj
 66 0 obj
 [ 155 0 R  156 0 R  157 0 R ]
@@ -477,7 +477,7 @@ C$¥„÷_˙≤ ÑlRQ#È·¡qÁ<¨ø„$ùILT·’#Ì†‡b¯öíçËu˛Í=Bè˙ı|º·≈´ÜçmÿË—ÜçØu¸uÃªè≈n
 endstream
 endobj
 68 0 obj
-<</Annots 69 0 R /Contents 70 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 46 0 R /Resources<</Font<</TT0 71 0 R /TT1 72 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 17/Tabs/S/Type/Page>>
+<</Annots 69 0 R /Contents 70 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 46 0 R /Resources<</Font<</TT0 71 0 R /TT1 72 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 17/Tabs/S/Type/Page>>
 endobj
 69 0 obj
 [ 158 0 R  159 0 R  160 0 R ]
@@ -506,7 +506,7 @@ O•õ¬MÈ¶pSû≈Xc}ëÂ»¨˘ﬁÔ≠È\√˘¿˜∆ˆÁ	∆èìhæÊß}ÑGg◊ef0-˝‡ø&z'w·õ¸` ¿@ıw
 endstream
 endobj
 74 0 obj
-<</Annots 75 0 R /Contents 76 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 46 0 R /Resources<</Font<</TT0 71 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 18/Tabs/S/Type/Page>>
+<</Annots 75 0 R /Contents 76 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 46 0 R /Resources<</Font<</TT0 71 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 18/Tabs/S/Type/Page>>
 endobj
 75 0 obj
 [ 161 0 R  162 0 R  163 0 R ]
@@ -522,7 +522,7 @@ Hú	¯°?G‚¡/∂Iä ¯Á—›ò'ø{Ì—ç»∆óKö$…°íêVILÎ$¶u”Z'_LÚ≈&_íú÷IRÎ$´u≤vëœ˚„˘·ÆÎœ∞πù≤s¢
 endstream
 endobj
 77 0 obj
-<</Contents 78 0 R /CropBox[ 0 0 595.32001 841.91998]/MediaBox[ 0 0 595.32001 841.91998]/Parent 46 0 R /Resources<</Font<</TT0 79 0 R /TT1 59 0 R /TT2 80 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 19/Tabs/S/Type/Page>>
+<</Contents 78 0 R /CropBox[ 0 0 595.32 841.92]/MediaBox[ 0 0 595.32 841.92]/Parent 46 0 R /Resources<</Font<</TT0 79 0 R /TT1 59 0 R /TT2 80 0 R >>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 19/Tabs/S/Type/Page>>
 endobj
 78 0 obj
 <</Filter/FlateDecode/Length 1760>>stream
@@ -597,12 +597,16 @@ n+uˆxÂ€GÒ¯Ã£‚<n√<˘·ÕcÕ£ëy4ÑÌÜÅ+¿P¸P∑a‡„“a„@0úñ øŒ¿»—Í/…ÅâA«´Ô
 endstream
 endobj
 86 0 obj
-<</BBox[ 0 0 455.237 267.74399]/Filter/FlateDecode/FormType 1/Length 44/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1019 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xú+‰2PpÁ2–3U aS=#cs#33=sc3Ö¢TÆbÆ@. îË∑
+<</BBox[ 0 0 455.238 267.743]/Filter/FlateDecode/FormType 1/Length 692/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1019 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xúçTKO€@æ˚WÃçÄRc;qHZq(QZP^nπDB{póÆwÕÆµ=ıÔˆ‹[Oùµc0
+-ôÃÆø«<|Ô‡˛Lﬁ„8ˆ£—¢…Å0Å!/Ñê”£M:Ó“∑{ﬁÖ∑ü|Ö£”πwˇ∑[◊ûÚéÜŒ˘F¯ÁìÃ€O⁄‰! πı«òR°-HÑT+[À
+°DÉ†W)2 ˘∞4:´”ä£˚ö†|† #ŒS*¥ãFA¸aí;Ê|F~‹–ı„¡’‚d1O`~ˆÒC≤Ï-w·›ÂŸi˝˙xqπËPL?ﬁlÅ‘ÔÇLC]’•D€ÍGÏ„â≤O¸ˇí∂í_Ïç!Ã6 Ú[auìaÖ+¥¥»?á∞S pÁ9Å¸ÿ£Äå÷5…5±Ó∫”Ωíö´…ï'ë±˜ål÷‹»ÑM5P„°!Â43∫6»pÿt¿≤√m“0
+∆ìI–ø‡¯m≠ì∞7˛oµ‘†”∫$ß#ç;†!úk[ÂÜÆ.N†¨âıH‚…Ë`&∏_
+%9+vËp∑ﬁÃR¶‚W3@˚–E<ó®ƒ˜«C∂‹q<‘¿û+–æπb•ò~˛πAÍäµÕ€<˙R=J)RT,ûa™4Gka´¶/ç¿◊Oh(Ás√¢êcW9ÉZ±ÒdWÕj5eÊÔm]}îØ¢b◊]w?ä°Rj’ÛÔ√eZKt¿üñÉvWxìa<ûÒ¬¿•6Ó	FÍYﬂÉsm∏Ó|8d°∞◊g⁄ﬂ¿D” ˆ'·Û>_®Ê\∫ÌOQÍn£ïnﬂ èq9CnU¥…ÿz∆zxâs›ñÃÕòkÉÌOÇ=Ò€Œ%+mF¢ˇ‡Ã¶¡hˆ0TÀA⁄≥m∫˚‹ëI›4ê⁄,wˇi¥/~1/¯•¸öè¡ 
 endstream
 endobj
 87 0 obj
-<</BBox[ 0 0 455.237 379.672]/Filter/FlateDecode/FormType 1/Length 44/Matrix[ 1 0 0 1 0 0]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+<</BBox[ 0 0 455.237 379.672]/Filter/FlateDecode/FormType 1/Length 44/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1059 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xú+‰2PpÁ2–3U aS=#csScs=3sCÖ¢TÆbÆ@. ïHæ
 endstream
 endobj
@@ -1301,124 +1305,124 @@ wN…Sâ©O¶Ê¶ñPßñL°…%]mæö∫ °I,LíI∫ÇSW0]-∫≤¨ƒ5¯ ˛Öâ5.'Æ˚óÁ.._ ‰˜,‰á6s*ï2¸ÓºÖ¸
 endstream
 endobj
 124 0 obj
-<</AP<</N 989 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 7 0 R /RV( En la ubicaciÛn del ordenador donde est·n los datos de postgresSQL hay una carpeta "data" y dentro de esta est· el archivo postgresql.conf.  Ahi deberemos de modificar el apartado log_statement para que sea igual a 'mod'. Esto hace que solo registre las sentencias DML y DDL, las pedidas en el enunciado. Para que no aparezca la duraciÛn de las consultas se establece log_duration como 'off'. PAra modificar la salida de los logs con un texto personalizado, se aÒade en log_line_prefix ambos dni junto a los datos que ya aparecÌan por defecto)/Rect[ 85.091301 374.54001 539.34698 546.06403]/Subtype/Widget/T(Text1)/Type/Annot/V( En la ubicaciÛn del ordenador donde est·n los datos de postgresSQL hay una carpeta "data" y dentro de esta est· el archivo postgresql.conf.  Ahi deberemos de modificar el apartado log_statement para que sea igual a 'mod'. Esto hace que solo registre las sentencias DML y DDL, las pedidas en el enunciado. Para que no aparezca la duraciÛn de las consultas se establece log_duration como 'off'. PAra modificar la salida de los logs con un texto personalizado, se aÒade en log_line_prefix ambos dni junto a los datos que ya aparecÌan por defecto)>>
+<</AP<</N 989 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 7 0 R /RV( En la ubicaciÛn del ordenador donde est·n los datos de postgresSQL hay una carpeta "data" y dentro de esta est· el archivo postgresql.conf.  Ahi deberemos de modificar el apartado log_statement para que sea igual a 'mod'. Esto hace que solo registre las sentencias DML y DDL, las pedidas en el enunciado. Para que no aparezca la duraciÛn de las consultas se establece log_duration como 'off'. PAra modificar la salida de los logs con un texto personalizado, se aÒade en log_line_prefix ambos dni junto a los datos que ya aparecÌan por defecto)/Rect[ 85.0913 374.54 539.347 546.064]/Subtype/Widget/T(Text1)/Type/Annot/V( En la ubicaciÛn del ordenador donde est·n los datos de postgresSQL hay una carpeta "data" y dentro de esta est· el archivo postgresql.conf.  Ahi deberemos de modificar el apartado log_statement para que sea igual a 'mod'. Esto hace que solo registre las sentencias DML y DDL, las pedidas en el enunciado. Para que no aparezca la duraciÛn de las consultas se establece log_duration como 'off'. PAra modificar la salida de los logs con un texto personalizado, se aÒade en log_line_prefix ambos dni junto a los datos que ya aparecÌan por defecto)>>
 endobj
 125 0 obj
-<</AP<</N 1049 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 166 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 15 0 R /RV(Una vez tengamos la tabla creada y los datos cargados, necesitaremos obtener el identificador ˙nico de la tabla productos mediante una consulta a la tabla pg_class, donde se almacena toda la informaciÛn de las tablas.\r\nSELECT oid FROM pg_class WHERE relname = 'productos';\r\nEsta ser· la consulta que haremos. OID es el nombre que contiene de la columna que almacena el identificador propio de la tabla productos. Este OID esta almacenadso en la tabla pg_class, ya mencionada anteriormente. Para seleccionar el OID  de la tabla productos, comprobaremos que el nombre de la tabla en pg_class \(almacenado en la tabla relname\) sea productos.\r\n\r\nPara obtener el tamaÒo haremos una consulta usando primero la funciÛn pg_size_pretty\(\) para que devuelva que devuelva el tamaÒo de una forma legible. Como par·metro a esta funciÛn le pasamos a su vez otra funciÛn, pg_relation_size, y como par·metro el OID de la tabla. Al realizar esta consulta devuelve un tamaÒo de 1436 MB.\r\n\r\nTiene este tamaÒo debido a la alta cantidad de datos de la tabla, junto a los datos extra que necesita generar psql.)/Rect[ 88.036797 584.651 543.27399 814.10303]/Subtype/Widget/T(Text2)/Type/Annot/V(Una vez tengamos la tabla creada y los datos cargados, necesitaremos obtener el identificador ˙nico de la tabla productos mediante una consulta a la tabla pg_class, donde se almacena toda la informaciÛn de las tablas.\r\nSELECT oid FROM pg_class WHERE relname = 'productos';\r\nEsta ser· la consulta que haremos. OID es el nombre que contiene de la columna que almacena el identificador propio de la tabla productos. Este OID esta almacenadso en la tabla pg_class, ya mencionada anteriormente. Para seleccionar el OID  de la tabla productos, comprobaremos que el nombre de la tabla en pg_class \(almacenado en la tabla relname\) sea productos.\r\n\r\nPara obtener el tamaÒo haremos una consulta usando primero la funciÛn pg_size_pretty\(\) para que devuelva que devuelva el tamaÒo de una forma legible. Como par·metro a esta funciÛn le pasamos a su vez otra funciÛn, pg_relation_size, y como par·metro el OID de la tabla. Al realizar esta consulta devuelve un tamaÒo de 1436 MB.\r\n\r\nTiene este tamaÒo debido a la alta cantidad de datos de la tabla, junto a los datos extra que necesita generar psql.)>>
+<</AP<</N 1049 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 166 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 15 0 R /RV(Una vez tengamos la tabla creada y los datos cargados, necesitaremos obtener el identificador ˙nico de la tabla productos mediante una consulta a la tabla pg_class, donde se almacena toda la informaciÛn de las tablas.\r\nSELECT oid FROM pg_class WHERE relname = 'productos';\r\nEsta ser· la consulta que haremos. OID es el nombre que contiene de la columna que almacena el identificador propio de la tabla productos. Este OID esta almacenadso en la tabla pg_class, ya mencionada anteriormente. Para seleccionar el OID  de la tabla productos, comprobaremos que el nombre de la tabla en pg_class \(almacenado en la tabla relname\) sea productos.\r\n\r\nPara obtener el tamaÒo haremos una consulta usando primero la funciÛn pg_size_pretty\(\) para que devuelva que devuelva el tamaÒo de una forma legible. Como par·metro a esta funciÛn le pasamos a su vez otra funciÛn, pg_relation_size, y como par·metro el OID de la tabla. Al realizar esta consulta devuelve un tamaÒo de 1436 MB.\r\n\r\nTiene este tamaÒo debido a la alta cantidad de datos de la tabla, junto a los datos extra que necesita generar psql.)/Rect[ 88.0368 584.651 543.274 814.103]/Subtype/Widget/T(Text2)/Type/Annot/V(Una vez tengamos la tabla creada y los datos cargados, necesitaremos obtener el identificador ˙nico de la tabla productos mediante una consulta a la tabla pg_class, donde se almacena toda la informaciÛn de las tablas.\r\nSELECT oid FROM pg_class WHERE relname = 'productos';\r\nEsta ser· la consulta que haremos. OID es el nombre que contiene de la columna que almacena el identificador propio de la tabla productos. Este OID esta almacenadso en la tabla pg_class, ya mencionada anteriormente. Para seleccionar el OID  de la tabla productos, comprobaremos que el nombre de la tabla en pg_class \(almacenado en la tabla relname\) sea productos.\r\n\r\nPara obtener el tamaÒo haremos una consulta usando primero la funciÛn pg_size_pretty\(\) para que devuelva que devuelva el tamaÒo de una forma legible. Como par·metro a esta funciÛn le pasamos a su vez otra funciÛn, pg_relation_size, y como par·metro el OID de la tabla. Al realizar esta consulta devuelve un tamaÒo de 1436 MB.\r\n\r\nTiene este tamaÒo debido a la alta cantidad de datos de la tabla, junto a los datos extra que necesita generar psql.)>>
 endobj
 126 0 obj
-<</AP<</N 1048 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 165 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 15 0 R /RV(El tamaÒo de bloque por defecto de postgres es de 8 KB, al que se le restan 24 bytes de encabezado, luego queda que cada bloque tiene  8 * 1024 - 24 = 8168 Bytes utiles.\r\n\r\nAhora calcularemos el tamaÒo de cada tupla individual. Producto_ID y stock ambos pesan 4 Bytes, ya que es el peso de los Int y Serial, que tienen tamaÒo fijo. Para el peso de precio hacemos una consulta \r\nusando la funciÛn pg_column_size\(precio\) y poniendo de condiciÛn en el where que la id sea igual a un numero cualquiera, dando asÌ el valor de un precio. Se obtiene un valor de 7 Bytes. Para obtener el tamaÒo de el tipo TEXT haremos la siguiente consulta \( todas las filas tienen como nombre 'producto'\)\r\n\r\nSELECT pg_column_size\('productos'::TEXT\) AS bytes;\r\n\r\nNos devolver· un tamaÒo de 13 bytes. En total quedan 4 + 4 + 13 + 7 = 28. a estos 28 se le sumar·n 4 bytes de los punteros que apuntan al elemento almacenado en p·gina. En total cada fila pesar· 28 + 4 = 32 bytes.\r\nAhora calculamos el factor de bloque fr = B util /Lr = 8168 / 32 = 255,25 = 255 registros por bloque.\r\ncon esto podremos obtener el n˙mero de bloques del archivo br = nr / fr = 25.000.000 / 255 = 98.039,21 = 98039 bloques ocupa en total.\r\n\r\nA continucaiÛn haremos una consulta para obtener el numero de bloques ocupados. Lo buscaremos en la tabla pg_class, en la coulma relpages, destinada a almacenar el numero de bloques que ocupa cada tabla.\r\n\r\nSELECT relpages FROM pg_class WHERE relname = 'productos';\r\n\r\nAl hacer esta consulta se obtiene que la tabla ocupa 183824 bloques. Despejando de la formula de numero de bloques de archivo obtendremos que el factor de bloque medio es fr = nr / br luego \r\nbr = 25.000.000 / 183824 = 135.999 Lo que signiifca que en cada bloque solo se pueden almacenar aproximadamente 136 registros.\r\n\r\nVemos que es muy inferior a los 255 que nos salÌan en el calculo teÛrico. Esta diferencia se puede deber principalmente a ciertos metadatos que postgres aÒada a cada entrada o a espacio extra en caso de que haya actualizaciones de datos.\r\n\r\n\r\n)/Rect[ 84.602402 25.187201 539.84003 505.987]/Subtype/Widget/T(Text4)/Type/Annot/V(El tamaÒo de bloque por defecto de postgres es de 8 KB, al que se le restan 24 bytes de encabezado, luego queda que cada bloque tiene  8 * 1024 - 24 = 8168 Bytes utiles.\r\n\r\nAhora calcularemos el tamaÒo de cada tupla individual. Producto_ID y stock ambos pesan 4 Bytes, ya que es el peso de los Int y Serial, que tienen tamaÒo fijo. Para el peso de precio hacemos una consulta \r\nusando la funciÛn pg_column_size\(precio\) y poniendo de condiciÛn en el where que la id sea igual a un numero cualquiera, dando asÌ el valor de un precio. Se obtiene un valor de 7 Bytes. Para obtener el tamaÒo de el tipo TEXT haremos la siguiente consulta \( todas las filas tienen como nombre 'producto'\)\r\n\r\nSELECT pg_column_size\('productos'::TEXT\) AS bytes;\r\n\r\nNos devolver· un tamaÒo de 13 bytes. En total quedan 4 + 4 + 13 + 7 = 28. a estos 28 se le sumar·n 4 bytes de los punteros que apuntan al elemento almacenado en p·gina. En total cada fila pesar· 28 + 4 = 32 bytes.\r\nAhora calculamos el factor de bloque fr = B util /Lr = 8168 / 32 = 255,25 = 255 registros por bloque.\r\ncon esto podremos obtener el n˙mero de bloques del archivo br = nr / fr = 25.000.000 / 255 = 98.039,21 = 98039 bloques ocupa en total.\r\n\r\nA continucaiÛn haremos una consulta para obtener el numero de bloques ocupados. Lo buscaremos en la tabla pg_class, en la coulma relpages, destinada a almacenar el numero de bloques que ocupa cada tabla.\r\n\r\nSELECT relpages FROM pg_class WHERE relname = 'productos';\r\n\r\nAl hacer esta consulta se obtiene que la tabla ocupa 183824 bloques. Despejando de la formula de numero de bloques de archivo obtendremos que el factor de bloque medio es fr = nr / br luego \r\nbr = 25.000.000 / 183824 = 135.999 Lo que signiifca que en cada bloque solo se pueden almacenar aproximadamente 136 registros.\r\n\r\nVemos que es muy inferior a los 255 que nos salÌan en el calculo teÛrico. Esta diferencia se puede deber principalmente a ciertos metadatos que postgres aÒada a cada entrada o a espacio extra en caso de que haya actualizaciones de datos.\r\n\r\n\r\n)>>
+<</AP<</N 1048 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 165 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 15 0 R /RV(El tamaÒo de bloque por defecto de postgres es de 8 KB, al que se le restan 24 bytes de encabezado, luego queda que cada bloque tiene  8 * 1024 - 24 = 8168 Bytes utiles.\r\n\r\nAhora calcularemos el tamaÒo de cada tupla individual. Producto_ID y stock ambos pesan 4 Bytes, ya que es el peso de los Int y Serial, que tienen tamaÒo fijo. Para el peso de precio hacemos una consulta \r\nusando la funciÛn pg_column_size\(precio\) y poniendo de condiciÛn en el where que la id sea igual a un numero cualquiera, dando asÌ el valor de un precio. Se obtiene un valor de 7 Bytes. Para obtener el tamaÒo de el tipo TEXT haremos la siguiente consulta \( todas las filas tienen como nombre 'producto'\)\r\n\r\nSELECT pg_column_size\('productos'::TEXT\) AS bytes;\r\n\r\nNos devolver· un tamaÒo de 13 bytes. En total quedan 4 + 4 + 13 + 7 = 28. a estos 28 se le sumar·n 4 bytes de los punteros que apuntan al elemento almacenado en p·gina. En total cada fila pesar· 28 + 4 = 32 bytes.\r\nAhora calculamos el factor de bloque fr = B util /Lr = 8168 / 32 = 255,25 = 255 registros por bloque.\r\ncon esto podremos obtener el n˙mero de bloques del archivo br = nr / fr = 25.000.000 / 255 = 98.039,21 = 98039 bloques ocupa en total.\r\n\r\nA continuaciÛn haremos una consulta para obtener el numero de bloques ocupados. Lo buscaremos en la tabla pg_class, en la coulma relpages, destinada a almacenar el numero de bloques que ocupa cada tabla.\r\n\r\nSELECT relpages FROM pg_class WHERE relname = 'productos';\r\n\r\nAl hacer esta consulta se obtiene que la tabla ocupa 183824 bloques. Despejando de la formula de numero de bloques de archivo obtendremos que el factor de bloque medio es fr = nr / br luego \r\nbr = 25.000.000 / 183824 = 135.999 Lo que signiifca que en cada bloque solo se pueden almacenar aproximadamente 136 registros.\r\n\r\nVemos que es muy inferior a los 255 que nos salÌan en el calculo teÛrico. Esta diferencia se puede deber principalmente a ciertos metadatos que postgres aÒada a cada entrada o a espacio extra en caso de que haya actualizaciones de datos.\r\n\r\n\r\n)/Rect[ 84.6024 25.1872 539.84 505.987]/Subtype/Widget/T(Text4)/Type/Annot/V(El tamaÒo de bloque por defecto de postgres es de 8 KB, al que se le restan 24 bytes de encabezado, luego queda que cada bloque tiene  8 * 1024 - 24 = 8168 Bytes utiles.\r\n\r\nAhora calcularemos el tamaÒo de cada tupla individual. Producto_ID y stock ambos pesan 4 Bytes, ya que es el peso de los Int y Serial, que tienen tamaÒo fijo. Para el peso de precio hacemos una consulta \r\nusando la funciÛn pg_column_size\(precio\) y poniendo de condiciÛn en el where que la id sea igual a un numero cualquiera, dando asÌ el valor de un precio. Se obtiene un valor de 7 Bytes. Para obtener el tamaÒo de el tipo TEXT haremos la siguiente consulta \( todas las filas tienen como nombre 'producto'\)\r\n\r\nSELECT pg_column_size\('productos'::TEXT\) AS bytes;\r\n\r\nNos devolver· un tamaÒo de 13 bytes. En total quedan 4 + 4 + 13 + 7 = 28. a estos 28 se le sumar·n 4 bytes de los punteros que apuntan al elemento almacenado en p·gina. En total cada fila pesar· 28 + 4 = 32 bytes.\r\nAhora calculamos el factor de bloque fr = B util /Lr = 8168 / 32 = 255,25 = 255 registros por bloque.\r\ncon esto podremos obtener el n˙mero de bloques del archivo br = nr / fr = 25.000.000 / 255 = 98.039,21 = 98039 bloques ocupa en total.\r\n\r\nA continuaciÛn haremos una consulta para obtener el numero de bloques ocupados. Lo buscaremos en la tabla pg_class, en la coulma relpages, destinada a almacenar el numero de bloques que ocupa cada tabla.\r\n\r\nSELECT relpages FROM pg_class WHERE relname = 'productos';\r\n\r\nAl hacer esta consulta se obtiene que la tabla ocupa 183824 bloques. Despejando de la formula de numero de bloques de archivo obtendremos que el factor de bloque medio es fr = nr / br luego \r\nbr = 25.000.000 / 183824 = 135.999 Lo que signiifca que en cada bloque solo se pueden almacenar aproximadamente 136 registros.\r\n\r\nVemos que es muy inferior a los 255 que nos salÌan en el calculo teÛrico. Esta diferencia se puede deber principalmente a ciertos metadatos que postgres aÒada a cada entrada o a espacio extra en caso de que haya actualizaciones de datos.\r\n\r\n\r\n)>>
 endobj
 127 0 obj
-<</AP<</N 86 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 167 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 18 0 R /Rect[ 85.584198 447.246 540.82202 714.98901]/Subtype/Widget/T(Text5)/Type/Annot>>
+<</AP<</N 86 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 167 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 18 0 R /RV(Hacemos la consulta para obtener los productos que tienen de precio de 3000†. \r\n\r\nSELECT COUNT\(*\) FROM productos WHERE precio  3000.00;\r\nEl n˙mero de tuplas obtenidas con la consulta es 56.\r\n\r\nSELECT blks_read FROM pg_stat_database WHERE datname = 'pl1';\r\nEsta consulta devuelve el numero de bloques leidos desde el disco en la base de datos pl1, que son 1204660 bloques.\r\n\r\nAunque la tabla solo ocupe 183.824 bloques, PostgreSQL puede leer bloques adicionales debido a la fragmentaciÛn de la tabla, la organizaciÛn de los bloques de datos en disco, y el cachÈ de la base de datos.\r\n\r\nAplicando el metodo visto en teoria: el numero de registros a recuperar es de 56, sabemos que los registros a almacenar son los 25 millones de datos. Calculamos V\(precio\) = 449000 valores distintos.\r\nPor tanto, 56 * 25 millones/449000 =  2805.61 registros a recuperar.\r\n\r\nComo el campo precio no tiene indice y no esta ordenado, tengo que leer todos los bloques. Por tanto, el coste de la consulta es de  98039 bloques \(calculado el el ejercicio anterior\)\r\n\r\n\r\n)/Rect[ 85.5842 447.246 540.822 714.989]/Subtype/Widget/T(Text5)/Type/Annot/V(Hacemos la consulta para obtener los productos que tienen de precio de 3000†. \r\n\r\nSELECT COUNT\(*\) FROM productos WHERE precio  3000.00;\r\nEl n˙mero de tuplas obtenidas con la consulta es 56.\r\n\r\nSELECT blks_read FROM pg_stat_database WHERE datname = 'pl1';\r\nEsta consulta devuelve el numero de bloques leidos desde el disco en la base de datos pl1, que son 1204660 bloques.\r\n\r\nAunque la tabla solo ocupe 183.824 bloques, PostgreSQL puede leer bloques adicionales debido a la fragmentaciÛn de la tabla, la organizaciÛn de los bloques de datos en disco, y el cachÈ de la base de datos.\r\n\r\nAplicando el metodo visto en teoria: el numero de registros a recuperar es de 56, sabemos que los registros a almacenar son los 25 millones de datos. Calculamos V\(precio\) = 449000 valores distintos.\r\nPor tanto, 56 * 25 millones/449000 =  2805.61 registros a recuperar.\r\n\r\nComo el campo precio no tiene indice y no esta ordenado, tengo que leer todos los bloques. Por tanto, el coste de la consulta es de  98039 bloques \(calculado el el ejercicio anterior\)\r\n\r\n\r\n)>>
 endobj
 128 0 obj
-<</AP<</N 87 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 18 0 R /Rect[ 84.602402 10.9506998 539.84003 390.62299]/Subtype/Widget/T(Text6)/Type/Annot>>
+<</AP<</N 87 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 18 0 R /Rect[ 84.6024 10.9507 539.84 390.623]/Subtype/Widget/T(Text6)/Type/Annot>>
 endobj
 129 0 obj
-<</AP<</N 1058 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 168 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 21 0 R /RV(Primero hemos creado una tabla productos2temp en el sql,  copiando tal cual la estrutcura de la tabla de productos principal.Luego hemos copiado todos los datos del csv a esta tabla temporal usando COPY, de la mimsa manera que con la tabla original. DespuÈs de esto, hemos creado otra tabla, llamada productos2, y como datos le hemos pasado una consulta a la tabla productos2temp, orden·ndo los datos por el precio. \r\n\r\nhaciendo la misma consulta que en la cuestion 2 para obtener el numero de bloques ocupados de la tabla productos2 nos devuelve 367695, bastante m·s de lo que ocupaba la tabla productos originalmente.\r\n)/Rect[ 85.584198 424.93701 540.82202 692.67999]/Subtype/Widget/T(Text7)/Type/Annot/V(Primero hemos creado una tabla productos2temp en el sql,  copiando tal cual la estrutcura de la tabla de productos principal.Luego hemos copiado todos los datos del csv a esta tabla temporal usando COPY, de la mimsa manera que con la tabla original. DespuÈs de esto, hemos creado otra tabla, llamada productos2, y como datos le hemos pasado una consulta a la tabla productos2temp, orden·ndo los datos por el precio. \r\n\r\nhaciendo la misma consulta que en la cuestion 2 para obtener el numero de bloques ocupados de la tabla productos2 nos devuelve 367695, bastante m·s de lo que ocupaba la tabla productos originalmente.\r\n)>>
+<</AP<</N 1058 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 168 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 21 0 R /RV(Primero hemos creado una tabla productos2temp en el sql,  copiando tal cual la estrutcura de la tabla de productos principal.Luego hemos copiado todos los datos del csv a esta tabla temporal usando COPY, de la mimsa manera que con la tabla original. DespuÈs de esto, hemos creado otra tabla, llamada productos2, y como datos le hemos pasado una consulta a la tabla productos2temp, orden·ndo los datos por el precio. \r\n\r\nhaciendo la misma consulta que en la cuestion 2 para obtener el numero de bloques ocupados de la tabla productos2 nos devuelve 367695, bastante m·s de lo que ocupaba la tabla productos originalmente.\r\n)/Rect[ 85.5842 424.937 540.822 692.68]/Subtype/Widget/T(Text7)/Type/Annot/V(Primero hemos creado una tabla productos2temp en el sql,  copiando tal cual la estrutcura de la tabla de productos principal.Luego hemos copiado todos los datos del csv a esta tabla temporal usando COPY, de la mimsa manera que con la tabla original. DespuÈs de esto, hemos creado otra tabla, llamada productos2, y como datos le hemos pasado una consulta a la tabla productos2temp, orden·ndo los datos por el precio. \r\n\r\nhaciendo la misma consulta que en la cuestion 2 para obtener el numero de bloques ocupados de la tabla productos2 nos devuelve 367695, bastante m·s de lo que ocupaba la tabla productos originalmente.\r\n)>>
 endobj
 130 0 obj
-<</AP<</N 89 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 169 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 21 0 R /Rect[ 83.620499 9.9688702 538.85797 385.71399]/Subtype/Widget/T(Text8)/Type/Annot>>
+<</AP<</N 89 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 169 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 21 0 R /Rect[ 83.6205 9.96887 538.858 385.714]/Subtype/Widget/T(Text8)/Type/Annot>>
 endobj
 131 0 obj
-<</AP<</N 90 0 R >>/DS 170 0 R /F 4/MK<</BC[ 0 0 0]>>/P 24 0 R /Parent 171 0 R /Rect[ 83.620499 417.755 538.85797 712.66199]/Subtype/Widget/Type/Annot>>
+<</AP<</N 90 0 R >>/DS 170 0 R /F 4/MK<</BC[ 0 0 0]>>/P 24 0 R /Parent 171 0 R /Rect[ 83.6205 417.755 538.858 712.662]/Subtype/Widget/Type/Annot>>
 endobj
 132 0 obj
-<</AP<</N 91 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 170 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 24 0 R /Rect[ 79.200699 64.1362 534.43799 359.04401]/Subtype/Widget/T(Text91)/Type/Annot>>
+<</AP<</N 91 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 170 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 24 0 R /Rect[ 79.2007 64.1362 534.438 359.044]/Subtype/Widget/T(Text91)/Type/Annot>>
 endobj
 133 0 obj
-<</AP<</N 93 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 172 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 28 0 R /Rect[ 83.620499 485.173 538.85797 712.66199]/Subtype/Widget/T(Text92)/Type/Annot>>
+<</AP<</N 93 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 172 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 28 0 R /Rect[ 83.6205 485.173 538.858 712.662]/Subtype/Widget/T(Text92)/Type/Annot>>
 endobj
 134 0 obj
-<</AP<</N 92 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 173 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 28 0 R /Rect[ 84.602402 11.4417 539.84003 374.422]/Subtype/Widget/T(Text10)/Type/Annot>>
+<</AP<</N 92 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 173 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 28 0 R /Rect[ 84.6024 11.4417 539.84 374.422]/Subtype/Widget/T(Text10)/Type/Annot>>
 endobj
 135 0 obj
-<</AP<</N 94 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 174 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 31 0 R /Rect[ 82.638702 245.117 537.87598 719.04401]/Subtype/Widget/T(Text11)/Type/Annot>>
+<</AP<</N 94 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 174 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 31 0 R /Rect[ 82.6387 245.117 537.876 719.044]/Subtype/Widget/T(Text11)/Type/Annot>>
 endobj
 136 0 obj
 <</Ascent 1056/CapHeight 662/Descent -328/Flags 34/FontBBox[ -558 -328 2000 1056]/FontFamily(Times New Roman)/FontFile2 35 0 R /FontName/VAMCKI+TimesNewRomanPS-BoldMT/FontStretch/Normal/FontWeight 700/ItalicAngle 0/StemV 136/Type/FontDescriptor/XHeight 457>>
 endobj
 137 0 obj
-<</AP<</N 96 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 175 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 37 0 R /Rect[ 84.602402 415.95499 539.84003 608.09698]/Subtype/Widget/T(Text12)/Type/Annot>>
+<</AP<</N 96 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 175 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 37 0 R /Rect[ 84.6024 415.955 539.84 608.097]/Subtype/Widget/T(Text12)/Type/Annot>>
 endobj
 138 0 obj
-<</AP<</N 95 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 176 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 37 0 R /Rect[ 81.656898 15.3690004 536.89398 345.94901]/Subtype/Widget/T(Text13)/Type/Annot>>
+<</AP<</N 95 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 176 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 37 0 R /Rect[ 81.6569 15.369 536.894 345.949]/Subtype/Widget/T(Text13)/Type/Annot>>
 endobj
 139 0 obj
-<</AP<</N 97 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 177 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 40 0 R /Rect[ 84.602303 431.664 539.84003 722.97101]/Subtype/Widget/T(Text14)/Type/Annot>>
+<</AP<</N 97 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 177 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 40 0 R /Rect[ 84.6023 431.664 539.84 722.971]/Subtype/Widget/T(Text14)/Type/Annot>>
 endobj
 140 0 obj
-<</AP<</N 98 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 178 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 40 0 R /Rect[ 82.638702 18.805401 537.87598 359.20401]/Subtype/Widget/T(Text15)/Type/Annot>>
+<</AP<</N 98 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 178 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 40 0 R /Rect[ 82.6387 18.8054 537.876 359.204]/Subtype/Widget/T(Text15)/Type/Annot>>
 endobj
 141 0 obj
-<</AP<</N 100 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 180 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 43 0 R /Rect[ 84.602303 396.80899 539.84003 727.38898]/Subtype/Widget/T(Text16)/Type/Annot>>
+<</AP<</N 100 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 180 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 43 0 R /Rect[ 84.6023 396.809 539.84 727.389]/Subtype/Widget/T(Text16)/Type/Annot>>
 endobj
 142 0 obj
-<</AP<</N 99 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 179 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 43 0 R /Rect[ 78.711403 19.7873 533.94897 321.89401]/Subtype/Widget/T(Text17)/Type/Annot>>
+<</AP<</N 99 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 179 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 43 0 R /Rect[ 78.7114 19.7873 533.949 321.894]/Subtype/Widget/T(Text17)/Type/Annot>>
 endobj
 143 0 obj
-<</AP<</N 101 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 182 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 47 0 R /Rect[ 86.566002 411.53601 541.80298 725.42603]/Subtype/Widget/T(Text18)/Type/Annot>>
+<</AP<</N 101 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 182 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 47 0 R /Rect[ 86.566 411.536 541.803 725.426]/Subtype/Widget/T(Text18)/Type/Annot>>
 endobj
 144 0 obj
-<</AP<</N 102 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 181 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 47 0 R /Rect[ 82.638702 24.2055 537.87598 349.87701]/Subtype/Widget/T(Text19)/Type/Annot>>
+<</AP<</N 102 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 181 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 47 0 R /Rect[ 82.6387 24.2055 537.876 349.877]/Subtype/Widget/T(Text19)/Type/Annot>>
 endobj
 145 0 obj
-<</AP<</N 103 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 183 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 50 0 R /Rect[ 83.620499 472.901 538.85797 722.97101]/Subtype/Widget/T(Text20)/Type/Annot>>
+<</AP<</N 103 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 183 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 50 0 R /Rect[ 83.6205 472.901 538.858 722.971]/Subtype/Widget/T(Text20)/Type/Annot>>
 endobj
 146 0 obj
-<</AP<</N 104 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 184 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 50 0 R /Rect[ 81.656898 39.423801 536.89398 420.077]/Subtype/Widget/T(Text21)/Type/Annot>>
+<</AP<</N 104 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 184 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 50 0 R /Rect[ 81.6569 39.4238 536.894 420.077]/Subtype/Widget/T(Text21)/Type/Annot>>
 endobj
 147 0 obj
-<</AP<</N 106 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 186 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 53 0 R /Rect[ 85.584198 373.46301 540.82202 513.56897]/Subtype/Widget/T(Text22)/Type/Annot>>
+<</AP<</N 106 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 186 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 53 0 R /Rect[ 85.5842 373.463 540.822 513.569]/Subtype/Widget/T(Text22)/Type/Annot>>
 endobj
 148 0 obj
-<</AP<</N 105 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 185 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 53 0 R /Rect[ 84.602303 18.805401 539.84003 237.457]/Subtype/Widget/T(Text23)/Type/Annot>>
+<</AP<</N 105 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 185 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 53 0 R /Rect[ 84.6023 18.8054 539.84 237.457]/Subtype/Widget/T(Text23)/Type/Annot>>
 endobj
 149 0 obj
-<</AP<</N 109 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 189 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 56 0 R /Rect[ 79.602303 538.19202 534.84003 738.18903]/Subtype/Widget/T(Text24)/Type/Annot>>
+<</AP<</N 109 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 189 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 56 0 R /Rect[ 79.6023 538.192 534.84 738.189]/Subtype/Widget/T(Text24)/Type/Annot>>
 endobj
 150 0 obj
-<</AP<</N 108 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 187 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 56 0 R /Rect[ 79.693199 287.33499 534.93103 518.75098]/Subtype/Widget/T(Text25)/Type/Annot>>
+<</AP<</N 108 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 187 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 56 0 R /Rect[ 79.6932 287.335 534.931 518.751]/Subtype/Widget/T(Text25)/Type/Annot>>
 endobj
 151 0 obj
-<</AP<</N 107 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 188 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 56 0 R /Rect[ 84.602303 18.805401 539.84003 255.13]/Subtype/Widget/T(Text26)/Type/Annot>>
+<</AP<</N 107 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 188 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 56 0 R /Rect[ 84.6023 18.8054 539.84 255.13]/Subtype/Widget/T(Text26)/Type/Annot>>
 endobj
 152 0 obj
-<</AP<</N 110 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 193 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 60 0 R /Rect[ 83.620499 561.75598 538.85797 734.26202]/Subtype/Widget/T(Text27)/Type/Annot>>
+<</AP<</N 110 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 193 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 60 0 R /Rect[ 83.6205 561.756 538.858 734.262]/Subtype/Widget/T(Text27)/Type/Annot>>
 endobj
 153 0 obj
-<</AP<</N 112 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 194 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 60 0 R /Rect[ 85.584198 295.845 540.82202 526.27899]/Subtype/Widget/T(Text28)/Type/Annot>>
+<</AP<</N 112 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 194 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 60 0 R /Rect[ 85.5842 295.845 540.822 526.279]/Subtype/Widget/T(Text28)/Type/Annot>>
 endobj
 154 0 obj
-<</AP<</N 111 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 192 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 60 0 R /Rect[ 82.638702 23.7145 537.87598 254.14799]/Subtype/Widget/T(Text29)/Type/Annot>>
+<</AP<</N 111 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 192 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 60 0 R /Rect[ 82.6387 23.7145 537.876 254.148]/Subtype/Widget/T(Text29)/Type/Annot>>
 endobj
 155 0 obj
-<</AP<</N 115 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 195 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 65 0 R /Rect[ 85.584198 599.66498 540.82202 742.716]/Subtype/Widget/T(Text30)/Type/Annot>>
+<</AP<</N 115 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 195 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 65 0 R /Rect[ 85.5842 599.665 540.822 742.716]/Subtype/Widget/T(Text30)/Type/Annot>>
 endobj
 156 0 obj
-<</AP<</N 113 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 196 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 65 0 R /Rect[ 84.602402 282.789 539.84003 495.55099]/Subtype/Widget/T(Text31)/Type/Annot>>
+<</AP<</N 113 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 196 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 65 0 R /Rect[ 84.6024 282.789 539.84 495.551]/Subtype/Widget/T(Text31)/Type/Annot>>
 endobj
 157 0 obj
-<</AP<</N 114 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 197 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 65 0 R /Rect[ 84.275002 33.859901 539.513 246.621]/Subtype/Widget/T(Text32)/Type/Annot>>
+<</AP<</N 114 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 197 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 65 0 R /Rect[ 84.275 33.8599 539.513 246.621]/Subtype/Widget/T(Text32)/Type/Annot>>
 endobj
 158 0 obj
-<</AP<</N 116 0 R >>/DS 201 0 R /F 4/MK<</BC[ 0 0 0]>>/P 68 0 R /Parent 202 0 R /Rect[ 83.620499 538.81 538.85797 720.15302]/Subtype/Widget/Type/Annot>>
+<</AP<</N 116 0 R >>/DS 201 0 R /F 4/MK<</BC[ 0 0 0]>>/P 68 0 R /Parent 202 0 R /Rect[ 83.6205 538.81 538.858 720.153]/Subtype/Widget/Type/Annot>>
 endobj
 159 0 obj
-<</AP<</N 118 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 199 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 68 0 R /Rect[ 78.7099 328.08301 533.94702 509.42599]/Subtype/Widget/T(Text331)/Type/Annot>>
+<</AP<</N 118 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 199 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 68 0 R /Rect[ 78.7099 328.083 533.947 509.426]/Subtype/Widget/T(Text331)/Type/Annot>>
 endobj
 160 0 obj
-<</AP<</N 119 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 198 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 68 0 R /Rect[ 77.400902 73.7911 532.638 192.297]/Subtype/Widget/T(Text34)/Type/Annot>>
+<</AP<</N 119 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 198 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 68 0 R /Rect[ 77.4009 73.7911 532.638 192.297]/Subtype/Widget/T(Text34)/Type/Annot>>
 endobj
 161 0 obj
-<</AP<</N 120 0 R >>/DS 204 0 R /F 4/MK<</BC[ 0 0 0]>>/P 74 0 R /Parent 205 0 R /Rect[ 70.273598 599.10199 525.51099 754.91803]/Subtype/Widget/Type/Annot>>
+<</AP<</N 120 0 R >>/DS 204 0 R /F 4/MK<</BC[ 0 0 0]>>/P 74 0 R /Parent 205 0 R /Rect[ 70.2736 599.102 525.511 754.918]/Subtype/Widget/Type/Annot>>
 endobj
 162 0 obj
-<</AP<</N 121 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 203 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 74 0 R /Rect[ 70.200897 342.68301 525.43799 572.13501]/Subtype/Widget/T(Text36)/Type/Annot>>
+<</AP<</N 121 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 203 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 74 0 R /Rect[ 70.2009 342.683 525.438 572.135]/Subtype/Widget/T(Text36)/Type/Annot>>
 endobj
 163 0 obj
-<</AP<</N 122 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 206 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 74 0 R /Rect[ 72.437202 57.591 527.67401 287.043]/Subtype/Widget/T(Text37)/Type/Annot>>
+<</AP<</N 122 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 206 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 74 0 R /Rect[ 72.4372 57.591 527.674 287.043]/Subtype/Widget/T(Text37)/Type/Annot>>
 endobj
 164 0 obj
 <</Ascent 1040/CapHeight 716/Descent -325/Flags 32/FontBBox[ -665 -325 2000 1040]/FontFamily(Arial)/FontFile2 83 0 R /FontName/CNDSEU+ArialMT/FontStretch/Normal/FontWeight 400/ItalicAngle 0/StemV 88/Type/FontDescriptor/XHeight 519>>
@@ -3648,7 +3652,7 @@ endobj
 <</DA(/Helv 0 Tf 0 g )/DR<</Encoding<</PDFDocEncoding 227 0 R >>/Font<</Georgia 224 0 R /Helv 226 0 R /ZaDb 228 0 R >>>>/Fields[ 930 0 R  931 0 R  932 0 R  933 0 R  934 0 R  935 0 R  124 0 R  125 0 R  126 0 R  127 0 R  128 0 R  129 0 R  130 0 R  171 0 R  134 0 R  135 0 R  137 0 R  138 0 R  139 0 R  140 0 R  132 0 R  133 0 R  141 0 R  142 0 R  143 0 R  144 0 R  145 0 R  146 0 R  147 0 R  148 0 R  149 0 R  150 0 R  151 0 R  152 0 R  153 0 R  154 0 R  155 0 R  156 0 R  157 0 R  202 0 R  159 0 R  160 0 R  205 0 R  163 0 R  162 0 R  3 0 R ]/SigFlags 3>>
 endobj
 909 0 obj
-[ 930 0 R  931 0 R  932 0 R  933 0 R  934 0 R  935 0 R  3 0 R ]
+[ 930 0 R 931 0 R 932 0 R 933 0 R 934 0 R 935 0 R 3 0 R]
 endobj
 910 0 obj
 <</Filter/FlateDecode/Length 714>>stream
@@ -3711,7 +3715,7 @@ endobj
 <</BaseFont/RMQEGQ+CourierNewPS-BoldMT/Encoding/WinAnsiEncoding/FirstChar 32/FontDescriptor 939 0 R /LastChar 122/Subtype/TrueType/ToUnicode 929 0 R /Type/Font/Widths[ 600 0 0 0 0 0 0 0 0 0 0 0 0 0 600 0 0 600 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 600 0 0 600 0 0 0 0 600 0 0 600 0 600 0 600 0 0 0 0 0 0 0 0 0 0 0 0 0 0 600 0 0 0 0 600 600 0 0 0 600 0 0 600 600 600 600 600 0 0 600 0 600 0 0 0 0 600]>>
 endobj
 922 0 obj
-<</BBox[ 0 0 97.800003 18.360001]/Filter/FlateDecode/FormType 1/Length 20/Matrix[ 1 0 0 1 0 0]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+<</BBox[ 0 0 97.8 18.36]/Filter/FlateDecode/FormType 1/Length 20/Matrix[ 1 0 0 1 0 0]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xú”©PpÚuÊrıuÊ &◊
 endstream
 endobj
@@ -4095,22 +4099,22 @@ Hâ\íÕäÉ0ÄÔyä9∂á¢µ)àPlˆáu˜4ª¬C¥ﬂ~3ô“Öƒ|a2_¬åQUük3,ΩªI5∏@?ÌpûÓN!txåÿ'†
 endstream
 endobj
 930 0 obj
-<</AP<</N 971 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 937 0 R >>/Font<</Helv 938 0 R >>>>/F 4/FT/Tx/P 5 0 R /Rect[ 214.2 615 534.59998 633.35999]/Subtype/Widget/T(Nombre y Apellidos)/TU(Nombre y Apellidos)/Type/Annot/V(Sergio Caballero Ortego)>>
+<</AP<</N 971 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 937 0 R >>/Font<</Helv 938 0 R >>>>/F 4/FT/Tx/P 5 0 R /Rect[ 214.2 615 534.6 633.36]/Subtype/Widget/T(Nombre y Apellidos)/TU(Nombre y Apellidos)/Type/Annot/V(Sergio Caballero Ortego)>>
 endobj
 931 0 obj
-<</AP<</N 973 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 937 0 R >>/Font<</Helv 938 0 R >>>>/F 4/FT/Tx/P 5 0 R /Rect[ 117.959999 595.67999 226.92 613.91998]/Subtype/Widget/T(DNI)/TU(DNI)/Type/Annot/V(03216645A)>>
+<</AP<</N 973 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 937 0 R >>/Font<</Helv 938 0 R >>>>/F 4/FT/Tx/P 5 0 R /Rect[ 117.96 595.68 226.92 613.92]/Subtype/Widget/T(DNI)/TU(DNI)/Type/Annot/V(03216645A)>>
 endobj
 932 0 obj
-<</AP<</N 975 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 937 0 R >>/Font<</Helv 938 0 R >>>>/F 4/FT/Tx/P 5 0 R /Rect[ 214.2 536.52002 534.59998 554.88]/Subtype/Widget/T(Nombre y Apellidos_2)/TU(Nombre y Apellidos)/Type/Annot/V(Laura Herranz V·zquez)>>
+<</AP<</N 975 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 937 0 R >>/Font<</Helv 938 0 R >>>>/F 4/FT/Tx/P 5 0 R /Rect[ 214.2 536.52 534.6 554.88]/Subtype/Widget/T(Nombre y Apellidos_2)/TU(Nombre y Apellidos)/Type/Annot/V(Laura Herranz V·zquez)>>
 endobj
 933 0 obj
-<</AP<</N 977 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 937 0 R >>/Font<</Helv 938 0 R >>>>/F 4/FT/Tx/P 5 0 R /Rect[ 117.959999 517.08002 226.92 535.44]/Subtype/Widget/T(DNI_2)/TU(DNI)/Type/Annot/V(03226822Z)>>
+<</AP<</N 977 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 937 0 R >>/Font<</Helv 938 0 R >>>>/F 4/FT/Tx/P 5 0 R /Rect[ 117.96 517.08 226.92 535.44]/Subtype/Widget/T(DNI_2)/TU(DNI)/Type/Annot/V(03226822Z)>>
 endobj
 934 0 obj
-<</AP<</N 922 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 937 0 R >>/Font<</Helv 938 0 R >>>>/F 4/FT/Tx/P 5 0 R /Rect[ 129.119995 477.84 226.92 496.20001]/Subtype/Widget/T(Fecha)/TU(Fecha)/Type/Annot>>
+<</AP<</N 922 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 937 0 R >>/Font<</Helv 938 0 R >>>>/F 4/FT/Tx/P 5 0 R /Rect[ 129.12 477.84 226.92 496.2]/Subtype/Widget/T(Fecha)/TU(Fecha)/Type/Annot>>
 endobj
 935 0 obj
-<</AP<</N 978 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 937 0 R >>/Font<</Helv 938 0 R >>>>/F 4/FT/Tx/P 5 0 R /Rect[ 227.88 438.35999 464.04001 456.72]/Subtype/Widget/T(Profesor Responsable)/TU(Profesor Responsable)/Type/Annot/V(”scar)>>
+<</AP<</N 978 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 937 0 R >>/Font<</Helv 938 0 R >>>>/F 4/FT/Tx/P 5 0 R /Rect[ 227.88 438.36 464.04 456.72]/Subtype/Widget/T(Profesor Responsable)/TU(Profesor Responsable)/Type/Annot/V(”scar)>>
 endobj
 937 0 obj
 <</Differences[ 24/breve/caron/circumflex/dotaccent/hungarumlaut/ogonek/ring/tilde 39/quotesingle 96/grave 128/bullet/dagger/daggerdbl/ellipsis/emdash/endash/florin/fraction/guilsinglleft/guilsinglright/minus/perthousand/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright/quotesinglbase/trademark/fi/fl/Lslash/OE/Scaron/Ydieresis/Zcaron/dotlessi/lslash/oe/scaron/zcaron 160/Euro 164/currency 166/brokenbar 168/dieresis/copyright/ordfeminine 172/logicalnot/.notdef/registered/macron/degree/plusminus/twosuperior/threesuperior/acute/mu 183/periodcentered/cedilla/onesuperior/ordmasculine 188/onequarter/onehalf/threequarters 192/Agrave/Aacute/Acircumflex/Atilde/Adieresis/Aring/AE/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute/Icircumflex/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn/germandbls/agrave/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla/egrave/eacute/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis/eth/ntilde/ograve/oacute/ocircumflex/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex/udieresis/yacute/thorn/ydieresis]/Type/Encoding>>
@@ -4122,7 +4126,7 @@ endobj
 <</Ascent 1221/CapHeight 592/Descent -710/Flags 34/FontBBox[ -192 -710 702 1221]/FontFamily(Courier New)/FontFile2 928 0 R /FontName/RMQEGQ+CourierNewPS-BoldMT/FontStretch/Normal/FontWeight 700/ItalicAngle 0/StemV 100/Type/FontDescriptor/XHeight 443>>
 endobj
 940 0 obj
-<</Author(Iv·n)/Company(yo)/CreationDate(D:20250129110805+01'00')/Creator(Acrobat PDFMaker 24 para Word)/Keywords()/ModDate(D:20250129114619+01'00')/Producer(Cliente @firma)/SourceModified()/Subject(Practica 1)/Title(Bases de Datos Avanzadas)>>
+<</Author(Iv·n)/Company(yo)/CreationDate(D:20250129110805+01'00')/Creator(Acrobat PDFMaker 24 para Word)/Keywords()/ModDate(D:20250221132826+01'00)/Producer(Cliente @firma)/SourceModified()/Subject(Practica 1)/Title(Bases de Datos Avanzadas)>>
 endobj
 943 0 obj
 <</Certs 944 0 R /OCSPs 945 0 R /VRI 946 0 R >>
@@ -4211,7 +4215,7 @@ endobj
 <</Helv 226 0 R >>
 endobj
 971 0 obj
-<</BBox[ 0 0 320.39996 18.359985]/Filter/FlateDecode/FormType 1/Length 92/Matrix[ 1 0 0 1 0 0]/Resources<</Font 969 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+<</BBox[ 0 0 320.4 18.36]/Filter/FlateDecode/FormType 1/Length 92/Matrix[ 1 0 0 1 0 0]/Resources<</Font 969 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xú¡±
 Ä –˝~≈k©,◊$hâàﬁôÇ$}~Á‹XPÀ«~≤∏—(Í™kï1 Pv‘£è/ï¶(Vü√ôh›ÊbÙ9qŒè©§\Ü…‚ù>å
 endstream
@@ -4220,7 +4224,7 @@ endobj
 <</Helv 226 0 R >>
 endobj
 973 0 obj
-<</BBox[ 0 0 108.959999 18.23999]/Filter/FlateDecode/FormType 1/Length 80/Matrix[ 1 0 0 1 0 0]/Resources<</Font 970 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+<</BBox[ 0 0 108.96 18.24]/Filter/FlateDecode/FormType 1/Length 80/Matrix[ 1 0 0 1 0 0]/Resources<</Font 970 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xú+‰
 ‰“©PpÚuÊ*‰r
 ·2PHÁ2T0—323¥¥41QI·“˜HÕ)S04QI„“00624331u‘T…‚r·
@@ -4231,7 +4235,7 @@ endobj
 <</Helv 226 0 R >>
 endobj
 975 0 obj
-<</BBox[ 0 0 320.39996 18.359985]/Filter/FlateDecode/FormType 1/Length 92/Matrix[ 1 0 0 1 0 0]/Resources<</Font 972 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+<</BBox[ 0 0 320.4 18.36]/Filter/FlateDecode/FormType 1/Length 92/Matrix[ 1 0 0 1 0 0]/Resources<</Font 972 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xú+‰
 ‰“©PpÚuÊ*‰r
 ·2PHÁ2T0—362¥¥4¥TI·“˜HÕ)S04QI„“I,-JTH-*JÃ´R{XUXöZ•©í≈Â¬»ÂÍÎÃ x$s
@@ -4241,7 +4245,7 @@ endobj
 <</Helv 226 0 R >>
 endobj
 977 0 obj
-<</BBox[ 0 0 108.959999 18.359985]/Filter/FlateDecode/FormType 1/Length 80/Matrix[ 1 0 0 1 0 0]/Resources<</Font 974 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+<</BBox[ 0 0 108.96 18.36]/Filter/FlateDecode/FormType 1/Length 80/Matrix[ 1 0 0 1 0 0]/Resources<</Font 974 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xú+‰
 ‰“©PpÚuÊ*‰r
 ·2PHÁ2T0—362¥¥4¥TI·“˜HÕ)S04QI„“00622≥02ä“T…‚r·
@@ -4249,7 +4253,7 @@ xú+‰
 endstream
 endobj
 978 0 obj
-<</BBox[ 0 0 236.16 18.360016]/Filter/FlateDecode/FormType 1/Length 76/Matrix[ 1 0 0 1 0 0]/Resources<</Font 976 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+<</BBox[ 0 0 236.16 18.36]/Filter/FlateDecode/FormType 1/Length 76/Matrix[ 1 0 0 1 0 0]/Resources<</Font 976 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xú+‰
 ‰“©PpÚuÊ*‰r
 ·2PHÁ2T0—3622007RI·“˜HÕ)S04QI„“∏\úúX§©í≈Â¬»ÂÍÎÃ !$X
@@ -4259,7 +4263,7 @@ endobj
 <</Georgia 224 0 R >>
 endobj
 989 0 obj
-<</BBox[ 0 0 454.25568 171.52402]/Filter/FlateDecode/FormType 1/Length 463/Matrix[ 1 0 0 1 0 0]/Resources<</Font 979 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+<</BBox[ 0 0 454.256 171.524]/Filter/FlateDecode/FormType 1/Length 463/Matrix[ 1 0 0 1 0 0]/Resources<</Font 979 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xúuí¡N1ÜÔ~ä_\B+∫ÏÆHé@¢^@5w4±g7Fégc{+¬€ˆz®˙ïAπDñ,K3ÛˇÃxØj‰˙ÚòŒ¶U;õ]Õ—\7’¨ù÷-´¶≥ˆ=tµ¯Íæ™'uπ~≈Ì√ù⁄´€µ™—ÁÇ´¶™€i›\cm‘Âwñ–[BSc›©s¨<a‹XM⁄˛ı0Ï ¡∞'#FºapLø<úDJ˘fS8˛x∫«ñ=AS8Œ%:√Ü}
 Ç/Xø®ﬂö∂öµã≈b>œNŒè¬T‘¡Ù÷˛îÈΩ´¥¯Æn∂Ü7xw§ÔƒÿŒj
 •n†ê»úÙœ1Q‚˚ÑÅùBÔGFdÇÌGr Lvb&V1	∂§%Aú poc
@@ -4279,15 +4283,15 @@ endobj
 <</Georgia 224 0 R >>
 endobj
 1048 0 obj
-<</BBox[ 0 0 455.23761 480.7998]/Filter/FlateDecode/FormType 1/Length 1201/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1000 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xúçVMo€FΩÎWº[ÏD°ıaŸT
-‚DmÉ:mmå9í7]Ó“˚·∆˘∑˛9πıTÃíñ;Cñ»]ŒºyÛﬁ,Øz»ü[ßáìI6qò≤„È4á„ﬁCN∆w+«˘feı¥˜æw∞¯Ñì∑ØzWΩìEoÄuOˆ≤ëÏYîΩÉ_ÿ∫µ"X¨z{sç@}µ(KmØ"£∂%Ø∏Ènm}X;ˆ`/ó9~;ÈÉ4d´ghÜc»`tàÂMhv±)h…ü©¥}ÏcÒ±7¿Û·(õå¶”iûêÏÈ»k+QJJ±
-*ÈBPl»Ò√¡Ëœ%¯˘(«I É“Ï≥«~òÏÂ•uÑÇt59Æ¨ÔñûíáXkÇ2•∫Ve$ù·ù≥e,ÇΩxÛ7¡ˇÄ™•ı®Ÿì¡aÉ¶èÍ*S ·î≠füriÎÒ∆‹‡åù"›«¶dsi•>⁄Ô»—Óìµ„BY\Rë*àÜPX„£ﬂß£È8•èûLi°	´h
-ıÕ†^_V« \xıôœ˜ö†Á˚∏AmçbŸ.åXS™Ù ¡Ô%;NHÖ£û	jI„AÈGyõ€¿ƒäùEI_E≈é˙( Ú_$Í5È§6D”Vó·åaóç¢ŸÓ8n∏nY±À¿ÜùƒË®|€\È¥™-Ûø∏l€Ø	^≠£bxÀ‚˘Ç-Iñ=VJ˛∑ç)lealµtå'u´ã'Á˚?Æ˝!ú≥˘È¸’‚˚õP˛…ã|/œ#˝Ùÿÿø[1›µ’◊ÏnÖ¥mÌ√q+√‹ ÿ–∑L⁄}ñ>√1û·3åÚˆ¡zåÚ÷€>V‰newGì7ñY◊—v÷'ùê\ëëY¡ö+6¡ÇtE*≠»™æ]+C;–íÖˆ‰/w+8û›ÀΩS˜„Q[^∫Ô|ﬂ∫~EEh$’Nõï√'i§‡‡‘›öâ>√h2Èè&Õ8^+§BôíÕÛY∫¬öƒ&j[6ö€≠˘/cB(‘ W\™kã•Ä0∂—$Ú¡AÇ1ÎÍ∆4œ„i4ƒ”|0ûn¬€"÷$§'¶;0oÊ„IC†x#(íYpÁûÔFO}œê≠ÈwjK…KÎ3úZ,£/⁄03ìçÿ3–RÑ∞æ(4yﬂGs∑∞QW«∫¶µåﬁí}PFÑCyu¿êf7<‹+xÿt,ùíˆ—KkÎ;8¯˘√o7òÒ◊ØÛsY4T1fÿq˚}sw]:|'Z⁄!›oßd;îæö˙Ü˘8óÛ∏)<√kˆ5§v∂Ài`]5…UG“WÚF†©€≠™”	˜[U\*+gﬂj£Ê•CsÏw‰\>P{[»√Ò$õNß"†ÙÊ°÷F©U—º;»|ﬁy}V[!®é\≤ŸQEGZ™ù˝§**©J«¡p|¥u˙£•Áñè*ﬁ@ô;e(G1Æ¨Î·I°ª£µOÅø9UÿsÈt©VÏÿä6•t·/y…µS¶P5È¶B°ÿ…0Ø8PI°∑yü£ØçislÇìoõéÄö‰=É?G∑æ≥ee£øK∫!P"iıYû6ç`Rﬁ«R¯‡∆|—{ﬂõø}’˚ëˆ^Í
+<</BBox[ 0 0 455.238 480.8]/Filter/FlateDecode/FormType 1/Length 1160/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1000 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xúÖVMs€6ΩÎWÏÕv¨–˙∞b*ÏDm3uö6÷¥=x∆ëhêtmˇ[ˇÄ2πÂ‘∑ %—kè?Å¿Ó€∑owy”ˇ∏Ã/'ìh4éÈ0D19Ÿ“õ„∞yáÕÂ´ﬁÔΩÉ˘ù~|◊ªÈùŒq7√—√£A4¶y⁄;¯IZó)A√ÕóΩ›ô¶J‰‚´•T“B€õZRaæ-eR˘›¬ñUÊdI¯≈◊ò~9Ìì–ƒGKIZ¬qY	C£CZ‹W·î4âX»ë⁄>Ì—¸8^G—ƒÉÿ’µÃ,HÖ7ì,ÔïíF‹ºFò|Õvè)æâÈ‘õØ+•emô}‚‚‰ :√:©µp2∑¿ﬂé’ª¨ÍBR&U∑*≠ÖéË7g”Å_~xO˜TV6˘õDæ¿ÌBñàÒ0`Ë”ΩËàãÒKÔßΩçõL[Á“)°˚¥é—¨–,’µÖgº≠õÖìâ≤t%æ6à∆ö≤÷UóÁ‡RKàfYõD}3Tdóâ’un.Kı /vÉΩã=@)¨Ä4`Ωø @pˇœït“ÉdfRd∏°N∑ÜLùKg)¡ëõZI'˙îz,¢¸¬oÖˆzBML∏ ªâ∆Ó˙ƒQ ∑·'p¿±çm«õDrVUai>˚k∂B™ÅΩjx®‰Ü∂ã]™l*¯q	÷˘ìâƒÊñåÕà}ßh4∞s±˜º∆Œgg≥wÛ-¶◊ ù∑oH?9µÒ√Ûµ\=∑VﬂJ˜»‹l‚éÉÖàfÿ∂U®¿‘krﬂˇ·ƒ>8<¶Q![(JX≈Mëñu.‹#üﬁfs]∂,◊¢iÅ‡ooRÀ|"±:á(jõ5S<f à*_YÃÆ/Ñ˚ùnèi<jÇ⁄~¯§ÄõÚ]
+∞ÍZ≠jÈÓ©ÔtpÊV}‚ÄÉá…§?öÑöT¶ ä„‚˛Ów∏ÖX<s8ï-µthæ{≠Ø˝3g(ó\©[Kˆoº{X£I4¯;å‡∏ÉÇi∆”˛hàß”Àµeõ‘Ö`Ç=´/u;y•L-|)Ø ‡I”(˛STM·∂ÇÒ.Sâù!ö∫L3€∞˘≠ƒÇ≥˘£î–√nbk|ÎBd‹*S	â@b≠ùˇA¿9Åwd∆wlv˘MYÆ –èü?}\£§?û}ûÒC#r	÷[’˙BqûhﬂçÎ£≈kπifM€ºÑ8ÜÒ8Ê¡åËΩ,y-öÓÀ˝⁄∫
+Áo€1o3ÑÂJo>óçH˝‰È(ê\¶"∏∑\ã2Û∑£lÈ∂ÅåÊ2â¶”)+√~ï•ñIòﬂ‹A[#º¥⁄2-˙ì4≠úo{`ˇNÂ∏ú˚^=øŸTÍy˛cyIy}èAæƒêE¸¬72Æ9~j∞.Ö˛"V3.4Kï¸ÊTÇy4„Ñ¶
+∑Òﬁ¢ƒ{‡T.†Ä¬),ôG5`ÚqªÕeÖX™◊˙’I|Ú˜,·ä„OÎõt!xÃÀª â¿cŸïô4àÎJ‡Ω9∆∞U|—Ixóœ”’^œÊxMú·Ò_Ó√8
 endstream
 endobj
 1049 0 obj
-<</BBox[ 0 0 455.23718 229.45203]/Filter/FlateDecode/FormType 1/Length 671/Matrix[ 1 0 0 1 0 0]/Resources<</Font 998 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+<</BBox[ 0 0 455.237 229.452]/Filter/FlateDecode/FormType 1/Length 671/Matrix[ 1 0 0 1 0 0]/Resources<</Font 998 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xúçTKo”@æ˚WÃ≠)
 núMÑ8–Qi1‚©öx'f´ıéªªÆö˛€˛ƒç⁄uÍ8"F(G;;ﬂkvÓ¢¯ü…√«x2âá£Ûd
 √·,OÜÉäH`<5GÁ˚£ÕãË*:K‡b9èÓ¢ã4@%0L¶Ò,•":˚@lrâê ›DΩo·û¡ëŒ±`
@@ -4328,11 +4332,14 @@ xúmêÕj√0ÑÔzä=&á %gc(	¶>4-u^@ñ∆FØÑ,¸ˆE î¥0;˙ñŸÚÿûZvâ‰OÙ¶C¢¡±çò˝®«ËXÏdùIw
 endstream
 endobj
 1058 0 obj
-<</BBox[ 0 0 455.23782 267.74298]/Filter/FlateDecode/FormType 1/Length 454/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1038 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+<</BBox[ 0 0 455.238 267.743]/Filter/FlateDecode/FormType 1/Length 454/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1038 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xúuíÕn€0ÑÔ|ä9¶Ö™H≤Âük‹†óM _z\ìG≈ï˘c¥èõcﬂ¢ÌƒqCB‰Œ7ú·NU?øÕãi€ñÕdæh–ÃÊÂ|⁄,¨j‘ò∂ì◊≠ˆ¥ı¯Y=®Îıo‹‹≠‘N›¨UÖ≠™—¥Û≤…á÷F]cÒ€éPWX?™´{ﬂıÏO‹KÄˆLFê!“∆/&È(°â‹`∂;[ ZÜéúD≤–â,,ÅCÙ)Í‰	Ü«ôOXˇRæ‘MŸ6ÀÂrëΩ\>0¯ŒÈn [~Oº}u4RFà	∞`h<mÿBá=2Ú3zO)dg∞´˜?ã£øæÎ°'«û∞K-Ó‰[|∑ÌŸ_9ÈÔ»ÅRú&—GäKPk©'Û6—†•ó„ç,5
 /%hq!ŸH†ìßÛJ.Úƒvœc
 ß–ÒcÉg›IyaÚ©'“g•1Ø–øÒ5&∆90ù8ƒN‰	≤âÏ8Û\ OÃ06VvâDßÅLÆóü«˚˚¬Ââ}bªgLfÛŸ≤-∞°…EFˇ|–ìÏ*#6ÂvÜõTU==vË∫gπ¸ÿ“ÌZ=®€ªï˙˛±"£
 endstream
+endobj
+1059 0 obj
+<</Georgia 224 0 R >>
 endobj
 xref
 0 4
@@ -4342,987 +4349,988 @@ xref
 0000054416 00000 n
 5 77
 0000054548 00000 n
-0000054887 00000 n
-0000059228 00000 n
-0000059497 00000 n
-0000059527 00000 n
-0000063443 00000 n
-0000063547 00000 n
-0000064212 00000 n
-0000064988 00000 n
-0000065713 00000 n
-0000065893 00000 n
-0000066141 00000 n
-0000066181 00000 n
-0000067183 00000 n
-0000067419 00000 n
-0000067459 00000 n
-0000068905 00000 n
-0000069153 00000 n
-0000069193 00000 n
-0000070618 00000 n
-0000070866 00000 n
-0000070906 00000 n
-0000072191 00000 n
-0000072297 00000 n
-0000072545 00000 n
-0000072585 00000 n
-0000074435 00000 n
-0000074695 00000 n
-0000074726 00000 n
-0000075525 00000 n
-0000075720 00000 n
-0000095655 00000 n
-0000095954 00000 n
-0000096202 00000 n
-0000096242 00000 n
-0000098163 00000 n
-0000098399 00000 n
-0000098439 00000 n
-0000099752 00000 n
-0000099989 00000 n
-0000100029 00000 n
-0000101343 00000 n
-0000101490 00000 n
-0000101727 00000 n
-0000101767 00000 n
-0000103057 00000 n
-0000103306 00000 n
-0000103346 00000 n
-0000104620 00000 n
-0000104881 00000 n
-0000104921 00000 n
-0000108054 00000 n
-0000108291 00000 n
-0000108340 00000 n
-0000109099 00000 n
-0000109875 00000 n
-0000110112 00000 n
-0000110161 00000 n
-0000111079 00000 n
-0000111854 00000 n
-0000112508 00000 n
-0000112757 00000 n
-0000112806 00000 n
-0000114491 00000 n
-0000114740 00000 n
-0000114789 00000 n
-0000116399 00000 n
-0000117175 00000 n
-0000117899 00000 n
-0000118461 00000 n
-0000118698 00000 n
-0000118747 00000 n
-0000119899 00000 n
-0000120145 00000 n
-0000121979 00000 n
-0000122644 00000 n
-0000122824 00000 n
+0000054875 00000 n
+0000058683 00000 n
+0000058940 00000 n
+0000058969 00000 n
+0000062885 00000 n
+0000062989 00000 n
+0000063654 00000 n
+0000064430 00000 n
+0000065155 00000 n
+0000065335 00000 n
+0000065571 00000 n
+0000065609 00000 n
+0000066611 00000 n
+0000066835 00000 n
+0000066873 00000 n
+0000068319 00000 n
+0000068555 00000 n
+0000068593 00000 n
+0000070018 00000 n
+0000070254 00000 n
+0000070294 00000 n
+0000071579 00000 n
+0000071685 00000 n
+0000071921 00000 n
+0000071961 00000 n
+0000073811 00000 n
+0000074059 00000 n
+0000074090 00000 n
+0000074889 00000 n
+0000075084 00000 n
+0000095019 00000 n
+0000095318 00000 n
+0000095554 00000 n
+0000095594 00000 n
+0000097515 00000 n
+0000097739 00000 n
+0000097779 00000 n
+0000099092 00000 n
+0000099317 00000 n
+0000099357 00000 n
+0000100671 00000 n
+0000100818 00000 n
+0000101043 00000 n
+0000101083 00000 n
+0000102373 00000 n
+0000102610 00000 n
+0000102650 00000 n
+0000103924 00000 n
+0000104173 00000 n
+0000104213 00000 n
+0000107346 00000 n
+0000107571 00000 n
+0000107620 00000 n
+0000108379 00000 n
+0000109155 00000 n
+0000109380 00000 n
+0000109429 00000 n
+0000110347 00000 n
+0000111122 00000 n
+0000111776 00000 n
+0000112013 00000 n
+0000112062 00000 n
+0000113747 00000 n
+0000113984 00000 n
+0000114033 00000 n
+0000115643 00000 n
+0000116419 00000 n
+0000117143 00000 n
+0000117705 00000 n
+0000117930 00000 n
+0000117979 00000 n
+0000119131 00000 n
+0000119365 00000 n
+0000121199 00000 n
+0000121864 00000 n
+0000122044 00000 n
 83 1
-0000123123 00000 n
+0000122343 00000 n
 86 2
-0000141426 00000 n
-0000141672 00000 n
+0000140646 00000 n
+0000141539 00000 n
 89 776
-0000141901 00000 n
-0000142129 00000 n
-0000142360 00000 n
-0000142591 00000 n
-0000142822 00000 n
-0000143050 00000 n
-0000143281 00000 n
-0000143512 00000 n
-0000143743 00000 n
-0000143976 00000 n
-0000144209 00000 n
-0000144442 00000 n
-0000144676 00000 n
-0000144908 00000 n
-0000145142 00000 n
-0000145376 00000 n
-0000145610 00000 n
-0000145843 00000 n
-0000146078 00000 n
-0000146310 00000 n
-0000146540 00000 n
-0000146774 00000 n
-0000147004 00000 n
-0000147237 00000 n
-0000147469 00000 n
-0000147699 00000 n
-0000147931 00000 n
-0000148164 00000 n
-0000148396 00000 n
-0000149051 00000 n
-0000149282 00000 n
-0000149517 00000 n
-0000149750 00000 n
-0000149979 00000 n
-0000150211 00000 n
-0000293106 00000 n
-0000294398 00000 n
-0000296820 00000 n
-0000301192 00000 n
-0000301399 00000 n
-0000301597 00000 n
-0000303071 00000 n
-0000303280 00000 n
-0000303453 00000 n
-0000303661 00000 n
-0000303869 00000 n
-0000304075 00000 n
-0000304283 00000 n
-0000304562 00000 n
-0000304772 00000 n
-0000304983 00000 n
-0000305191 00000 n
-0000305401 00000 n
-0000305612 00000 n
-0000305820 00000 n
-0000306031 00000 n
-0000306240 00000 n
-0000306449 00000 n
-0000306658 00000 n
-0000306869 00000 n
-0000307078 00000 n
-0000307289 00000 n
-0000307500 00000 n
-0000307708 00000 n
-0000307919 00000 n
-0000308128 00000 n
-0000308337 00000 n
-0000308546 00000 n
-0000308755 00000 n
+0000141783 00000 n
+0000142011 00000 n
+0000142242 00000 n
+0000142473 00000 n
+0000142704 00000 n
+0000142932 00000 n
+0000143163 00000 n
+0000143394 00000 n
+0000143625 00000 n
+0000143858 00000 n
+0000144091 00000 n
+0000144324 00000 n
+0000144558 00000 n
+0000144790 00000 n
+0000145024 00000 n
+0000145258 00000 n
+0000145492 00000 n
+0000145725 00000 n
+0000145960 00000 n
+0000146192 00000 n
+0000146422 00000 n
+0000146656 00000 n
+0000146886 00000 n
+0000147119 00000 n
+0000147351 00000 n
+0000147581 00000 n
+0000147813 00000 n
+0000148046 00000 n
+0000148278 00000 n
+0000148933 00000 n
+0000149164 00000 n
+0000149399 00000 n
+0000149632 00000 n
+0000149861 00000 n
+0000150093 00000 n
+0000292988 00000 n
+0000294271 00000 n
+0000296687 00000 n
+0000301052 00000 n
+0000303430 00000 n
+0000303618 00000 n
+0000305083 00000 n
+0000305284 00000 n
+0000305451 00000 n
+0000305653 00000 n
+0000305855 00000 n
+0000306056 00000 n
+0000306258 00000 n
+0000306537 00000 n
+0000306738 00000 n
+0000306939 00000 n
+0000307140 00000 n
+0000307342 00000 n
+0000307544 00000 n
+0000307746 00000 n
+0000307948 00000 n
+0000308151 00000 n
+0000308354 00000 n
+0000308557 00000 n
+0000308760 00000 n
 0000308962 00000 n
-0000309135 00000 n
-0000309345 00000 n
-0000309550 00000 n
-0000309726 00000 n
-0000309937 00000 n
-0000310143 00000 n
-0000310396 00000 n
-0000310478 00000 n
-0000310560 00000 n
-0000310642 00000 n
-0000310724 00000 n
-0000310806 00000 n
-0000310888 00000 n
-0000311043 00000 n
-0000311125 00000 n
-0000311207 00000 n
-0000311289 00000 n
-0000311371 00000 n
-0000311453 00000 n
-0000311535 00000 n
-0000311617 00000 n
-0000311699 00000 n
-0000311781 00000 n
-0000311863 00000 n
-0000311945 00000 n
-0000312027 00000 n
-0000312109 00000 n
-0000312191 00000 n
-0000312273 00000 n
-0000312355 00000 n
-0000312437 00000 n
-0000312519 00000 n
-0000312773 00000 n
-0000313428 00000 n
-0000313510 00000 n
-0000313592 00000 n
-0000313674 00000 n
-0000313756 00000 n
-0000313838 00000 n
-0000313920 00000 n
-0000314002 00000 n
-0000314084 00000 n
-0000314344 00000 n
-0000314426 00000 n
-0000314582 00000 n
-0000314664 00000 n
-0000314746 00000 n
-0000314902 00000 n
-0000314984 00000 n
-0000315244 00000 n
-0000315684 00000 n
-0000315760 00000 n
-0000315930 00000 n
-0000316034 00000 n
-0000316090 00000 n
-0000316226 00000 n
-0000316283 00000 n
-0000316383 00000 n
-0000316439 00000 n
-0000316533 00000 n
-0000316589 00000 n
-0000316736 00000 n
-0000316792 00000 n
-0000316930 00000 n
-0000316986 00000 n
-0000317042 00000 n
-0000318267 00000 n
-0000318514 00000 n
-0000318610 00000 n
-0000319807 00000 n
-0000319888 00000 n
-0000320042 00000 n
-0000320067 00000 n
-0000320137 00000 n
-0000320205 00000 n
-0000320467 00000 n
-0000320717 00000 n
-0000325921 00000 n
-0000326275 00000 n
-0000326665 00000 n
-0000326999 00000 n
-0000327338 00000 n
-0000327686 00000 n
-0000328025 00000 n
-0000328337 00000 n
-0000328464 00000 n
-0000328776 00000 n
-0000329106 00000 n
-0000329436 00000 n
-0000329775 00000 n
-0000330123 00000 n
-0000330410 00000 n
-0000330748 00000 n
-0000331077 00000 n
-0000331447 00000 n
-0000331823 00000 n
-0000332197 00000 n
-0000332481 00000 n
-0000332545 00000 n
-0000332609 00000 n
-0000332673 00000 n
-0000332737 00000 n
-0000332802 00000 n
-0000332866 00000 n
-0000332930 00000 n
-0000332994 00000 n
-0000333058 00000 n
-0000333122 00000 n
-0000333186 00000 n
-0000333250 00000 n
-0000333314 00000 n
-0000333378 00000 n
-0000333442 00000 n
-0000333506 00000 n
-0000333570 00000 n
-0000333634 00000 n
-0000333698 00000 n
-0000333762 00000 n
-0000333826 00000 n
-0000333890 00000 n
-0000333962 00000 n
-0000334026 00000 n
-0000334098 00000 n
-0000334162 00000 n
-0000334225 00000 n
-0000334299 00000 n
-0000334362 00000 n
-0000334425 00000 n
-0000334488 00000 n
-0000334551 00000 n
-0000334614 00000 n
-0000334678 00000 n
-0000334742 00000 n
-0000334806 00000 n
-0000334870 00000 n
-0000334934 00000 n
-0000334998 00000 n
-0000335062 00000 n
-0000335130 00000 n
-0000335198 00000 n
-0000335266 00000 n
-0000335334 00000 n
-0000335398 00000 n
-0000335466 00000 n
-0000335534 00000 n
-0000335598 00000 n
-0000335662 00000 n
-0000335734 00000 n
-0000335803 00000 n
-0000335867 00000 n
-0000335931 00000 n
-0000335995 00000 n
-0000336059 00000 n
-0000336123 00000 n
-0000336187 00000 n
-0000336251 00000 n
-0000336315 00000 n
-0000336379 00000 n
-0000336443 00000 n
-0000336508 00000 n
-0000336573 00000 n
-0000336638 00000 n
-0000336703 00000 n
-0000336768 00000 n
-0000336833 00000 n
-0000336898 00000 n
-0000336963 00000 n
-0000337028 00000 n
-0000337093 00000 n
-0000337158 00000 n
-0000337223 00000 n
-0000337288 00000 n
-0000337353 00000 n
-0000337418 00000 n
-0000337483 00000 n
-0000337548 00000 n
-0000337613 00000 n
-0000337678 00000 n
-0000337743 00000 n
-0000337808 00000 n
-0000337873 00000 n
-0000337943 00000 n
-0000338007 00000 n
-0000338071 00000 n
-0000338135 00000 n
-0000338199 00000 n
-0000338263 00000 n
-0000338327 00000 n
-0000338391 00000 n
-0000338455 00000 n
-0000338519 00000 n
-0000338584 00000 n
-0000338649 00000 n
-0000338714 00000 n
-0000338779 00000 n
-0000338844 00000 n
-0000338909 00000 n
-0000338974 00000 n
-0000339039 00000 n
-0000339104 00000 n
-0000339169 00000 n
-0000339234 00000 n
-0000339299 00000 n
-0000339364 00000 n
-0000339429 00000 n
-0000339494 00000 n
-0000339559 00000 n
-0000339624 00000 n
-0000339689 00000 n
-0000339754 00000 n
-0000339819 00000 n
-0000339884 00000 n
-0000339954 00000 n
-0000340024 00000 n
-0000340088 00000 n
-0000340152 00000 n
-0000340216 00000 n
-0000340280 00000 n
-0000340344 00000 n
-0000340408 00000 n
-0000340472 00000 n
-0000340536 00000 n
-0000340600 00000 n
-0000340665 00000 n
-0000340730 00000 n
-0000340795 00000 n
-0000340860 00000 n
-0000340925 00000 n
-0000340990 00000 n
-0000341055 00000 n
-0000341120 00000 n
-0000341185 00000 n
-0000341250 00000 n
-0000341315 00000 n
-0000341380 00000 n
-0000341445 00000 n
-0000341510 00000 n
-0000341575 00000 n
-0000341640 00000 n
-0000341705 00000 n
-0000341770 00000 n
-0000341835 00000 n
-0000341900 00000 n
-0000341965 00000 n
-0000342030 00000 n
-0000342100 00000 n
-0000342170 00000 n
-0000342234 00000 n
-0000342298 00000 n
-0000342362 00000 n
-0000342426 00000 n
-0000342490 00000 n
-0000342554 00000 n
-0000342618 00000 n
-0000342682 00000 n
-0000342746 00000 n
-0000342811 00000 n
-0000342876 00000 n
-0000342941 00000 n
-0000343006 00000 n
-0000343071 00000 n
-0000343136 00000 n
-0000343201 00000 n
-0000343266 00000 n
-0000343331 00000 n
-0000343396 00000 n
-0000343461 00000 n
-0000343526 00000 n
-0000343591 00000 n
-0000343656 00000 n
-0000343721 00000 n
-0000343786 00000 n
-0000343851 00000 n
-0000343916 00000 n
-0000343981 00000 n
-0000344046 00000 n
-0000344111 00000 n
-0000344181 00000 n
-0000344251 00000 n
-0000344315 00000 n
-0000344379 00000 n
-0000344443 00000 n
-0000344507 00000 n
-0000344571 00000 n
-0000344635 00000 n
-0000344699 00000 n
-0000344763 00000 n
-0000344827 00000 n
-0000344892 00000 n
-0000344957 00000 n
-0000345022 00000 n
-0000345087 00000 n
-0000345152 00000 n
-0000345217 00000 n
-0000345282 00000 n
-0000345347 00000 n
-0000345412 00000 n
-0000345477 00000 n
-0000345542 00000 n
-0000345607 00000 n
-0000345672 00000 n
-0000345737 00000 n
-0000345802 00000 n
-0000345867 00000 n
-0000345932 00000 n
-0000345997 00000 n
-0000346067 00000 n
-0000346137 00000 n
-0000346201 00000 n
-0000346265 00000 n
-0000346329 00000 n
-0000346393 00000 n
-0000346457 00000 n
-0000346521 00000 n
-0000346585 00000 n
-0000346649 00000 n
-0000346713 00000 n
-0000346783 00000 n
-0000346847 00000 n
-0000346911 00000 n
-0000346975 00000 n
-0000347039 00000 n
-0000347103 00000 n
-0000347167 00000 n
-0000347231 00000 n
-0000347295 00000 n
-0000347359 00000 n
-0000347424 00000 n
-0000347489 00000 n
-0000347554 00000 n
-0000347619 00000 n
-0000347684 00000 n
-0000347749 00000 n
-0000347814 00000 n
-0000347879 00000 n
-0000347944 00000 n
-0000348009 00000 n
-0000348074 00000 n
-0000348139 00000 n
-0000348204 00000 n
-0000348269 00000 n
-0000348334 00000 n
-0000348399 00000 n
-0000348464 00000 n
-0000348529 00000 n
-0000348599 00000 n
-0000348669 00000 n
-0000348733 00000 n
-0000348797 00000 n
-0000348861 00000 n
-0000348925 00000 n
-0000348989 00000 n
-0000349053 00000 n
-0000349117 00000 n
-0000349181 00000 n
-0000349245 00000 n
-0000349310 00000 n
-0000349375 00000 n
-0000349440 00000 n
-0000349505 00000 n
-0000349570 00000 n
-0000349635 00000 n
-0000349700 00000 n
-0000349765 00000 n
-0000349830 00000 n
-0000349895 00000 n
-0000349960 00000 n
-0000350025 00000 n
-0000350090 00000 n
-0000350155 00000 n
-0000350220 00000 n
-0000350285 00000 n
-0000350350 00000 n
-0000350415 00000 n
-0000350480 00000 n
-0000350545 00000 n
-0000350615 00000 n
-0000350685 00000 n
-0000350749 00000 n
-0000350813 00000 n
-0000350877 00000 n
-0000350941 00000 n
-0000351005 00000 n
-0000351069 00000 n
-0000351133 00000 n
-0000351197 00000 n
-0000351261 00000 n
-0000351326 00000 n
-0000351391 00000 n
-0000351456 00000 n
-0000351521 00000 n
-0000351586 00000 n
-0000351651 00000 n
-0000351716 00000 n
-0000351781 00000 n
-0000351846 00000 n
-0000351911 00000 n
-0000351976 00000 n
-0000352041 00000 n
-0000352106 00000 n
-0000352171 00000 n
-0000352236 00000 n
-0000352301 00000 n
-0000352366 00000 n
-0000352431 00000 n
-0000352496 00000 n
-0000352561 00000 n
-0000352631 00000 n
-0000352701 00000 n
-0000352765 00000 n
-0000352829 00000 n
-0000352893 00000 n
-0000352957 00000 n
-0000353021 00000 n
-0000353085 00000 n
-0000353149 00000 n
-0000353213 00000 n
-0000353277 00000 n
-0000353342 00000 n
-0000353407 00000 n
-0000353472 00000 n
-0000353537 00000 n
-0000353602 00000 n
-0000353667 00000 n
-0000353732 00000 n
-0000353797 00000 n
-0000353862 00000 n
-0000353927 00000 n
-0000353992 00000 n
-0000354057 00000 n
-0000354122 00000 n
-0000354187 00000 n
-0000354252 00000 n
-0000354317 00000 n
-0000354382 00000 n
-0000354447 00000 n
-0000354512 00000 n
-0000354577 00000 n
-0000354642 00000 n
-0000354712 00000 n
-0000354782 00000 n
-0000354846 00000 n
-0000354910 00000 n
-0000354974 00000 n
-0000355038 00000 n
-0000355102 00000 n
-0000355166 00000 n
-0000355230 00000 n
-0000355294 00000 n
-0000355358 00000 n
-0000355423 00000 n
-0000355488 00000 n
-0000355553 00000 n
-0000355618 00000 n
-0000355683 00000 n
-0000355748 00000 n
-0000355813 00000 n
-0000355878 00000 n
-0000355943 00000 n
-0000356008 00000 n
-0000356073 00000 n
-0000356138 00000 n
-0000356203 00000 n
-0000356268 00000 n
-0000356333 00000 n
-0000356398 00000 n
-0000356463 00000 n
-0000356528 00000 n
-0000356593 00000 n
-0000356658 00000 n
-0000356723 00000 n
-0000356788 00000 n
-0000356858 00000 n
-0000356928 00000 n
-0000356992 00000 n
-0000357056 00000 n
-0000357120 00000 n
-0000357184 00000 n
-0000357248 00000 n
-0000357312 00000 n
-0000357376 00000 n
-0000357440 00000 n
-0000357504 00000 n
-0000357569 00000 n
-0000357634 00000 n
-0000357699 00000 n
-0000357764 00000 n
-0000357833 00000 n
-0000357898 00000 n
-0000357963 00000 n
-0000358028 00000 n
-0000358093 00000 n
-0000358158 00000 n
-0000358223 00000 n
-0000358288 00000 n
-0000358353 00000 n
-0000358423 00000 n
-0000358493 00000 n
-0000358557 00000 n
-0000358625 00000 n
-0000358689 00000 n
-0000358753 00000 n
-0000358817 00000 n
-0000358881 00000 n
-0000358945 00000 n
-0000359009 00000 n
-0000359073 00000 n
-0000359137 00000 n
-0000359202 00000 n
-0000359267 00000 n
-0000359336 00000 n
-0000359401 00000 n
-0000359466 00000 n
-0000359531 00000 n
-0000359596 00000 n
-0000359661 00000 n
-0000359726 00000 n
-0000359791 00000 n
-0000359856 00000 n
-0000359921 00000 n
-0000359990 00000 n
-0000360055 00000 n
-0000360120 00000 n
-0000360185 00000 n
-0000360250 00000 n
-0000360315 00000 n
-0000360380 00000 n
-0000360445 00000 n
-0000360510 00000 n
-0000360575 00000 n
-0000360640 00000 n
-0000360705 00000 n
-0000360770 00000 n
-0000360838 00000 n
-0000360902 00000 n
-0000360966 00000 n
-0000361030 00000 n
-0000361094 00000 n
-0000361158 00000 n
-0000361222 00000 n
-0000361286 00000 n
-0000361350 00000 n
-0000361414 00000 n
-0000361479 00000 n
-0000361548 00000 n
-0000361613 00000 n
-0000361678 00000 n
-0000361743 00000 n
-0000361808 00000 n
-0000361873 00000 n
-0000361938 00000 n
-0000362003 00000 n
-0000362068 00000 n
-0000362133 00000 n
-0000362202 00000 n
-0000362267 00000 n
-0000362332 00000 n
-0000362397 00000 n
-0000362462 00000 n
-0000362527 00000 n
-0000362592 00000 n
-0000362657 00000 n
-0000362722 00000 n
-0000362787 00000 n
-0000362852 00000 n
-0000362917 00000 n
-0000362982 00000 n
-0000363046 00000 n
-0000363110 00000 n
-0000363174 00000 n
-0000363238 00000 n
-0000363302 00000 n
-0000363366 00000 n
-0000363430 00000 n
-0000363499 00000 n
-0000363564 00000 n
-0000363629 00000 n
-0000363694 00000 n
-0000363759 00000 n
-0000363824 00000 n
-0000363889 00000 n
-0000363954 00000 n
-0000364019 00000 n
-0000364084 00000 n
-0000364149 00000 n
-0000364214 00000 n
-0000364283 00000 n
-0000364348 00000 n
-0000364413 00000 n
-0000364478 00000 n
-0000364543 00000 n
-0000364608 00000 n
-0000364673 00000 n
-0000364738 00000 n
-0000364803 00000 n
-0000364868 00000 n
-0000364938 00000 n
-0000365008 00000 n
-0000365072 00000 n
-0000365136 00000 n
-0000365200 00000 n
-0000365268 00000 n
-0000365332 00000 n
-0000365396 00000 n
-0000365461 00000 n
-0000365526 00000 n
-0000365591 00000 n
-0000365656 00000 n
-0000365721 00000 n
-0000365786 00000 n
-0000365855 00000 n
-0000365920 00000 n
-0000365985 00000 n
-0000366050 00000 n
-0000366115 00000 n
-0000366180 00000 n
-0000366245 00000 n
-0000366310 00000 n
-0000366375 00000 n
-0000366440 00000 n
-0000366505 00000 n
-0000366574 00000 n
-0000366639 00000 n
-0000366704 00000 n
-0000366769 00000 n
-0000366834 00000 n
-0000366899 00000 n
-0000366964 00000 n
-0000367034 00000 n
-0000367102 00000 n
-0000367166 00000 n
-0000367230 00000 n
-0000367294 00000 n
-0000367358 00000 n
-0000367422 00000 n
-0000367487 00000 n
-0000367552 00000 n
-0000367617 00000 n
-0000367686 00000 n
-0000367751 00000 n
-0000367816 00000 n
-0000367881 00000 n
-0000367946 00000 n
-0000368011 00000 n
-0000368076 00000 n
-0000368141 00000 n
-0000368206 00000 n
-0000368271 00000 n
-0000368336 00000 n
-0000368401 00000 n
-0000368466 00000 n
-0000368531 00000 n
-0000368596 00000 n
-0000368661 00000 n
-0000368726 00000 n
-0000368791 00000 n
-0000368856 00000 n
-0000368921 00000 n
-0000368986 00000 n
-0000369051 00000 n
-0000369116 00000 n
-0000369186 00000 n
-0000369251 00000 n
-0000369319 00000 n
-0000369387 00000 n
-0000369455 00000 n
-0000369523 00000 n
-0000369594 00000 n
-0000369665 00000 n
-0000369736 00000 n
-0000369807 00000 n
-0000369878 00000 n
-0000369950 00000 n
-0000370022 00000 n
-0000370094 00000 n
-0000370166 00000 n
-0000370238 00000 n
-0000370310 00000 n
-0000370382 00000 n
-0000370450 00000 n
-0000370518 00000 n
-0000370586 00000 n
-0000370654 00000 n
-0000370722 00000 n
-0000370790 00000 n
-0000370858 00000 n
-0000370926 00000 n
-0000370994 00000 n
-0000371062 00000 n
-0000371130 00000 n
-0000371198 00000 n
-0000371250 00000 n
-0000371302 00000 n
-0000371354 00000 n
-0000371406 00000 n
-0000371458 00000 n
-0000371510 00000 n
-0000371562 00000 n
-0000371614 00000 n
+0000309164 00000 n
+0000309367 00000 n
+0000309568 00000 n
+0000309771 00000 n
+0000309974 00000 n
+0000310177 00000 n
+0000310380 00000 n
+0000310582 00000 n
+0000310784 00000 n
+0000310951 00000 n
+0000311155 00000 n
+0000311358 00000 n
+0000311526 00000 n
+0000311729 00000 n
+0000311931 00000 n
+0000312184 00000 n
+0000312266 00000 n
+0000312348 00000 n
+0000312430 00000 n
+0000312512 00000 n
+0000312594 00000 n
+0000312676 00000 n
+0000312831 00000 n
+0000312913 00000 n
+0000312995 00000 n
+0000313077 00000 n
+0000313159 00000 n
+0000313241 00000 n
+0000313323 00000 n
+0000313405 00000 n
+0000313487 00000 n
+0000313569 00000 n
+0000313651 00000 n
+0000313733 00000 n
+0000313815 00000 n
+0000313897 00000 n
+0000313979 00000 n
+0000314061 00000 n
+0000314143 00000 n
+0000314225 00000 n
+0000314307 00000 n
+0000314561 00000 n
+0000315216 00000 n
+0000315298 00000 n
+0000315380 00000 n
+0000315462 00000 n
+0000315544 00000 n
+0000315626 00000 n
+0000315708 00000 n
+0000315790 00000 n
+0000315872 00000 n
+0000316132 00000 n
+0000316214 00000 n
+0000316370 00000 n
+0000316452 00000 n
+0000316534 00000 n
+0000316690 00000 n
+0000316772 00000 n
+0000317032 00000 n
+0000317472 00000 n
+0000317548 00000 n
+0000317718 00000 n
+0000317822 00000 n
+0000317878 00000 n
+0000318014 00000 n
+0000318071 00000 n
+0000318171 00000 n
+0000318227 00000 n
+0000318321 00000 n
+0000318377 00000 n
+0000318524 00000 n
+0000318580 00000 n
+0000318718 00000 n
+0000318774 00000 n
+0000318830 00000 n
+0000320055 00000 n
+0000320302 00000 n
+0000320398 00000 n
+0000321595 00000 n
+0000321676 00000 n
+0000321830 00000 n
+0000321855 00000 n
+0000321925 00000 n
+0000321993 00000 n
+0000322255 00000 n
+0000322505 00000 n
+0000327709 00000 n
+0000328063 00000 n
+0000328453 00000 n
+0000328787 00000 n
+0000329126 00000 n
+0000329474 00000 n
+0000329813 00000 n
+0000330125 00000 n
+0000330252 00000 n
+0000330564 00000 n
+0000330894 00000 n
+0000331224 00000 n
+0000331563 00000 n
+0000331911 00000 n
+0000332198 00000 n
+0000332536 00000 n
+0000332865 00000 n
+0000333235 00000 n
+0000333611 00000 n
+0000333985 00000 n
+0000334269 00000 n
+0000334333 00000 n
+0000334397 00000 n
+0000334461 00000 n
+0000334525 00000 n
+0000334590 00000 n
+0000334654 00000 n
+0000334718 00000 n
+0000334782 00000 n
+0000334846 00000 n
+0000334910 00000 n
+0000334974 00000 n
+0000335038 00000 n
+0000335102 00000 n
+0000335166 00000 n
+0000335230 00000 n
+0000335294 00000 n
+0000335358 00000 n
+0000335422 00000 n
+0000335486 00000 n
+0000335550 00000 n
+0000335614 00000 n
+0000335678 00000 n
+0000335750 00000 n
+0000335814 00000 n
+0000335886 00000 n
+0000335950 00000 n
+0000336013 00000 n
+0000336087 00000 n
+0000336150 00000 n
+0000336213 00000 n
+0000336276 00000 n
+0000336339 00000 n
+0000336402 00000 n
+0000336466 00000 n
+0000336530 00000 n
+0000336594 00000 n
+0000336658 00000 n
+0000336722 00000 n
+0000336786 00000 n
+0000336850 00000 n
+0000336918 00000 n
+0000336986 00000 n
+0000337054 00000 n
+0000337122 00000 n
+0000337186 00000 n
+0000337254 00000 n
+0000337322 00000 n
+0000337386 00000 n
+0000337450 00000 n
+0000337522 00000 n
+0000337591 00000 n
+0000337655 00000 n
+0000337719 00000 n
+0000337783 00000 n
+0000337847 00000 n
+0000337911 00000 n
+0000337975 00000 n
+0000338039 00000 n
+0000338103 00000 n
+0000338167 00000 n
+0000338231 00000 n
+0000338296 00000 n
+0000338361 00000 n
+0000338426 00000 n
+0000338491 00000 n
+0000338556 00000 n
+0000338621 00000 n
+0000338686 00000 n
+0000338751 00000 n
+0000338816 00000 n
+0000338881 00000 n
+0000338946 00000 n
+0000339011 00000 n
+0000339076 00000 n
+0000339141 00000 n
+0000339206 00000 n
+0000339271 00000 n
+0000339336 00000 n
+0000339401 00000 n
+0000339466 00000 n
+0000339531 00000 n
+0000339596 00000 n
+0000339661 00000 n
+0000339731 00000 n
+0000339795 00000 n
+0000339859 00000 n
+0000339923 00000 n
+0000339987 00000 n
+0000340051 00000 n
+0000340115 00000 n
+0000340179 00000 n
+0000340243 00000 n
+0000340307 00000 n
+0000340372 00000 n
+0000340437 00000 n
+0000340502 00000 n
+0000340567 00000 n
+0000340632 00000 n
+0000340697 00000 n
+0000340762 00000 n
+0000340827 00000 n
+0000340892 00000 n
+0000340957 00000 n
+0000341022 00000 n
+0000341087 00000 n
+0000341152 00000 n
+0000341217 00000 n
+0000341282 00000 n
+0000341347 00000 n
+0000341412 00000 n
+0000341477 00000 n
+0000341542 00000 n
+0000341607 00000 n
+0000341672 00000 n
+0000341742 00000 n
+0000341812 00000 n
+0000341876 00000 n
+0000341940 00000 n
+0000342004 00000 n
+0000342068 00000 n
+0000342132 00000 n
+0000342196 00000 n
+0000342260 00000 n
+0000342324 00000 n
+0000342388 00000 n
+0000342453 00000 n
+0000342518 00000 n
+0000342583 00000 n
+0000342648 00000 n
+0000342713 00000 n
+0000342778 00000 n
+0000342843 00000 n
+0000342908 00000 n
+0000342973 00000 n
+0000343038 00000 n
+0000343103 00000 n
+0000343168 00000 n
+0000343233 00000 n
+0000343298 00000 n
+0000343363 00000 n
+0000343428 00000 n
+0000343493 00000 n
+0000343558 00000 n
+0000343623 00000 n
+0000343688 00000 n
+0000343753 00000 n
+0000343818 00000 n
+0000343888 00000 n
+0000343958 00000 n
+0000344022 00000 n
+0000344086 00000 n
+0000344150 00000 n
+0000344214 00000 n
+0000344278 00000 n
+0000344342 00000 n
+0000344406 00000 n
+0000344470 00000 n
+0000344534 00000 n
+0000344599 00000 n
+0000344664 00000 n
+0000344729 00000 n
+0000344794 00000 n
+0000344859 00000 n
+0000344924 00000 n
+0000344989 00000 n
+0000345054 00000 n
+0000345119 00000 n
+0000345184 00000 n
+0000345249 00000 n
+0000345314 00000 n
+0000345379 00000 n
+0000345444 00000 n
+0000345509 00000 n
+0000345574 00000 n
+0000345639 00000 n
+0000345704 00000 n
+0000345769 00000 n
+0000345834 00000 n
+0000345899 00000 n
+0000345969 00000 n
+0000346039 00000 n
+0000346103 00000 n
+0000346167 00000 n
+0000346231 00000 n
+0000346295 00000 n
+0000346359 00000 n
+0000346423 00000 n
+0000346487 00000 n
+0000346551 00000 n
+0000346615 00000 n
+0000346680 00000 n
+0000346745 00000 n
+0000346810 00000 n
+0000346875 00000 n
+0000346940 00000 n
+0000347005 00000 n
+0000347070 00000 n
+0000347135 00000 n
+0000347200 00000 n
+0000347265 00000 n
+0000347330 00000 n
+0000347395 00000 n
+0000347460 00000 n
+0000347525 00000 n
+0000347590 00000 n
+0000347655 00000 n
+0000347720 00000 n
+0000347785 00000 n
+0000347855 00000 n
+0000347925 00000 n
+0000347989 00000 n
+0000348053 00000 n
+0000348117 00000 n
+0000348181 00000 n
+0000348245 00000 n
+0000348309 00000 n
+0000348373 00000 n
+0000348437 00000 n
+0000348501 00000 n
+0000348571 00000 n
+0000348635 00000 n
+0000348699 00000 n
+0000348763 00000 n
+0000348827 00000 n
+0000348891 00000 n
+0000348955 00000 n
+0000349019 00000 n
+0000349083 00000 n
+0000349147 00000 n
+0000349212 00000 n
+0000349277 00000 n
+0000349342 00000 n
+0000349407 00000 n
+0000349472 00000 n
+0000349537 00000 n
+0000349602 00000 n
+0000349667 00000 n
+0000349732 00000 n
+0000349797 00000 n
+0000349862 00000 n
+0000349927 00000 n
+0000349992 00000 n
+0000350057 00000 n
+0000350122 00000 n
+0000350187 00000 n
+0000350252 00000 n
+0000350317 00000 n
+0000350387 00000 n
+0000350457 00000 n
+0000350521 00000 n
+0000350585 00000 n
+0000350649 00000 n
+0000350713 00000 n
+0000350777 00000 n
+0000350841 00000 n
+0000350905 00000 n
+0000350969 00000 n
+0000351033 00000 n
+0000351098 00000 n
+0000351163 00000 n
+0000351228 00000 n
+0000351293 00000 n
+0000351358 00000 n
+0000351423 00000 n
+0000351488 00000 n
+0000351553 00000 n
+0000351618 00000 n
+0000351683 00000 n
+0000351748 00000 n
+0000351813 00000 n
+0000351878 00000 n
+0000351943 00000 n
+0000352008 00000 n
+0000352073 00000 n
+0000352138 00000 n
+0000352203 00000 n
+0000352268 00000 n
+0000352333 00000 n
+0000352403 00000 n
+0000352473 00000 n
+0000352537 00000 n
+0000352601 00000 n
+0000352665 00000 n
+0000352729 00000 n
+0000352793 00000 n
+0000352857 00000 n
+0000352921 00000 n
+0000352985 00000 n
+0000353049 00000 n
+0000353114 00000 n
+0000353179 00000 n
+0000353244 00000 n
+0000353309 00000 n
+0000353374 00000 n
+0000353439 00000 n
+0000353504 00000 n
+0000353569 00000 n
+0000353634 00000 n
+0000353699 00000 n
+0000353764 00000 n
+0000353829 00000 n
+0000353894 00000 n
+0000353959 00000 n
+0000354024 00000 n
+0000354089 00000 n
+0000354154 00000 n
+0000354219 00000 n
+0000354284 00000 n
+0000354349 00000 n
+0000354419 00000 n
+0000354489 00000 n
+0000354553 00000 n
+0000354617 00000 n
+0000354681 00000 n
+0000354745 00000 n
+0000354809 00000 n
+0000354873 00000 n
+0000354937 00000 n
+0000355001 00000 n
+0000355065 00000 n
+0000355130 00000 n
+0000355195 00000 n
+0000355260 00000 n
+0000355325 00000 n
+0000355390 00000 n
+0000355455 00000 n
+0000355520 00000 n
+0000355585 00000 n
+0000355650 00000 n
+0000355715 00000 n
+0000355780 00000 n
+0000355845 00000 n
+0000355910 00000 n
+0000355975 00000 n
+0000356040 00000 n
+0000356105 00000 n
+0000356170 00000 n
+0000356235 00000 n
+0000356300 00000 n
+0000356365 00000 n
+0000356430 00000 n
+0000356500 00000 n
+0000356570 00000 n
+0000356634 00000 n
+0000356698 00000 n
+0000356762 00000 n
+0000356826 00000 n
+0000356890 00000 n
+0000356954 00000 n
+0000357018 00000 n
+0000357082 00000 n
+0000357146 00000 n
+0000357211 00000 n
+0000357276 00000 n
+0000357341 00000 n
+0000357406 00000 n
+0000357471 00000 n
+0000357536 00000 n
+0000357601 00000 n
+0000357666 00000 n
+0000357731 00000 n
+0000357796 00000 n
+0000357861 00000 n
+0000357926 00000 n
+0000357991 00000 n
+0000358056 00000 n
+0000358121 00000 n
+0000358186 00000 n
+0000358251 00000 n
+0000358316 00000 n
+0000358381 00000 n
+0000358446 00000 n
+0000358511 00000 n
+0000358576 00000 n
+0000358646 00000 n
+0000358716 00000 n
+0000358780 00000 n
+0000358844 00000 n
+0000358908 00000 n
+0000358972 00000 n
+0000359036 00000 n
+0000359100 00000 n
+0000359164 00000 n
+0000359228 00000 n
+0000359292 00000 n
+0000359357 00000 n
+0000359422 00000 n
+0000359487 00000 n
+0000359552 00000 n
+0000359621 00000 n
+0000359686 00000 n
+0000359751 00000 n
+0000359816 00000 n
+0000359881 00000 n
+0000359946 00000 n
+0000360011 00000 n
+0000360076 00000 n
+0000360141 00000 n
+0000360211 00000 n
+0000360281 00000 n
+0000360345 00000 n
+0000360413 00000 n
+0000360477 00000 n
+0000360541 00000 n
+0000360605 00000 n
+0000360669 00000 n
+0000360733 00000 n
+0000360797 00000 n
+0000360861 00000 n
+0000360925 00000 n
+0000360990 00000 n
+0000361055 00000 n
+0000361124 00000 n
+0000361189 00000 n
+0000361254 00000 n
+0000361319 00000 n
+0000361384 00000 n
+0000361449 00000 n
+0000361514 00000 n
+0000361579 00000 n
+0000361644 00000 n
+0000361709 00000 n
+0000361778 00000 n
+0000361843 00000 n
+0000361908 00000 n
+0000361973 00000 n
+0000362038 00000 n
+0000362103 00000 n
+0000362168 00000 n
+0000362233 00000 n
+0000362298 00000 n
+0000362363 00000 n
+0000362428 00000 n
+0000362493 00000 n
+0000362558 00000 n
+0000362626 00000 n
+0000362690 00000 n
+0000362754 00000 n
+0000362818 00000 n
+0000362882 00000 n
+0000362946 00000 n
+0000363010 00000 n
+0000363074 00000 n
+0000363138 00000 n
+0000363202 00000 n
+0000363267 00000 n
+0000363336 00000 n
+0000363401 00000 n
+0000363466 00000 n
+0000363531 00000 n
+0000363596 00000 n
+0000363661 00000 n
+0000363726 00000 n
+0000363791 00000 n
+0000363856 00000 n
+0000363921 00000 n
+0000363990 00000 n
+0000364055 00000 n
+0000364120 00000 n
+0000364185 00000 n
+0000364250 00000 n
+0000364315 00000 n
+0000364380 00000 n
+0000364445 00000 n
+0000364510 00000 n
+0000364575 00000 n
+0000364640 00000 n
+0000364705 00000 n
+0000364770 00000 n
+0000364834 00000 n
+0000364898 00000 n
+0000364962 00000 n
+0000365026 00000 n
+0000365090 00000 n
+0000365154 00000 n
+0000365218 00000 n
+0000365287 00000 n
+0000365352 00000 n
+0000365417 00000 n
+0000365482 00000 n
+0000365547 00000 n
+0000365612 00000 n
+0000365677 00000 n
+0000365742 00000 n
+0000365807 00000 n
+0000365872 00000 n
+0000365937 00000 n
+0000366002 00000 n
+0000366071 00000 n
+0000366136 00000 n
+0000366201 00000 n
+0000366266 00000 n
+0000366331 00000 n
+0000366396 00000 n
+0000366461 00000 n
+0000366526 00000 n
+0000366591 00000 n
+0000366656 00000 n
+0000366726 00000 n
+0000366796 00000 n
+0000366860 00000 n
+0000366924 00000 n
+0000366988 00000 n
+0000367056 00000 n
+0000367120 00000 n
+0000367184 00000 n
+0000367249 00000 n
+0000367314 00000 n
+0000367379 00000 n
+0000367444 00000 n
+0000367509 00000 n
+0000367574 00000 n
+0000367643 00000 n
+0000367708 00000 n
+0000367773 00000 n
+0000367838 00000 n
+0000367903 00000 n
+0000367968 00000 n
+0000368033 00000 n
+0000368098 00000 n
+0000368163 00000 n
+0000368228 00000 n
+0000368293 00000 n
+0000368362 00000 n
+0000368427 00000 n
+0000368492 00000 n
+0000368557 00000 n
+0000368622 00000 n
+0000368687 00000 n
+0000368752 00000 n
+0000368822 00000 n
+0000368890 00000 n
+0000368954 00000 n
+0000369018 00000 n
+0000369082 00000 n
+0000369146 00000 n
+0000369210 00000 n
+0000369275 00000 n
+0000369340 00000 n
+0000369405 00000 n
+0000369474 00000 n
+0000369539 00000 n
+0000369604 00000 n
+0000369669 00000 n
+0000369734 00000 n
+0000369799 00000 n
+0000369864 00000 n
+0000369929 00000 n
+0000369994 00000 n
+0000370059 00000 n
+0000370124 00000 n
+0000370189 00000 n
+0000370254 00000 n
+0000370319 00000 n
+0000370384 00000 n
+0000370449 00000 n
+0000370514 00000 n
+0000370579 00000 n
+0000370644 00000 n
+0000370709 00000 n
+0000370774 00000 n
+0000370839 00000 n
+0000370904 00000 n
+0000370974 00000 n
+0000371039 00000 n
+0000371107 00000 n
+0000371175 00000 n
+0000371243 00000 n
+0000371311 00000 n
+0000371382 00000 n
+0000371453 00000 n
+0000371524 00000 n
+0000371595 00000 n
 0000371666 00000 n
-0000371718 00000 n
-0000371770 00000 n
-0000371822 00000 n
-0000371874 00000 n
-0000371926 00000 n
-0000371978 00000 n
+0000371738 00000 n
+0000371810 00000 n
+0000371882 00000 n
+0000371954 00000 n
+0000372026 00000 n
+0000372098 00000 n
+0000372170 00000 n
+0000372238 00000 n
+0000372306 00000 n
+0000372374 00000 n
+0000372442 00000 n
+0000372510 00000 n
+0000372578 00000 n
+0000372646 00000 n
+0000372714 00000 n
+0000372782 00000 n
+0000372850 00000 n
+0000372918 00000 n
+0000372986 00000 n
+0000373038 00000 n
+0000373090 00000 n
+0000373142 00000 n
+0000373194 00000 n
+0000373246 00000 n
+0000373298 00000 n
+0000373350 00000 n
+0000373402 00000 n
+0000373454 00000 n
+0000373506 00000 n
+0000373558 00000 n
+0000373610 00000 n
+0000373662 00000 n
+0000373714 00000 n
+0000373766 00000 n
 866 23
-0000372030 00000 n
-0000372110 00000 n
-0000372172 00000 n
-0000372223 00000 n
-0000372274 00000 n
-0000372325 00000 n
-0000372376 00000 n
-0000372427 00000 n
-0000372478 00000 n
-0000372529 00000 n
-0000372580 00000 n
-0000372631 00000 n
-0000372682 00000 n
-0000372733 00000 n
-0000372784 00000 n
-0000372835 00000 n
-0000372886 00000 n
-0000373074 00000 n
-0000373126 00000 n
-0000373178 00000 n
-0000373230 00000 n
-0000373282 00000 n
-0000373334 00000 n
-890 2
-0000373386 00000 n
-0000373438 00000 n
-893 12
-0000373490 00000 n
-0000373542 00000 n
-0000373594 00000 n
-0000373646 00000 n
-0000373698 00000 n
-0000373750 00000 n
-0000373802 00000 n
-0000373854 00000 n
-0000373906 00000 n
-0000373958 00000 n
-0000374010 00000 n
+0000373818 00000 n
+0000373898 00000 n
+0000373960 00000 n
+0000374011 00000 n
 0000374062 00000 n
+0000374113 00000 n
+0000374164 00000 n
+0000374215 00000 n
+0000374266 00000 n
+0000374317 00000 n
+0000374368 00000 n
+0000374419 00000 n
+0000374470 00000 n
+0000374521 00000 n
+0000374572 00000 n
+0000374623 00000 n
+0000374674 00000 n
+0000374862 00000 n
+0000374914 00000 n
+0000374966 00000 n
+0000375018 00000 n
+0000375070 00000 n
+0000375122 00000 n
+890 2
+0000375174 00000 n
+0000375226 00000 n
+893 12
+0000375278 00000 n
+0000375330 00000 n
+0000375382 00000 n
+0000375434 00000 n
+0000375486 00000 n
+0000375538 00000 n
+0000375590 00000 n
+0000375642 00000 n
+0000375694 00000 n
+0000375746 00000 n
+0000375798 00000 n
+0000375850 00000 n
 906 13
-0000374114 00000 n
-0000374202 00000 n
-0000374503 00000 n
-0000375078 00000 n
-0000375162 00000 n
-0000375950 00000 n
-0000376715 00000 n
-0000377316 00000 n
-0000378042 00000 n
-0000378837 00000 n
-0000379599 00000 n
-0000380445 00000 n
-0000381139 00000 n
+0000375902 00000 n
+0000375990 00000 n
+0000376291 00000 n
+0000376866 00000 n
+0000376943 00000 n
+0000377731 00000 n
+0000378496 00000 n
+0000379097 00000 n
+0000379823 00000 n
+0000380618 00000 n
+0000381380 00000 n
+0000382226 00000 n
+0000382920 00000 n
 922 1
-0000381554 00000 n
+0000383335 00000 n
 924 12
-0000381764 00000 n
-0000382327 00000 n
-0000407473 00000 n
-0000434749 00000 n
-0000454258 00000 n
-0000475644 00000 n
-0000476042 00000 n
-0000476326 00000 n
-0000476574 00000 n
-0000476861 00000 n
-0000477108 00000 n
-0000477344 00000 n
+0000383536 00000 n
+0000384099 00000 n
+0000409245 00000 n
+0000436521 00000 n
+0000456030 00000 n
+0000477416 00000 n
+0000477814 00000 n
+0000478091 00000 n
+0000478329 00000 n
+0000478609 00000 n
+0000478849 00000 n
+0000479077 00000 n
 937 4
-0000477618 00000 n
-0000478815 00000 n
-0000478893 00000 n
-0000479165 00000 n
+0000479345 00000 n
+0000480542 00000 n
+0000480620 00000 n
+0000480892 00000 n
 943 12
-0000479430 00000 n
-0000479498 00000 n
-0000479557 00000 n
-0000479589 00000 n
-0000479714 00000 n
-0000479781 00000 n
-0000479828 00000 n
-0000479860 00000 n
-0000483297 00000 n
-0000485446 00000 n
-0000487345 00000 n
-0000488792 00000 n
+0000481156 00000 n
+0000481224 00000 n
+0000481283 00000 n
+0000481315 00000 n
+0000481440 00000 n
+0000481507 00000 n
+0000481554 00000 n
+0000481586 00000 n
+0000485023 00000 n
+0000487172 00000 n
+0000489071 00000 n
+0000490518 00000 n
 969 11
-0000490254 00000 n
-0000490293 00000 n
-0000490332 00000 n
-0000490628 00000 n
-0000490667 00000 n
-0000490951 00000 n
-0000490990 00000 n
-0000491286 00000 n
-0000491325 00000 n
-0000491610 00000 n
-0000491887 00000 n
+0000491980 00000 n
+0000492019 00000 n
+0000492058 00000 n
+0000492346 00000 n
+0000492385 00000 n
+0000492662 00000 n
+0000492701 00000 n
+0000492989 00000 n
+0000493028 00000 n
+0000493305 00000 n
+0000493578 00000 n
 989 1
-0000491929 00000 n
+0000493620 00000 n
 998 1
-0000492597 00000 n
+0000494284 00000 n
 1000 1
-0000492639 00000 n
+0000494326 00000 n
 1019 1
-0000492682 00000 n
+0000494369 00000 n
 1038 1
-0000492725 00000 n
-1048 11
-0000492768 00000 n
-0000494176 00000 n
-0000495053 00000 n
-0000495189 00000 n
-0000495347 00000 n
-0000495421 00000 n
-0000495598 00000 n
-0000496014 00000 n
-0000496044 00000 n
-0000496269 00000 n
-0000496563 00000 n
+0000494412 00000 n
+1048 12
+0000494455 00000 n
+0000495817 00000 n
+0000496690 00000 n
+0000496826 00000 n
+0000496984 00000 n
+0000497058 00000 n
+0000497235 00000 n
+0000497651 00000 n
+0000497681 00000 n
+0000497906 00000 n
+0000498200 00000 n
+0000498857 00000 n
 trailer
-<</Info 940 0 R /Root 907 0 R /Size 1059/ID[<8E05B06B05AD0AED101978A41485BDA1><6838B12234D58CEA3C8C1B6BB5B58A6A>]>>
+<</Info 940 0 R /Root 907 0 R /Size 1060/ID[<8E05B06B05AD0AED101978A41485BDA1><91B8D22BAE6A2941BAE09C343796D2FA>]>>
 startxref
-497224
+498900
 %%EOF
