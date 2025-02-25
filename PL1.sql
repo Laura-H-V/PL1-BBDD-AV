@@ -18,7 +18,7 @@ CREATE TABLE productos2temp (
     precio DECIMAL(10,2) CHECK (precio >= 10 AND precio <= 5000)
 );
 
-\COPY productos FROM ./productos.csv WITH (FORMAT csv, HEADER, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
+--\COPY productos FROM ./productos.csv WITH (FORMAT csv, HEADER, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8'
 \COPY productos2temp FROM ./productos.csv WITH (FORMAT csv, HEADER, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
 
 CREATE TABLE productos2 AS
@@ -38,6 +38,7 @@ CREATE TABLE productos3 (
     precio DECIMAL(10,2) CHECK (precio >= 10 AND precio <= 5000),
     PRIMARY KEY (producto_id, precio)
 ) PARTITION BY RANGE(precio);
+
 
 CREATE TABLE productos3_0 PARTITION OF productos3 FOR VALUES FROM (10) TO (510);
 
