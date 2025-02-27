@@ -1,4 +1,10 @@
+CREATE EXTENSION IF NOT EXISTS pageinspect;
+CREATE EXTENSION IF NOT EXISTS pgstattuple;
 
+CREATE INDEX indice_producto_id ON productos (producto_id);
+CREATE INDEX indice_precio ON productos (precio);
+CREATE INDEX indice_hash_producto_id ON productos USING hash (producto_id);
+CREATE INDEX indice_hash_precio ON productos USING HASH (precio);
 
 /*
 
@@ -27,7 +33,7 @@ FROM productos2temp
 ORDER BY precio;
 
 DROP TABLE productos2temp;
-*/
+
 
 -- Crear la tabla productos3
 
@@ -61,7 +67,7 @@ CREATE TABLE productos3_8 PARTITION OF productos3 FOR VALUES FROM (4010) TO (451
 CREATE TABLE productos3_9 PARTITION OF productos3 FOR VALUES FROM (4510) TO (5010);
 
 \COPY productos3 FROM ./productos.csv WITH (FORMAT csv, HEADER, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
-
+*/
 -- SELECT relpages FROM pg_class WHERE relname = 'productos';
 
 /*
@@ -82,4 +88,10 @@ SELECT indexname, indexdef FROM pg_indexes WHERE tablename = 'productos';
 SELECT relname, relpages, reltuples, pg_size_pretty(pg_relation_size(oid)) FROM pg_class WHERE relname = 'productos';
 */
 
-
+/*
+SELECT DISTINCT ON (btpo_level) btpo_level, gs.blkno AS block_number
+FROM generate_series(1, 68549) AS gs(blkno)
+CROSS JOIN LATERAL bt_page_stats('indice_precio', gs.blkno)
+WHERE btpo_level IN (0, 1, 2, 3)
+ORDER BY btpo_level, gs.blkno;
+*/
