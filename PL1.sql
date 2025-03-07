@@ -1,12 +1,12 @@
 CREATE EXTENSION IF NOT EXISTS pageinspect;
 CREATE EXTENSION IF NOT EXISTS pgstattuple;
 
+/*
 CREATE INDEX indice_producto_id ON productos (producto_id);
 CREATE INDEX indice_precio ON productos (precio);
 CREATE INDEX indice_hash_producto_id ON productos USING hash (producto_id);
 CREATE INDEX indice_hash_precio ON productos USING HASH (precio);
-
-/*
+*/
 
 -- Crear la tabla productos
 CREATE TABLE productos (
@@ -16,6 +16,10 @@ CREATE TABLE productos (
     precio DECIMAL(10,2) CHECK (precio >= 10 AND precio <= 5000)
 );
 
+
+\COPY productos FROM ./productos.csv WITH (FORMAT csv, HEADER, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
+
+/*
 -- Crear la tabla productos2
 CREATE TABLE productos2temp (
     producto_id SERIAL PRIMARY KEY,
@@ -77,6 +81,18 @@ WHERE datname = 'pl1';
 
 SELECT count(*) FROM productos WHERE  precio = 3000;
 SELECT blks_read FROM pg_stat_database WHERE datname = 'pl1';
+
+-- Obtener estadísticas de lectura de bloques
+SELECT
+  relname AS table_name,
+  heap_blks_read AS heap_blocks_read,
+  heap_blks_hit AS heap_blocks_hit,
+  idx_blks_read AS index_blocks_read,
+  idx_blks_hit AS index_blocks_hit
+FROM
+  pg_statio_user_tables
+WHERE
+  relname = 'productos';
 
 
 EXPLAIN (ANALYZE, BUFFERS)
