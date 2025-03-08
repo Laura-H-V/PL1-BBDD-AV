@@ -7,7 +7,7 @@ CREATE INDEX indice_precio ON productos (precio);
 CREATE INDEX indice_hash_producto_id ON productos USING hash (producto_id);
 CREATE INDEX indice_hash_precio ON productos USING HASH (precio);
 
-
+*/
 -- Crear la tabla productos
 CREATE TABLE productos (
     producto_id SERIAL PRIMARY KEY,
@@ -18,7 +18,7 @@ CREATE TABLE productos (
 
 
 \COPY productos FROM ./productos.csv WITH (FORMAT csv, HEADER, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
-*/	
+
 /*
 -- Crear la tabla productos2
 CREATE TABLE productos2temp (
@@ -40,7 +40,7 @@ DROP TABLE productos2temp;
 
 */
 -- Crear la tabla productos3
-
+/*
 CREATE TABLE productos3 (
     producto_id SERIAL ,
     nombre TEXT NOT NULL,
@@ -74,7 +74,7 @@ CREATE TABLE productos3_9 PARTITION OF productos3 FOR VALUES FROM (4510) TO (501
 
 -- SELECT relpages FROM pg_class WHERE relname = 'productos';
 
-/*
+
 SELECT blks_read
 FROM pg_stat_database
 WHERE datname = 'pl1';

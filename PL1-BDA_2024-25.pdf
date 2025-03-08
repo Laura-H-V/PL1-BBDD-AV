@@ -617,7 +617,7 @@ xú+‰2PpÁ2–3U aS=#csS#c=CSsÖ¢TÆbÆ@. îQ¨
 endstream
 endobj
 109 0 obj
-<</BBox[ 0 0 455.23801 199.99699]/Filter/FlateDecode/FormType 1/Length 44/Matrix[ 1 0 0 1 0 0]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+<</BBox[ 0 0 455.23801 199.99699]/Filter/FlateDecode/FormType 1/Length 44/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1232 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xú+‰2PpÁ2–3U aS=#csSCK=KKscÖ¢TÆbÆ@. ïèƒ
 endstream
 endobj
@@ -1253,7 +1253,7 @@ endobj
 <</AP<</N 1177 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 175 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 37 0 R /RV(Escribimos DROP TABLE m·s el nombre de cada una de las tres tablas y luego hemos vuelto a crear la tabla productos insertando los mismos datos del csv\r\n\r\n)/Rect[ 84.602402 415.95499 539.84003 608.09698]/Subtype/Widget/T(Text12)/Type/Annot/V(Escribimos DROP TABLE m·s el nombre de cada una de las tres tablas y luego hemos vuelto a crear la tabla productos insertando los mismos datos del csv\r\n\r\n)>>
 endobj
 138 0 obj
-<</AP<</N 1162 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 176 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 37 0 R /RV(Usamos CREATE INDEX para crear el Ìndice. En postgresql por defecto se crea de tipo  ·rbol, por lo que no hace falta especificar el tipo.Los datos se almacenan en el sistema de archivos de postgres, en una carpeta de nombre el OID del Ìndice. Haciendo una colsulta a la tabla de postgres pg_class podemos obtener que el OID es 106507.\r\nHaciendo la siguiente consulta SELECT relpages FROM pg_class WHERE relname = 'indice_producto_id'; para ver lo que ocupa el indice a partir de lo almacenado en pg_class nos devuelve 68550 bloques. Mltiplicando esto por 8192 nos dice que ocupa 536 MB. Para ver el numero de niveles del Ìndice, usaremos la extensiÛn page_inspect, cre·ndola el el fichero sql con la siguiente instrucciÛn: CREATE EXTENSION IF NOT EXISTS pageinspect.Una vez creada haremos una consulta a bt_map\(\), que almacena los metadatos del Ìndice, para que nos devuelva los niveles del Ìndice, sumandole 1 ya que empieza a contar niveles en el 0. La consulta exacta ser· la siguiente SELECT level + 1 AS niveles_totales FROM bt_metap\('indice_producto_id'\);\r\nNos devolver· que existen 3 niveles. Para obtener el n˙mero de bloques por nivel usaremos la extensiÛn pgststtuple, implement·ndola de la misma manera que con pageinspect. Tras esto haremos la siguiente consulta\r\nSELECT btpo_level, COUNT\(gs.blkno\) AS bloques_nivel FROM generate_series\(1, 68549\) AS gs\(blkno\)  CROSS JOIN LATERAL bt_page_stats\('indice_producto_id', gs.blkno\) \r\nGROUP BY btpo_level\r\nLo que hace esta consulta es  recorrer todos los bloques del Ìndice utilizando generate_series para generar n˙meros en el rango de 1 a la longitud del indice. Luego, usa bt_page_stats para obtener el nivel al que pertenece el bloque y los agrupa por nivel. Finalmente, se cuenta el n˙mero de bloques por nivel. nos devuelve que el nivel 2 tiene 1 bloque, el nivel 1 tiene 241 bloques y el nivel raÌz tiene 68307 bloques. Para obtener el numero de tuplas por bloque por nivel hacemos la siguiente consulta SELECT live_items FROM bt_page_stats\('indice_producto_id', n\),s sustituyendo n por el numero de un bloque que pertenezca a cada nivel. Haciendo esto nos devuelve que en un bloque del nivel 0 hay 367 tuplas, en el nivel 1 hay 285 y en el nivel 2 hay 241)/Rect[ 81.656898 15.3690004 536.89398 345.94901]/Subtype/Widget/T(Text13)/Type/Annot/V(Usamos CREATE INDEX para crear el Ìndice. En postgresql por defecto se crea de tipo  ·rbol, por lo que no hace falta especificar el tipo.Los datos se almacenan en el sistema de archivos de postgres, en una carpeta de nombre el OID del Ìndice. Haciendo una colsulta a la tabla de postgres pg_class podemos obtener que el OID es 106507.\r\nHaciendo la siguiente consulta SELECT relpages FROM pg_class WHERE relname = 'indice_producto_id'; para ver lo que ocupa el indice a partir de lo almacenado en pg_class nos devuelve 68550 bloques. Mltiplicando esto por 8192 nos dice que ocupa 536 MB. Para ver el numero de niveles del Ìndice, usaremos la extensiÛn page_inspect, cre·ndola el el fichero sql con la siguiente instrucciÛn: CREATE EXTENSION IF NOT EXISTS pageinspect.Una vez creada haremos una consulta a bt_map\(\), que almacena los metadatos del Ìndice, para que nos devuelva los niveles del Ìndice, sumandole 1 ya que empieza a contar niveles en el 0. La consulta exacta ser· la siguiente SELECT level + 1 AS niveles_totales FROM bt_metap\('indice_producto_id'\);\r\nNos devolver· que existen 3 niveles. Para obtener el n˙mero de bloques por nivel usaremos la extensiÛn pgststtuple, implement·ndola de la misma manera que con pageinspect. Tras esto haremos la siguiente consulta\r\nSELECT btpo_level, COUNT\(gs.blkno\) AS bloques_nivel FROM generate_series\(1, 68549\) AS gs\(blkno\)  CROSS JOIN LATERAL bt_page_stats\('indice_producto_id', gs.blkno\) \r\nGROUP BY btpo_level\r\nLo que hace esta consulta es  recorrer todos los bloques del Ìndice utilizando generate_series para generar n˙meros en el rango de 1 a la longitud del indice. Luego, usa bt_page_stats para obtener el nivel al que pertenece el bloque y los agrupa por nivel. Finalmente, se cuenta el n˙mero de bloques por nivel. nos devuelve que el nivel 2 tiene 1 bloque, el nivel 1 tiene 241 bloques y el nivel raÌz tiene 68307 bloques. Para obtener el numero de tuplas por bloque por nivel hacemos la siguiente consulta SELECT live_items FROM bt_page_stats\('indice_producto_id', n\),s sustituyendo n por el numero de un bloque que pertenezca a cada nivel. Haciendo esto nos devuelve que en un bloque del nivel 0 hay 367 tuplas, en el nivel 1 hay 285 y en el nivel 2 hay 241)>>
+<</AP<</N 1230 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 176 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 37 0 R /RV(Usamos CREATE INDEX para crear el Ìndice. En postgresql por defecto se crea de tipo  ·rbol, por lo que no hace falta especificar el tipo.Los datos se almacenan en el sistema de archivos de postgres, en una carpeta de nombre el OID del Ìndice. Haciendo una colsulta a la tabla de postgres pg_class podemos obtener que el OID es 106507.\r\nHaciendo la siguiente consulta SELECT relpages FROM pg_class WHERE relname = 'indice_producto_id'; para ver lo que ocupa el indice a partir de lo almacenado en pg_class nos devuelve 68550 bloques. Multiplicando esto por 8192 nos dice que ocupa 536 MB. Para ver el numero de niveles del Ìndice, usaremos la extensiÛn page_inspect, cre·ndola el el fichero sql con la siguiente instrucciÛn: CREATE EXTENSION IF NOT EXISTS pageinspect.Una vez creada haremos una consulta a bt_map\(\), que almacena los metadatos del Ìndice, para que nos devuelva los niveles del Ìndice, sumandole 1 ya que empieza a contar niveles en el 0. La consulta exacta ser· la siguiente SELECT level + 1 AS niveles_totales FROM bt_metap\('indice_producto_id'\);\r\nNos devolver· que existen 3 niveles. Para obtener el n˙mero de bloques por nivel usaremos la extensiÛn pgststtuple, implement·ndola de la misma manera que con pageinspect. Tras esto haremos la siguiente consulta\r\nSELECT btpo_level, COUNT\(gs.blkno\) AS bloques_nivel FROM generate_series\(1, 68549\) AS gs\(blkno\)  CROSS JOIN LATERAL bt_page_stats\('indice_producto_id', gs.blkno\) \r\nGROUP BY btpo_level\r\nLo que hace esta consulta es  recorrer todos los bloques del Ìndice utilizando generate_series para generar n˙meros en el rango de 1 a la longitud del indice. Luego, usa bt_page_stats para obtener el nivel al que pertenece el bloque y los agrupa por nivel. Finalmente, se cuenta el n˙mero de bloques por nivel. nos devuelve que el nivel 2 tiene 1 bloque, el nivel 1 tiene 241 bloques y el nivel raÌz tiene 68307 bloques. Para obtener el numero de tuplas por bloque por nivel hacemos la siguiente consulta SELECT live_items FROM bt_page_stats\('indice_producto_id', n\),s sustituyendo n por el numero de un bloque que pertenezca a cada nivel. Haciendo esto nos devuelve que en un bloque del nivel 0 hay 367 tuplas, en el nivel 1 hay 285 y en el nivel 2 hay 241)/Rect[ 81.656898 15.3690004 536.89398 345.94901]/Subtype/Widget/T(Text13)/Type/Annot/V(Usamos CREATE INDEX para crear el Ìndice. En postgresql por defecto se crea de tipo  ·rbol, por lo que no hace falta especificar el tipo.Los datos se almacenan en el sistema de archivos de postgres, en una carpeta de nombre el OID del Ìndice. Haciendo una colsulta a la tabla de postgres pg_class podemos obtener que el OID es 106507.\r\nHaciendo la siguiente consulta SELECT relpages FROM pg_class WHERE relname = 'indice_producto_id'; para ver lo que ocupa el indice a partir de lo almacenado en pg_class nos devuelve 68550 bloques. Multiplicando esto por 8192 nos dice que ocupa 536 MB. Para ver el numero de niveles del Ìndice, usaremos la extensiÛn page_inspect, cre·ndola el el fichero sql con la siguiente instrucciÛn: CREATE EXTENSION IF NOT EXISTS pageinspect.Una vez creada haremos una consulta a bt_map\(\), que almacena los metadatos del Ìndice, para que nos devuelva los niveles del Ìndice, sumandole 1 ya que empieza a contar niveles en el 0. La consulta exacta ser· la siguiente SELECT level + 1 AS niveles_totales FROM bt_metap\('indice_producto_id'\);\r\nNos devolver· que existen 3 niveles. Para obtener el n˙mero de bloques por nivel usaremos la extensiÛn pgststtuple, implement·ndola de la misma manera que con pageinspect. Tras esto haremos la siguiente consulta\r\nSELECT btpo_level, COUNT\(gs.blkno\) AS bloques_nivel FROM generate_series\(1, 68549\) AS gs\(blkno\)  CROSS JOIN LATERAL bt_page_stats\('indice_producto_id', gs.blkno\) \r\nGROUP BY btpo_level\r\nLo que hace esta consulta es  recorrer todos los bloques del Ìndice utilizando generate_series para generar n˙meros en el rango de 1 a la longitud del indice. Luego, usa bt_page_stats para obtener el nivel al que pertenece el bloque y los agrupa por nivel. Finalmente, se cuenta el n˙mero de bloques por nivel. nos devuelve que el nivel 2 tiene 1 bloque, el nivel 1 tiene 241 bloques y el nivel raÌz tiene 68307 bloques. Para obtener el numero de tuplas por bloque por nivel hacemos la siguiente consulta SELECT live_items FROM bt_page_stats\('indice_producto_id', n\),s sustituyendo n por el numero de un bloque que pertenezca a cada nivel. Haciendo esto nos devuelve que en un bloque del nivel 0 hay 367 tuplas, en el nivel 1 hay 285 y en el nivel 2 hay 241)>>
 endobj
 139 0 obj
 <</AP<</N 1208 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 177 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 40 0 R /RV(Sabemos de los datos anteriormente calculados que el tamaÒo de bloque ˙til es de 8168 bytes y que la longitud del producto_id es de 4 bytes. Postgres tiene por defecto que la longitud del puntero a bloque es de 4 bytes y la longitud del puntero a registro es de 6 bytes. Con esto, ya podemos calcular Ìndice de tipo ·rbol.\r\nProducto_id est· ordenado y es campo clave \(ya que es primary key\) por lo que estamos ante un Ìndice primario + campo clave. Los registros a almacenar del Ìndice van a ser igual que el \r\nV\(producto_id\) = 25.000.000 registros.\r\n\r\nCalculamos el nodo raÌz intermedio de fÛrmula: n * Lpbloque + \(n-1\) * Lproducto_id <= B.˙til,\r\nn * 4 + \(n-1\) * 4 <= 8168, despejando nos da n <= 1021 punteros a bloque\r\nCalculamos el nodo hoja de fÛrmula: nh * \(Lproducto_id + Lpreg\) + Lpbloque <= B.˙til,\r\nnh * \(4 + 6\) * 4 <= 8168, despejando nos da nh <= 816 punteros a registro\r\n\r\nHojas = 25.000.00 / 816 = 30.638 bloques\r\nNivel intermedio 1 = 30.638 / 1021 = 30 bloques\r\nRaÌz = 30 / 1021 = 1 bloque\r\n\r\nEl Ìndice tiene 3 niveles y ocupa 30.669 bloques.\r\nComparando con los resultados de las consltas de SQL vemos que nos da en ambos Ìndices 3 niveles pero SQL maneja muchos m·s bloques que al realizarlo con el mÈtodo visto en teorÌa. Esta diferencia se puede deber principalmente a ciertos metadatos que postgres aÒada a cada entrada o a espacio extra en caso de que haya actualizaciones de datos.)/Rect[ 84.602303 431.664 539.84003 722.97101]/Subtype/Widget/T(Text14)/Type/Annot/V(Sabemos de los datos anteriormente calculados que el tamaÒo de bloque ˙til es de 8168 bytes y que la longitud del producto_id es de 4 bytes. Postgres tiene por defecto que la longitud del puntero a bloque es de 4 bytes y la longitud del puntero a registro es de 6 bytes. Con esto, ya podemos calcular Ìndice de tipo ·rbol.\r\nProducto_id est· ordenado y es campo clave \(ya que es primary key\) por lo que estamos ante un Ìndice primario + campo clave. Los registros a almacenar del Ìndice van a ser igual que el \r\nV\(producto_id\) = 25.000.000 registros.\r\n\r\nCalculamos el nodo raÌz intermedio de fÛrmula: n * Lpbloque + \(n-1\) * Lproducto_id <= B.˙til,\r\nn * 4 + \(n-1\) * 4 <= 8168, despejando nos da n <= 1021 punteros a bloque\r\nCalculamos el nodo hoja de fÛrmula: nh * \(Lproducto_id + Lpreg\) + Lpbloque <= B.˙til,\r\nnh * \(4 + 6\) * 4 <= 8168, despejando nos da nh <= 816 punteros a registro\r\n\r\nHojas = 25.000.00 / 816 = 30.638 bloques\r\nNivel intermedio 1 = 30.638 / 1021 = 30 bloques\r\nRaÌz = 30 / 1021 = 1 bloque\r\n\r\nEl Ìndice tiene 3 niveles y ocupa 30.669 bloques.\r\nComparando con los resultados de las consltas de SQL vemos que nos da en ambos Ìndices 3 niveles pero SQL maneja muchos m·s bloques que al realizarlo con el mÈtodo visto en teorÌa. Esta diferencia se puede deber principalmente a ciertos metadatos que postgres aÒada a cada entrada o a espacio extra en caso de que haya actualizaciones de datos.)>>
@@ -1280,10 +1280,10 @@ endobj
 <</AP<</N 104 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 184 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 50 0 R /Rect[ 81.656898 39.423801 536.89398 420.077]/Subtype/Widget/T(Text21)/Type/Annot>>
 endobj
 147 0 obj
-<</AP<</N 1196 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 186 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 53 0 R /RV(CREATE INDEX indice_precio ON productos \(precio\);\r\nCREATE INDEX indice_hash_producto_id ON productos USING hash \(producto_id\);\r\nCREATE INDEX indice_hash_precio ON productos USING HASH \(precio\);\r\n\r\n)/Rect[ 85.584198 373.46301 540.82202 513.56897]/Subtype/Widget/T(Text22)/Type/Annot/V(CREATE INDEX indice_precio ON productos \(precio\);\r\nCREATE INDEX indice_hash_producto_id ON productos USING hash \(producto_id\);\r\nCREATE INDEX indice_hash_precio ON productos USING HASH \(precio\);\r\n\r\n)>>
+<</AP<</N 1229 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 186 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 53 0 R /RV(Para crear el Ìndice tipo ·rbol sobre el campo precio utilizamos:\r\nCREATE INDEX indice_precio ON productos \(precio\);\r\n\r\nPara crear el Ìndice hash sobre el campo producto_id utilizamos:\r\nCREATE INDEX indice_hash_producto_id ON productos USING hash \(producto_id\);\r\n\r\nPara crear el Ìndice hash sobre el campo precio utilizamos:\r\nCREATE INDEX indice_hash_precio ON productos USING HASH \(precio\);\r\n\r\n)/Rect[ 85.584198 373.46301 540.82202 513.56897]/Subtype/Widget/T(Text22)/Type/Annot/V(Para crear el Ìndice tipo ·rbol sobre el campo precio utilizamos:\r\nCREATE INDEX indice_precio ON productos \(precio\);\r\n\r\nPara crear el Ìndice hash sobre el campo producto_id utilizamos:\r\nCREATE INDEX indice_hash_producto_id ON productos USING hash \(producto_id\);\r\n\r\nPara crear el Ìndice hash sobre el campo precio utilizamos:\r\nCREATE INDEX indice_hash_precio ON productos USING HASH \(precio\);\r\n\r\n)>>
 endobj
 148 0 obj
-<</AP<</N 1219 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 185 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 53 0 R /RV(Primero reinicializamos los datos con \r\n\r\nHacemos la consulta SELECT * FROM productos WHERE precio = 2000;\r\nnos devuelve 51 tuplas.\r\n\r\n\r\n)/Rect[ 84.602303 18.805401 539.84003 237.457]/Subtype/Widget/T(Text23)/Type/Annot/V(Primero reinicializamos los datos con \r\n\r\nHacemos la consulta SELECT * FROM productos WHERE precio = 2000;\r\nnos devuelve 51 tuplas.\r\n\r\n\r\n)>>
+<</AP<</N 1231 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 185 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 53 0 R /RV(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\n\r\nHacemos la consulta SELECT * FROM productos WHERE precio = 2000;\r\nnos devuelve 51 tuplas.\r\nUsamos SELECT relname,heap_blks_read,heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos';\r\nUtilizamos la consulta: SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname = 'productos';\r\n\r\nLa cosulta nos devuelve una tabla con los bloques leÌdos tanto en disco como en memoria cachÈ de todos los Ìndices que hemos creado. El resultado ha sido que se han leÌdo 2 bloques del Ìndice hash en precio desde la cachÈ\r\n\r\n\r\n\r\n\r\n\r\n)/Rect[ 84.602303 18.805401 539.84003 237.457]/Subtype/Widget/T(Text23)/Type/Annot/V(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\n\r\nHacemos la consulta SELECT * FROM productos WHERE precio = 2000;\r\nnos devuelve 51 tuplas.\r\nUsamos SELECT relname,heap_blks_read,heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos';\r\nUtilizamos la consulta: SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname = 'productos';\r\n\r\nLa cosulta nos devuelve una tabla con los bloques leÌdos tanto en disco como en memoria cachÈ de todos los Ìndices que hemos creado. El resultado ha sido que se han leÌdo 2 bloques del Ìndice hash en precio desde la cachÈ\r\n\r\n\r\n\r\n\r\n\r\n)>>
 endobj
 149 0 obj
 <</AP<</N 109 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 189 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 56 0 R /Rect[ 79.602303 538.19202 534.84003 738.18903]/Subtype/Widget/T(Text24)/Type/Annot>>
@@ -4282,16 +4282,6 @@ endobj
 1151 0 obj
 <</Georgia 224 0 R >>
 endobj
-1162 0 obj
-<</BBox[ 0 0 455.23709 330.58002]/Filter/FlateDecode/FormType 1/Length 1187/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1151 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xúçV¡r€6ΩÛ+ˆªUR≤lπôláI‹ë•ƒ¶ßÈåf4+rM£ 5∂ˇ÷êSn=µí›òM«ç±ÿ∑˚ﬁ€ÔÇ¯œ‰˛«¡d2çè¬cè√·dÜ#0D¡¡d‹ç¶ª£õÇO¡Î‰N/ŒÇª‡4	B»É∆£p˙†$^ø'mrÅÖê‹{◊m·Ï2>Ib8üøç?Câ!5ÑH¬ïâîÜ+(µuπ!{'°‘2∫°‘i∞‰£!#p¢‘ Of≠Â¿«H˚ê¸ÑS4NF«««”)≤wW(∑ò‹†tdKJ≈çHk`Œ5úi:meÅ))T@ä#¨∞é
-å&Ω¶môÎAØBä¶$ÁØ+]¨qŒ≈˘[»:m¿Tê 4¯Z⁄äKEê◊ªÄPÊ´T¢µ}®•ŒàÈ÷kGä0&Yà¬√Ix4Ïπª-D"XëWÇî#Hµ™+∫ägÒYÜdâ9Yxwπ∏ÿ’Û€á¯2ÊCÖıU˜ºæÎUitV•NØDˆÍMÌáy1πbùV%r›u4 G8¡Ü‡êV•L3ˇ€îÓ•%£MErCp8ùLBXK}Wë¬Öt¢î"Enõ¨”ﬁR”Ëx‰≥y]AìÒ!\ú·c[.IPUA¶◊Ç,ºÿê$€ë| ïE„eítÔHYÒU”∫ä=Íl¯'ïiÈy 	7"Ωe$ûçT´Á"ı¿eù©“T|U?∑N‚˘’˘bÁÔ`æH ˛|~ï\yÙ|x≠∏øG?t¬mS-¥iÎÑµ[X.˜ñ˚œ]´Hm° áı¥u˘˙◊„ ^´:æÀ^tõƒVÀ(	"x®”QQ
-z‰¢R≠öm∫z∫√!Ãpgp∫«‘!X2Oˇã›f $mH¬è¡…U∞r⁄°láÑ!«úºdˇÂ˛õÄyÕÜñ.…7tœI¡∏jÃÿé;Ú/o»åZó{K˚gæÎ¡Ïÿ1∑Œ:Wïí äRRA 5û‰AD(Ñ-
-T‘Ë«∆Ï	É∂¨÷D=∏/Óúˇ&~ÌJΩÚÏ‡lq=Oñ{πÆÂüJ/˜YåÜÄU›ºó"gö–— ídó{—Äw¬¡q}#∑=êÀΩ6/ú].ÆÆ‡◊≈˘f'I|y2cÅ˝ZáŒæ¨Ú :µıÄºø\\Ñ”ﬂ;ùıDŒÍ=Èü6≤Ækb`(’∆êß3[€≠vSïR<˙Õ˜/VÍyÏÅÆcM„≥vî™‹õ.™_.©U.\ïy@—ºt≥ärÌ∑ﬂs∆jºéá{†kQ˙ﬁK2ü˙˜≠n|Øòﬁ÷[€·ùP(ŸΩº&“Í#„À√“˚ÆnìuvµÔk]Ÿú ≈‘Ÿª£®9D[®á›±¡/èMDOá”qx¥{∏æô˙™mÑÎ°oXŸÕ?˚•ˇ¯Ô¨9±°ïpTÏñ⁄˜=Øñ˚∂≤N∏Í¡\(_œ≥í{ø†⁄:z?¶~ùÛ≥‘Ë±˝lÒkÊ[uÏe[∆C∏≈á>‰Ò·Q√„†Òw´"_M'¨ùÍ
-Ôˇ˘|q|
-‚ã≥‡o∏ßg
-endstream
-endobj
 1163 0 obj
 <</Georgia 224 0 R >>
 endobj
@@ -4347,11 +4337,6 @@ endobj
 1195 0 obj
 <</Georgia 224 0 R >>
 endobj
-1196 0 obj
-<</BBox[ 0 0 455.23782 140.105957]/Filter/FlateDecode/FormType 1/Length 220/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1195 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xúùéAk¬@ÖÔÛ+ﬁQç≥õ¨fÈI”E=òb]¡É$âq{htm°?ø¨¡“b{)sÊΩ˘ﬁ;#åo.K¢T$„Q*!é+≠F5	$*æjq˙M€ﬂ—íˆìEF'öXb4·CÍhÿπlEÉi›˙∆Ì vOΩÏŸå≠¡<4∏◊ ïuqÙuÈZ<Â8˙∂z/ﬂ⁄3∂ΩÓ∫Ì?Ùa_àq/d§§÷:M¯W“aw>WH·™üÃıjûO<¸óÎ_∑ï;¸lºö˝’>fÊa»7Q∆“íÃ"£O.no™
-endstream
-endobj
 1197 0 obj
 <</BBox[ 0 0 455.23782 267.74301]/Filter/FlateDecode/FormType 1/Length 669/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1019 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xúïTMo”@Ω˚Wº[”*∏˛àG®z†|∏Dä&ˆênYÔ∏ªÎäﬁ¯›ú–:MI°ë@ˆa=Îù˜ﬁÃõΩâÑ«n˙≈®(‚,üî≤Ò$ûåÚ$ÖÂ(EäQë?lø∑æûDÔ£”≈wú_Œ¢õË|%ÿD)≤bg˝Oã::}≈b7äê&X|çTq#öPâqùˆÑñ,A÷û[hqh≠‘]Â≈·¶cx≈ÜjFkπRVyí$?bcq%xñfqëMß”≤òÁØÁ≥fo?ΩY,'Àcº¸ˆrÁÀ≈¸√|óˇ¨O'…ÛßÛÊÊg√∂ß‚ªVì€ÚW5π†Îë<v(∆ÒRΩbjWk˝Õ≠,S=‹˚æR˛û˝fÂ<y%´Œ±]yZkﬁ)±¨5|†@É3=h?z§2OítÙ4≥πÛ{™å8‘Ñ¥ÃìQÇµñõéÿ¸¡w(ÛÏq¸J˘ªÜL-†f-ÓœöBsÓ°:/ût(zZÊÂ$€¡{ü¯ÔTyjÿxÜñ>*U◊º‘öäDCT“ÓËÏUo—˚éJ Ø)òc”O „Ÿ*±ˇ‹“≠VU/ñ5ˆRnïÛ}fœb√ñÈvû≤ºQŒ[q XÆ∫ñ-Ÿ ∞f„!≠{äA†>\æ˝4§™ÿêÖ˛á¨@£¥≥Õ€◊:∆åt’i
@@ -4375,47 +4360,63 @@ xú•TMs”0Ω˚Wºc“¶éÁì!á∂ËL[hì·îãbo\g)ïÏÂﬂˆÙ¿p„íÏê@MÀ‚ÒÓæ}Ô≠V∑^ Û®‘æt{=øıG
 n8∆4C?Í€˝i/¯≠E«Bπ¶m{ZaùQT{Mï´ÌnÜ¬∏nØYÜa/®lÆŸÿ∆ÂL'òûa2ù„‰lrÈﬁ.Œ&◊oém—dÊ]yìãSÔª≈‘
 endstream
 endobj
-1211 0 obj
-<</BaseFont/Untitled/DescendantFonts[ 1212 0 R ]/Encoding/Identity-H/Subtype/Type0/ToUnicode 1218 0 R /Type/Font>>
-endobj
-1212 0 obj
-<</BaseFont/Untitled/CIDSystemInfo 1213 0 R /CIDToGIDMap 1217 0 R /FontDescriptor 1214 0 R /Subtype/CIDFontType2/Type/Font/W 1216 0 R >>
-endobj
-1213 0 obj
-<</Ordering(Identity)/Registry(Adobe)/Supplement 0>>
-endobj
-1214 0 obj
-<</Ascent 1000/CapHeight 1000/Descent 0/Flags 33/FontBBox[ 0 0 500 1000]/FontFile2 1215 0 R /FontName/Untitled/ItalicAngle 0/StemV 70/Type/FontDescriptor>>
-endobj
-1215 0 obj
-<</Filter/FlateDecode/Length 329/Length1 573>>stream
-xúmë±O¬@∆◊^±âò(q0¶„Ä`åìÉN&¨⁄`µ$¥ 0‡∆ËË¿‰?‡‚¿ËÓ‚¶ÉìÉìõì$n$»µ’ ¯%ów˜}ÔΩ˚ﬁà”E«*mmóﬂ{ 6Äìäg7à≥‚X;Ø]û-ØdA‹+Æcü&:üpÏ∫Æc'5©Ô@÷ı⁄âÇ∏ÃZΩbìŒ} ÊŸùc¨õÄÂ€û3¯HøÇxıVÅ mUÈjßVøwë:^ÿ˚ísf–˝ÈfË´¯Úp;PQ)4B0çîÍAßIh£!#eZ=xcÜè`ÑFˇA±T*≤vUTb˜oJT('Ω¿í∫3à±ÒM"˘SL™C!≥òë√πu6Cø§ª$H£#‰|ƒóqh“¢Jã9ÚeßŸ™÷}´êÀOø¬ÏxﬂπÈ9û
-endstream
-endobj
-1216 0 obj
-[ 0[ 0]]
-endobj
-1217 0 obj
-<</Filter/FlateDecode/Length 150>>stream
-xúÌ¬	   †˙:háh                                                                                                                              Ä ˇ 
-endstream
-endobj
-1218 0 obj
-<</Filter/FlateDecode/Length 219>>stream
-xúmêÕj√0ÑÔzä=&á %gc(	¶>4-u^@ñ∆FØÑ,¸ˆE î¥0;˙ñŸÚÿûZvâ‰OÙ¶C¢¡±çò˝®«ËXÏdùIwU™ôtÓ÷9ajyTUÇH˛btsä+m>¨Ô±ÕΩÔhè¥i-8π¥ñv∑Ñp≈N§D]ì≈ ‰ÒKá≥û@≤ª±˚|˘ó5ÄEÔo©å∑òÉ6àöGàJ)•j™ö¶ij∂ˇ¸;’oæ”MeÍ·Áy·g6≥ƒNÂ*%QŒ‚œ√2Uﬁﬂàt4
-endstream
-endobj
-1219 0 obj
-<</BBox[ 0 0 455.23773 218.6516]/Filter/FlateDecode/FormType 1/Length 236/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1198 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xúçé¡j√0DÔ˚sLu$9vlJ/1js®iìz∂bTÀëÌP˙ıE>ÑB.e/ÀÃŒ€πCﬂÃÀ:I"o61œ¢4·)º!éuﬂúÙÊúñ¥ßï˙∆∂,ËB[EqñE<‹®öVØ∆˘∆jpu¢≈á∑g„º±ù≠¨nÌè>ª≠PÎ—®\á®/bx‰"JDûÁYXw¬bß+3ßuàS;jÂõ,ñx9ºóËΩ´ß*p?wÚ —{SYág∆ÿ”ﬂ?1c|=Sª–≈\'”^éqÍ[=Dˇ,u'HE{íeAøb%]
-endstream
-endobj
 1220 0 obj
 <</BBox[ 0 0 455.23727 473.927]/Filter/FlateDecode/FormType 1/Length 833/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1125 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xúµUMè€6ºÎWÃ-N·:˛ñç¢«Vìkâùˆ¿x¶ﬁ⁄l)>/I-Í˛€=Êê”˛ÅÇíÌı¶êC
 _$“|3ú7otótnW=G£NêˆS”Ag⁄O·8È°á·hpŸËù7nHﬁ'Ø÷·ırû‹%Ø◊Iª§á·x–ˆS¨Û‰’∑”Ñ^Î€§ıõò{Õ6ì—ìÉ!(±æ4ÅêsıZ≤˙—b œêm–l9ÓŸíÔw%cOGå∆∏’Ü|µ† ‚`ÿÇ} ºƒ˙è§ã{˝Œ®?ùN'ì»¶•ƒÊZÈG€¡«†#z§r©ÀJäjmï›dÛ5ˆLáÕ÷¸È7é)o_ΩÔu¿/ﬁ-õ†ªç¥lJœnhkÿ„˜∑Ÿáéç•ÇÒÛãÉìºTA¸`”}Òp GPîJ{√«≈†ïÀüZlõ mTÕ	yyv(güsº›5ˆïzæ:m«N]üeã ÅÃßó86˚≤≠"Ó∏Íd≠Î÷»]…«À[\à”Òûjˇ9vó-Rw±`Oä+[4∑±vãè>∞0¸%§›azˆOU˘à~4òëk«*P¡6D‰⁄+È¸wıÔ±–∫ôaıq9√"√ÕlÖÊ≥˘€Ÿ
 ãl9[˝:[º˚ˇ–øÅ“ÒË“íÁöı“Ò8mê¨[Sœoo2Ù/%™<ôÂ[•me6N\lzú 6»úö_Mq°}qïl#œ8IÙ‰YÙN¡ˆUÚÈêΩ∞i≤Qo2ò§ó;t0;Åõ®>[˝Ÿ>A</—Æ£uF5‡ä*πE…åx‰jÒ®ÿíØa}ß·¯øÎ-"f$ØÊ»ì"W¯:=ËXÊdAóÕ≥∂LE©ˆÇ‚¡ÉouÏtà∑j{Õ≈¡ÒIt≤≤uUŒPp•ﬁñA*Îúö≤ß'.îK«ö«A|ÿ9ˆbñ{»=4¡:V‚;_ŸˆTÚ—BæŒ≠Ûó¡3»§ÿ∆≈ãﬁJl‰zOF\åH¶\:x≠Hç·SIÌπñÆ–Ó!ö«™t^bÿyF ó«Kú≠˛¢`©ùÓ∫d`•1€œ≤‡Í˙Ar∫¯Ù˚≈Y∂Nﬁ'Ÿrû¸¢5x^
 endstream
+endobj
+1221 0 obj
+<</BaseFont/Untitled/DescendantFonts[ 1222 0 R ]/Encoding/Identity-H/Subtype/Type0/ToUnicode 1228 0 R /Type/Font>>
+endobj
+1222 0 obj
+<</BaseFont/Untitled/CIDSystemInfo 1223 0 R /CIDToGIDMap 1227 0 R /FontDescriptor 1224 0 R /Subtype/CIDFontType2/Type/Font/W 1226 0 R >>
+endobj
+1223 0 obj
+<</Ordering(Identity)/Registry(Adobe)/Supplement 0>>
+endobj
+1224 0 obj
+<</Ascent 1000/CapHeight 1000/Descent 0/Flags 33/FontBBox[ 0 0 500 1000]/FontFile2 1225 0 R /FontName/Untitled/ItalicAngle 0/StemV 70/Type/FontDescriptor>>
+endobj
+1225 0 obj
+<</Filter/FlateDecode/Length 329/Length1 573>>stream
+xúmë±O¬@∆◊^±âò(q0¶„Ä`åìÉN&¨⁄`µ$¥ 0‡∆ËË¿‰?‡‚¿ËÓ‚¶ÉìÉìõì$n$»µ’ ¯%ów˜}ÔΩ˚ﬁà”E«*mmóﬂ{ 6Äìäg7à≥‚X;Ø]û-ØdA‹+Æcü&:üpÏ∫Æc'5©Ô@÷ı⁄âÇ∏ÃZΩbìŒ} ÊŸùc¨õÄÂ€û3¯HøÇxıVÅ mUÈjßVøwë:^ÿ˚ísf–˝ÈfË´¯Úp;PQ)4B0çîÍAßIh£!#eZ=xcÜè`ÑFˇA±T*≤vUTb˜oJT('Ω¿í∫3à±ÒM"˘SL™C!≥òë√πu6Cø§ª$H£#‰|ƒóqh“¢Jã9ÚeßŸ™÷}´êÀOø¬ÏxﬂπÈ9û
+endstream
+endobj
+1226 0 obj
+[ 0[ 0]]
+endobj
+1227 0 obj
+<</Filter/FlateDecode/Length 150>>stream
+xúÌ¬	   †˙:háh                                                                                                                              Ä ˇ 
+endstream
+endobj
+1228 0 obj
+<</Filter/FlateDecode/Length 219>>stream
+xúmêÕj√0ÑÔzä=&á %gc(	¶>4-u^@ñ∆FØÑ,¸ˆE î¥0;˙ñŸÚÿûZvâ‰OÙ¶C¢¡±çò˝®«ËXÏdùIwU™ôtÓ÷9ajyTUÇH˛btsä+m>¨Ô±ÕΩÔhè¥i-8π¥ñv∑Ñp≈N§D]ì≈ ‰ÒKá≥û@≤ª±˚|˘ó5ÄEÔo©å∑òÉ6àöGàJ)•j™ö¶ij∂ˇ¸;’oæ”MeÍ·Áy·g6≥ƒNÂ*%QŒ‚œ√2Uﬁﬂàt4
+endstream
+endobj
+1229 0 obj
+<</BBox[ 0 0 455.23782 140.105957]/Filter/FlateDecode/FormType 1/Length 292/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1195 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xú•Q€N¬@}üØò«bbŸﬁ†’'®@YHö•] ö‚ñmIåÎ¯¶µoŸó…úôsô›¡Í©¥.l«—MkËöhÿD7à„9CT4–v¨wÃr;ÿÊ–ßO8û˚∞á1Çiµaz˙†ô¢	Ù'\™T04“h7L1åg
+yÜØèâà9ñ"ó¯¢÷2√BÆØ†òÌrâπ‚±êx(E&ûŸN=§@‹0u«Ù<œu+ÕøF4¿Yx‹£®i£v˘:ƒ\…‰ó≤¿ï÷tWΩÀ”Lm√"ÑÏö˙§Â-+∂«fïH$t\±F]ö/ﬁÔñ≥p“(W1>¶æÀ“˝Eñæçq|˝&¡t¥ú˛¯#>Ösﬁ ≥’ÀŒ
+endstream
+endobj
+1230 0 obj
+<</BBox[ 0 0 455.23709 330.58002]/Filter/FlateDecode/FormType 1/Length 1188/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1151 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xúçV¡r€6ΩÛ+ˆªUR≤lπôláI‹ë•ƒ¶ßÈåf4+rM£ 5∂ˇ÷êSn=µí›òM«ç±ÿ∑˚ﬁ€ÔÇ¯œ‰˛«¡d2çè¬cè√·dÜ#0D¡¡d‹ç¶ª£õÇO¡Î‰N/ŒÇª‡4	B»É∆£p˙†$^ø'mrÅÖê‹{◊m·Ï2>Ib8üøç?Câ!5ÑH¬ïâîÜ+(µuπ!{'°‘2∫°‘i∞‰£!#p¢‘ Of≠Â¿«H˚ê¸ÑS4NF«««”)≤wW(∑ò‹†tdKJ≈çHk`Œ5úi:meÅ))T@ä#¨∞é
+å&Ω¶môÎAØBä¶$ÁØ+]¨qŒ≈˘[»:m¿Tê 4¯Z⁄äKEê◊ªÄPÊ´T¢µ}®•ŒàÈ÷kGä0&Yà¬√Ix4Ïπª-D"XëWÇî#Hµ™+∫ägÒYÜdâ9Yxwπ∏ÿ’Û€á¯2ÊCÖıU˜ºæÎUitV•NØDˆÍMÌáy1πbùV%r›u4 G8¡Ü‡êV•L3ˇ€îÓ•%£MErCp8ùLBXK}Wë¬E%ù(•Hë˚&Î¥˜‘4:˘t}W—d|ßC¯ÿ÷KTUêÈı +/6$…v4@e—xù$›;RV|U¿ºÆÑbì∫;˛IeZz"H¬çHoâá#’ÍπJ=BYg™4_’œÌ∆üìx~uæò√˘;ò/à?ü_%WΩ^+ÓÔ—O]Üp€TÀÌA⁄⁄aÌVñÀΩÂ˛¿s◊ R[(»a=n]>ºÍyÂ/VﬂeØ∫Mb´Çeî<‘È®(=rQ©VÕ6]=ﬁ·f∏s8›cÍ,ôßˇ≈n3í6$·Gà‡‰™X9ÌP∂S¬åêcN^ÚˇrˇM¿ºfCÀó‰∫Áç§`‹5flÁù˘ó7dF≠ÕΩ•}¯3ﬂı`vÏò[gù´JIE)© ÂOÚ$"¬*jÙccvçâA[Vk¢‹óŒøv•^yˆp∂∏û'ÀΩ‹◊ÚO•ó˚,FC¿™nﬁKë3MËhe…≤ÀΩh¿K·‡∏æë€»Â^õŒ.WWÎ‚|≥ì$æ<ô±¿~x≠Cg_Vy ù⁄z@ﬁ_.Æ?¬ÈÔùŒz"gı¢ÙoY◊5±0îjc»Ä”ã≠Ì÷ª©É 	)˝Ê˚+ı<ˆ@◊±¶ÒY;JUÓM’Oó‘*Æ <†hû∫YEπˆ€Ô9c5^«√=–µé(}Ô%éO˝W∑æWÃoÎ≠ÌáN(îÏ^^iıèëÒÂaÈ}X∑…:;ä⁄∂ÆlNêbÍlÉ›Q‘ç¢-‘√Óÿ‡ó«&¢ßÄ√È8<⁄Ω\ﬂL}’6¬ãı–7¨ÏÊü˝“åˇ/¸w÷úÿ–J8*vKÌ˚ûWÀ˝Å[Y'\ı‡ø.îØÁY…ΩüPmΩSøŒ˘YjÙÿ~∑¯5Û≠:
+vâ≤-„!‹‚CÚ¯®·q–¯ªUë/ç¶÷NuÖ˜ˇ?à|æ8	>Ò≈Y7‘ß‹
+endstream
+endobj
+1231 0 obj
+<</BBox[ 0 0 455.23773 218.6516]/Filter/FlateDecode/FormType 1/Length 483/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1198 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xú≠í¡n€0DÔ¸äπ≈	ZEí-«n·Kµ9ƒhì*»%Ä@ãã-%⁄$˝„ÚÖhYIö∫Ì°–E‰≥ofw√B¥üY˘üQíÒÏlà8ö„$√ãaî˚ ∏Ø‹ü∞+vömqæò≥Õﬁ≤öùg,ƒäEà√IµÖL∞”è§ÕJrD!≤{6¯ldEF√ê¨e!πíﬂy•-î∂‹iãB◊¯í^¶ÛÎUnwπ!KÓnpw¸˛ŸW‚mI<ùN'ì∂…´ã¡/»ÀÚVœ6 ÒΩË	>\Z`m¥hä∂·ÌEzùbm®ê3ƒaæË3√h‰UÎíRÑ$Çk÷ä€‡˜PÉÎùum©öWÙ¶$æŒóÍõÕqÒÏXJ◊ëÌ\Kù7ñLÓ¯R—ûÚ@´N|v‘ª::’‡∆…>ÛßpﬁÌ1e-hªgÖ€g¨O«ûı@ì_,x—ﬁCßé˛é˚Z˙≤ÖﬁÙ≈8öö£ç {ÚÎ¥Tz”êÖ¢G°-Øù’“ÖÆ¸©¢J…Q¢¸Aá,9-∫5}¨Ö,»b”JøeEèê*ÚlB£‰∞RhˇÃJ^ÔH˜dÇTßÜí€≤≈9Ën;YA~n-Ì?Fˆ?.“å]±t1g?ÁˆB
+endstream
+endobj
+1232 0 obj
+<</Georgia 224 0 R >>
 endobj
 xref
 0 4
@@ -4510,936 +4511,938 @@ xref
 0000141361 00000 n
 0000141593 00000 n
 0000141823 00000 n
-0000142057 00000 n
-0000142287 00000 n
-0000142520 00000 n
-0000142752 00000 n
-0000142982 00000 n
-0000143214 00000 n
-0000143447 00000 n
-0000143679 00000 n
-0000144334 00000 n
-0000144565 00000 n
-0000144800 00000 n
-0000145033 00000 n
-0000145262 00000 n
-0000145494 00000 n
-0000288389 00000 n
-0000289682 00000 n
-0000292104 00000 n
-0000296476 00000 n
-0000298712 00000 n
-0000300853 00000 n
-0000302897 00000 n
-0000305249 00000 n
-0000305424 00000 n
-0000307067 00000 n
-0000308926 00000 n
-0000313765 00000 n
-0000316814 00000 n
-0000317093 00000 n
-0000317630 00000 n
-0000322336 00000 n
-0000325441 00000 n
-0000326798 00000 n
-0000327019 00000 n
-0000331168 00000 n
-0000333981 00000 n
-0000335328 00000 n
-0000335537 00000 n
-0000335746 00000 n
-0000336389 00000 n
-0000336906 00000 n
-0000337117 00000 n
-0000337328 00000 n
-0000337536 00000 n
-0000337747 00000 n
-0000337956 00000 n
-0000338165 00000 n
-0000338374 00000 n
-0000338583 00000 n
-0000338790 00000 n
-0000338963 00000 n
-0000339173 00000 n
-0000339378 00000 n
-0000339554 00000 n
-0000339765 00000 n
-0000339971 00000 n
-0000340224 00000 n
-0000340306 00000 n
-0000340388 00000 n
-0000340470 00000 n
-0000340552 00000 n
-0000340634 00000 n
-0000340716 00000 n
-0000342944 00000 n
-0000343026 00000 n
-0000343108 00000 n
-0000343190 00000 n
-0000343272 00000 n
-0000343354 00000 n
-0000343436 00000 n
-0000343518 00000 n
-0000343600 00000 n
-0000343682 00000 n
-0000343764 00000 n
-0000343846 00000 n
-0000343928 00000 n
-0000344010 00000 n
-0000344092 00000 n
-0000344174 00000 n
-0000344256 00000 n
-0000344338 00000 n
-0000344420 00000 n
-0000344674 00000 n
-0000345329 00000 n
-0000345411 00000 n
-0000345493 00000 n
-0000345575 00000 n
-0000345657 00000 n
-0000345739 00000 n
-0000345821 00000 n
-0000345903 00000 n
-0000345985 00000 n
-0000346245 00000 n
-0000346327 00000 n
-0000346483 00000 n
-0000346565 00000 n
-0000346647 00000 n
-0000346803 00000 n
-0000346885 00000 n
-0000347145 00000 n
-0000347585 00000 n
-0000347661 00000 n
-0000347831 00000 n
-0000347935 00000 n
-0000347991 00000 n
-0000348127 00000 n
-0000348184 00000 n
-0000348284 00000 n
-0000348340 00000 n
-0000348434 00000 n
-0000348490 00000 n
-0000348637 00000 n
-0000348693 00000 n
-0000348831 00000 n
-0000348887 00000 n
-0000348943 00000 n
-0000350168 00000 n
-0000350415 00000 n
-0000350511 00000 n
-0000351708 00000 n
-0000351789 00000 n
-0000351943 00000 n
-0000351968 00000 n
-0000352038 00000 n
-0000352106 00000 n
-0000352368 00000 n
-0000352618 00000 n
-0000357822 00000 n
-0000358176 00000 n
-0000358566 00000 n
-0000358900 00000 n
-0000359239 00000 n
-0000359587 00000 n
-0000359926 00000 n
-0000360238 00000 n
-0000360365 00000 n
-0000360677 00000 n
-0000361007 00000 n
-0000361337 00000 n
-0000361676 00000 n
-0000362024 00000 n
-0000362311 00000 n
-0000362649 00000 n
-0000362978 00000 n
-0000363348 00000 n
-0000363724 00000 n
-0000364098 00000 n
-0000364382 00000 n
-0000364446 00000 n
-0000364510 00000 n
-0000364574 00000 n
-0000364638 00000 n
-0000364703 00000 n
-0000364767 00000 n
-0000364831 00000 n
-0000364895 00000 n
-0000364959 00000 n
-0000365023 00000 n
-0000365087 00000 n
-0000365151 00000 n
-0000365215 00000 n
-0000365279 00000 n
-0000365343 00000 n
-0000365407 00000 n
-0000365471 00000 n
-0000365535 00000 n
-0000365599 00000 n
-0000365663 00000 n
-0000365727 00000 n
-0000365791 00000 n
-0000365863 00000 n
-0000365927 00000 n
-0000365999 00000 n
-0000366063 00000 n
-0000366126 00000 n
-0000366200 00000 n
-0000366263 00000 n
-0000366326 00000 n
-0000366389 00000 n
-0000366452 00000 n
-0000366515 00000 n
-0000366579 00000 n
-0000366643 00000 n
-0000366707 00000 n
-0000366771 00000 n
-0000366835 00000 n
-0000366899 00000 n
-0000366963 00000 n
-0000367031 00000 n
-0000367099 00000 n
-0000367167 00000 n
-0000367235 00000 n
-0000367299 00000 n
-0000367367 00000 n
-0000367435 00000 n
-0000367499 00000 n
-0000367563 00000 n
-0000367635 00000 n
-0000367704 00000 n
-0000367768 00000 n
-0000367832 00000 n
-0000367896 00000 n
-0000367960 00000 n
-0000368024 00000 n
-0000368088 00000 n
-0000368152 00000 n
-0000368216 00000 n
-0000368280 00000 n
-0000368344 00000 n
-0000368409 00000 n
-0000368474 00000 n
-0000368539 00000 n
-0000368604 00000 n
-0000368669 00000 n
-0000368734 00000 n
-0000368799 00000 n
-0000368864 00000 n
-0000368929 00000 n
-0000368994 00000 n
-0000369059 00000 n
-0000369124 00000 n
-0000369189 00000 n
-0000369254 00000 n
-0000369319 00000 n
-0000369384 00000 n
-0000369449 00000 n
-0000369514 00000 n
-0000369579 00000 n
-0000369644 00000 n
-0000369709 00000 n
-0000369774 00000 n
-0000369844 00000 n
-0000369908 00000 n
-0000369972 00000 n
-0000370036 00000 n
-0000370100 00000 n
-0000370164 00000 n
-0000370228 00000 n
-0000370292 00000 n
-0000370356 00000 n
-0000370420 00000 n
-0000370485 00000 n
-0000370550 00000 n
-0000370615 00000 n
-0000370680 00000 n
-0000370745 00000 n
-0000370810 00000 n
-0000370875 00000 n
-0000370940 00000 n
-0000371005 00000 n
-0000371070 00000 n
-0000371135 00000 n
-0000371200 00000 n
-0000371265 00000 n
-0000371330 00000 n
-0000371395 00000 n
-0000371460 00000 n
-0000371525 00000 n
-0000371590 00000 n
-0000371655 00000 n
-0000371720 00000 n
-0000371785 00000 n
-0000371855 00000 n
-0000371925 00000 n
-0000371989 00000 n
-0000372053 00000 n
-0000372117 00000 n
-0000372181 00000 n
-0000372245 00000 n
-0000372309 00000 n
-0000372373 00000 n
-0000372437 00000 n
-0000372501 00000 n
-0000372566 00000 n
-0000372631 00000 n
-0000372696 00000 n
-0000372761 00000 n
-0000372826 00000 n
-0000372891 00000 n
-0000372956 00000 n
-0000373021 00000 n
-0000373086 00000 n
-0000373151 00000 n
-0000373216 00000 n
-0000373281 00000 n
-0000373346 00000 n
-0000373411 00000 n
-0000373476 00000 n
-0000373541 00000 n
-0000373606 00000 n
-0000373671 00000 n
-0000373736 00000 n
-0000373801 00000 n
-0000373866 00000 n
-0000373931 00000 n
-0000374001 00000 n
-0000374071 00000 n
-0000374135 00000 n
-0000374199 00000 n
-0000374263 00000 n
-0000374327 00000 n
-0000374391 00000 n
-0000374455 00000 n
-0000374519 00000 n
-0000374583 00000 n
-0000374647 00000 n
-0000374712 00000 n
-0000374777 00000 n
-0000374842 00000 n
-0000374907 00000 n
-0000374972 00000 n
-0000375037 00000 n
-0000375102 00000 n
-0000375167 00000 n
-0000375232 00000 n
-0000375297 00000 n
-0000375362 00000 n
-0000375427 00000 n
-0000375492 00000 n
-0000375557 00000 n
-0000375622 00000 n
-0000375687 00000 n
-0000375752 00000 n
-0000375817 00000 n
-0000375882 00000 n
-0000375947 00000 n
-0000376012 00000 n
-0000376082 00000 n
-0000376152 00000 n
-0000376216 00000 n
-0000376280 00000 n
-0000376344 00000 n
-0000376408 00000 n
-0000376472 00000 n
-0000376536 00000 n
-0000376600 00000 n
-0000376664 00000 n
-0000376728 00000 n
-0000376793 00000 n
-0000376858 00000 n
-0000376923 00000 n
-0000376988 00000 n
-0000377053 00000 n
-0000377118 00000 n
-0000377183 00000 n
-0000377248 00000 n
-0000377313 00000 n
-0000377378 00000 n
-0000377443 00000 n
-0000377508 00000 n
-0000377573 00000 n
-0000377638 00000 n
-0000377703 00000 n
-0000377768 00000 n
-0000377833 00000 n
-0000377898 00000 n
-0000377968 00000 n
-0000378038 00000 n
-0000378102 00000 n
-0000378166 00000 n
-0000378230 00000 n
-0000378294 00000 n
-0000378358 00000 n
-0000378422 00000 n
-0000378486 00000 n
-0000378550 00000 n
-0000378614 00000 n
-0000378684 00000 n
-0000378748 00000 n
-0000378812 00000 n
-0000378876 00000 n
-0000378940 00000 n
-0000379004 00000 n
-0000379068 00000 n
-0000379132 00000 n
-0000379196 00000 n
-0000379260 00000 n
-0000379325 00000 n
-0000379390 00000 n
-0000379455 00000 n
-0000379520 00000 n
-0000379585 00000 n
-0000379650 00000 n
-0000379715 00000 n
-0000379780 00000 n
-0000379845 00000 n
-0000379910 00000 n
-0000379975 00000 n
-0000380040 00000 n
-0000380105 00000 n
-0000380170 00000 n
-0000380235 00000 n
-0000380300 00000 n
-0000380365 00000 n
-0000380430 00000 n
-0000380500 00000 n
-0000380570 00000 n
-0000380634 00000 n
-0000380698 00000 n
-0000380762 00000 n
-0000380826 00000 n
-0000380890 00000 n
-0000380954 00000 n
-0000381018 00000 n
-0000381082 00000 n
-0000381146 00000 n
-0000381211 00000 n
-0000381276 00000 n
-0000381341 00000 n
-0000381406 00000 n
-0000381471 00000 n
-0000381536 00000 n
-0000381601 00000 n
-0000381666 00000 n
-0000381731 00000 n
-0000381796 00000 n
-0000381861 00000 n
-0000381926 00000 n
-0000381991 00000 n
-0000382056 00000 n
-0000382121 00000 n
-0000382186 00000 n
-0000382251 00000 n
-0000382316 00000 n
-0000382381 00000 n
-0000382446 00000 n
-0000382516 00000 n
-0000382586 00000 n
-0000382650 00000 n
-0000382714 00000 n
-0000382778 00000 n
-0000382842 00000 n
-0000382906 00000 n
-0000382970 00000 n
-0000383034 00000 n
-0000383098 00000 n
-0000383162 00000 n
-0000383227 00000 n
-0000383292 00000 n
-0000383357 00000 n
-0000383422 00000 n
-0000383487 00000 n
-0000383552 00000 n
-0000383617 00000 n
-0000383682 00000 n
-0000383747 00000 n
-0000383812 00000 n
-0000383877 00000 n
-0000383942 00000 n
-0000384007 00000 n
-0000384072 00000 n
-0000384137 00000 n
-0000384202 00000 n
-0000384267 00000 n
-0000384332 00000 n
-0000384397 00000 n
-0000384462 00000 n
-0000384532 00000 n
-0000384602 00000 n
-0000384666 00000 n
-0000384730 00000 n
-0000384794 00000 n
-0000384858 00000 n
-0000384922 00000 n
-0000384986 00000 n
-0000385050 00000 n
-0000385114 00000 n
-0000385178 00000 n
-0000385243 00000 n
-0000385308 00000 n
-0000385373 00000 n
-0000385438 00000 n
-0000385503 00000 n
-0000385568 00000 n
-0000385633 00000 n
-0000385698 00000 n
-0000385763 00000 n
-0000385828 00000 n
-0000385893 00000 n
-0000385958 00000 n
-0000386023 00000 n
-0000386088 00000 n
-0000386153 00000 n
-0000386218 00000 n
-0000386283 00000 n
-0000386348 00000 n
-0000386413 00000 n
-0000386478 00000 n
-0000386543 00000 n
-0000386613 00000 n
-0000386683 00000 n
-0000386747 00000 n
-0000386811 00000 n
-0000386875 00000 n
-0000386939 00000 n
-0000387003 00000 n
-0000387067 00000 n
-0000387131 00000 n
-0000387195 00000 n
-0000387259 00000 n
-0000387324 00000 n
-0000387389 00000 n
-0000387454 00000 n
-0000387519 00000 n
-0000387584 00000 n
-0000387649 00000 n
-0000387714 00000 n
-0000387779 00000 n
-0000387844 00000 n
-0000387909 00000 n
-0000387974 00000 n
-0000388039 00000 n
-0000388104 00000 n
-0000388169 00000 n
-0000388234 00000 n
-0000388299 00000 n
-0000388364 00000 n
-0000388429 00000 n
-0000388494 00000 n
-0000388559 00000 n
-0000388624 00000 n
-0000388689 00000 n
-0000388759 00000 n
-0000388829 00000 n
-0000388893 00000 n
-0000388957 00000 n
-0000389021 00000 n
-0000389085 00000 n
-0000389149 00000 n
-0000389213 00000 n
-0000389277 00000 n
-0000389341 00000 n
-0000389405 00000 n
-0000389470 00000 n
-0000389535 00000 n
-0000389600 00000 n
-0000389665 00000 n
-0000389734 00000 n
-0000389799 00000 n
-0000389864 00000 n
-0000389929 00000 n
-0000389994 00000 n
-0000390059 00000 n
-0000390124 00000 n
-0000390189 00000 n
-0000390254 00000 n
-0000390324 00000 n
-0000390394 00000 n
-0000390458 00000 n
-0000390526 00000 n
-0000390590 00000 n
-0000390654 00000 n
-0000390718 00000 n
-0000390782 00000 n
-0000390846 00000 n
-0000390910 00000 n
-0000390974 00000 n
-0000391038 00000 n
-0000391103 00000 n
-0000391168 00000 n
-0000391237 00000 n
-0000391302 00000 n
-0000391367 00000 n
-0000391432 00000 n
-0000391497 00000 n
-0000391562 00000 n
-0000391627 00000 n
-0000391692 00000 n
-0000391757 00000 n
-0000391822 00000 n
-0000391891 00000 n
-0000391956 00000 n
-0000392021 00000 n
-0000392086 00000 n
-0000392151 00000 n
-0000392216 00000 n
-0000392281 00000 n
-0000392346 00000 n
-0000392411 00000 n
-0000392476 00000 n
-0000392541 00000 n
-0000392606 00000 n
-0000392671 00000 n
-0000392739 00000 n
-0000392803 00000 n
-0000392867 00000 n
-0000392931 00000 n
-0000392995 00000 n
-0000393059 00000 n
-0000393123 00000 n
-0000393187 00000 n
-0000393251 00000 n
-0000393315 00000 n
-0000393380 00000 n
-0000393449 00000 n
-0000393514 00000 n
-0000393579 00000 n
-0000393644 00000 n
-0000393709 00000 n
-0000393774 00000 n
-0000393839 00000 n
-0000393904 00000 n
-0000393969 00000 n
-0000394034 00000 n
-0000394103 00000 n
-0000394168 00000 n
-0000394233 00000 n
-0000394298 00000 n
-0000394363 00000 n
-0000394428 00000 n
-0000394493 00000 n
-0000394558 00000 n
-0000394623 00000 n
-0000394688 00000 n
-0000394753 00000 n
-0000394818 00000 n
-0000394883 00000 n
-0000394947 00000 n
-0000395011 00000 n
-0000395075 00000 n
-0000395139 00000 n
-0000395203 00000 n
-0000395267 00000 n
-0000395331 00000 n
-0000395400 00000 n
-0000395465 00000 n
-0000395530 00000 n
-0000395595 00000 n
-0000395660 00000 n
-0000395725 00000 n
-0000395790 00000 n
-0000395855 00000 n
-0000395920 00000 n
-0000395985 00000 n
-0000396050 00000 n
-0000396115 00000 n
-0000396184 00000 n
-0000396249 00000 n
-0000396314 00000 n
-0000396379 00000 n
-0000396444 00000 n
-0000396509 00000 n
-0000396574 00000 n
-0000396639 00000 n
-0000396704 00000 n
-0000396769 00000 n
-0000396839 00000 n
-0000396909 00000 n
-0000396973 00000 n
-0000397037 00000 n
-0000397101 00000 n
-0000397169 00000 n
-0000397233 00000 n
-0000397297 00000 n
-0000397362 00000 n
-0000397427 00000 n
-0000397492 00000 n
-0000397557 00000 n
-0000397622 00000 n
-0000397687 00000 n
-0000397756 00000 n
-0000397821 00000 n
-0000397886 00000 n
-0000397951 00000 n
-0000398016 00000 n
-0000398081 00000 n
-0000398146 00000 n
-0000398211 00000 n
-0000398276 00000 n
-0000398341 00000 n
-0000398406 00000 n
-0000398475 00000 n
-0000398540 00000 n
-0000398605 00000 n
-0000398670 00000 n
-0000398735 00000 n
-0000398800 00000 n
-0000398865 00000 n
-0000398935 00000 n
-0000399003 00000 n
-0000399067 00000 n
-0000399131 00000 n
-0000399195 00000 n
-0000399259 00000 n
-0000399323 00000 n
-0000399388 00000 n
-0000399453 00000 n
-0000399518 00000 n
-0000399587 00000 n
-0000399652 00000 n
-0000399717 00000 n
-0000399782 00000 n
-0000399847 00000 n
-0000399912 00000 n
-0000399977 00000 n
-0000400042 00000 n
-0000400107 00000 n
-0000400172 00000 n
-0000400237 00000 n
-0000400302 00000 n
-0000400367 00000 n
-0000400432 00000 n
-0000400497 00000 n
-0000400562 00000 n
-0000400627 00000 n
-0000400692 00000 n
-0000400757 00000 n
-0000400822 00000 n
-0000400887 00000 n
-0000400952 00000 n
-0000401017 00000 n
-0000401087 00000 n
-0000401152 00000 n
-0000401220 00000 n
-0000401288 00000 n
-0000401356 00000 n
+0000142072 00000 n
+0000142302 00000 n
+0000142535 00000 n
+0000142767 00000 n
+0000142997 00000 n
+0000143229 00000 n
+0000143462 00000 n
+0000143694 00000 n
+0000144349 00000 n
+0000144580 00000 n
+0000144815 00000 n
+0000145048 00000 n
+0000145277 00000 n
+0000145509 00000 n
+0000288404 00000 n
+0000289697 00000 n
+0000292119 00000 n
+0000296491 00000 n
+0000298727 00000 n
+0000300868 00000 n
+0000302912 00000 n
+0000305264 00000 n
+0000305439 00000 n
+0000307082 00000 n
+0000308941 00000 n
+0000313780 00000 n
+0000316829 00000 n
+0000317108 00000 n
+0000317645 00000 n
+0000322353 00000 n
+0000325458 00000 n
+0000326815 00000 n
+0000327036 00000 n
+0000331185 00000 n
+0000333998 00000 n
+0000335345 00000 n
+0000335554 00000 n
+0000335763 00000 n
+0000336822 00000 n
+0000338353 00000 n
+0000338564 00000 n
+0000338775 00000 n
+0000338983 00000 n
+0000339194 00000 n
+0000339403 00000 n
+0000339612 00000 n
+0000339821 00000 n
+0000340030 00000 n
+0000340237 00000 n
+0000340410 00000 n
+0000340620 00000 n
+0000340825 00000 n
+0000341001 00000 n
+0000341212 00000 n
+0000341418 00000 n
+0000341671 00000 n
+0000341753 00000 n
+0000341835 00000 n
+0000341917 00000 n
+0000341999 00000 n
+0000342081 00000 n
+0000342163 00000 n
+0000344391 00000 n
+0000344473 00000 n
+0000344555 00000 n
+0000344637 00000 n
+0000344719 00000 n
+0000344801 00000 n
+0000344883 00000 n
+0000344965 00000 n
+0000345047 00000 n
+0000345129 00000 n
+0000345211 00000 n
+0000345293 00000 n
+0000345375 00000 n
+0000345457 00000 n
+0000345539 00000 n
+0000345621 00000 n
+0000345703 00000 n
+0000345785 00000 n
+0000345867 00000 n
+0000346121 00000 n
+0000346776 00000 n
+0000346858 00000 n
+0000346940 00000 n
+0000347022 00000 n
+0000347104 00000 n
+0000347186 00000 n
+0000347268 00000 n
+0000347350 00000 n
+0000347432 00000 n
+0000347692 00000 n
+0000347774 00000 n
+0000347930 00000 n
+0000348012 00000 n
+0000348094 00000 n
+0000348250 00000 n
+0000348332 00000 n
+0000348592 00000 n
+0000349032 00000 n
+0000349108 00000 n
+0000349278 00000 n
+0000349382 00000 n
+0000349438 00000 n
+0000349574 00000 n
+0000349631 00000 n
+0000349731 00000 n
+0000349787 00000 n
+0000349881 00000 n
+0000349937 00000 n
+0000350084 00000 n
+0000350140 00000 n
+0000350278 00000 n
+0000350334 00000 n
+0000350390 00000 n
+0000351615 00000 n
+0000351862 00000 n
+0000351958 00000 n
+0000353155 00000 n
+0000353236 00000 n
+0000353390 00000 n
+0000353415 00000 n
+0000353485 00000 n
+0000353553 00000 n
+0000353815 00000 n
+0000354065 00000 n
+0000359269 00000 n
+0000359623 00000 n
+0000360013 00000 n
+0000360347 00000 n
+0000360686 00000 n
+0000361034 00000 n
+0000361373 00000 n
+0000361685 00000 n
+0000361812 00000 n
+0000362124 00000 n
+0000362454 00000 n
+0000362784 00000 n
+0000363123 00000 n
+0000363471 00000 n
+0000363758 00000 n
+0000364096 00000 n
+0000364425 00000 n
+0000364795 00000 n
+0000365171 00000 n
+0000365545 00000 n
+0000365829 00000 n
+0000365893 00000 n
+0000365957 00000 n
+0000366021 00000 n
+0000366085 00000 n
+0000366150 00000 n
+0000366214 00000 n
+0000366278 00000 n
+0000366342 00000 n
+0000366406 00000 n
+0000366470 00000 n
+0000366534 00000 n
+0000366598 00000 n
+0000366662 00000 n
+0000366726 00000 n
+0000366790 00000 n
+0000366854 00000 n
+0000366918 00000 n
+0000366982 00000 n
+0000367046 00000 n
+0000367110 00000 n
+0000367174 00000 n
+0000367238 00000 n
+0000367310 00000 n
+0000367374 00000 n
+0000367446 00000 n
+0000367510 00000 n
+0000367573 00000 n
+0000367647 00000 n
+0000367710 00000 n
+0000367773 00000 n
+0000367836 00000 n
+0000367899 00000 n
+0000367962 00000 n
+0000368026 00000 n
+0000368090 00000 n
+0000368154 00000 n
+0000368218 00000 n
+0000368282 00000 n
+0000368346 00000 n
+0000368410 00000 n
+0000368478 00000 n
+0000368546 00000 n
+0000368614 00000 n
+0000368682 00000 n
+0000368746 00000 n
+0000368814 00000 n
+0000368882 00000 n
+0000368946 00000 n
+0000369010 00000 n
+0000369082 00000 n
+0000369151 00000 n
+0000369215 00000 n
+0000369279 00000 n
+0000369343 00000 n
+0000369407 00000 n
+0000369471 00000 n
+0000369535 00000 n
+0000369599 00000 n
+0000369663 00000 n
+0000369727 00000 n
+0000369791 00000 n
+0000369856 00000 n
+0000369921 00000 n
+0000369986 00000 n
+0000370051 00000 n
+0000370116 00000 n
+0000370181 00000 n
+0000370246 00000 n
+0000370311 00000 n
+0000370376 00000 n
+0000370441 00000 n
+0000370506 00000 n
+0000370571 00000 n
+0000370636 00000 n
+0000370701 00000 n
+0000370766 00000 n
+0000370831 00000 n
+0000370896 00000 n
+0000370961 00000 n
+0000371026 00000 n
+0000371091 00000 n
+0000371156 00000 n
+0000371221 00000 n
+0000371291 00000 n
+0000371355 00000 n
+0000371419 00000 n
+0000371483 00000 n
+0000371547 00000 n
+0000371611 00000 n
+0000371675 00000 n
+0000371739 00000 n
+0000371803 00000 n
+0000371867 00000 n
+0000371932 00000 n
+0000371997 00000 n
+0000372062 00000 n
+0000372127 00000 n
+0000372192 00000 n
+0000372257 00000 n
+0000372322 00000 n
+0000372387 00000 n
+0000372452 00000 n
+0000372517 00000 n
+0000372582 00000 n
+0000372647 00000 n
+0000372712 00000 n
+0000372777 00000 n
+0000372842 00000 n
+0000372907 00000 n
+0000372972 00000 n
+0000373037 00000 n
+0000373102 00000 n
+0000373167 00000 n
+0000373232 00000 n
+0000373302 00000 n
+0000373372 00000 n
+0000373436 00000 n
+0000373500 00000 n
+0000373564 00000 n
+0000373628 00000 n
+0000373692 00000 n
+0000373756 00000 n
+0000373820 00000 n
+0000373884 00000 n
+0000373948 00000 n
+0000374013 00000 n
+0000374078 00000 n
+0000374143 00000 n
+0000374208 00000 n
+0000374273 00000 n
+0000374338 00000 n
+0000374403 00000 n
+0000374468 00000 n
+0000374533 00000 n
+0000374598 00000 n
+0000374663 00000 n
+0000374728 00000 n
+0000374793 00000 n
+0000374858 00000 n
+0000374923 00000 n
+0000374988 00000 n
+0000375053 00000 n
+0000375118 00000 n
+0000375183 00000 n
+0000375248 00000 n
+0000375313 00000 n
+0000375378 00000 n
+0000375448 00000 n
+0000375518 00000 n
+0000375582 00000 n
+0000375646 00000 n
+0000375710 00000 n
+0000375774 00000 n
+0000375838 00000 n
+0000375902 00000 n
+0000375966 00000 n
+0000376030 00000 n
+0000376094 00000 n
+0000376159 00000 n
+0000376224 00000 n
+0000376289 00000 n
+0000376354 00000 n
+0000376419 00000 n
+0000376484 00000 n
+0000376549 00000 n
+0000376614 00000 n
+0000376679 00000 n
+0000376744 00000 n
+0000376809 00000 n
+0000376874 00000 n
+0000376939 00000 n
+0000377004 00000 n
+0000377069 00000 n
+0000377134 00000 n
+0000377199 00000 n
+0000377264 00000 n
+0000377329 00000 n
+0000377394 00000 n
+0000377459 00000 n
+0000377529 00000 n
+0000377599 00000 n
+0000377663 00000 n
+0000377727 00000 n
+0000377791 00000 n
+0000377855 00000 n
+0000377919 00000 n
+0000377983 00000 n
+0000378047 00000 n
+0000378111 00000 n
+0000378175 00000 n
+0000378240 00000 n
+0000378305 00000 n
+0000378370 00000 n
+0000378435 00000 n
+0000378500 00000 n
+0000378565 00000 n
+0000378630 00000 n
+0000378695 00000 n
+0000378760 00000 n
+0000378825 00000 n
+0000378890 00000 n
+0000378955 00000 n
+0000379020 00000 n
+0000379085 00000 n
+0000379150 00000 n
+0000379215 00000 n
+0000379280 00000 n
+0000379345 00000 n
+0000379415 00000 n
+0000379485 00000 n
+0000379549 00000 n
+0000379613 00000 n
+0000379677 00000 n
+0000379741 00000 n
+0000379805 00000 n
+0000379869 00000 n
+0000379933 00000 n
+0000379997 00000 n
+0000380061 00000 n
+0000380131 00000 n
+0000380195 00000 n
+0000380259 00000 n
+0000380323 00000 n
+0000380387 00000 n
+0000380451 00000 n
+0000380515 00000 n
+0000380579 00000 n
+0000380643 00000 n
+0000380707 00000 n
+0000380772 00000 n
+0000380837 00000 n
+0000380902 00000 n
+0000380967 00000 n
+0000381032 00000 n
+0000381097 00000 n
+0000381162 00000 n
+0000381227 00000 n
+0000381292 00000 n
+0000381357 00000 n
+0000381422 00000 n
+0000381487 00000 n
+0000381552 00000 n
+0000381617 00000 n
+0000381682 00000 n
+0000381747 00000 n
+0000381812 00000 n
+0000381877 00000 n
+0000381947 00000 n
+0000382017 00000 n
+0000382081 00000 n
+0000382145 00000 n
+0000382209 00000 n
+0000382273 00000 n
+0000382337 00000 n
+0000382401 00000 n
+0000382465 00000 n
+0000382529 00000 n
+0000382593 00000 n
+0000382658 00000 n
+0000382723 00000 n
+0000382788 00000 n
+0000382853 00000 n
+0000382918 00000 n
+0000382983 00000 n
+0000383048 00000 n
+0000383113 00000 n
+0000383178 00000 n
+0000383243 00000 n
+0000383308 00000 n
+0000383373 00000 n
+0000383438 00000 n
+0000383503 00000 n
+0000383568 00000 n
+0000383633 00000 n
+0000383698 00000 n
+0000383763 00000 n
+0000383828 00000 n
+0000383893 00000 n
+0000383963 00000 n
+0000384033 00000 n
+0000384097 00000 n
+0000384161 00000 n
+0000384225 00000 n
+0000384289 00000 n
+0000384353 00000 n
+0000384417 00000 n
+0000384481 00000 n
+0000384545 00000 n
+0000384609 00000 n
+0000384674 00000 n
+0000384739 00000 n
+0000384804 00000 n
+0000384869 00000 n
+0000384934 00000 n
+0000384999 00000 n
+0000385064 00000 n
+0000385129 00000 n
+0000385194 00000 n
+0000385259 00000 n
+0000385324 00000 n
+0000385389 00000 n
+0000385454 00000 n
+0000385519 00000 n
+0000385584 00000 n
+0000385649 00000 n
+0000385714 00000 n
+0000385779 00000 n
+0000385844 00000 n
+0000385909 00000 n
+0000385979 00000 n
+0000386049 00000 n
+0000386113 00000 n
+0000386177 00000 n
+0000386241 00000 n
+0000386305 00000 n
+0000386369 00000 n
+0000386433 00000 n
+0000386497 00000 n
+0000386561 00000 n
+0000386625 00000 n
+0000386690 00000 n
+0000386755 00000 n
+0000386820 00000 n
+0000386885 00000 n
+0000386950 00000 n
+0000387015 00000 n
+0000387080 00000 n
+0000387145 00000 n
+0000387210 00000 n
+0000387275 00000 n
+0000387340 00000 n
+0000387405 00000 n
+0000387470 00000 n
+0000387535 00000 n
+0000387600 00000 n
+0000387665 00000 n
+0000387730 00000 n
+0000387795 00000 n
+0000387860 00000 n
+0000387925 00000 n
+0000387990 00000 n
+0000388060 00000 n
+0000388130 00000 n
+0000388194 00000 n
+0000388258 00000 n
+0000388322 00000 n
+0000388386 00000 n
+0000388450 00000 n
+0000388514 00000 n
+0000388578 00000 n
+0000388642 00000 n
+0000388706 00000 n
+0000388771 00000 n
+0000388836 00000 n
+0000388901 00000 n
+0000388966 00000 n
+0000389031 00000 n
+0000389096 00000 n
+0000389161 00000 n
+0000389226 00000 n
+0000389291 00000 n
+0000389356 00000 n
+0000389421 00000 n
+0000389486 00000 n
+0000389551 00000 n
+0000389616 00000 n
+0000389681 00000 n
+0000389746 00000 n
+0000389811 00000 n
+0000389876 00000 n
+0000389941 00000 n
+0000390006 00000 n
+0000390071 00000 n
+0000390136 00000 n
+0000390206 00000 n
+0000390276 00000 n
+0000390340 00000 n
+0000390404 00000 n
+0000390468 00000 n
+0000390532 00000 n
+0000390596 00000 n
+0000390660 00000 n
+0000390724 00000 n
+0000390788 00000 n
+0000390852 00000 n
+0000390917 00000 n
+0000390982 00000 n
+0000391047 00000 n
+0000391112 00000 n
+0000391181 00000 n
+0000391246 00000 n
+0000391311 00000 n
+0000391376 00000 n
+0000391441 00000 n
+0000391506 00000 n
+0000391571 00000 n
+0000391636 00000 n
+0000391701 00000 n
+0000391771 00000 n
+0000391841 00000 n
+0000391905 00000 n
+0000391973 00000 n
+0000392037 00000 n
+0000392101 00000 n
+0000392165 00000 n
+0000392229 00000 n
+0000392293 00000 n
+0000392357 00000 n
+0000392421 00000 n
+0000392485 00000 n
+0000392550 00000 n
+0000392615 00000 n
+0000392684 00000 n
+0000392749 00000 n
+0000392814 00000 n
+0000392879 00000 n
+0000392944 00000 n
+0000393009 00000 n
+0000393074 00000 n
+0000393139 00000 n
+0000393204 00000 n
+0000393269 00000 n
+0000393338 00000 n
+0000393403 00000 n
+0000393468 00000 n
+0000393533 00000 n
+0000393598 00000 n
+0000393663 00000 n
+0000393728 00000 n
+0000393793 00000 n
+0000393858 00000 n
+0000393923 00000 n
+0000393988 00000 n
+0000394053 00000 n
+0000394118 00000 n
+0000394186 00000 n
+0000394250 00000 n
+0000394314 00000 n
+0000394378 00000 n
+0000394442 00000 n
+0000394506 00000 n
+0000394570 00000 n
+0000394634 00000 n
+0000394698 00000 n
+0000394762 00000 n
+0000394827 00000 n
+0000394896 00000 n
+0000394961 00000 n
+0000395026 00000 n
+0000395091 00000 n
+0000395156 00000 n
+0000395221 00000 n
+0000395286 00000 n
+0000395351 00000 n
+0000395416 00000 n
+0000395481 00000 n
+0000395550 00000 n
+0000395615 00000 n
+0000395680 00000 n
+0000395745 00000 n
+0000395810 00000 n
+0000395875 00000 n
+0000395940 00000 n
+0000396005 00000 n
+0000396070 00000 n
+0000396135 00000 n
+0000396200 00000 n
+0000396265 00000 n
+0000396330 00000 n
+0000396394 00000 n
+0000396458 00000 n
+0000396522 00000 n
+0000396586 00000 n
+0000396650 00000 n
+0000396714 00000 n
+0000396778 00000 n
+0000396847 00000 n
+0000396912 00000 n
+0000396977 00000 n
+0000397042 00000 n
+0000397107 00000 n
+0000397172 00000 n
+0000397237 00000 n
+0000397302 00000 n
+0000397367 00000 n
+0000397432 00000 n
+0000397497 00000 n
+0000397562 00000 n
+0000397631 00000 n
+0000397696 00000 n
+0000397761 00000 n
+0000397826 00000 n
+0000397891 00000 n
+0000397956 00000 n
+0000398021 00000 n
+0000398086 00000 n
+0000398151 00000 n
+0000398216 00000 n
+0000398286 00000 n
+0000398356 00000 n
+0000398420 00000 n
+0000398484 00000 n
+0000398548 00000 n
+0000398616 00000 n
+0000398680 00000 n
+0000398744 00000 n
+0000398809 00000 n
+0000398874 00000 n
+0000398939 00000 n
+0000399004 00000 n
+0000399069 00000 n
+0000399134 00000 n
+0000399203 00000 n
+0000399268 00000 n
+0000399333 00000 n
+0000399398 00000 n
+0000399463 00000 n
+0000399528 00000 n
+0000399593 00000 n
+0000399658 00000 n
+0000399723 00000 n
+0000399788 00000 n
+0000399853 00000 n
+0000399922 00000 n
+0000399987 00000 n
+0000400052 00000 n
+0000400117 00000 n
+0000400182 00000 n
+0000400247 00000 n
+0000400312 00000 n
+0000400382 00000 n
+0000400450 00000 n
+0000400514 00000 n
+0000400578 00000 n
+0000400642 00000 n
+0000400706 00000 n
+0000400770 00000 n
+0000400835 00000 n
+0000400900 00000 n
+0000400965 00000 n
+0000401034 00000 n
+0000401099 00000 n
+0000401164 00000 n
+0000401229 00000 n
+0000401294 00000 n
+0000401359 00000 n
 0000401424 00000 n
-0000401495 00000 n
-0000401566 00000 n
-0000401637 00000 n
-0000401708 00000 n
-0000401779 00000 n
-0000401851 00000 n
-0000401923 00000 n
-0000401995 00000 n
-0000402067 00000 n
+0000401489 00000 n
+0000401554 00000 n
+0000401619 00000 n
+0000401684 00000 n
+0000401749 00000 n
+0000401814 00000 n
+0000401879 00000 n
+0000401944 00000 n
+0000402009 00000 n
+0000402074 00000 n
 0000402139 00000 n
-0000402211 00000 n
-0000402283 00000 n
-0000402351 00000 n
-0000402419 00000 n
-0000402487 00000 n
-0000402555 00000 n
-0000402623 00000 n
-0000402691 00000 n
-0000402759 00000 n
-0000402827 00000 n
-0000402895 00000 n
-0000402963 00000 n
-0000403031 00000 n
-0000403099 00000 n
-0000403151 00000 n
-0000403203 00000 n
-0000403255 00000 n
-0000403307 00000 n
-0000403359 00000 n
-0000403411 00000 n
-0000403463 00000 n
-0000403515 00000 n
-0000403567 00000 n
-0000403619 00000 n
-0000403671 00000 n
-0000403723 00000 n
-0000403775 00000 n
-0000403827 00000 n
-0000403879 00000 n
+0000402204 00000 n
+0000402269 00000 n
+0000402334 00000 n
+0000402399 00000 n
+0000402464 00000 n
+0000402534 00000 n
+0000402599 00000 n
+0000402667 00000 n
+0000402735 00000 n
+0000402803 00000 n
+0000402871 00000 n
+0000402942 00000 n
+0000403013 00000 n
+0000403084 00000 n
+0000403155 00000 n
+0000403226 00000 n
+0000403298 00000 n
+0000403370 00000 n
+0000403442 00000 n
+0000403514 00000 n
+0000403586 00000 n
+0000403658 00000 n
+0000403730 00000 n
+0000403798 00000 n
+0000403866 00000 n
+0000403934 00000 n
+0000404002 00000 n
+0000404070 00000 n
+0000404138 00000 n
+0000404206 00000 n
+0000404274 00000 n
+0000404342 00000 n
+0000404410 00000 n
+0000404478 00000 n
+0000404546 00000 n
+0000404598 00000 n
+0000404650 00000 n
+0000404702 00000 n
+0000404754 00000 n
+0000404806 00000 n
+0000404858 00000 n
+0000404910 00000 n
+0000404962 00000 n
+0000405014 00000 n
+0000405066 00000 n
+0000405118 00000 n
+0000405170 00000 n
+0000405222 00000 n
+0000405274 00000 n
+0000405326 00000 n
 866 23
-0000403931 00000 n
-0000404011 00000 n
-0000404073 00000 n
-0000404124 00000 n
-0000404175 00000 n
-0000404226 00000 n
-0000404277 00000 n
-0000404328 00000 n
-0000404379 00000 n
-0000404430 00000 n
-0000404481 00000 n
-0000404532 00000 n
-0000404583 00000 n
-0000404634 00000 n
-0000404685 00000 n
-0000404736 00000 n
-0000404787 00000 n
-0000404975 00000 n
-0000405027 00000 n
-0000405079 00000 n
-0000405131 00000 n
-0000405183 00000 n
-0000405235 00000 n
+0000405378 00000 n
+0000405458 00000 n
+0000405520 00000 n
+0000405571 00000 n
+0000405622 00000 n
+0000405673 00000 n
+0000405724 00000 n
+0000405775 00000 n
+0000405826 00000 n
+0000405877 00000 n
+0000405928 00000 n
+0000405979 00000 n
+0000406030 00000 n
+0000406081 00000 n
+0000406132 00000 n
+0000406183 00000 n
+0000406234 00000 n
+0000406422 00000 n
+0000406474 00000 n
+0000406526 00000 n
+0000406578 00000 n
+0000406630 00000 n
+0000406682 00000 n
 890 2
-0000405287 00000 n
-0000405339 00000 n
+0000406734 00000 n
+0000406786 00000 n
 893 12
-0000405391 00000 n
-0000405443 00000 n
-0000405495 00000 n
-0000405547 00000 n
-0000405599 00000 n
-0000405651 00000 n
-0000405703 00000 n
-0000405755 00000 n
-0000405807 00000 n
-0000405859 00000 n
-0000405911 00000 n
-0000405963 00000 n
+0000406838 00000 n
+0000406890 00000 n
+0000406942 00000 n
+0000406994 00000 n
+0000407046 00000 n
+0000407098 00000 n
+0000407150 00000 n
+0000407202 00000 n
+0000407254 00000 n
+0000407306 00000 n
+0000407358 00000 n
+0000407410 00000 n
 906 13
-0000406015 00000 n
-0000406103 00000 n
-0000406404 00000 n
-0000406979 00000 n
-0000407063 00000 n
+0000407462 00000 n
+0000407550 00000 n
 0000407851 00000 n
-0000408616 00000 n
-0000409217 00000 n
-0000409943 00000 n
-0000410738 00000 n
-0000411500 00000 n
-0000412346 00000 n
-0000413040 00000 n
+0000408426 00000 n
+0000408510 00000 n
+0000409298 00000 n
+0000410063 00000 n
+0000410664 00000 n
+0000411390 00000 n
+0000412185 00000 n
+0000412947 00000 n
+0000413793 00000 n
+0000414487 00000 n
 922 1
-0000413455 00000 n
+0000414902 00000 n
 924 12
-0000413665 00000 n
-0000414228 00000 n
-0000439374 00000 n
-0000466650 00000 n
-0000486159 00000 n
-0000507545 00000 n
-0000507943 00000 n
-0000508227 00000 n
-0000508475 00000 n
-0000508762 00000 n
-0000509009 00000 n
-0000509245 00000 n
+0000415112 00000 n
+0000415675 00000 n
+0000440821 00000 n
+0000468097 00000 n
+0000487606 00000 n
+0000508992 00000 n
+0000509390 00000 n
+0000509674 00000 n
+0000509922 00000 n
+0000510209 00000 n
+0000510456 00000 n
+0000510692 00000 n
 937 4
-0000509537 00000 n
-0000510734 00000 n
-0000510812 00000 n
-0000511084 00000 n
+0000510984 00000 n
+0000512181 00000 n
+0000512259 00000 n
+0000512531 00000 n
 943 12
-0000511348 00000 n
-0000511416 00000 n
-0000511475 00000 n
-0000511507 00000 n
-0000511632 00000 n
-0000511699 00000 n
-0000511746 00000 n
-0000511778 00000 n
-0000515215 00000 n
-0000517364 00000 n
-0000519263 00000 n
+0000512795 00000 n
+0000512863 00000 n
+0000512922 00000 n
+0000512954 00000 n
+0000513079 00000 n
+0000513146 00000 n
+0000513193 00000 n
+0000513225 00000 n
+0000516662 00000 n
+0000518811 00000 n
 0000520710 00000 n
+0000522157 00000 n
 969 9
-0000522172 00000 n
-0000522211 00000 n
-0000522250 00000 n
-0000522546 00000 n
-0000522585 00000 n
-0000522866 00000 n
-0000522905 00000 n
-0000523201 00000 n
-0000523240 00000 n
+0000523619 00000 n
+0000523658 00000 n
+0000523697 00000 n
+0000523993 00000 n
+0000524032 00000 n
+0000524313 00000 n
+0000524352 00000 n
+0000524648 00000 n
+0000524687 00000 n
 979 1
-0000523525 00000 n
+0000524972 00000 n
 998 1
-0000523567 00000 n
+0000525014 00000 n
 1000 1
-0000523609 00000 n
+0000525056 00000 n
 1019 1
-0000523652 00000 n
+0000525099 00000 n
 1038 1
-0000523695 00000 n
+0000525142 00000 n
 1049 1
-0000523738 00000 n
+0000525185 00000 n
 1059 1
-0000524611 00000 n
+0000526058 00000 n
 1069 2
-0000524654 00000 n
-0000525321 00000 n
+0000526101 00000 n
+0000526768 00000 n
 1091 2
-0000525364 00000 n
-0000526771 00000 n
+0000526811 00000 n
+0000528218 00000 n
 1102 4
-0000526814 00000 n
-0000526857 00000 n
-0000527613 00000 n
-0000527656 00000 n
+0000528261 00000 n
+0000528304 00000 n
+0000529060 00000 n
+0000529103 00000 n
 1114 1
-0000528405 00000 n
+0000529852 00000 n
 1123 1
-0000528700 00000 n
+0000530147 00000 n
 1125 1
-0000528743 00000 n
+0000530190 00000 n
 1127 1
-0000528786 00000 n
+0000530233 00000 n
 1137 5
-0000528829 00000 n
-0000529663 00000 n
-0000530450 00000 n
-0000531416 00000 n
-0000532300 00000 n
+0000530276 00000 n
+0000531110 00000 n
+0000531897 00000 n
+0000532863 00000 n
+0000533747 00000 n
 1151 1
-0000533681 00000 n
-1162 3
-0000533724 00000 n
-0000535119 00000 n
-0000535162 00000 n
+0000535128 00000 n
+1163 2
+0000535171 00000 n
+0000535214 00000 n
 1175 1
-0000535205 00000 n
+0000535257 00000 n
 1177 5
-0000535248 00000 n
-0000535686 00000 n
-0000536366 00000 n
-0000536409 00000 n
-0000537083 00000 n
+0000535300 00000 n
+0000535738 00000 n
+0000536418 00000 n
+0000536461 00000 n
+0000537135 00000 n
 1191 2
-0000537126 00000 n
-0000537390 00000 n
-1194 5
-0000537433 00000 n
-0000538705 00000 n
-0000538748 00000 n
-0000539176 00000 n
-0000540052 00000 n
+0000537178 00000 n
+0000537442 00000 n
+1194 2
+0000537485 00000 n
+0000538757 00000 n
+1197 2
+0000538800 00000 n
+0000539676 00000 n
 1208 2
-0000540095 00000 n
-0000541139 00000 n
-1211 10
-0000542095 00000 n
-0000542231 00000 n
-0000542389 00000 n
-0000542463 00000 n
-0000542640 00000 n
-0000543056 00000 n
-0000543086 00000 n
-0000543311 00000 n
-0000543605 00000 n
-0000544047 00000 n
+0000539719 00000 n
+0000540763 00000 n
+1220 13
+0000541719 00000 n
+0000542757 00000 n
+0000542893 00000 n
+0000543051 00000 n
+0000543125 00000 n
+0000543302 00000 n
+0000543718 00000 n
+0000543748 00000 n
+0000543973 00000 n
+0000544267 00000 n
+0000544767 00000 n
+0000546163 00000 n
+0000546852 00000 n
 trailer
-<</Info 940 0 R /Root 907 0 R /Size 1221/ID[<8E05B06B05AD0AED101978A41485BDA1><63F2B46BD2823A3E0438B69FE23CACAF>]>>
+<</Info 940 0 R /Root 907 0 R /Size 1233/ID[<8E05B06B05AD0AED101978A41485BDA1><97123DBED074B9DFCEBF836D340CDBB1>]>>
 startxref
-545085
+546895
 %%EOF
