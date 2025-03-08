@@ -28,7 +28,7 @@ CREATE TABLE productos2temp (
     precio DECIMAL(10,2) CHECK (precio >= 10 AND precio <= 5000)
 );
 
---\COPY productos FROM ./productos.csv WITH (FORMAT csv, HEADER, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8'
+
 \COPY productos2temp FROM ./productos.csv WITH (FORMAT csv, HEADER, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
 
 CREATE TABLE productos2 AS
@@ -38,9 +38,9 @@ ORDER BY precio;
 
 DROP TABLE productos2temp;
 
-*/
+
 -- Crear la tabla productos3
-/*
+
 CREATE TABLE productos3 (
     producto_id SERIAL ,
     nombre TEXT NOT NULL,
