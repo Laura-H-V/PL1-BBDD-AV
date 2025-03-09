@@ -38,7 +38,7 @@ ORDER BY precio;
 
 DROP TABLE productos2temp;
 */
-/*
+
 CREATE TABLE productos3 (
     producto_id SERIAL,
     nombre TEXT NOT NULL,
@@ -59,7 +59,7 @@ CREATE TABLE productos3_8 PARTITION OF productos3 FOR VALUES WITH (MODULUS 10, R
 CREATE TABLE productos3_9 PARTITION OF productos3 FOR VALUES WITH (MODULUS 10, REMAINDER 9);
 
 \COPY productos3 FROM ./productos.csv WITH (FORMAT csv, HEADER, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
-*/
+
 
 /*
 -- Crear la tabla productos3
@@ -94,7 +94,7 @@ CREATE TABLE productos3_8 PARTITION OF productos3 FOR VALUES FROM (4010) TO (451
 CREATE TABLE productos3_9 PARTITION OF productos3 FOR VALUES FROM (4510) TO (5010);
 
 \COPY productos3 FROM ./productos.csv WITH (FORMAT csv, HEADER, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
-
+*/
 
 
 /*
