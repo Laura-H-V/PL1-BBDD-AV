@@ -37,10 +37,31 @@ FROM productos2temp
 ORDER BY precio;
 
 DROP TABLE productos2temp;
+*/
+/*
+CREATE TABLE productos3 (
+    producto_id SERIAL,
+    nombre TEXT NOT NULL,
+    stock INT CHECK (stock >= 0),
+    precio DECIMAL(10,2) CHECK (precio >= 10 AND precio <= 5000),
+    PRIMARY KEY (producto_id, stock)
+) PARTITION BY HASH (stock);
 
+CREATE TABLE productos3_0 PARTITION OF productos3 FOR VALUES WITH (MODULUS 10, REMAINDER 0);
+CREATE TABLE productos3_1 PARTITION OF productos3 FOR VALUES WITH (MODULUS 10, REMAINDER 1);
+CREATE TABLE productos3_2 PARTITION OF productos3 FOR VALUES WITH (MODULUS 10, REMAINDER 2);
+CREATE TABLE productos3_3 PARTITION OF productos3 FOR VALUES WITH (MODULUS 10, REMAINDER 3);
+CREATE TABLE productos3_4 PARTITION OF productos3 FOR VALUES WITH (MODULUS 10, REMAINDER 4);
+CREATE TABLE productos3_5 PARTITION OF productos3 FOR VALUES WITH (MODULUS 10, REMAINDER 5);
+CREATE TABLE productos3_6 PARTITION OF productos3 FOR VALUES WITH (MODULUS 10, REMAINDER 6);
+CREATE TABLE productos3_7 PARTITION OF productos3 FOR VALUES WITH (MODULUS 10, REMAINDER 7);
+CREATE TABLE productos3_8 PARTITION OF productos3 FOR VALUES WITH (MODULUS 10, REMAINDER 8);
+CREATE TABLE productos3_9 PARTITION OF productos3 FOR VALUES WITH (MODULUS 10, REMAINDER 9);
+
+\COPY productos3 FROM ./productos.csv WITH (FORMAT csv, HEADER, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
+*/
 
 /*
-
 -- Crear la tabla productos3
 
 CREATE TABLE productos3 (
@@ -74,6 +95,9 @@ CREATE TABLE productos3_9 PARTITION OF productos3 FOR VALUES FROM (4510) TO (501
 
 \COPY productos3 FROM ./productos.csv WITH (FORMAT csv, HEADER, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
 
+
+
+/*
 -- SELECT relpages FROM pg_class WHERE relname = 'productos';
 
 
@@ -104,9 +128,9 @@ SELECT COUNT(*) FROM productos WHERE precio BETWEEN 3000.00 AND 3000.99;
 SELECT indexname, indexdef FROM pg_indexes WHERE tablename = 'productos';
 
 SELECT relname, relpages, reltuples, pg_size_pretty(pg_relation_size(oid)) FROM pg_class WHERE relname = 'productos';
-*/
 
-/*
+
+
 SELECT DISTINCT ON (btpo_level) btpo_level, gs.blkno AS block_number
 FROM generate_series(1, 68549) AS gs(blkno)
 CROSS JOIN LATERAL bt_page_stats('indice_precio', gs.blkno)
