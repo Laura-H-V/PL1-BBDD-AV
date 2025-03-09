@@ -7,7 +7,7 @@ CREATE INDEX indice_precio ON productos (precio);
 CREATE INDEX indice_hash_producto_id ON productos USING hash (producto_id);
 CREATE INDEX indice_hash_precio ON productos USING HASH (precio);
 
-*/
+
 -- Crear la tabla productos
 CREATE TABLE productos (
     producto_id SERIAL PRIMARY KEY,
@@ -18,7 +18,7 @@ CREATE TABLE productos (
 
 
 \COPY productos FROM ./productos.csv WITH (FORMAT csv, HEADER, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
-
+*/
 /*
 -- Crear la tabla productos2
 CREATE TABLE productos2temp (
@@ -38,6 +38,8 @@ ORDER BY precio;
 
 DROP TABLE productos2temp;
 
+
+/*
 
 -- Crear la tabla productos3
 

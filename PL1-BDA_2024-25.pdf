@@ -1156,10 +1156,10 @@ wNÉS‰©O¦æ¦–P§–L¡É%]m¾šºÊ¡I,L’Iº‚SW0]-º²¬Ä5ø ş…‰5.'®û—ç.._ ä÷,ä‡6s*•2üî¼…ü
 endstream
 endobj
 124 0 obj
-<</AP<</N 1069 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 7 0 R /RV( En la ubicación del ordenador donde están los datos de postgresSQL hay una carpeta "data" y dentro de esta está el archivo postgresql.conf.  Ahi deberemos de modificar el apartado log_statement para que sea igual a 'mod'. Esto hace que solo registre las sentencias DML y DDL, las pedidas en el enunciado. Para que no aparezca la duración de las consultas se establece log_duration como 'off'. Para modificar la salida de los logs con un texto personalizado, se añade en log_line_prefix ambos dni junto a los datos que ya aparecían por defecto)/Rect[ 85.091301 374.54001 539.34698 546.06403]/Subtype/Widget/T(Text1)/Type/Annot/V( En la ubicación del ordenador donde están los datos de postgresSQL hay una carpeta "data" y dentro de esta está el archivo postgresql.conf.  Ahi deberemos de modificar el apartado log_statement para que sea igual a 'mod'. Esto hace que solo registre las sentencias DML y DDL, las pedidas en el enunciado. Para que no aparezca la duración de las consultas se establece log_duration como 'off'. Para modificar la salida de los logs con un texto personalizado, se añade en log_line_prefix ambos dni junto a los datos que ya aparecían por defecto)>>
+<</AP<</N 1306 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 7 0 R /RV(En la ubicación del ordenador donde están los datos de postgresSQL hay una carpeta "data" y dentro de esta está el archivo postgresql.conf.  Ahí deberemos de modificar el apartado log_statement para que sea igual a 'mod'. Esto hace que solo registre las sentencias DML y DDL, las pedidas en el enunciado.\r\nPara que no aparezca la duración de las consultas se establece log_duration como 'off'.\r\nPara modificar la salida de los logs con un texto personalizado, se añade en log_line_prefix ambos dni junto a los datos que ya aparecían por defecto.)/Rect[ 85.091301 374.54001 539.34698 546.06403]/Subtype/Widget/T(Text1)/Type/Annot/V(En la ubicación del ordenador donde están los datos de postgresSQL hay una carpeta "data" y dentro de esta está el archivo postgresql.conf.  Ahí deberemos de modificar el apartado log_statement para que sea igual a 'mod'. Esto hace que solo registre las sentencias DML y DDL, las pedidas en el enunciado.\r\nPara que no aparezca la duración de las consultas se establece log_duration como 'off'.\r\nPara modificar la salida de los logs con un texto personalizado, se añade en log_line_prefix ambos dni junto a los datos que ya aparecían por defecto.)>>
 endobj
 125 0 obj
-<</AP<</N 1049 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 166 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 15 0 R /RV(Una vez tengamos la tabla creada y los datos cargados, necesitaremos obtener el identificador único de la tabla productos mediante una consulta a la tabla pg_class, donde se almacena toda la información de las tablas.\r\nSELECT oid FROM pg_class WHERE relname = 'productos';\r\nEsta será la consulta que haremos. OID es el nombre que contiene de la columna que almacena el identificador propio de la tabla productos. Este OID esta almacenadso en la tabla pg_class, ya mencionada anteriormente. Para seleccionar el OID  de la tabla productos, comprobaremos que el nombre de la tabla en pg_class \(almacenado en la tabla relname\) sea productos.\r\n\r\nPara obtener el tamaño haremos una consulta usando primero la función pg_size_pretty\(\) para que devuelva que devuelva el tamaño de una forma legible. Como parámetro a esta función le pasamos a su vez otra función, pg_relation_size, y como parámetro el OID de la tabla. Al realizar esta consulta devuelve un tamaño de 1436 MB.\r\n\r\nTiene este tamaño debido a la alta cantidad de datos de la tabla, junto a los datos extra que necesita generar psql.)/Rect[ 88.036797 584.651 543.27399 814.10303]/Subtype/Widget/T(Text2)/Type/Annot/V(Una vez tengamos la tabla creada y los datos cargados, necesitaremos obtener el identificador único de la tabla productos mediante una consulta a la tabla pg_class, donde se almacena toda la información de las tablas.\r\nSELECT oid FROM pg_class WHERE relname = 'productos';\r\nEsta será la consulta que haremos. OID es el nombre que contiene de la columna que almacena el identificador propio de la tabla productos. Este OID esta almacenadso en la tabla pg_class, ya mencionada anteriormente. Para seleccionar el OID  de la tabla productos, comprobaremos que el nombre de la tabla en pg_class \(almacenado en la tabla relname\) sea productos.\r\n\r\nPara obtener el tamaño haremos una consulta usando primero la función pg_size_pretty\(\) para que devuelva que devuelva el tamaño de una forma legible. Como parámetro a esta función le pasamos a su vez otra función, pg_relation_size, y como parámetro el OID de la tabla. Al realizar esta consulta devuelve un tamaño de 1436 MB.\r\n\r\nTiene este tamaño debido a la alta cantidad de datos de la tabla, junto a los datos extra que necesita generar psql.)>>
+<</AP<</N 1307 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 166 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 15 0 R /RV(Una vez tengamos la tabla creada y los datos cargados, necesitaremos obtener el identificador único de la tabla productos mediante una consulta a la tabla pg_class, donde se almacena toda la información de las tablas.\r\n\r\nSELECT oid FROM pg_class WHERE relname = 'productos';\r\nEsta será la consulta que haremos. OID es el nombre que contiene de la columna que almacena el identificador propio de la tabla productos. Este OID esta almacenadso en la tabla pg_class, ya mencionada anteriormente. Para seleccionar el OID  de la tabla productos, comprobaremos que el nombre de la tabla en pg_class \(almacenado en la tabla relname\) sea productos.\r\n\r\nPara obtener el tamaño haremos una consulta usando primero la función pg_size_pretty\(\) para que devuelva que devuelva el tamaño de una forma legible. Como parámetro a esta función le pasamos a su vez otra función, pg_relation_size, y como parámetro el OID de la tabla. Al realizar esta consulta devuelve un tamaño de 1436 MB.\r\n\r\nTiene este tamaño debido a la alta cantidad de datos de la tabla, junto a los datos extra que necesita generar psql.)/Rect[ 88.036797 584.651 543.27399 814.10303]/Subtype/Widget/T(Text2)/Type/Annot/V(Una vez tengamos la tabla creada y los datos cargados, necesitaremos obtener el identificador único de la tabla productos mediante una consulta a la tabla pg_class, donde se almacena toda la información de las tablas.\r\n\r\nSELECT oid FROM pg_class WHERE relname = 'productos';\r\nEsta será la consulta que haremos. OID es el nombre que contiene de la columna que almacena el identificador propio de la tabla productos. Este OID esta almacenadso en la tabla pg_class, ya mencionada anteriormente. Para seleccionar el OID  de la tabla productos, comprobaremos que el nombre de la tabla en pg_class \(almacenado en la tabla relname\) sea productos.\r\n\r\nPara obtener el tamaño haremos una consulta usando primero la función pg_size_pretty\(\) para que devuelva que devuelva el tamaño de una forma legible. Como parámetro a esta función le pasamos a su vez otra función, pg_relation_size, y como parámetro el OID de la tabla. Al realizar esta consulta devuelve un tamaño de 1436 MB.\r\n\r\nTiene este tamaño debido a la alta cantidad de datos de la tabla, junto a los datos extra que necesita generar psql.)>>
 endobj
 126 0 obj
 <</AP<</N 1091 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 165 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 15 0 R /RV(El tamaño de bloque por defecto de postgres es de 8 KB, al que se le restan 24 bytes de encabezado, luego queda que cada bloque tiene  8 * 1024 - 24 = 8168 Bytes utiles.\r\n\r\nAhora calcularemos el tamaño de cada tupla individual. Producto_ID y stock ambos pesan 4 Bytes, ya que es el peso de los Int y Serial, que tienen tamaño fijo. Para el peso de precio hacemos una consulta \r\nusando la función pg_column_size\(precio\) y poniendo de condición en el where que la id sea igual a un numero cualquiera, dando así el valor de un precio. Se obtiene un valor de 7 Bytes. Para obtener el tamaño de el tipo TEXT haremos la siguiente consulta \( todas las filas tienen como nombre 'producto'\)\r\n\r\nSELECT pg_column_size\('productos'::TEXT\) AS bytes;\r\n\r\nNos devolverá un tamaño de 13 bytes. En total quedan 4 + 4 + 13 + 7 = 28. a estos 28 se le sumarán 4 bytes de los punteros que apuntan al elemento almacenado en página. En total cada fila pesará 28 + 4 = 32 bytes.\r\nAhora calculamos el factor de bloque fr = B util /Lr = 8168 / 32 = 255,25 = 255 registros por bloque.\r\ncon esto podremos obtener el número de bloques del archivo br = nr / fr = 25.000.000 / 255 = 98.039,21 = 98039 bloques ocupa en total.\r\n\r\nA continuación haremos una consulta para obtener el numero de bloques ocupados. Lo buscaremos en la tabla pg_class, en la coulma relpages, destinada a almacenar el numero de bloques que ocupa cada tabla.\r\n\r\nSELECT relpages FROM pg_class WHERE relname = 'productos';\r\n\r\nAl hacer esta consulta se obtiene que la tabla ocupa 183872 bloques. Despejando de la formula de numero de bloques de archivo obtendremos que el factor de bloque medio es fr = nr / br luego \r\nbr = 25.000.000 / 183872 = 135.964 Lo que signiifca que en cada bloque solo se pueden almacenar aproximadamente 136 registros.\r\n\r\nVemos que es muy inferior a los 255 que nos salían en el calculo teórico. Esta diferencia se puede deber principalmente a ciertos metadatos que postgres añada a cada entrada o a espacio extra en caso de que haya actualizaciones de datos.\r\n\r\n\r\n)/Rect[ 84.602402 25.187201 539.84003 505.987]/Subtype/Widget/T(Text4)/Type/Annot/V(El tamaño de bloque por defecto de postgres es de 8 KB, al que se le restan 24 bytes de encabezado, luego queda que cada bloque tiene  8 * 1024 - 24 = 8168 Bytes utiles.\r\n\r\nAhora calcularemos el tamaño de cada tupla individual. Producto_ID y stock ambos pesan 4 Bytes, ya que es el peso de los Int y Serial, que tienen tamaño fijo. Para el peso de precio hacemos una consulta \r\nusando la función pg_column_size\(precio\) y poniendo de condición en el where que la id sea igual a un numero cualquiera, dando así el valor de un precio. Se obtiene un valor de 7 Bytes. Para obtener el tamaño de el tipo TEXT haremos la siguiente consulta \( todas las filas tienen como nombre 'producto'\)\r\n\r\nSELECT pg_column_size\('productos'::TEXT\) AS bytes;\r\n\r\nNos devolverá un tamaño de 13 bytes. En total quedan 4 + 4 + 13 + 7 = 28. a estos 28 se le sumarán 4 bytes de los punteros que apuntan al elemento almacenado en página. En total cada fila pesará 28 + 4 = 32 bytes.\r\nAhora calculamos el factor de bloque fr = B util /Lr = 8168 / 32 = 255,25 = 255 registros por bloque.\r\ncon esto podremos obtener el número de bloques del archivo br = nr / fr = 25.000.000 / 255 = 98.039,21 = 98039 bloques ocupa en total.\r\n\r\nA continuación haremos una consulta para obtener el numero de bloques ocupados. Lo buscaremos en la tabla pg_class, en la coulma relpages, destinada a almacenar el numero de bloques que ocupa cada tabla.\r\n\r\nSELECT relpages FROM pg_class WHERE relname = 'productos';\r\n\r\nAl hacer esta consulta se obtiene que la tabla ocupa 183872 bloques. Despejando de la formula de numero de bloques de archivo obtendremos que el factor de bloque medio es fr = nr / br luego \r\nbr = 25.000.000 / 183872 = 135.964 Lo que signiifca que en cada bloque solo se pueden almacenar aproximadamente 136 registros.\r\n\r\nVemos que es muy inferior a los 255 que nos salían en el calculo teórico. Esta diferencia se puede deber principalmente a ciertos metadatos que postgres añada a cada entrada o a espacio extra en caso de que haya actualizaciones de datos.\r\n\r\n\r\n)>>
@@ -1171,22 +1171,22 @@ endobj
 <</AP<</N 1137 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 18 0 R /RV(Al volver a realizar la consulta, se vuelven a obtener de resultado 56 tuplas. Usando el  mismo comando para obtener en detalle los bloques leídos, obtenemos que de la caché se han leído 1120 y directamente del disco 182752. \r\n\r\nLo que ocurre aquí es que despues de hacer la primera consulta postgres lo que hace es almacenar parte de los datos que lee del disco en una memoria caché llamada Shared Buffers, de un tamaño limitado. Estos datos los almacena en al cache para así tener un mejor rendimiento y evitar leer continuamente del disco. \r\n\r\nEn comparación con la pregunta anterior, se sigue haciendo un recorrido secuencial de la tabla en la que se leen todos los bloques de la tabla. Mientras que en la consulta de la cuestión 3 el número de bloques leídos del buffer han sido de 832, en esta han sido de 1120, lo que demuestra que parte de los bloques leídos en la primera consulta han sido copiados a la caché, para ser leídos ahí y no en disco.\r\n)/Rect[ 84.602402 10.9506998 539.84003 390.62299]/Subtype/Widget/T(Text6)/Type/Annot/V(Al volver a realizar la consulta, se vuelven a obtener de resultado 56 tuplas. Usando el  mismo comando para obtener en detalle los bloques leídos, obtenemos que de la caché se han leído 1120 y directamente del disco 182752. \r\n\r\nLo que ocurre aquí es que despues de hacer la primera consulta postgres lo que hace es almacenar parte de los datos que lee del disco en una memoria caché llamada Shared Buffers, de un tamaño limitado. Estos datos los almacena en al cache para así tener un mejor rendimiento y evitar leer continuamente del disco. \r\n\r\nEn comparación con la pregunta anterior, se sigue haciendo un recorrido secuencial de la tabla en la que se leen todos los bloques de la tabla. Mientras que en la consulta de la cuestión 3 el número de bloques leídos del buffer han sido de 832, en esta han sido de 1120, lo que demuestra que parte de los bloques leídos en la primera consulta han sido copiados a la caché, para ser leídos ahí y no en disco.\r\n)>>
 endobj
 129 0 obj
-<</AP<</N 1138 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 168 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 21 0 R /RV(Primero hemos creado una tabla productos2temp en el sql,  copiando tal cual la estrutcura de la tabla de productos principal. Luego hemos copiado todos los datos del csv a esta tabla temporal usando COPY, de la mimsa manera que con la tabla original. Después de esto, hemos creado otra tabla, llamada productos2, y como datos le hemos pasado una consulta a la tabla productos2temp, ordenándo los datos por el precio. \r\n\r\nHaciendo la misma consulta que en la cuestion 2 para obtener el numero de bloques ocupados de la tabla productos2 nos devuelve   183872, apenas unos 50 bloques extra respecto al tamaño de la tabla productos.\r\n\r\nNo ha habido ningún cambio ya que la tabla original productos ya estaba ordenada por el id del producto al ser este un serial. Al crear la tabla productos2, lo único que hacemos es cambiar el atributo por el que se ordena la tabla, por lo que no se modifica el tamaño.\r\n)/Rect[ 85.584198 424.93701 540.82202 692.67999]/Subtype/Widget/T(Text7)/Type/Annot/V(Primero hemos creado una tabla productos2temp en el sql,  copiando tal cual la estrutcura de la tabla de productos principal. Luego hemos copiado todos los datos del csv a esta tabla temporal usando COPY, de la mimsa manera que con la tabla original. Después de esto, hemos creado otra tabla, llamada productos2, y como datos le hemos pasado una consulta a la tabla productos2temp, ordenándo los datos por el precio. \r\n\r\nHaciendo la misma consulta que en la cuestion 2 para obtener el numero de bloques ocupados de la tabla productos2 nos devuelve   183872, apenas unos 50 bloques extra respecto al tamaño de la tabla productos.\r\n\r\nNo ha habido ningún cambio ya que la tabla original productos ya estaba ordenada por el id del producto al ser este un serial. Al crear la tabla productos2, lo único que hacemos es cambiar el atributo por el que se ordena la tabla, por lo que no se modifica el tamaño.\r\n)>>
+<</AP<</N 1308 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 168 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 21 0 R /RV(Primero hemos creado una tabla productos2temp en el sql,  copiando tal cual la estrutcura de la tabla de productos principal. Luego hemos copiado todos los datos del csv a esta tabla temporal usando COPY, de la mimsa manera que con la tabla original. Después de esto, hemos creado otra tabla, llamada productos2, y como datos le hemos pasado una consulta a la tabla productos2temp, ordenándo los datos por el precio. \r\n\r\nHaciendo la misma consulta que en la cuestion 2 para obtener el numero de bloques ocupados de la tabla productos2 nos devuelve   183872, apenas unos 50 bloques extra respecto al tamaño de la tabla productos.\r\n\r\nNo ha habido ningún cambio ya que la tabla original productos ya estaba ordenada por el id del producto al ser este un serial.\r\n\r\nAl crear la tabla productos2, lo único que hacemos es cambiar el atributo por el que se ordena la tabla, por lo que no se modifica el tamaño.)/Rect[ 85.584198 424.93701 540.82202 692.67999]/Subtype/Widget/T(Text7)/Type/Annot/V(Primero hemos creado una tabla productos2temp en el sql,  copiando tal cual la estrutcura de la tabla de productos principal. Luego hemos copiado todos los datos del csv a esta tabla temporal usando COPY, de la mimsa manera que con la tabla original. Después de esto, hemos creado otra tabla, llamada productos2, y como datos le hemos pasado una consulta a la tabla productos2temp, ordenándo los datos por el precio. \r\n\r\nHaciendo la misma consulta que en la cuestion 2 para obtener el numero de bloques ocupados de la tabla productos2 nos devuelve   183872, apenas unos 50 bloques extra respecto al tamaño de la tabla productos.\r\n\r\nNo ha habido ningún cambio ya que la tabla original productos ya estaba ordenada por el id del producto al ser este un serial.\r\n\r\nAl crear la tabla productos2, lo único que hacemos es cambiar el atributo por el que se ordena la tabla, por lo que no se modifica el tamaño.)>>
 endobj
 130 0 obj
 <</AP<</N 1139 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 169 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 21 0 R /RV(Volvemos  a hacer la misma consulta de la consulta 3, pero en esta ocasión s0bre la tabla productos2. \r\nAl ser los mismos datos, nos vuelve a decir que hay 56 productos con precios de 3000.\r\n\r\nUsamos la consulta: SELECT heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname = 'productos2';\r\n\r\nNos da 183872 bloques leídos \(183872 leídos + 0 leídos de la caché\), que como hemos visto es el total de bloques. \r\nEsto significa que postgres se recore todos los bloques de la tabla, pese a que se encuentre ordenado por precio.\r\n\r\nLa razón principal es que PostgreSQL almacena los registros utilizando un sistema de montículos \(heap files\), donde los datos se colocan en el primer espacio libre disponible, sin un orden específico. \r\n\r\nAunque la tabla se creó con ORDER BY precio, esto solo se aplica durante la creación y no se conserva de forma automática. Además, al no existir un índice en el campo precio, PostgreSQL no puede realizar un Index Scan y, en su lugar, hace  un Sequential Scan, revisando cada bloque de la tabla.)/Rect[ 83.620499 9.9688702 538.85797 385.71399]/Subtype/Widget/T(Text8)/Type/Annot/V(Volvemos  a hacer la misma consulta de la consulta 3, pero en esta ocasión s0bre la tabla productos2. \r\nAl ser los mismos datos, nos vuelve a decir que hay 56 productos con precios de 3000.\r\n\r\nUsamos la consulta: SELECT heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname = 'productos2';\r\n\r\nNos da 183872 bloques leídos \(183872 leídos + 0 leídos de la caché\), que como hemos visto es el total de bloques. \r\nEsto significa que postgres se recore todos los bloques de la tabla, pese a que se encuentre ordenado por precio.\r\n\r\nLa razón principal es que PostgreSQL almacena los registros utilizando un sistema de montículos \(heap files\), donde los datos se colocan en el primer espacio libre disponible, sin un orden específico. \r\n\r\nAunque la tabla se creó con ORDER BY precio, esto solo se aplica durante la creación y no se conserva de forma automática. Además, al no existir un índice en el campo precio, PostgreSQL no puede realizar un Index Scan y, en su lugar, hace  un Sequential Scan, revisando cada bloque de la tabla.)>>
 endobj
 131 0 obj
-<</AP<</N 1140 0 R >>/DS 170 0 R /F 4/MK<</BC[ 0 0 0]>>/P 24 0 R /Parent 171 0 R /Rect[ 83.620499 417.755 538.85797 712.66199]/Subtype/Widget/Type/Annot>>
+<</AP<</N 1309 0 R >>/DS 170 0 R /F 4/MK<</BC[ 0 0 0]>>/P 24 0 R /Parent 171 0 R /Rect[ 83.620499 417.755 538.85797 712.66199]/Subtype/Widget/Type/Annot>>
 endobj
 132 0 obj
-<</AP<</N 1103 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 170 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 24 0 R /RV(Hacemos la suguiente inserción:\r\n INSERT INTO productos \(producto_id, nombre, stock, precio\) VALUES \(25000001, 'producto', 1, 3001\);\r\n\r\nHaciendo una consulta del numero de bloques de la tabla, veremos que ocupa exactamente lo mismo que en las consultas anteriores, 183872 bloques.\r\n\r\nLo que ocurre aqui es que en psql, cuando sus registros están  almacenados por montículos, se recorre primero los bloques ya existentes en busca de un hueco en el que almacenar el nuevo dato recién insertado. En el caso de que no haya hueco, creeará uno nuevo.\r\n\r\nEn este caso lo que ocurre es que postgre sobreescribirá una de las tuplas marcadas como muertas de la cuestión anterior con los nuevos datos.\r\n)/Rect[ 79.200699 64.1362 534.43799 359.04401]/Subtype/Widget/T(Text91)/Type/Annot/V(Hacemos la suguiente inserción:\r\n INSERT INTO productos \(producto_id, nombre, stock, precio\) VALUES \(25000001, 'producto', 1, 3001\);\r\n\r\nHaciendo una consulta del numero de bloques de la tabla, veremos que ocupa exactamente lo mismo que en las consultas anteriores, 183872 bloques.\r\n\r\nLo que ocurre aqui es que en psql, cuando sus registros están  almacenados por montículos, se recorre primero los bloques ya existentes en busca de un hueco en el que almacenar el nuevo dato recién insertado. En el caso de que no haya hueco, creeará uno nuevo.\r\n\r\nEn este caso lo que ocurre es que postgre sobreescribirá una de las tuplas marcadas como muertas de la cuestión anterior con los nuevos datos.\r\n)>>
+<</AP<</N 1310 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 170 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 24 0 R /RV(Hacemos la suguiente inserción:\r\nINSERT INTO productos \(producto_id, nombre, stock, precio\) VALUES \(25000001, 'producto', 1, 3001\);\r\n\r\nHaciendo una consulta del numero de bloques de la tabla, veremos que ocupa exactamente lo mismo que en las consultas anteriores, 183872 bloques.\r\n\r\nLo que ocurre aquí es que en psql, cuando sus registros están  almacenados por montículos, se recorre primero los bloques ya existentes en busca de un hueco en el que almacenar el nuevo dato recién insertado. En el caso de que no haya hueco, creeará uno nuevo.\r\n\r\nEn este caso lo que ocurre es que postgre sobreescribirá una de las tuplas marcadas como muertas de la cuestión anterior con los nuevos datos.\r\n)/Rect[ 79.200699 64.1362 534.43799 359.04401]/Subtype/Widget/T(Text91)/Type/Annot/V(Hacemos la suguiente inserción:\r\nINSERT INTO productos \(producto_id, nombre, stock, precio\) VALUES \(25000001, 'producto', 1, 3001\);\r\n\r\nHaciendo una consulta del numero de bloques de la tabla, veremos que ocupa exactamente lo mismo que en las consultas anteriores, 183872 bloques.\r\n\r\nLo que ocurre aquí es que en psql, cuando sus registros están  almacenados por montículos, se recorre primero los bloques ya existentes en busca de un hueco en el que almacenar el nuevo dato recién insertado. En el caso de que no haya hueco, creeará uno nuevo.\r\n\r\nEn este caso lo que ocurre es que postgre sobreescribirá una de las tuplas marcadas como muertas de la cuestión anterior con los nuevos datos.\r\n)>>
 endobj
 133 0 obj
-<</AP<</N 1105 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 172 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 28 0 R /RV(Se puede usar el comando VACUUM o VACUUM FULL para limpiar de forma profunda la base de datos, compactando los datos, borrando espacios no utilizados y eliminando todas las tuplas marcadas como muertas. \r\n\r\nEjecutamos el comando VACUUM FULL productos y volvemos a mirar lo que ocupa ahora la tabla. La tabla ahora ocupa 154412 bloques, 29400 bloques menos que antes. \r\n\r\nEl comando VACUUM FULL primero crea una copia de la tabla que se va a limpiar. Después de esto crea una nueva tabla temporal en la que va insertando cada uno de los datos de la tabla, para que así se coloquen de una manera mas óptima en la que ocupen menos bloques. Durante este proceso de copia de la tabla postgres no traspasa las tuplas marcadas como muertas. finalmente, se reemplaza la tabla original con la nueva tabla recién limpiada.)/Rect[ 83.620499 485.173 538.85797 712.66199]/Subtype/Widget/T(Text92)/Type/Annot/V(Se puede usar el comando VACUUM o VACUUM FULL para limpiar de forma profunda la base de datos, compactando los datos, borrando espacios no utilizados y eliminando todas las tuplas marcadas como muertas. \r\n\r\nEjecutamos el comando VACUUM FULL productos y volvemos a mirar lo que ocupa ahora la tabla. La tabla ahora ocupa 154412 bloques, 29400 bloques menos que antes. \r\n\r\nEl comando VACUUM FULL primero crea una copia de la tabla que se va a limpiar. Después de esto crea una nueva tabla temporal en la que va insertando cada uno de los datos de la tabla, para que así se coloquen de una manera mas óptima en la que ocupen menos bloques. Durante este proceso de copia de la tabla postgres no traspasa las tuplas marcadas como muertas. finalmente, se reemplaza la tabla original con la nueva tabla recién limpiada.)>>
+<</AP<</N 1311 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 172 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 28 0 R /RV(Se puede usar el comando VACUUM o VACUUM FULL para limpiar de forma profunda la base de datos, compactando los datos, borrando espacios no utilizados y eliminando todas las tuplas marcadas como muertas. \r\n\r\nEjecutamos el comando VACUUM FULL productos y volvemos a mirar lo que ocupa ahora la tabla. La tabla ahora ocupa 154412 bloques, 29400 bloques menos que antes. \r\n\r\nEl comando VACUUM FULL primero crea una copia de la tabla que se va a limpiar. Después de esto crea una nueva tabla temporal en la que va insertando cada uno de los datos de la tabla, para que así se coloquen de una manera mas óptima en la que ocupen menos bloques. Durante este proceso de copia de la tabla postgres no traspasa las tuplas marcadas como muertas. \r\nFinalmente, se reemplaza la tabla original con la nueva tabla recién limpiada.)/Rect[ 83.620499 485.173 538.85797 712.66199]/Subtype/Widget/T(Text92)/Type/Annot/V(Se puede usar el comando VACUUM o VACUUM FULL para limpiar de forma profunda la base de datos, compactando los datos, borrando espacios no utilizados y eliminando todas las tuplas marcadas como muertas. \r\n\r\nEjecutamos el comando VACUUM FULL productos y volvemos a mirar lo que ocupa ahora la tabla. La tabla ahora ocupa 154412 bloques, 29400 bloques menos que antes. \r\n\r\nEl comando VACUUM FULL primero crea una copia de la tabla que se va a limpiar. Después de esto crea una nueva tabla temporal en la que va insertando cada uno de los datos de la tabla, para que así se coloquen de una manera mas óptima en la que ocupen menos bloques. Durante este proceso de copia de la tabla postgres no traspasa las tuplas marcadas como muertas. \r\nFinalmente, se reemplaza la tabla original con la nueva tabla recién limpiada.)>>
 endobj
 134 0 obj
-<</AP<</N 1141 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 173 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 28 0 R /RV(Para crear la tabla hemos copiado la creación de la tabla productos, pero añadiendo a la primary key el atributo productos para que nos permita particionarla. al final de la creación de la tabla hemos puesto  PARTITION BY RANGE\(precio\) para indicar que la tabla debe particionarse en función del precio.\r\nDespues de esto hemos creado 10 tablas, añadiendo PARTITION OF para incicar que todas ellas son particiones de productos3 e indicando el rango de valores, empezando con 10 en la primera, y cerrando el rango con 5010, subiendo en 500 en cada nueva tabla.\r\nPara insertar los datos hemos usado la misma línea de codigo solo que cambiando la tabla a productos3. El particionamiento permitirá que cuando haya que las consultas que filtran por precio sean más eficientes ya que solo se buscara en la partición relevante de la tabla.\r\n\r\nPara obtener lo que ocupa cada tabla usaremos la consulta usada en la cuestión 2 para obtener el tamaño pero cambiando el final por WHERE relname LIKE 'productos3' para que nos devuelva el tamaño de todas las particiones. Al ejectuar esto, nos devolverá que para cada partición hay además un\r\níndice único para las clave primaria que también ocupa espacio en memoria. Sumando estos valores nos devuelve el tamaño de cada partición: productos3_0: 28064 bloques, productos3_1: 28067 bloques, productos3_2: 28065 bloques, productos3_3: 28053 bloques, productos3_4: 28071 bloques, productos3_5: 28066 bloques, productos3_6: 28072 bloques, productos3_7: 28144 bloques, productos3_8: 28064 bloques, productos3_9: 27483 bloques. Ocupan esto debido al almacenamiento de los datos junto a los datos de los índices de cada partición.\r\n\r\nPara calcularlo teóricamente primero hallaremos el numero de filas por cajón nc = nr / N = filas totales / Numero de cajones = 25.000.000 / 10 = 2.500.000 filas por cajón. También sacaremos el número de registros por bloque fr = Butil/Lr = 8168 / 32 = 255.25 redondeando a la baja queda 255 registros por bloque. De estos dos datos obtendremos el numero de cajones por bloque Bc = nc / fr = 2.500.000 / 255 = 9803,92 bloques cada cajón. Podemos ver que es mucho menor que los 28000 aproximadamente que ocupa cada partición. Esta diferencia se puede deber a los índices que postgres crea para cada partición u otros datos adicionales.)/Rect[ 84.602402 11.4417 539.84003 374.422]/Subtype/Widget/T(Text10)/Type/Annot/V(Para crear la tabla hemos copiado la creación de la tabla productos, pero añadiendo a la primary key el atributo productos para que nos permita particionarla. al final de la creación de la tabla hemos puesto  PARTITION BY RANGE\(precio\) para indicar que la tabla debe particionarse en función del precio.\r\nDespues de esto hemos creado 10 tablas, añadiendo PARTITION OF para incicar que todas ellas son particiones de productos3 e indicando el rango de valores, empezando con 10 en la primera, y cerrando el rango con 5010, subiendo en 500 en cada nueva tabla.\r\nPara insertar los datos hemos usado la misma línea de codigo solo que cambiando la tabla a productos3. El particionamiento permitirá que cuando haya que las consultas que filtran por precio sean más eficientes ya que solo se buscara en la partición relevante de la tabla.\r\n\r\nPara obtener lo que ocupa cada tabla usaremos la consulta usada en la cuestión 2 para obtener el tamaño pero cambiando el final por WHERE relname LIKE 'productos3' para que nos devuelva el tamaño de todas las particiones. Al ejectuar esto, nos devolverá que para cada partición hay además un\r\níndice único para las clave primaria que también ocupa espacio en memoria. Sumando estos valores nos devuelve el tamaño de cada partición: productos3_0: 28064 bloques, productos3_1: 28067 bloques, productos3_2: 28065 bloques, productos3_3: 28053 bloques, productos3_4: 28071 bloques, productos3_5: 28066 bloques, productos3_6: 28072 bloques, productos3_7: 28144 bloques, productos3_8: 28064 bloques, productos3_9: 27483 bloques. Ocupan esto debido al almacenamiento de los datos junto a los datos de los índices de cada partición.\r\n\r\nPara calcularlo teóricamente primero hallaremos el numero de filas por cajón nc = nr / N = filas totales / Numero de cajones = 25.000.000 / 10 = 2.500.000 filas por cajón. También sacaremos el número de registros por bloque fr = Butil/Lr = 8168 / 32 = 255.25 redondeando a la baja queda 255 registros por bloque. De estos dos datos obtendremos el numero de cajones por bloque Bc = nc / fr = 2.500.000 / 255 = 9803,92 bloques cada cajón. Podemos ver que es mucho menor que los 28000 aproximadamente que ocupa cada partición. Esta diferencia se puede deber a los índices que postgres crea para cada partición u otros datos adicionales.)>>
+<</AP<</N 1312 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 173 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 28 0 R /RV(Para crear la tabla hemos copiado la creación de la tabla productos, pero añadiendo a la primary key el atributo productos para que nos permita particionarla. Al final de la creación de la tabla hemos puesto  PARTITION BY RANGE\(precio\) para indicar que la tabla debe particionarse en función del precio.\r\nDespues de esto hemos creado 10 tablas, añadiendo PARTITION OF para incicar que todas ellas son particiones de productos3 e indicando el rango de valores, empezando con 10 en la primera, y cerrando el rango con 5010, subiendo en 500 en cada nueva tabla.\r\nPara insertar los datos hemos usado la misma línea de codigo solo que cambiando la tabla a productos3. El particionamiento permitirá que cuando haya que las consultas que filtran por precio sean más eficientes ya que solo se buscara en la partición relevante de la tabla.\r\n\r\nPara obtener lo que ocupa cada tabla usaremos la consulta usada en la cuestión 2 para obtener el tamaño pero cambiando el final por WHERE relname LIKE 'productos3' para que nos devuelva el tamaño de todas las particiones. Al ejectuar esto, nos devolverá que para cada partición hay además un\r\níndice único para las clave primaria que también ocupa espacio en memoria. Sumando estos valores nos devuelve el tamaño de cada partición: productos3_0: 28064 bloques, productos3_1: 28067 bloques, productos3_2: 28065 bloques, productos3_3: 28053 bloques, productos3_4: 28071 bloques, productos3_5: 28066 bloques, productos3_6: 28072 bloques, productos3_7: 28144 bloques, productos3_8: 28064 bloques, productos3_9: 27483 bloques. Ocupan esto debido al almacenamiento de los datos junto a los datos de los índices de cada partición.\r\n\r\nPara calcularlo teóricamente primero hallaremos el numero de filas por cajón nc = nr / N = filas totales / Numero de cajones = 25.000.000 / 10 = 2.500.000 filas por cajón. También sacaremos el número de registros por bloque fr = Butil/Lr = 8168 / 32 = 255.25 redondeando a la baja queda 255 registros por bloque. De estos dos datos obtendremos el numero de cajones por bloque Bc = nc / fr = 2.500.000 / 255 = 9803,92 bloques cada cajón. Podemos ver que es mucho menor que los 28000 aproximadamente que ocupa cada partición. Esta diferencia se puede deber a los índices que postgres crea para cada partición u otros datos adicionales.)/Rect[ 84.602402 11.4417 539.84003 374.422]/Subtype/Widget/T(Text10)/Type/Annot/V(Para crear la tabla hemos copiado la creación de la tabla productos, pero añadiendo a la primary key el atributo productos para que nos permita particionarla. Al final de la creación de la tabla hemos puesto  PARTITION BY RANGE\(precio\) para indicar que la tabla debe particionarse en función del precio.\r\nDespues de esto hemos creado 10 tablas, añadiendo PARTITION OF para incicar que todas ellas son particiones de productos3 e indicando el rango de valores, empezando con 10 en la primera, y cerrando el rango con 5010, subiendo en 500 en cada nueva tabla.\r\nPara insertar los datos hemos usado la misma línea de codigo solo que cambiando la tabla a productos3. El particionamiento permitirá que cuando haya que las consultas que filtran por precio sean más eficientes ya que solo se buscara en la partición relevante de la tabla.\r\n\r\nPara obtener lo que ocupa cada tabla usaremos la consulta usada en la cuestión 2 para obtener el tamaño pero cambiando el final por WHERE relname LIKE 'productos3' para que nos devuelva el tamaño de todas las particiones. Al ejectuar esto, nos devolverá que para cada partición hay además un\r\níndice único para las clave primaria que también ocupa espacio en memoria. Sumando estos valores nos devuelve el tamaño de cada partición: productos3_0: 28064 bloques, productos3_1: 28067 bloques, productos3_2: 28065 bloques, productos3_3: 28053 bloques, productos3_4: 28071 bloques, productos3_5: 28066 bloques, productos3_6: 28072 bloques, productos3_7: 28144 bloques, productos3_8: 28064 bloques, productos3_9: 27483 bloques. Ocupan esto debido al almacenamiento de los datos junto a los datos de los índices de cada partición.\r\n\r\nPara calcularlo teóricamente primero hallaremos el numero de filas por cajón nc = nr / N = filas totales / Numero de cajones = 25.000.000 / 10 = 2.500.000 filas por cajón. También sacaremos el número de registros por bloque fr = Butil/Lr = 8168 / 32 = 255.25 redondeando a la baja queda 255 registros por bloque. De estos dos datos obtendremos el numero de cajones por bloque Bc = nc / fr = 2.500.000 / 255 = 9803,92 bloques cada cajón. Podemos ver que es mucho menor que los 28000 aproximadamente que ocupa cada partición. Esta diferencia se puede deber a los índices que postgres crea para cada partición u otros datos adicionales.)>>
 endobj
 135 0 obj
 <</AP<</N 1220 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 174 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 31 0 R /RV(Volviendo a realizar la consulta de la cuestión 3 se obtiene de nuevo que hay 56 filas que cumplen esta condición. Utilizando de nuevo el comando SELECT heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname ='productos3_0';  para cada una de las particiones \(en nuestro caso particiones desde el productos3_0 hasta el productos3_9, 10 particiones en total\) y sumando cada resultado de bloques y bloques en memoria caché obtenemos que para hacer la consulta se han leído 7047 de la caché y 225394 directamente del disco.\r\n\r\n\r\n\r\n\r\nLA SUMA DE LAS D CACHE ES DEMASIADO\r\n\r\n\r\n\r\n\r\n\r\n\r\n 765 bloques de la caché y 17667 directamente del disco, haciendo 18432 bloques leídos en total.\r\n\r\nEn comparación, al hacer esta misma consulta en la tabla productos 1 se obtenía que se leían en total 183872 bloques. Al hacerla en la tabla productos2 también se leían 183872 bloques, que es lo que ocupan todos los datos en ambas tablas. \r\n\r\nDe esto podemos sacar que las particiones ayudan a que las consultas  sean mucho más eficientes, siempre que sean sobre el atruibuto del que se ha particionado, ya que postgres solo necesitará recorrerse la partición o particiones en las que se almacenen los datos con el valor deseado. Gracias a esto se consumirán menos recursos y se tardará mucho menos tiempo en hacer las consultas al no necesitar recorrerse toda la tabla.\r\n\r\n\r\n\r\n)/Rect[ 82.638702 245.117 537.87598 719.04401]/Subtype/Widget/T(Text11)/Type/Annot/V(Volviendo a realizar la consulta de la cuestión 3 se obtiene de nuevo que hay 56 filas que cumplen esta condición. Utilizando de nuevo el comando SELECT heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname ='productos3_0';  para cada una de las particiones \(en nuestro caso particiones desde el productos3_0 hasta el productos3_9, 10 particiones en total\) y sumando cada resultado de bloques y bloques en memoria caché obtenemos que para hacer la consulta se han leído 7047 de la caché y 225394 directamente del disco.\r\n\r\n\r\n\r\n\r\nLA SUMA DE LAS D CACHE ES DEMASIADO\r\n\r\n\r\n\r\n\r\n\r\n\r\n 765 bloques de la caché y 17667 directamente del disco, haciendo 18432 bloques leídos en total.\r\n\r\nEn comparación, al hacer esta misma consulta en la tabla productos 1 se obtenía que se leían en total 183872 bloques. Al hacerla en la tabla productos2 también se leían 183872 bloques, que es lo que ocupan todos los datos en ambas tablas. \r\n\r\nDe esto podemos sacar que las particiones ayudan a que las consultas  sean mucho más eficientes, siempre que sean sobre el atruibuto del que se ha particionado, ya que postgres solo necesitará recorrerse la partición o particiones en las que se almacenen los datos con el valor deseado. Gracias a esto se consumirán menos recursos y se tardará mucho menos tiempo en hacer las consultas al no necesitar recorrerse toda la tabla.\r\n\r\n\r\n\r\n)>>
@@ -1195,10 +1195,10 @@ endobj
 <</Ascent 1056/CapHeight 662/Descent -328/Flags 34/FontBBox[ -558 -328 2000 1056]/FontFamily(Times New Roman)/FontFile2 35 0 R /FontName/VAMCKI+TimesNewRomanPS-BoldMT/FontStretch/Normal/FontWeight 700/ItalicAngle 0/StemV 136/Type/FontDescriptor/XHeight 457>>
 endobj
 137 0 obj
-<</AP<</N 1177 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 175 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 37 0 R /RV(Escribimos DROP TABLE más el nombre de cada una de las tres tablas y luego hemos vuelto a crear la tabla productos insertando los mismos datos del csv\r\n\r\n)/Rect[ 84.602402 415.95499 539.84003 608.09698]/Subtype/Widget/T(Text12)/Type/Annot/V(Escribimos DROP TABLE más el nombre de cada una de las tres tablas y luego hemos vuelto a crear la tabla productos insertando los mismos datos del csv\r\n\r\n)>>
+<</AP<</N 1313 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 175 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 37 0 R /RV(Escribimos DROP TABLE más el nombre de cada una de las tres tablas y luego hemos vuelto a crear la tabla productos insertando los mismos datos del csv.\r\n\r\n)/Rect[ 84.602402 415.95499 539.84003 608.09698]/Subtype/Widget/T(Text12)/Type/Annot/V(Escribimos DROP TABLE más el nombre de cada una de las tres tablas y luego hemos vuelto a crear la tabla productos insertando los mismos datos del csv.\r\n\r\n)>>
 endobj
 138 0 obj
-<</AP<</N 1230 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 176 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 37 0 R /RV(Usamos CREATE INDEX para crear el índice. En postgresql por defecto se crea de tipo  árbol, por lo que no hace falta especificar el tipo.Los datos se almacenan en el sistema de archivos de postgres, en una carpeta de nombre el OID del índice. Haciendo una colsulta a la tabla de postgres pg_class podemos obtener que el OID es 106507.\r\nHaciendo la siguiente consulta SELECT relpages FROM pg_class WHERE relname = 'indice_producto_id'; para ver lo que ocupa el indice a partir de lo almacenado en pg_class nos devuelve 68550 bloques. Multiplicando esto por 8192 nos dice que ocupa 536 MB. Para ver el numero de niveles del índice, usaremos la extensión page_inspect, creándola el el fichero sql con la siguiente instrucción: CREATE EXTENSION IF NOT EXISTS pageinspect.Una vez creada haremos una consulta a bt_map\(\), que almacena los metadatos del índice, para que nos devuelva los niveles del índice, sumandole 1 ya que empieza a contar niveles en el 0. La consulta exacta será la siguiente SELECT level + 1 AS niveles_totales FROM bt_metap\('indice_producto_id'\);\r\nNos devolverá que existen 3 niveles. Para obtener el número de bloques por nivel usaremos la extensión pgststtuple, implementándola de la misma manera que con pageinspect. Tras esto haremos la siguiente consulta\r\nSELECT btpo_level, COUNT\(gs.blkno\) AS bloques_nivel FROM generate_series\(1, 68549\) AS gs\(blkno\)  CROSS JOIN LATERAL bt_page_stats\('indice_producto_id', gs.blkno\) \r\nGROUP BY btpo_level\r\nLo que hace esta consulta es  recorrer todos los bloques del índice utilizando generate_series para generar números en el rango de 1 a la longitud del indice. Luego, usa bt_page_stats para obtener el nivel al que pertenece el bloque y los agrupa por nivel. Finalmente, se cuenta el número de bloques por nivel. nos devuelve que el nivel 2 tiene 1 bloque, el nivel 1 tiene 241 bloques y el nivel raíz tiene 68307 bloques. Para obtener el numero de tuplas por bloque por nivel hacemos la siguiente consulta SELECT live_items FROM bt_page_stats\('indice_producto_id', n\),s sustituyendo n por el numero de un bloque que pertenezca a cada nivel. Haciendo esto nos devuelve que en un bloque del nivel 0 hay 367 tuplas, en el nivel 1 hay 285 y en el nivel 2 hay 241)/Rect[ 81.656898 15.3690004 536.89398 345.94901]/Subtype/Widget/T(Text13)/Type/Annot/V(Usamos CREATE INDEX para crear el índice. En postgresql por defecto se crea de tipo  árbol, por lo que no hace falta especificar el tipo.Los datos se almacenan en el sistema de archivos de postgres, en una carpeta de nombre el OID del índice. Haciendo una colsulta a la tabla de postgres pg_class podemos obtener que el OID es 106507.\r\nHaciendo la siguiente consulta SELECT relpages FROM pg_class WHERE relname = 'indice_producto_id'; para ver lo que ocupa el indice a partir de lo almacenado en pg_class nos devuelve 68550 bloques. Multiplicando esto por 8192 nos dice que ocupa 536 MB. Para ver el numero de niveles del índice, usaremos la extensión page_inspect, creándola el el fichero sql con la siguiente instrucción: CREATE EXTENSION IF NOT EXISTS pageinspect.Una vez creada haremos una consulta a bt_map\(\), que almacena los metadatos del índice, para que nos devuelva los niveles del índice, sumandole 1 ya que empieza a contar niveles en el 0. La consulta exacta será la siguiente SELECT level + 1 AS niveles_totales FROM bt_metap\('indice_producto_id'\);\r\nNos devolverá que existen 3 niveles. Para obtener el número de bloques por nivel usaremos la extensión pgststtuple, implementándola de la misma manera que con pageinspect. Tras esto haremos la siguiente consulta\r\nSELECT btpo_level, COUNT\(gs.blkno\) AS bloques_nivel FROM generate_series\(1, 68549\) AS gs\(blkno\)  CROSS JOIN LATERAL bt_page_stats\('indice_producto_id', gs.blkno\) \r\nGROUP BY btpo_level\r\nLo que hace esta consulta es  recorrer todos los bloques del índice utilizando generate_series para generar números en el rango de 1 a la longitud del indice. Luego, usa bt_page_stats para obtener el nivel al que pertenece el bloque y los agrupa por nivel. Finalmente, se cuenta el número de bloques por nivel. nos devuelve que el nivel 2 tiene 1 bloque, el nivel 1 tiene 241 bloques y el nivel raíz tiene 68307 bloques. Para obtener el numero de tuplas por bloque por nivel hacemos la siguiente consulta SELECT live_items FROM bt_page_stats\('indice_producto_id', n\),s sustituyendo n por el numero de un bloque que pertenezca a cada nivel. Haciendo esto nos devuelve que en un bloque del nivel 0 hay 367 tuplas, en el nivel 1 hay 285 y en el nivel 2 hay 241)>>
+<</AP<</N 1314 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 176 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 37 0 R /RV(Usamos CREATE INDEX para crear el índice. En postgresql por defecto se crea de tipo  árbol, por lo que no hace falta especificar el tipo.Los datos se almacenan en el sistema de archivos de postgres, en una carpeta de nombre el OID del índice. Haciendo una colsulta a la tabla de postgres pg_class podemos obtener que el OID es 106507.\r\nHaciendo la siguiente consulta SELECT relpages FROM pg_class WHERE relname = 'indice_producto_id'; para ver lo que ocupa el indice a partir de lo almacenado en pg_class nos devuelve 68550 bloques. Multiplicando esto por 8192 nos dice que ocupa 536 MB. Para ver el numero de niveles del índice, usaremos la extensión page_inspect, creándola el el fichero sql con la siguiente instrucción: CREATE EXTENSION IF NOT EXISTS pageinspect.Una vez creada haremos una consulta a bt_map\(\), que almacena los metadatos del índice, para que nos devuelva los niveles del índice, sumandole 1 ya que empieza a contar niveles en el 0. La consulta exacta será la siguiente SELECT level + 1 AS niveles_totales FROM bt_metap\('indice_producto_id'\);\r\nNos devolverá que existen 3 niveles. Para obtener el número de bloques por nivel usaremos la extensión pgststtuple, implementándola de la misma manera que con pageinspect. Tras esto haremos la siguiente consulta\r\nSELECT btpo_level, COUNT\(gs.blkno\) AS bloques_nivel FROM generate_series\(1, 68549\) AS gs\(blkno\)  CROSS JOIN LATERAL bt_page_stats\('indice_producto_id', gs.blkno\) \r\nGROUP BY btpo_level\r\nLo que hace esta consulta es  recorrer todos los bloques del índice utilizando generate_series para generar números en el rango de 1 a la longitud del indice. Luego, usa bt_page_stats para obtener el nivel al que pertenece el bloque y los agrupa por nivel. Finalmente, se cuenta el número de bloques por nivel. nos devuelve que el nivel 2 tiene 1 bloque, el nivel 1 tiene 241 bloques y el nivel raíz tiene 68307 bloques. Para obtener el numero de tuplas por bloque por nivel hacemos la siguiente consulta SELECT live_items FROM bt_page_stats\('indice_producto_id', n\),s sustituyendo n por el numero de un bloque que pertenezca a cada nivel. Haciendo esto nos devuelve que en un bloque del nivel 0 hay 367 tuplas, en el nivel 1 hay 285 y en el nivel 2 hay 241.)/Rect[ 81.656898 15.3690004 536.89398 345.94901]/Subtype/Widget/T(Text13)/Type/Annot/V(Usamos CREATE INDEX para crear el índice. En postgresql por defecto se crea de tipo  árbol, por lo que no hace falta especificar el tipo.Los datos se almacenan en el sistema de archivos de postgres, en una carpeta de nombre el OID del índice. Haciendo una colsulta a la tabla de postgres pg_class podemos obtener que el OID es 106507.\r\nHaciendo la siguiente consulta SELECT relpages FROM pg_class WHERE relname = 'indice_producto_id'; para ver lo que ocupa el indice a partir de lo almacenado en pg_class nos devuelve 68550 bloques. Multiplicando esto por 8192 nos dice que ocupa 536 MB. Para ver el numero de niveles del índice, usaremos la extensión page_inspect, creándola el el fichero sql con la siguiente instrucción: CREATE EXTENSION IF NOT EXISTS pageinspect.Una vez creada haremos una consulta a bt_map\(\), que almacena los metadatos del índice, para que nos devuelva los niveles del índice, sumandole 1 ya que empieza a contar niveles en el 0. La consulta exacta será la siguiente SELECT level + 1 AS niveles_totales FROM bt_metap\('indice_producto_id'\);\r\nNos devolverá que existen 3 niveles. Para obtener el número de bloques por nivel usaremos la extensión pgststtuple, implementándola de la misma manera que con pageinspect. Tras esto haremos la siguiente consulta\r\nSELECT btpo_level, COUNT\(gs.blkno\) AS bloques_nivel FROM generate_series\(1, 68549\) AS gs\(blkno\)  CROSS JOIN LATERAL bt_page_stats\('indice_producto_id', gs.blkno\) \r\nGROUP BY btpo_level\r\nLo que hace esta consulta es  recorrer todos los bloques del índice utilizando generate_series para generar números en el rango de 1 a la longitud del indice. Luego, usa bt_page_stats para obtener el nivel al que pertenece el bloque y los agrupa por nivel. Finalmente, se cuenta el número de bloques por nivel. nos devuelve que el nivel 2 tiene 1 bloque, el nivel 1 tiene 241 bloques y el nivel raíz tiene 68307 bloques. Para obtener el numero de tuplas por bloque por nivel hacemos la siguiente consulta SELECT live_items FROM bt_page_stats\('indice_producto_id', n\),s sustituyendo n por el numero de un bloque que pertenezca a cada nivel. Haciendo esto nos devuelve que en un bloque del nivel 0 hay 367 tuplas, en el nivel 1 hay 285 y en el nivel 2 hay 241.)>>
 endobj
 139 0 obj
 <</AP<</N 1208 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 177 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 40 0 R /RV(Sabemos de los datos anteriormente calculados que el tamaño de bloque útil es de 8168 bytes y que la longitud del producto_id es de 4 bytes. Postgres tiene por defecto que la longitud del puntero a bloque es de 4 bytes y la longitud del puntero a registro es de 6 bytes. Con esto, ya podemos calcular índice de tipo árbol.\r\nProducto_id está ordenado y es campo clave \(ya que es primary key\) por lo que estamos ante un índice primario + campo clave. Los registros a almacenar del índice van a ser igual que el \r\nV\(producto_id\) = 25.000.000 registros.\r\n\r\nCalculamos el nodo raíz intermedio de fórmula: n * Lpbloque + \(n-1\) * Lproducto_id <= B.útil,\r\nn * 4 + \(n-1\) * 4 <= 8168, despejando nos da n <= 1021 punteros a bloque\r\nCalculamos el nodo hoja de fórmula: nh * \(Lproducto_id + Lpreg\) + Lpbloque <= B.útil,\r\nnh * \(4 + 6\) * 4 <= 8168, despejando nos da nh <= 816 punteros a registro\r\n\r\nHojas = 25.000.00 / 816 = 30.638 bloques\r\nNivel intermedio 1 = 30.638 / 1021 = 30 bloques\r\nRaíz = 30 / 1021 = 1 bloque\r\n\r\nEl índice tiene 3 niveles y ocupa 30.669 bloques.\r\nComparando con los resultados de las consltas de SQL vemos que nos da en ambos índices 3 niveles pero SQL maneja muchos más bloques que al realizarlo con el método visto en teoría. Esta diferencia se puede deber principalmente a ciertos metadatos que postgres añada a cada entrada o a espacio extra en caso de que haya actualizaciones de datos.)/Rect[ 84.602303 431.664 539.84003 722.97101]/Subtype/Widget/T(Text14)/Type/Annot/V(Sabemos de los datos anteriormente calculados que el tamaño de bloque útil es de 8168 bytes y que la longitud del producto_id es de 4 bytes. Postgres tiene por defecto que la longitud del puntero a bloque es de 4 bytes y la longitud del puntero a registro es de 6 bytes. Con esto, ya podemos calcular índice de tipo árbol.\r\nProducto_id está ordenado y es campo clave \(ya que es primary key\) por lo que estamos ante un índice primario + campo clave. Los registros a almacenar del índice van a ser igual que el \r\nV\(producto_id\) = 25.000.000 registros.\r\n\r\nCalculamos el nodo raíz intermedio de fórmula: n * Lpbloque + \(n-1\) * Lproducto_id <= B.útil,\r\nn * 4 + \(n-1\) * 4 <= 8168, despejando nos da n <= 1021 punteros a bloque\r\nCalculamos el nodo hoja de fórmula: nh * \(Lproducto_id + Lpreg\) + Lpbloque <= B.útil,\r\nnh * \(4 + 6\) * 4 <= 8168, despejando nos da nh <= 816 punteros a registro\r\n\r\nHojas = 25.000.00 / 816 = 30.638 bloques\r\nNivel intermedio 1 = 30.638 / 1021 = 30 bloques\r\nRaíz = 30 / 1021 = 1 bloque\r\n\r\nEl índice tiene 3 niveles y ocupa 30.669 bloques.\r\nComparando con los resultados de las consltas de SQL vemos que nos da en ambos índices 3 niveles pero SQL maneja muchos más bloques que al realizarlo con el método visto en teoría. Esta diferencia se puede deber principalmente a ciertos metadatos que postgres añada a cada entrada o a espacio extra en caso de que haya actualizaciones de datos.)>>
@@ -1210,13 +1210,13 @@ endobj
 <</AP<</N 1191 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 180 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 43 0 R /RV()/Rect[ 84.602303 396.80899 539.84003 727.38898]/Subtype/Widget/T(Text16)/Type/Annot/V()>>
 endobj
 142 0 obj
-<</AP<</N 1194 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 179 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 43 0 R /RV(Usamos CREATE INDEX para crear el índice. En postgresql por defecto se crea de tipo  árbol, por lo que no hace falta especificar el tipo.Los datos se almacenan en el sistema de archivos de postgres, en una carpeta de nombre el OID del índice. Haciendo una colsulta a la tabla de postgres pg_class podemos obtener que el OID es 114689.\r\nHaciendo la siguiente consulta SELECT relpages FROM pg_class WHERE relname = 'indice_precio'; para ver lo que ocupa el indice a partir de lo almacenado en pg_class nos devuelve 68646 bloques. Multiplicando esto por 8192 nos dice que ocupa 537 MB. Para ver el numero de niveles del índice, usaremos la extensión page_inspect, creándola el el fichero sql con la siguiente instrucción: CREATE EXTENSION IF NOT EXISTS pageinspect.Una vez creada haremos una consulta a bt_map\(\), que almacena los metadatos del índice, para que nos devuelva los niveles del índice, sumandole 1 ya que empieza a contar niveles en el 0. La consulta exacta será la siguiente SELECT level + 1 AS niveles_totales FROM bt_metap\('indice_producto_id'\);\r\nNos devolverá que existen 4 niveles. Para obtener el número de bloques por nivel usaremos la extensión pgststtuple, implementándola de la misma manera que con pageinspect. Tras esto haremos la misma consulta relizada en la cuestion 13 modificando el nombre del indice y del rango del generate_series para que se adapte a los datos de este nuevo índice.\r\n Tras hacer esta consulta nos devuelve que el nivel 3 tiene 1 bloque, el nivel 2 tiene 2 bloques, el nivel 1 tiene 335 bloques y el nivel raíz tiene 68307 bloques. Para obtener el numero de tuplas por bloque por nivel hacemos la siguiente consulta SELECT live_items FROM bt_page_stats\('indice_producto_id', n\),s sustituyendo n por el numero de un bloque que pertenezca a cada nivel. Haciendo esto nos devuelve que en un bloque del nivel 0 hay 367 tuplas, en el nivel 1 hay 206, en el nivel 2 hay 205 y en el nivel 3 hay 2 tuplas por bloque.)/Rect[ 78.711403 19.7873 533.94897 321.89401]/Subtype/Widget/T(Text17)/Type/Annot/V(Usamos CREATE INDEX para crear el índice. En postgresql por defecto se crea de tipo  árbol, por lo que no hace falta especificar el tipo.Los datos se almacenan en el sistema de archivos de postgres, en una carpeta de nombre el OID del índice. Haciendo una colsulta a la tabla de postgres pg_class podemos obtener que el OID es 114689.\r\nHaciendo la siguiente consulta SELECT relpages FROM pg_class WHERE relname = 'indice_precio'; para ver lo que ocupa el indice a partir de lo almacenado en pg_class nos devuelve 68646 bloques. Multiplicando esto por 8192 nos dice que ocupa 537 MB. Para ver el numero de niveles del índice, usaremos la extensión page_inspect, creándola el el fichero sql con la siguiente instrucción: CREATE EXTENSION IF NOT EXISTS pageinspect.Una vez creada haremos una consulta a bt_map\(\), que almacena los metadatos del índice, para que nos devuelva los niveles del índice, sumandole 1 ya que empieza a contar niveles en el 0. La consulta exacta será la siguiente SELECT level + 1 AS niveles_totales FROM bt_metap\('indice_producto_id'\);\r\nNos devolverá que existen 4 niveles. Para obtener el número de bloques por nivel usaremos la extensión pgststtuple, implementándola de la misma manera que con pageinspect. Tras esto haremos la misma consulta relizada en la cuestion 13 modificando el nombre del indice y del rango del generate_series para que se adapte a los datos de este nuevo índice.\r\n Tras hacer esta consulta nos devuelve que el nivel 3 tiene 1 bloque, el nivel 2 tiene 2 bloques, el nivel 1 tiene 335 bloques y el nivel raíz tiene 68307 bloques. Para obtener el numero de tuplas por bloque por nivel hacemos la siguiente consulta SELECT live_items FROM bt_page_stats\('indice_producto_id', n\),s sustituyendo n por el numero de un bloque que pertenezca a cada nivel. Haciendo esto nos devuelve que en un bloque del nivel 0 hay 367 tuplas, en el nivel 1 hay 206, en el nivel 2 hay 205 y en el nivel 3 hay 2 tuplas por bloque.)>>
+<</AP<</N 1315 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 179 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 43 0 R /RV(Usamos CREATE INDEX para crear el índice. En postgresql por defecto se crea de tipo  árbol, por lo que no hace falta especificar el tipo.Los datos se almacenan en el sistema de archivos de postgres, en una carpeta de nombre el OID del índice. Haciendo una colsulta a la tabla de postgres pg_class podemos obtener que el OID es 114689.\r\nHaciendo la siguiente consulta SELECT relpages FROM pg_class WHERE relname = 'indice_precio'; para ver lo que ocupa el indice a partir de lo almacenado en pg_class nos devuelve 68646 bloques. Multiplicando esto por 8192 nos dice que ocupa 537 MB. Para ver el numero de niveles del índice, usaremos la extensión page_inspect, creándola el el fichero sql con la siguiente instrucción: CREATE EXTENSION IF NOT EXISTS pageinspect.Una vez creada haremos una consulta a bt_map\(\), que almacena los metadatos del índice, para que nos devuelva los niveles del índice, sumandole 1 ya que empieza a contar niveles en el 0. La consulta exacta será la siguiente SELECT level + 1 AS niveles_totales FROM bt_metap\('indice_producto_id'\);\r\nNos devolverá que existen 4 niveles. Para obtener el número de bloques por nivel usaremos la extensión pgststtuple, implementándola de la misma manera que con pageinspect. Tras esto haremos la misma consulta relizada en la cuestion 13 modificando el nombre del indice y del rango del generate_series para que se adapte a los datos de este nuevo índice.\r\n\r\nTras hacer esta consulta nos devuelve que el nivel 3 tiene 1 bloque, el nivel 2 tiene 2 bloques, el nivel 1 tiene 335 bloques y el nivel raíz tiene 68307 bloques. Para obtener el numero de tuplas por bloque por nivel hacemos la siguiente consulta SELECT live_items FROM bt_page_stats\('indice_producto_id', n\),s sustituyendo n por el numero de un bloque que pertenezca a cada nivel. Haciendo esto nos devuelve que en un bloque del nivel 0 hay 367 tuplas, en el nivel 1 hay 206, en el nivel 2 hay 205 y en el nivel 3 hay 2 tuplas por bloque.)/Rect[ 78.711403 19.7873 533.94897 321.89401]/Subtype/Widget/T(Text17)/Type/Annot/V(Usamos CREATE INDEX para crear el índice. En postgresql por defecto se crea de tipo  árbol, por lo que no hace falta especificar el tipo.Los datos se almacenan en el sistema de archivos de postgres, en una carpeta de nombre el OID del índice. Haciendo una colsulta a la tabla de postgres pg_class podemos obtener que el OID es 114689.\r\nHaciendo la siguiente consulta SELECT relpages FROM pg_class WHERE relname = 'indice_precio'; para ver lo que ocupa el indice a partir de lo almacenado en pg_class nos devuelve 68646 bloques. Multiplicando esto por 8192 nos dice que ocupa 537 MB. Para ver el numero de niveles del índice, usaremos la extensión page_inspect, creándola el el fichero sql con la siguiente instrucción: CREATE EXTENSION IF NOT EXISTS pageinspect.Una vez creada haremos una consulta a bt_map\(\), que almacena los metadatos del índice, para que nos devuelva los niveles del índice, sumandole 1 ya que empieza a contar niveles en el 0. La consulta exacta será la siguiente SELECT level + 1 AS niveles_totales FROM bt_metap\('indice_producto_id'\);\r\nNos devolverá que existen 4 niveles. Para obtener el número de bloques por nivel usaremos la extensión pgststtuple, implementándola de la misma manera que con pageinspect. Tras esto haremos la misma consulta relizada en la cuestion 13 modificando el nombre del indice y del rango del generate_series para que se adapte a los datos de este nuevo índice.\r\n\r\nTras hacer esta consulta nos devuelve que el nivel 3 tiene 1 bloque, el nivel 2 tiene 2 bloques, el nivel 1 tiene 335 bloques y el nivel raíz tiene 68307 bloques. Para obtener el numero de tuplas por bloque por nivel hacemos la siguiente consulta SELECT live_items FROM bt_page_stats\('indice_producto_id', n\),s sustituyendo n por el numero de un bloque que pertenezca a cada nivel. Haciendo esto nos devuelve que en un bloque del nivel 0 hay 367 tuplas, en el nivel 1 hay 206, en el nivel 2 hay 205 y en el nivel 3 hay 2 tuplas por bloque.)>>
 endobj
 143 0 obj
-<</AP<</N 1209 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 182 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 47 0 R /RV(Sabemos de los datos anteriormente calculados que el tamaño de bloque útil es de 8168 bytes y que la longitud del precio es de 7 bytes. Postgres tiene por defecto que la longitud del puntero a bloque es de 4 bytes y la longitud del puntero a registro es de 6 bytes. Con esto, ya podemos calcular índice de tipo árbol.\r\n\r\nEl campo precio no  está ordenado y no es campo clave por lo que estamos ante un índice secundario + no campo clave, por lo que tiene cajones a punteros. Los registros a almacenar del índice van a ser igual que el V\(precio\) = 500.001 registros.\r\n\r\nCalculamos el nodo raíz intermedio de fórmula: n * Lpbloque + \(n-1\) * Lprecio <= B.útil,\r\nn * 4 + \(n-1\) * 7 <= 8168, despejando nos da n <= 743 punteros a bloque\r\n\r\nCalculamos el nodo hoja de fórmula: nh * \(Lprecio + Lpreg\) + Lpbloque <= B.útil,\r\nnh * \(7 + 6\) * 4 <= 8168, despejando nos da nh <= 628 punteros a registro\r\n\r\nHojas = 500.001 / 628 = 797 bloques\r\nNivel intermedio 1 = 797 / 743 = 2 bloques\r\nRaíz = 2 / 743 = 1 bloque\r\n\r\nCajones de punteros, Nc = 25.000.000 / 500.001 = 50 registros     Lrc = Lpreg = 7 bytes\r\nFactor de bloque fr = 8168 / 6 = 1361 reg/blq      br = 50 / 1361 = 1 bloque\r\n\r\nEl índice tiene 3 niveles y ocupa 850 bloques.\r\nNO SE SI ESTA BIEN ESTA MIERDA)/Rect[ 86.566002 411.53601 541.80298 725.42603]/Subtype/Widget/T(Text18)/Type/Annot/V(Sabemos de los datos anteriormente calculados que el tamaño de bloque útil es de 8168 bytes y que la longitud del precio es de 7 bytes. Postgres tiene por defecto que la longitud del puntero a bloque es de 4 bytes y la longitud del puntero a registro es de 6 bytes. Con esto, ya podemos calcular índice de tipo árbol.\r\n\r\nEl campo precio no  está ordenado y no es campo clave por lo que estamos ante un índice secundario + no campo clave, por lo que tiene cajones a punteros. Los registros a almacenar del índice van a ser igual que el V\(precio\) = 500.001 registros.\r\n\r\nCalculamos el nodo raíz intermedio de fórmula: n * Lpbloque + \(n-1\) * Lprecio <= B.útil,\r\nn * 4 + \(n-1\) * 7 <= 8168, despejando nos da n <= 743 punteros a bloque\r\n\r\nCalculamos el nodo hoja de fórmula: nh * \(Lprecio + Lpreg\) + Lpbloque <= B.útil,\r\nnh * \(7 + 6\) * 4 <= 8168, despejando nos da nh <= 628 punteros a registro\r\n\r\nHojas = 500.001 / 628 = 797 bloques\r\nNivel intermedio 1 = 797 / 743 = 2 bloques\r\nRaíz = 2 / 743 = 1 bloque\r\n\r\nCajones de punteros, Nc = 25.000.000 / 500.001 = 50 registros     Lrc = Lpreg = 7 bytes\r\nFactor de bloque fr = 8168 / 6 = 1361 reg/blq      br = 50 / 1361 = 1 bloque\r\n\r\nEl índice tiene 3 niveles y ocupa 850 bloques.\r\nNO SE SI ESTA BIEN ESTA MIERDA)>>
+<</AP<</N 1316 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 182 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 47 0 R /RV(Sabemos de los datos anteriormente calculados que el tamaño de bloque útil es de 8168 bytes y que la longitud del precio es de 7 bytes. Postgres tiene por defecto que la longitud del puntero a bloque es de 4 bytes y la longitud del puntero a registro es de 6 bytes. Con esto, ya podemos calcular índice de tipo árbol.\r\n\r\nEl campo precio no  está ordenado y no es campo clave por lo que estamos ante un índice secundario + no campo clave, por lo que tiene cajones a punteros. Los registros a almacenar del índice van a ser igual que el V\(precio\) = 500.001 registros.\r\n\r\nCalculamos el nodo raíz intermedio de fórmula: n * Lpbloque + \(n-1\) * Lprecio <= B.útil,\r\nn * 4 + \(n-1\) * 7 <= 8168, despejando nos da n <= 743 punteros a bloque\r\n\r\nCalculamos el nodo hoja de fórmula: nh * \(Lprecio + Lpreg\) + Lpbloque <= B.útil,\r\nnh * \(7 + 6\) * 4 <= 8168, despejando nos da nh <= 628 punteros a registro\r\n\r\nHojas = 500.001 / 628 = 797 bloques\r\nNivel intermedio 1 = 797 / 743 = 2 bloques\r\nRaíz = 2 / 743 = 1 bloque\r\n\r\nCajones de punteros, Nc = 25.000.000 / 500.001 = 50 registros     Lrc = Lpreg = 7 bytes\r\nFactor de bloque fr = 8168 / 6 = 1361 reg/blq      br = 50 / 1361 = 1 bloque\r\n\r\nEl índice tiene 3 niveles y ocupa 850 bloques.)/Rect[ 86.566002 411.53601 541.80298 725.42603]/Subtype/Widget/T(Text18)/Type/Annot/V(Sabemos de los datos anteriormente calculados que el tamaño de bloque útil es de 8168 bytes y que la longitud del precio es de 7 bytes. Postgres tiene por defecto que la longitud del puntero a bloque es de 4 bytes y la longitud del puntero a registro es de 6 bytes. Con esto, ya podemos calcular índice de tipo árbol.\r\n\r\nEl campo precio no  está ordenado y no es campo clave por lo que estamos ante un índice secundario + no campo clave, por lo que tiene cajones a punteros. Los registros a almacenar del índice van a ser igual que el V\(precio\) = 500.001 registros.\r\n\r\nCalculamos el nodo raíz intermedio de fórmula: n * Lpbloque + \(n-1\) * Lprecio <= B.útil,\r\nn * 4 + \(n-1\) * 7 <= 8168, despejando nos da n <= 743 punteros a bloque\r\n\r\nCalculamos el nodo hoja de fórmula: nh * \(Lprecio + Lpreg\) + Lpbloque <= B.útil,\r\nnh * \(7 + 6\) * 4 <= 8168, despejando nos da nh <= 628 punteros a registro\r\n\r\nHojas = 500.001 / 628 = 797 bloques\r\nNivel intermedio 1 = 797 / 743 = 2 bloques\r\nRaíz = 2 / 743 = 1 bloque\r\n\r\nCajones de punteros, Nc = 25.000.000 / 500.001 = 50 registros     Lrc = Lpreg = 7 bytes\r\nFactor de bloque fr = 8168 / 6 = 1361 reg/blq      br = 50 / 1361 = 1 bloque\r\n\r\nEl índice tiene 3 niveles y ocupa 850 bloques.)>>
 endobj
 144 0 obj
-<</AP<</N 1297 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 181 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 47 0 R /RV(Usamos CREATE INDEX para crear el índice, añadiendo USING HASH para especificar el tipo de índice que queremos. Los datos se almacenan en el sistema de archivos de postgres, en una carpeta de nombre el OID del índice. Haciendo una colsulta a la tabla de postgres pg_class podemos obtener que el OID es 114690.\r\nHaciendo la siguiente consulta SELECT relpages FROM pg_class WHERE relname = 'indice_hash_precio' para ver lo que ocupa el indice a partir de lo almacenado en pg_class nos devuelve 102717 bloques. Multiplicando esto por 8192 nos dice que ocupa 803 MB.\r\n\r\nHaciendo la siguiente consulta  SELECT maxbucket, ntuples FROM hash_metapage_info\(get_raw_page\('indice_hash_precio', 0\)\); obtenemos el número de tuplas del índice, dado por ntuple, y el numero de buckets, dado por maxbucket. Nos devuelve que hay 25 millones de tuplas y 81919 buckets. teniendo en cuenta que empieza a contar buckets en el 0, tenemos 81920 cajones.\r\n\r\nLo que hace la consulta es obtener el valor de maxbucket y el numero de tuplas desde la página de metadatos del índice hash. Para ello, usa la función get_raw_page\(\) para acceder directamente a la página 0 del índice, que contiene información sobre su estructura. Luego, hash_metapage_info\(\) decodifica los metadatos, incluyendo maxbucket y ntuples, que representa el número máximo de bucket asignado actualmente. \r\n\r\nPara el número de tuplas medio de cada cajón, dividiremos el número de tuplas entre el número de cajones. Esto nos dará 25.000.000 / 81920 = 305,17. Es decir, que por cajón hay aproximadamente 305 tuplas.)/Rect[ 82.638702 24.2055 537.87598 349.87701]/Subtype/Widget/T(Text19)/Type/Annot/V(Usamos CREATE INDEX para crear el índice, añadiendo USING HASH para especificar el tipo de índice que queremos. Los datos se almacenan en el sistema de archivos de postgres, en una carpeta de nombre el OID del índice. Haciendo una colsulta a la tabla de postgres pg_class podemos obtener que el OID es 114690.\r\nHaciendo la siguiente consulta SELECT relpages FROM pg_class WHERE relname = 'indice_hash_precio' para ver lo que ocupa el indice a partir de lo almacenado en pg_class nos devuelve 102717 bloques. Multiplicando esto por 8192 nos dice que ocupa 803 MB.\r\n\r\nHaciendo la siguiente consulta  SELECT maxbucket, ntuples FROM hash_metapage_info\(get_raw_page\('indice_hash_precio', 0\)\); obtenemos el número de tuplas del índice, dado por ntuple, y el numero de buckets, dado por maxbucket. Nos devuelve que hay 25 millones de tuplas y 81919 buckets. teniendo en cuenta que empieza a contar buckets en el 0, tenemos 81920 cajones.\r\n\r\nLo que hace la consulta es obtener el valor de maxbucket y el numero de tuplas desde la página de metadatos del índice hash. Para ello, usa la función get_raw_page\(\) para acceder directamente a la página 0 del índice, que contiene información sobre su estructura. Luego, hash_metapage_info\(\) decodifica los metadatos, incluyendo maxbucket y ntuples, que representa el número máximo de bucket asignado actualmente. \r\n\r\nPara el número de tuplas medio de cada cajón, dividiremos el número de tuplas entre el número de cajones. Esto nos dará 25.000.000 / 81920 = 305,17. Es decir, que por cajón hay aproximadamente 305 tuplas.)>>
+<</AP<</N 1317 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 181 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 47 0 R /RV(Usamos CREATE INDEX para crear el índice, añadiendo USING HASH para especificar el tipo de índice que queremos. Los datos se almacenan en el sistema de archivos de postgres, en una carpeta de nombre el OID del índice. Haciendo una colsulta a la tabla de postgres pg_class podemos obtener que el OID es 114690.\r\n\r\nHaciendo la siguiente consulta SELECT relpages FROM pg_class WHERE relname = 'indice_hash_precio' para ver lo que ocupa el indice a partir de lo almacenado en pg_class nos devuelve 102717 bloques. Multiplicando esto por 8192 nos dice que ocupa 803 MB.\r\n\r\nHaciendo la siguiente consulta  SELECT maxbucket, ntuples FROM hash_metapage_info\(get_raw_page\('indice_hash_precio', 0\)\); obtenemos el número de tuplas del índice, dado por ntuple, y el numero de buckets, dado por maxbucket. Nos devuelve que hay 25 millones de tuplas y 81919 buckets. teniendo en cuenta que empieza a contar buckets en el 0, tenemos 81920 cajones.\r\n\r\nLo que hace la consulta es obtener el valor de maxbucket y el numero de tuplas desde la página de metadatos del índice hash. Para ello, usa la función get_raw_page\(\) para acceder directamente a la página 0 del índice, que contiene información sobre su estructura. Luego, hash_metapage_info\(\) decodifica los metadatos, incluyendo maxbucket y ntuples, que representa el número máximo de bucket asignado actualmente. \r\n\r\nPara el número de tuplas medio de cada cajón, dividiremos el número de tuplas entre el número de cajones. Esto nos dará 25.000.000 / 81920 = 305,17. Es decir, que por cajón hay aproximadamente 305 tuplas.)/Rect[ 82.638702 24.2055 537.87598 349.87701]/Subtype/Widget/T(Text19)/Type/Annot/V(Usamos CREATE INDEX para crear el índice, añadiendo USING HASH para especificar el tipo de índice que queremos. Los datos se almacenan en el sistema de archivos de postgres, en una carpeta de nombre el OID del índice. Haciendo una colsulta a la tabla de postgres pg_class podemos obtener que el OID es 114690.\r\n\r\nHaciendo la siguiente consulta SELECT relpages FROM pg_class WHERE relname = 'indice_hash_precio' para ver lo que ocupa el indice a partir de lo almacenado en pg_class nos devuelve 102717 bloques. Multiplicando esto por 8192 nos dice que ocupa 803 MB.\r\n\r\nHaciendo la siguiente consulta  SELECT maxbucket, ntuples FROM hash_metapage_info\(get_raw_page\('indice_hash_precio', 0\)\); obtenemos el número de tuplas del índice, dado por ntuple, y el numero de buckets, dado por maxbucket. Nos devuelve que hay 25 millones de tuplas y 81919 buckets. teniendo en cuenta que empieza a contar buckets en el 0, tenemos 81920 cajones.\r\n\r\nLo que hace la consulta es obtener el valor de maxbucket y el numero de tuplas desde la página de metadatos del índice hash. Para ello, usa la función get_raw_page\(\) para acceder directamente a la página 0 del índice, que contiene información sobre su estructura. Luego, hash_metapage_info\(\) decodifica los metadatos, incluyendo maxbucket y ntuples, que representa el número máximo de bucket asignado actualmente. \r\n\r\nPara el número de tuplas medio de cada cajón, dividiremos el número de tuplas entre el número de cajones. Esto nos dará 25.000.000 / 81920 = 305,17. Es decir, que por cajón hay aproximadamente 305 tuplas.)>>
 endobj
 145 0 obj
 <</AP<</N 103 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 183 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 50 0 R /Rect[ 83.620499 472.901 538.85797 722.97101]/Subtype/Widget/T(Text20)/Type/Annot>>
@@ -1228,7 +1228,7 @@ endobj
 <</AP<</N 1229 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 186 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 53 0 R /RV(Para crear el índice tipo árbol sobre el campo precio utilizamos:\r\nCREATE INDEX indice_precio ON productos \(precio\);\r\n\r\nPara crear el índice hash sobre el campo producto_id utilizamos:\r\nCREATE INDEX indice_hash_producto_id ON productos USING hash \(producto_id\);\r\n\r\nPara crear el índice hash sobre el campo precio utilizamos:\r\nCREATE INDEX indice_hash_precio ON productos USING HASH \(precio\);\r\n\r\n)/Rect[ 85.584198 373.46301 540.82202 513.56897]/Subtype/Widget/T(Text22)/Type/Annot/V(Para crear el índice tipo árbol sobre el campo precio utilizamos:\r\nCREATE INDEX indice_precio ON productos \(precio\);\r\n\r\nPara crear el índice hash sobre el campo producto_id utilizamos:\r\nCREATE INDEX indice_hash_producto_id ON productos USING hash \(producto_id\);\r\n\r\nPara crear el índice hash sobre el campo precio utilizamos:\r\nCREATE INDEX indice_hash_precio ON productos USING HASH \(precio\);\r\n\r\n)>>
 endobj
 148 0 obj
-<</AP<</N 1296 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 185 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 53 0 R /RV(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\n\r\nHacemos la consulta SELECT * FROM productos WHERE precio = 2000;\r\nnos devuelve 51 tuplas.\r\n\r\nUsamos SELECT relname, heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos'; nos devuelve 51 bloques leídos desde la caché\r\n\r\nUtilizamos la consulta SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname ='productos'; nos devuelve una tabla con los bloques leídos tanto en disco como en memoria caché de todos los índices creados anteriormente. El resultado ha sido que se han leído 2 bloques del índice hash en precio desde la caché.\r\n\r\nEl índice Hash en precio es más rápido que otros índices como el índice B-tree porque el Hash está optimizado para búsquedas de igualdad exacta.\r\nPor tanto, en la consulta se han leído un total de 53 bloques.\r\n)/Rect[ 84.602303 18.805401 539.84003 237.457]/Subtype/Widget/T(Text23)/Type/Annot/V(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\n\r\nHacemos la consulta SELECT * FROM productos WHERE precio = 2000;\r\nnos devuelve 51 tuplas.\r\n\r\nUsamos SELECT relname, heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos'; nos devuelve 51 bloques leídos desde la caché\r\n\r\nUtilizamos la consulta SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname ='productos'; nos devuelve una tabla con los bloques leídos tanto en disco como en memoria caché de todos los índices creados anteriormente. El resultado ha sido que se han leído 2 bloques del índice hash en precio desde la caché.\r\n\r\nEl índice Hash en precio es más rápido que otros índices como el índice B-tree porque el Hash está optimizado para búsquedas de igualdad exacta.\r\nPor tanto, en la consulta se han leído un total de 53 bloques.\r\n)>>
+<</AP<</N 1318 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 185 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 53 0 R /RV(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\n\r\nHacemos la consulta SELECT * FROM productos WHERE precio = 2000;\r\nnos devuelve 51 tuplas.\r\n\r\nUsamos SELECT relname, heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos'; nos devuelve 51 bloques leídos desde la caché.\r\n\r\nUtilizamos la consulta SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname ='productos'; nos devuelve una tabla con los bloques leídos tanto en disco como en memoria caché de todos los índices creados anteriormente. El resultado ha sido que se han leído 2 bloques del índice hash en precio desde la caché.\r\n\r\nEl índice Hash en precio es más rápido que otros índices como el índice B-tree porque el Hash está optimizado para búsquedas de igualdad exacta.\r\nPor tanto, en la consulta se han leído un total de 53 bloques.\r\n)/Rect[ 84.602303 18.805401 539.84003 237.457]/Subtype/Widget/T(Text23)/Type/Annot/V(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\n\r\nHacemos la consulta SELECT * FROM productos WHERE precio = 2000;\r\nnos devuelve 51 tuplas.\r\n\r\nUsamos SELECT relname, heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos'; nos devuelve 51 bloques leídos desde la caché.\r\n\r\nUtilizamos la consulta SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname ='productos'; nos devuelve una tabla con los bloques leídos tanto en disco como en memoria caché de todos los índices creados anteriormente. El resultado ha sido que se han leído 2 bloques del índice hash en precio desde la caché.\r\n\r\nEl índice Hash en precio es más rápido que otros índices como el índice B-tree porque el Hash está optimizado para búsquedas de igualdad exacta.\r\nPor tanto, en la consulta se han leído un total de 53 bloques.\r\n)>>
 endobj
 149 0 obj
 <</AP<</N 1263 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 189 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 56 0 R /RV(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\n\r\nHacemos la consulta SELECT * FROM productos WHERE producto_id = 60000;\r\nnos devuelve dicho producto_id con su stock y su precio.\r\n\r\nUsamos SELECT relname, heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos'; nos devuelve 1 bloque leído desde el disco.\r\n\r\nUtilizamos la consulta SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname ='productos';  nos devuelve que se han leído 3 bloques del índice hash en producto_id desde el disco.\r\n\r\nLo que da un total de 4 bloques leidos.)/Rect[ 79.602303 538.19202 534.84003 738.18903]/Subtype/Widget/T(Text24)/Type/Annot/V(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\n\r\nHacemos la consulta SELECT * FROM productos WHERE producto_id = 60000;\r\nnos devuelve dicho producto_id con su stock y su precio.\r\n\r\nUsamos SELECT relname, heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos'; nos devuelve 1 bloque leído desde el disco.\r\n\r\nUtilizamos la consulta SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname ='productos';  nos devuelve que se han leído 3 bloques del índice hash en producto_id desde el disco.\r\n\r\nLo que da un total de 4 bloques leidos.)>>
@@ -1243,10 +1243,10 @@ endobj
 <</AP<</N 1260 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 193 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 60 0 R /RV(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\nHacemos la consulta SELECT stock FROM productos WHERE precio = 4000;  nos devuelve 47 tuplas.\r\n\r\nUsamos SELECT relname, heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos'; nos devuelve 47 bloques leídos desde el disco y ninguno en la caché.\r\n\r\nUtilizamos la consulta SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname ='productos';  nos devuelve que se ha leído 1 bloque del índice Hash de precio.\r\n\r\nEn este caso postgres ha decidido usar el índice Hash ordenado por el precio, el más adecuado en este caso al ser una busqueda de igualdad en una columna con su propio índice ordenado.)/Rect[ 83.620499 561.75598 538.85797 734.26202]/Subtype/Widget/T(Text27)/Type/Annot/V(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\nHacemos la consulta SELECT stock FROM productos WHERE precio = 4000;  nos devuelve 47 tuplas.\r\n\r\nUsamos SELECT relname, heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos'; nos devuelve 47 bloques leídos desde el disco y ninguno en la caché.\r\n\r\nUtilizamos la consulta SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname ='productos';  nos devuelve que se ha leído 1 bloque del índice Hash de precio.\r\n\r\nEn este caso postgres ha decidido usar el índice Hash ordenado por el precio, el más adecuado en este caso al ser una busqueda de igualdad en una columna con su propio índice ordenado.)>>
 endobj
 153 0 obj
-<</AP<</N 1264 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 194 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 60 0 R /RV(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\nInsertamos en productos con la siguiente consulta: INSERT INTO productos \(producto_id, nombre, stock, precio\) VALUES \(25000001, 'producto', 1, 1000\);\r\n\r\nUsamos SELECT relname, heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos'; nos devuelve únicamente 2 bloques leídos desde la caché.\r\n\r\nUtilizamos la consulta SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname ='productos';  nos devuelve que se ha leído 1 bloque del índice primario, probablemente para asegurarse que la clave primaria es válida, 4 bloques del índice precio, posiblemente para que el índice añada esta nueva tupla donde corresponda, 3 bloques del índice hash organizado por la id del producto, y otros 3 para el índice hash organizado por precio. probablemente se haga para actualizar o añadir en los índices el nuevo registro.\r\n\r\nTodos estos bloques se han leído de la caché\r\n)/Rect[ 85.584198 295.845 540.82202 526.27899]/Subtype/Widget/T(Text28)/Type/Annot/V(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\nInsertamos en productos con la siguiente consulta: INSERT INTO productos \(producto_id, nombre, stock, precio\) VALUES \(25000001, 'producto', 1, 1000\);\r\n\r\nUsamos SELECT relname, heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos'; nos devuelve únicamente 2 bloques leídos desde la caché.\r\n\r\nUtilizamos la consulta SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname ='productos';  nos devuelve que se ha leído 1 bloque del índice primario, probablemente para asegurarse que la clave primaria es válida, 4 bloques del índice precio, posiblemente para que el índice añada esta nueva tupla donde corresponda, 3 bloques del índice hash organizado por la id del producto, y otros 3 para el índice hash organizado por precio. probablemente se haga para actualizar o añadir en los índices el nuevo registro.\r\n\r\nTodos estos bloques se han leído de la caché\r\n)>>
+<</AP<</N 1319 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 194 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 60 0 R /RV(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\nInsertamos en productos con la siguiente consulta: INSERT INTO productos \(producto_id, nombre, stock, precio\) VALUES \(25000001, 'producto', 1, 1000\);\r\n\r\nUsamos SELECT relname, heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos'; nos devuelve únicamente 2 bloques leídos desde la caché.\r\n\r\nUtilizamos la consulta SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname ='productos';  nos devuelve que se ha leído 1 bloque del índice primario, probablemente para asegurarse que la clave primaria es válida, 4 bloques del índice precio, posiblemente para que el índice añada esta nueva tupla donde corresponda, 3 bloques del índice hash organizado por la id del producto, y otros 3 para el índice hash organizado por precio. probablemente se haga para actualizar o añadir en los índices el nuevo registro.\r\n\r\nTodos estos bloques se han leído de la caché.\r\n)/Rect[ 85.584198 295.845 540.82202 526.27899]/Subtype/Widget/T(Text28)/Type/Annot/V(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\nInsertamos en productos con la siguiente consulta: INSERT INTO productos \(producto_id, nombre, stock, precio\) VALUES \(25000001, 'producto', 1, 1000\);\r\n\r\nUsamos SELECT relname, heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos'; nos devuelve únicamente 2 bloques leídos desde la caché.\r\n\r\nUtilizamos la consulta SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname ='productos';  nos devuelve que se ha leído 1 bloque del índice primario, probablemente para asegurarse que la clave primaria es válida, 4 bloques del índice precio, posiblemente para que el índice añada esta nueva tupla donde corresponda, 3 bloques del índice hash organizado por la id del producto, y otros 3 para el índice hash organizado por precio. probablemente se haga para actualizar o añadir en los índices el nuevo registro.\r\n\r\nTodos estos bloques se han leído de la caché.\r\n)>>
 endobj
 154 0 obj
-<</AP<</N 1266 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 192 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 60 0 R /RV(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\n\r\nHacemos la siguiente actualización UPDATE productos SET precio = 2000 WHERE producto_id = 1;\r\n\r\nUsamos SELECT relname, heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos'; nos devuelve únicamente 4 bloques leídos desde la caché.\r\n\r\nUtilizamos la consulta SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname ='productos';  nos devuelve que se ha leído 1 bloque del índice primario en cache, 2 bloques en caché y otros 2 de la memoria del índice precio, posiblemente para actualizar el registro, 6 bloques del índice hash organizado por la id del producto, y otros 3 para el índice hash \(1 en caché y 2 en memoria\) organizado por precio, de nuevo seguramente para actualizar los registros de los índices)/Rect[ 82.638702 23.7145 537.87598 254.14799]/Subtype/Widget/T(Text29)/Type/Annot/V(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\n\r\nHacemos la siguiente actualización UPDATE productos SET precio = 2000 WHERE producto_id = 1;\r\n\r\nUsamos SELECT relname, heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos'; nos devuelve únicamente 4 bloques leídos desde la caché.\r\n\r\nUtilizamos la consulta SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname ='productos';  nos devuelve que se ha leído 1 bloque del índice primario en cache, 2 bloques en caché y otros 2 de la memoria del índice precio, posiblemente para actualizar el registro, 6 bloques del índice hash organizado por la id del producto, y otros 3 para el índice hash \(1 en caché y 2 en memoria\) organizado por precio, de nuevo seguramente para actualizar los registros de los índices)>>
+<</AP<</N 1320 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 192 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 60 0 R /RV(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\n\r\nHacemos la siguiente actualización UPDATE productos SET precio = 2000 WHERE producto_id = 1;\r\n\r\nUsamos SELECT relname, heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos'; nos devuelve únicamente 4 bloques leídos desde la caché.\r\n\r\nUtilizamos la consulta SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname ='productos';  nos devuelve que se ha leído 1 bloque del índice primario en cache, 2 bloques en caché y otros 2 de la memoria del índice precio, posiblemente para actualizar el registro, 6 bloques del índice hash organizado por la id del producto, y otros 3 para el índice hash \(1 en caché y 2 en memoria\) organizado por precio, de nuevo seguramente para actualizar los registros de los índices.)/Rect[ 82.638702 23.7145 537.87598 254.14799]/Subtype/Widget/T(Text29)/Type/Annot/V(Primero reinicializamos los datos con SELECT pg_stat_reset\(\);\r\n\r\nHacemos la siguiente actualización UPDATE productos SET precio = 2000 WHERE producto_id = 1;\r\n\r\nUsamos SELECT relname, heap_blks_read, heap_blks_hit FROM pg_statio_user_tables WHERE relname='productos'; nos devuelve únicamente 4 bloques leídos desde la caché.\r\n\r\nUtilizamos la consulta SELECT indexrelname, idx_blks_read, idx_blks_hit FROM pg_statio_user_indexes WHERE relname ='productos';  nos devuelve que se ha leído 1 bloque del índice primario en cache, 2 bloques en caché y otros 2 de la memoria del índice precio, posiblemente para actualizar el registro, 6 bloques del índice hash organizado por la id del producto, y otros 3 para el índice hash \(1 en caché y 2 en memoria\) organizado por precio, de nuevo seguramente para actualizar los registros de los índices.)>>
 endobj
 155 0 obj
 <</AP<</N 1269 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 195 0 R /F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 65 0 R /RV(Primero eliminamos los 3 índices usando esta consulta DROP INDEX indice_precio,indice_hash_producto_id, indice_hash_precio;\r\n\r\nLuego creamos el índice de igual manera que un índice árbol normal, poniendo los dos atributos con los que queremos que lo organice: \r\nCREATE INDEX indice_stock_precio ON productos \(stock, precio\);\r\n)/Rect[ 85.584198 599.66498 540.82202 742.716]/Subtype/Widget/T(Text30)/Type/Annot/V(Primero eliminamos los 3 índices usando esta consulta DROP INDEX indice_precio,indice_hash_producto_id, indice_hash_precio;\r\n\r\nLuego creamos el índice de igual manera que un índice árbol normal, poniendo los dos atributos con los que queremos que lo organice: \r\nCREATE INDEX indice_stock_precio ON productos \(stock, precio\);\r\n)>>
@@ -1297,7 +1297,7 @@ endobj
 (font: Georgia,serif 10.0pt; text-align:left; color:#000000 )
 endobj
 171 0 obj
-<</DA(/Georgia 10 Tf 0 g)/DS(font: Georgia,serif 10.0pt; text-align:left; color:#000000 )/FT/Tx/Ff 41947136/Kids[ 131 0 R ]/RV(Para borrar 4000000 de elementos de la lista de forma aleatoria hemos usado la siguiente consulta DELETE FROM productos WHERE producto_id IN \( SELECT producto_id FROM productos ORDER BY random\(\) LIMIT 4000000 \);\r\nLo que hace es borrar todas las tuplas cuyo id se encuentre dentro de los que se obtienen en la subconuslta. Esta subconsulta lo que hace es reordenar los id de producto de forma aleatoria usando la función random\(\) y luego recoje únicamente los primeros 4 millones mediante LIMIT.\r\n\r\nAl hacer una consulta para ver el espacio ocupado nos devolverá que la tabla ocupa 183872, lo que ocupaba la tabla antes de hacer el borrado. Esto ocurre por la forma en la que postgres gestiona la instrucción DELETE. Lo que hace no es borrar las tuplas seleccionadas, sino que las marca como 'tuplas muertas', un tipo de tuplas que no se tienen en cuenta en la tabla en cuestión, pero que siguen ocupando espacio en disco.\r\n\r\nEstas tuplas muertas son borradas o cuando se usa VACCUM o cuando se escriben nuevos datos.)/T(Text9)/V(Para borrar 4000000 de elementos de la lista de forma aleatoria hemos usado la siguiente consulta DELETE FROM productos WHERE producto_id IN \( SELECT producto_id FROM productos ORDER BY random\(\) LIMIT 4000000 \);\r\nLo que hace es borrar todas las tuplas cuyo id se encuentre dentro de los que se obtienen en la subconuslta. Esta subconsulta lo que hace es reordenar los id de producto de forma aleatoria usando la función random\(\) y luego recoje únicamente los primeros 4 millones mediante LIMIT.\r\n\r\nAl hacer una consulta para ver el espacio ocupado nos devolverá que la tabla ocupa 183872, lo que ocupaba la tabla antes de hacer el borrado. Esto ocurre por la forma en la que postgres gestiona la instrucción DELETE. Lo que hace no es borrar las tuplas seleccionadas, sino que las marca como 'tuplas muertas', un tipo de tuplas que no se tienen en cuenta en la tabla en cuestión, pero que siguen ocupando espacio en disco.\r\n\r\nEstas tuplas muertas son borradas o cuando se usa VACCUM o cuando se escriben nuevos datos.)>>
+<</DA(/Georgia 10 Tf 0 g)/DS(font: Georgia,serif 10.0pt; text-align:left; color:#000000 )/FT/Tx/Ff 41947136/Kids[ 131 0 R ]/RV(Para borrar 4000000 de elementos de la lista de forma aleatoria hemos usado la siguiente consulta DELETE FROM productos WHERE producto_id IN \( SELECT producto_id FROM productos ORDER BY random\(\) LIMIT 4000000 \);\r\n\r\nLo que hace es borrar todas las tuplas cuyo id se encuentre dentro de los que se obtienen en la subconuslta. Esta subconsulta lo que hace es reordenar los id de producto de forma aleatoria usando la función random\(\) y luego recoje únicamente los primeros 4 millones mediante LIMIT.\r\n\r\nAl hacer una consulta para ver el espacio ocupado nos devolverá que la tabla ocupa 183872, lo que ocupaba la tabla antes de hacer el borrado. Esto ocurre por la forma en la que postgres gestiona la instrucción DELETE. Lo que hace no es borrar las tuplas seleccionadas, sino que las marca como 'tuplas muertas', un tipo de tuplas que no se tienen en cuenta en la tabla en cuestión, pero que siguen ocupando espacio en disco.\r\n\r\nEstas tuplas muertas son borradas o cuando se usa VACCUM o cuando se escriben nuevos datos.)/T(Text9)/V(Para borrar 4000000 de elementos de la lista de forma aleatoria hemos usado la siguiente consulta DELETE FROM productos WHERE producto_id IN \( SELECT producto_id FROM productos ORDER BY random\(\) LIMIT 4000000 \);\r\n\r\nLo que hace es borrar todas las tuplas cuyo id se encuentre dentro de los que se obtienen en la subconuslta. Esta subconsulta lo que hace es reordenar los id de producto de forma aleatoria usando la función random\(\) y luego recoje únicamente los primeros 4 millones mediante LIMIT.\r\n\r\nAl hacer una consulta para ver el espacio ocupado nos devolverá que la tabla ocupa 183872, lo que ocupaba la tabla antes de hacer el borrado. Esto ocurre por la forma en la que postgres gestiona la instrucción DELETE. Lo que hace no es borrar las tuplas seleccionadas, sino que las marca como 'tuplas muertas', un tipo de tuplas que no se tienen en cuenta en la tabla en cuestión, pero que siguen ocupando espacio en disco.\r\n\r\nEstas tuplas muertas son borradas o cuando se usa VACCUM o cuando se escriben nuevos datos.)>>
 endobj
 172 0 obj
 (font: Georgia,serif 10.0pt; text-align:left; color:#000000 )
@@ -4113,25 +4113,8 @@ endobj
 1038 0 obj
 <</Georgia 224 0 R >>
 endobj
-1049 0 obj
-<</BBox[ 0 0 455.237 229.452]/Filter/FlateDecode/FormType 1/Length 671/Matrix[ 1 0 0 1 0 0]/Resources<</Font 998 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœTKoÓ@¾ûWÌ­)
-nœM„8ĞQi1â©šx'f«õ»»®šşÛşÄÚuê8"F(G;;ßkvî¢øŸÉÃÇx2‰‡£ód
-Ãá,O†ƒŠH`<5Gçû£Í‹è*:Kàb9î¢‹4@%0L¦ñ,¥":û@lr‰ İD½oáÁ‘Î±`
-ÁáZ!d†P lA±-dhrlû )#+òwxíH“R i'72CÁ~k™1œBzàe2Œ'ÃÙl6z&=A{°Ò°¨2Q¨A¥2Ö¶R[¥ùM¦ĞÚ>Ö‚À *0#àX„ÊD©7l
-Ìä/İÖ=mÜqáëâóbKï¯/—6|ÿ¸¸^€!¥± x'€“×½Ö!X2O`#ì®"øQÛÃå§w@ÖÛ¨¹X
-§k'ISÍ2VU¡ë‹nR’ò(—’á¨ó1,¬£où®¹°¤ù¿=4z4$ã ZÎ$k?>>J#Ù¤Åğ7AQ
-ÂÈxÄã”úqQ^ïæÌkî–ºó¬İ‰ô>²U¯Qt(h—âê,µı8ó7nĞÔzüÉÏ©ÎqeQ†ÒÈ‚{›J‡y,ó+é¦4äÜvÕ[Bé{Íè¾"u_×4öDıˆÂÌƒ¢\®Å0ç‚}ë§‚œaÀ:ígŠ D6Aç3²UXìLs¯ïùRè$ë ¤[Ÿ^j—u+ Ş*0„J>úYğD«ş-ÚKkéLÆ£W°¼øïÌÒğ¢È|Ód-×‹=~†ÚIÂ·¯×_‹xn+íBy³éÁíòzŞ]r?*h ´wª¦¼H£«h±œG }”çã
-endstream
-endobj
 1059 0 obj
 <</Georgia 224 0 R >>
-endobj
-1069 0 obj
-<</BBox[ 0 0 454.25568 171.52402]/Filter/FlateDecode/FormType 1/Length 461/Matrix[ 1 0 0 1 0 0]/Resources<</Font 979 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœu’Áj1†ïzŠŸ\œ–t³»Ø‰}lÓK5õ=Œ¥Ùµ‚¬YKÚçmû =”¾@‘L’^Œ@fæÿş™ÑAÕÈ'ôå1M«v6»™£¹mªY;­[VLgí[èfñê>«µºŞ¼ànu¯ên£jô¹à¦©êvZ7·Øuı%ô–ĞÔØtêKG·V“¶=;H0ìÉH€oÓ/'†R¾ƒÄÔ?ÖØÑ£'h
-'Â…¡D8Â°OAğ	›gUãKÓV³v±XÌçÙÉåI˜Š:Ø‚ŞÙŸò.}p•ßUÀ×…á-ŞŸè{1¶³šB©($2'ıSL”xÏ>a @çĞ‡‘™`û‘“½˜I…eL‚iFI'ÜÛ˜ÃQDdŸØkK«GñğğxU"k(‚}vt†Ê~ÌÅF*|Ïæ2ÄKñÏ¯šòÌŞÖPtµø8ºTØeZ[ÇšK§95YñĞ²L¤ë&Õ9rÁ}Í"9k¨`$f½ÂÂè‘ø%	Q<9ûJF®2şPŞ˜/pg=?;ûÚoóV¼=G}Ğ(w~¤Sçú7yù¯qÇ:IYnÔZ-W÷êƒÃøı
-endstream
 endobj
 1070 0 obj
 <</Georgia 224 0 R >>
@@ -4151,20 +4134,8 @@ endobj
 1102 0 obj
 <</Georgia 224 0 R >>
 endobj
-1103 0 obj
-<</BBox[ 0 0 455.2373 294.90781]/Filter/FlateDecode/FormType 1/Length 550/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1102 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœRMoÓ0¾çW<·u(tIÚj-œØT±IÛĞXàT	¹Î»ÎøMıÚÓöswäÀi Ù¥Ä*‘ò*¶Ÿ/?ë¬@|İ*ãÉdXG¨fãá¬8–p”•(1Œ¶+Õï•ÛWÙuvT?àäò4[g'uV`••¨¦ãá8mª›ìè=±[…²@}›Î”¦­‚„U0d=ÁX!§Í³}sˆúkVàuY'Õl6›N#È çW7ó5Î¯êè7A{,Ûù‹irXî–rˆgı-GïH^âó»‹Oó,Õ¤ˆO™ã`{ğ G™cí¨(ÊÅáÛ—Wÿİ~¦´!Û0‚UĞl%´^¡¡6täaÙò:Ä±UğjÙª÷äR(ë@`zzPÚ«.¥Ó2:#ïSO‘E«dG*PÖ“3ìHr”ÓÑô¸ÚRÿ„‰Ç/»¹à­çjh#‘,zY·9tPÑ®£•ïX@âŸ, ÚNi²ªaAÏ[ÿC‡–%‡i¸{<õÎ¤ÄZ–]d1#>†"QÄ2ˆù"XÜÒR›4néRütÏh”çÈk¾Û}´©ˆ^5<Ä<Ai%éÚ"¤eÜ©Gµ¡Ê¡‘rO–7ÃÿíI„Oğö¯˜%Ü³ø•#/‘hg–&Q©Mq>ôñÓ)§U“n¾ct!ªOåÚc°UĞÄ›g»«HlM
-:¹”“ì13¯³ël~yšı®"H¬
-endstream
-endobj
 1104 0 obj
 <</Georgia 224 0 R >>
-endobj
-1105 0 obj
-<</BBox[ 0 0 455.23749 227.48898]/Filter/FlateDecode/FormType 1/Length 542/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1104 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœ}R»rÛ0ìù[:…&i*Ëø‘4vá‰œşDx„‡&ñ»H•È –'6=, öîööv[THŸÛäK;Ÿ—ÍÉiÛ¡iNËv±èp\Ô¨ÑÎOæŸÖï‹›âxùg×çÅ¶8[6E¦şXv´Šã/,n£u…åº8úÊ°‘FôäÀ#zÑdÁ·Oç··×xº|¾½º‚%G•¶ŠÆZœ&X'ëhÂHX‘çôòË»¢Â‡º)çM×u‹Üıh  ~–šXêCn4ŠÇ>¼çrŒ½¥^‰‡Ä FuOƒxüJ+“1AòÉ#D›M®§›èİ‹èÈ./'@/³.ï¸´øWÔyÅÉûùídÜqÂ´rä0
-¶‘!}´ú..«h5R‰+šâš{ücn=oÛºÁj”md?CÓµUuø…f#>w"ø¿ñNªªn'¦›Iiv‚Ş1!B/VQÚë|îå;Â“#J\°·ñÁ' û “›8”5‘w‡‚µG#Ø`_GPÆ§…%‚i¹ˆF2ƒisš=ú3«àM5÷Œ^²l&%'š»txü¶AizÆ!©Ïf/ğ^îÑ%¡Ó”œĞ³—7lÿR>+>lg‡GŞ’§WÍü¯k×ÊĞ¨Ù%õ³¶#İgS½i%qj“rÑKí¹ò{õ`ö[¨Ì….—ÅMqy}^ü0kŒ
-endstream
 endobj
 1114 0 obj
 <</BBox[ 0 0 236.16 18.360016]/Filter/FlateDecode/FormType 1/Length 93/Matrix[ 1 0 0 1 0 0]/Resources<</Font 976 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
@@ -4190,33 +4161,11 @@ Nœ¤2÷¦’ß£·5h~´Z²	Oà)kÌo¦MÚCJL&¾v«¼ ó-ÀÌ ³:ééäŸônz;xM 	ì¤u9ä^®z'$§dF
 Ï]dÓIR‡ÜZ¨<´¢×bê›LlñÙƒ`Åa_ÇL¿@)qŸVâ¨·²Ç<%åóÈ>¤	ÚtZæ¯fgSéBJÎ/'/n‘ıÎgâÓD‚1i›A¢cè¬.hpŒ¦`Èå¯³üı;›wOàDØÙ¤ÔH§ƒôòézzZïñ“³İgà}òÙ¼x(f÷wÅ?yÚ«¦
 endstream
 endobj
-1138 0 obj
-<</BBox[ 0 0 455.23782 267.74298]/Filter/FlateDecode/FormType 1/Length 580/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1038 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœ’½s1Åûû+^	ÌáØgÛ%	($3n(×ÒÆ£Óõ‘Iş\JJÚT ù+!ÜsæV»¿§·o[‘?¿.‡Ét:hÆ³yƒæİl0›4‹9<W#Œ0™¥é©tû¦º©Î–÷8¿º¨¶Õù²b]ĞLgƒ¦\Zêêì#‹_ÂhˆåmõêÚ›–½`Ã­(Ï¤É"­,¡ó¢“ŠšÈmv`‹°µ5 ¤3ä´ ’…Jda	¢OQ%OĞœìÆ¼Æò{5ÄÛQ3˜6‹Åb^´¼Ò| óÆ)Ó‘àsâõQRÆdŠh	° )_×l¡Â
-óÀÉ"Å“E
-EZ÷âëõ·z/°5m ´äØ¶‰¡Ä„‹7kã²¦ºô3s3PêçIôû–ºj-µ¤ŸZZãJZÙ¿Èò~fGá°%.$	tÒô|'½<ñšİìÂÉ´N|^`çYôt¾õ‰”á2)ûÚ'º²c\S‰C4âĞ #OUdÇ…çRÉ˜f¬¬lˆJé²Fôçãï÷Â•»ÄöŒæãù¬©A;
-H¹<!|Ÿ·â9t¬¢€,"µôKz£9G“B>2ÿëÑÁ†°¡•ÑgÜúÑAQ»2‚‡M/Bõ$ü»¯rñÏÚJNv»2ºD½Ç¡Ã„ü¸Í‘‘\>›œÚ÷¶$Ôÿ+=5¬àÑ%EŞ†TI‡n*ø.EoV)ÊAex/ş«KÙîæ;É7ZÑæÖ(ÊM»mô8|¹¬nªË«‹ê7‹Ÿ–î
-endstream
-endobj
 1139 0 obj
 <</BBox[ 0 0 455.23749 375.74512]/Filter/FlateDecode/FormType 1/Length 759/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1070 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xœTËn#7¼ÏWômµÉD;zÙR‚Öò ìll+	ZdKbÂaØÁŞ¿İc>ù‚¦%[ÉZ@0—!§‡U]UÍMQ>q•_†£Q·?8N`p:êG½>D*zĞƒáhğüiğòiùEqU¼›İÁÙåy±)ÎfE«¢ƒ“Q·Ÿ‹f¶x÷q\9„^³eÑùı–j „5Šàj'5‚á ­O–tóy9(¡¡È@H÷@ªEÌ•	¡‰l[“Xú]x³?‹
 ¾êõ»£şd2•Kç½QD–ÉK	¶-ù-ÂaÓ¬ñF'/'+'h"§¿ªªê¾õ9ø¯‚ŠxĞÙ×p3½˜Ï`MØÌş/™GB[¬×.Á÷×.¡YÍ%ar<o…â\[&ßœ^OuÉ¬	¾…7/Ú¼ùæ°zPUıÉàß|OÆy£ós–zãÁø´Ï›–<=X¸íìöwë/¡Ú¿îÜC³şûöm™u4\3¬³í['‰ÈCâ„^çÓ±´ÇüÌÎ=Ã©%nÜÒÌHKZE‚H†#Abe¥ï{°/©Ñh‰š®?ÓRH‘€£¥€–ÿË¯7ÌØÇ]şw ."~|Ô¹`\ƒ^uPà_Xß\] úÌ„#­œ¤ÈmrŞ}Ä`Ú â$Q¥æL«ÕGbpÛÑ8ÁÒy5ÄrPöá×®{6ò„y¥WS’cğNÇÌ:i8¸…§Äe‘Ò22KgøØØ½2‡mĞ¶ŸGW)DzÌãõáú»é5œı±S·Ô™gö¬eØxµÚ¶Cz
 Z$4zÜCà§f‚PÜâ1=,Á’c€mâúSr»ğŞRıIJ@¯§Ğ“ä¢6ù¬3´SÆ`İğ3±×CÓ’¥ã£ˆj_>ñ§`énTïûR–|»ÂXæ´æ†6C‡>–ië$ÛoĞâ.É‡A~JátV\ÓËóâª³Ñ±
-endstream
-endobj
-1140 0 obj
-<</BBox[ 0 0 455.23749 294.90698]/Filter/FlateDecode/FormType 1/Length 677/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1092 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœTMo7½ï¯x·Ø…«Hòº‘ĞS¬l[VÓ¸Û#îXaÀå¬9¤ÑüÜü†Ür*È•ü‘FEvË¾™÷÷¶š"¿a[õÙÙd~ú¢^b¾¬'ËéËW3ÌPŸŞoÍ¶n¾«ŞTÏÛp¾^U·Õy[M±­f˜/êI]‚Ú®zş3KØZÂlŠö¦:úa#!P@=-:;îÙGÑ<qg5RßHè	ä˜¢KxÇ½(’R'9Ní6Yö‘aÄkr‘pŒö}5Å÷³ùäl¾\.¥£WÍeÓ6øéêõC.™Œö×/ÍUs?ÿÛv¸ø×Gø½¹lVí“/2__½j®¿E ßI}t}ŒË‹õE{ßíõñ².·‰ñƒuÏR”1ùcÒí ö&±ÑåöDË1ÊM´ìÙƒ}&ë ¬¦ŸÔEš É¼+#îiQ%tì)ÛeÄ=)_Ó+iæá´#Ü$oì'ÿ˜¯p‰·‚ÀFŞ3>{k¨/"gÌ!Øƒ(jôÖ9ñ¬è¹³”
-Õ“¯£ış¥+}$O²Eï8€X2V &Ùr¾8ôNÜ‡…Gˆ´q4†`¶8]¼˜Ÿìi;Ğw‰İĞCr.¾x¬‡İ¨~'E‘‚csF’GQ3Ê ·[ÖhÅÓ—jŸN§³º [¯1$S(¯Ä}çå‘õ™NÙ±1ùìôj½ìÚWôÌAwéÏv§ô‰C$}v‚äíP,³ÛË§yÉ¶}0mq÷¾Ó‘©qU£ıäO0pø_óïı(M¶á^Nöè¬ùf§äkqÏÅ®¨øL¤˜T0”³éñçËÕêõ“eVì†=|â»l$Š¢c	M[½©šõªúF½‹
-endstream
-endobj
-1141 0 obj
-<</BBox[ 0 0 455.23761 362.98029]/Filter/FlateDecode/FormType 1/Length 1173/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1123 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœ•VMÛ6½ëWÌ-IáÊ’lyí {È&näk“(
-ÆäØË-EzIÉÈößæØCÁŞr*†”%oj5(ØzŞã›yCŞ$ğŸÛ†Ó²L‹ÉÙ,‡É¬Hó¬X€£$‡¦å¤e}hóSò.¯>ÁÅë§ÉMr±J2Ø&9LÊ"†M+™ŒŸ“u[…g°Ú$/Ñ!Gè@#Ô¸ÖWTYÂîJËËêÎ€¤~×ÎYÙˆÚúìÈYÀ¯(i!„U…îş¤[ `udğs^¤e±X,æsfók§ÖMmûl°cF7á/ä*U#/ÖJ(kĞiL5l”Aİ:É/b×¯-á_>y¿z±zñö\üïŸ¼y¾üğpçH(ûáQd¢ŒT]`Ôå–´¦cN€lÓ²Ğ“¤°ÏÈ31æèµŠ;bÁó,¢øÑ‘¦=Ñ·¿ˆ‰Xm%z ­Ñƒ·fè´ãİi>jÏÉP¤Á¡ÙZŞ²GmùPµ£¿BXXÃÉªLGp;„)È¹ûi9A™åÙ|³§#^	9JÓĞ¾•zHÁË('WsëZ¹{¢’o;·R¾BĞ_qÑ@X©¶¼Õ6è&°Z«À®+-Š×©•ÂRU¿Rd¸ƒC«*÷9fnBÚ+¼Å¶uØQÆ7ºFV6J×ì¬k»åò$Ëòi ö„ªÏh£c‘‡6k8ˆ'X7^° mQ"µ;4íÑÔtìŒI4¶ëš±ÄÑŠf‡±JQ¯Æ£š³Ûıl;É±o	‡‡B~µqªô¢ƒçY°ß]¾_òñV¯^¼\Âƒ¾@îIû†ô)Vâr¹%…'èšDİ –2[½§¶æ4HÓWà
-o%qù3 ş…­GğÍ(ac’Ğ-÷ÔQS³›¶äwÈ]C*ª¬S˜ÂoMÅòl†Ö½C‡>Ò†X›^„û‡x|4)>f¡˜g³)¬µ½ix4ó<B<õ›"ş¦<™p‚åädp‚gyü¡u?–mv2á,&,NÏ8˜O§ÿmş_b-Cq6wgKá-×ÕÄ+AÒZñ]ªu…‚º93€Êï¦àuÃ;ñh¥ÇVóÿ®ñ‡Â|RöCA F§-Ôtç”ÀŠçR{ğØÓº¤Á4aQ†™ÇÆ²^ß0ÎÁ8Ã8o£ßÁb1‰µ5jò¼µK'ğ:ÜeçP”i–eüc¾Î¡HËvá;ĞV­<ŠäG¾Àm•¯©bÍ`ãà.šZéñ+ş8ÏgsÃ¤œÊ´(Á‘´Fv/£5^;Kä-CÀ§àRxF­µeWÙ0Oå	±êÑ½zGâĞ½tãÀğól2Zt¾ˆ½ÓªyieÀŞS|‹‡ªW*2¶}7YÏ>È²ÁgàÎÙOªBÙöÑw7Mß¥°ô5‚Trd„B¾üvI
-O2×¶ü¡ËÃP¶¾Ş‚³yì+~tœÜØ Te¼ì5ùh•å*y—,_?Mşû]¼
 endstream
 endobj
 1151 0 obj
@@ -4230,12 +4179,6 @@ endobj
 endobj
 1175 0 obj
 <</Georgia 224 0 R >>
-endobj
-1177 0 obj
-<</BBox[ 0 0 455.23761 192.142]/Filter/FlateDecode/FormType 1/Length 233/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1127 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœmANÃ0E÷sŠ¿,H¤±›”dIJÄ†
-Š|Ç† '¦vRÁq¹	r%Ø€fó4æéŸ(GšĞ_ (ËLnn·¢–™($“€@Qn~ƒü'8^ÓÖêÍ~G'jåèÓy%²m!¡,­Ø‡~Ğ9Ô‘Vm4aè†ÑGÜ¿<=Cİ5-Æ¯v˜üØ†em5–I'v:b1ë.ñ'ÜÂ½Ç+'Ëya7{h˜À:Ài\A½Q!³RÖu]U©Èêò÷àíbf1L‘Ã¬'ëá|Ä8Ä¤³:e–L<ÿoú³h¨İïè¬é\¦
-endstream
 endobj
 1179 0 obj
 <</Georgia 224 0 R >>
@@ -4251,16 +4194,6 @@ endstream
 endobj
 1192 0 obj
 <</Georgia 224 0 R >>
-endobj
-1194 0 obj
-<</BBox[ 0 0 455.23758 302.10672]/Filter/FlateDecode/FormType 1/Length 1064/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1175 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœ}VMoÛ8½ëWÌ-É®×µìØ±[ôĞ¤ê6@>¶‰ŠÍ!€1¦Æ©”‘äßæôÔ[O‹¡>,£U‘‹cçÍ¼÷fèÇhüg7áÃñt:ON¦s˜ŒÆÃx4;ƒ¥(†§“öh´;Zÿ}‰Ş¤Opzy=F§i4‚MÃxg!(Í¢7“±‰ ]G‡_æÆÁÙMò!MàüêcrZa	-‚o:“‚†h(ŒóKîQAa,d´&á8
-ÑxY€W»2jb”#Hÿ‹FğW<NÇ‹Åb>çBKmàÁ•G Wk)*`Î5¼02ôÆ1
-ªiÔ@š#œtò ŒV<È-S[æ€ÃzĞK ĞäÃumò•%Îy}ş²NÛŸQHÒ™pÃ(Wr©
-ÁãJaŠÍR(t®µ01İfåI“æ Æ$q|<›/†=wÛB‚“›R’öÂèª¢Ûä"9KÁ’*pC>İ\_îêù÷sr“ğ¡Æœà=ÈĞŞ²°$¤9x×[0[aKAG.Öˆ²@.¹ºÈfñ’½À!@™aê[ttÙ–¤¶³ùìx+eKrÃ>àËRyY()[&çM°Ó<^Œ«tŒ¾«h:9ËÓ!üÓÔK
-t™“5A]¹%E®£ë ×mH!Ğ“'íäwLéRjö§°Ù_ufT ‚¬¥x`$aô¾@R;oK!äwı¶³ìä.M®nÏ¯¯àü\]§Üß¦·½~ÕÜßK¸á¡®¶2§nÌ¹òË‹ûÃû£A ©°‘”q“ÇjÒº4T£ÚjXÅÿŠTWæ¬—"ˆáMy!é…kF{´mºj²GC¸ètDO(<‚#ûºÏnízE[Rğ'Äğá¶±XzãQ5ÂD‘gªva²Rx³”ÙÁıÑ»dWFm¹¤0ÆO¼Œ47ÔflFù£1díş`é]ßõQ¶³ãÆyç}Y(€ÌE9i_{’'!—.GÈQS­³k$H-ºj°õà¶ÙZ9,)ùÂö£`vQ’óÒhˆ'›,lğ0µªÙ«Ùnc<‡,ê	Ÿz@7LzZ:²’™j|ÈÏ@†…çİ£ÚÇ!#n…@—´5ÍîîI]uÎïåK¾ööT½›+y&à%i¶u%İ`w4®Æª³¸¯½êÊd2m­ğ¼»eñÛKt6ŸŒNvËò'Gµ+Í€•¡ªèğñw£¨×ÿ(¹¥¥ô”ï&,CçÑ»_OMïnÕ÷G®t^úò9¼e:”¹×I©›Bd¹ÛV{.ßy—ƒ…u¿}÷ÕüYËøğ&³“šÇA½†ùt<ší=®¿²v½?4:
-á?+Uù4I£/Qryı!4À
-endstream
 endobj
 1195 0 obj
 <</Georgia 224 0 R >>
@@ -4281,13 +4214,6 @@ V‘‘Ì*I¹¶x¨,á¨ /ÚÇ¬¤öï¾:!ÁešN¦X[Â~Ièc±‹¼Jñx0›Í¦SO¥'µÚWåÈY¢4:¯2§ÿyƒ4ªab¼
 g¸+›v9Ç²§^¥Ë~xyäÀŸ×¸‰}«_t¨ğ0£“ø‘òGâ9Û’w¤rN”_L“AÚ¶š}îÙ?‘µÕ;:Õ²Å–½æç^o–ığ«Ñùs9Ã$IGµšÈšü†˜m³z,¦5îwmûKïÈ{Ë yaO†Ó¦:¶£<‹=ËcÓ—ÈËºÒşÿÿ ¼óö=Ç¤¿´åGˆÛçcP¬!”§ÆŒÎª’«É¬eÒuşçº(É„2gZ…	mØVÒ…iìg6Y¿b¥£ğÿııöay‡kXŠ•¶'{D§#oéçÇ*HñPTÙö{|ñh[ÆŸ$“ŸÉÈšá÷ó_üë|_î…uÚ§v¬ÍÅ¸µ‹5V™8½^šÎ2ÊŠs?6WlüR™(IÖW!lüU°£ú²òDÊö† /”“ßFA·3şéG8Û’2¡;ï‚OÎ„BedÃhğ¨[:(sU˜	­êùòÖ–İ.¢ûèöÍ<ú›~Yw
 endstream
 endobj
-1209 0 obj
-<</BBox[ 0 0 455.23697 313.89001]/Filter/FlateDecode/FormType 1/Length 749/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1192 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœ¥TMsÓ0½ûW¼cÒ¦ç“!‡¶èL[h“á”‹bo\g)•ìåßöôÀpã’ì@MËâñî¾}ï­V·^ ó¨Ô¾t{=¿õGDaäGAB‘"D·mCá¯ĞòÀ»òÚ³Ï8¹8õn½“™ õBDAäG6i–xíw$Uš1„fK¯1eZK„ÀÍË¥9©Lª5‰œ3œ%Rã¶ GÎÖì«45.Í·ïyÆAeö‡XÜç¤qoó9C³•à(ìø½Îh4•—"Íò"ABEq&KCğñQê<U¤‘g$©Ğ’â\VØû …a.Á*b®¦wË³GQšé\UÄú±S)@:—-Ü3ldbM,RxI“)È³¬ëÿ ’ûOÿÌpÄl½‘•SBÂ0x€T		–HÜ›o¤Ë´˜³;çwfıLfërº(DERS\ˆ„©¬–ç¡Áİmí¢ºÁÄl%i°Ê:íã\ê­}&ÂøšÅ$˜²—İï˜ ƒ&µ×<
-‚°k{giÁxuî>ÍNü¼‰1zAà»£_öx±•§nNÆâ2‘Pìñ2C}MIfÏöò›Zœ½‚ÀÎ7å‰:Ä¼!ÂyÓ~t£x=Æ‰ov Uã Aèî•L‘Ù•ÒZ1‘˜™š„0ÁA7Úš¹=Ğÿ¡ğF®Ø¾¬`Ş¨DZ9é¼ißJµÏ+s ¢o…uÿ*ìÆDûá®²j~/Õö^®˜Ş™Û1J—tÙËìøî”Ã²¬mİ£óÀµ9%&­*ÿy.nOÚ:ĞÂel0{~`ho¥‘;;d~çÊdÛQòî>ú­ı0êÙnoYœÛ³º—
-n8Æ4C?êÛıi/ø­EÇB¹¦m{ZaQT{M•«ín†Â¸n¯Y†a/¨l®ÙØÆåL'˜a2ãälréŞ.Î&×omÑdæ]y“‹Sï»ÅÔ
-endstream
-endobj
 1220 0 obj
 <</BBox[ 0 0 455.23727 473.927]/Filter/FlateDecode/FormType 1/Length 833/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1125 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xœµUMÛ6¼ëWÌ-Ná:ş–¢ÇV“k‰öÀx¦ŞÚl)>/I-êşÛ=æÓş‚’íõ¦C
@@ -4299,13 +4225,6 @@ endobj
 <</BBox[ 0 0 455.23782 140.105957]/Filter/FlateDecode/FormType 1/Length 292/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1195 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xœ¥QÛNÂ@}Ÿ¯˜ÇbbÙŞ Õ'¨ğ@YHš¥]Êšâ–mIŒëø¦µoÙ—Éœ™s™İÁê©´.lÇÑMkèšhØD7ˆã9CT4Ğv¬wÌr;ØæĞ§O8û°‡1‚iµazú ™¢	ô'\ªT04Òh7L1Œg
 y†¯‰ˆ9–"—ø¢Ö2ÃB®¯ ˜ír‰¹â±x(E&ÙN=¤@ğÜ0uÇô<Ïu+Í¿F4ÀYxÜ£¨i£vù:Ä\Éä—²À•ÖtW½ËÓLmÃ"„ìšú¤å-+¶Çf•H$t\±F]š/Şï–³pÒ(W1>¦¾ËÒıE–¾q|ı&Át´œşø#>…sŞ ³ÕËÎ
-endstream
-endobj
-1230 0 obj
-<</BBox[ 0 0 455.23709 330.58002]/Filter/FlateDecode/FormType 1/Length 1188/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1151 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœVÁrÛ6½ó+ö»UR²l¹™l‡IÜ‘¥Ä¦§éŒf4+rM£ 5¶ÿÖSn=µ’İ˜MÇ±Ø·ûŞÛï‚øÏäşÇÁd2ÂcÃád†#0DÁÁdÜ¦»£›‚OÁëäN/Î‚»à4	BÈƒÆ£pú $^¿'mr…Ü{×máì2>Ib8Ÿ¿?C‰!5„HÂ•‰”†+(µu¹!{'¡Ô2º¡Ôi°ä£!#p¢Ô Of­åÀÇHûü„ğS4NFÇÇÇÓ)²wW(·˜Ü tdKJÅHk`Î5œi:me))T@Š#¬°
-Œ&½¦m™ëA¯BŠ¦$ç¯+]¬qÎÅù[È:mÀTÊ4øZÚŠKE×»€Pæ«T¢µ}¨¥ÎˆéÖkGŠ0&YˆÂÃIx4ì¹»-D"X‘W‚”#Hµª+ºŠgñY†d‰9Yxw¹¸ØÕóÛ‡ø2æC…õU÷¼¾ëUitV¥N¯DöêMí‡y1¹bV%rİu4 G8Á†àV¥L3ÿÛ”î¥%£MErCp8LBXK}W‘ÂE%(¥H‘û&ë´÷Ô4:ùt}WÑd|§CøØÖKTUéõ +/6$Év4@eÑx$İ;RV|UÀ¼®„b“º;şIeZz"HÂHo‰‡#Õê¹J=ğBYgª4_ÕÏíÆŸ“x~u¾˜Ãù;˜/ˆ?Ÿ_%W½^+îïÑO]†pÛTËíAÚÚaíV–Ë½åşÀs×ÊR[(Èa=n]>¼êyå/Vße¯ºMb«‚e”<Ôé¨(=rQ©VÍ6]=Şáf¸s8İcê,™§ÿÅn3’6$áGˆàäªX9íP¶SÂŒcN^òÿrÿMÀ¼fCË—äºç¤`Ü5flçù—7dF­Í½¥}ø3ßõ`vì˜[g«JIE)© åOò$"Â*jôccv‰A[Vk¢Ü—Î¿v¥^yöp¶¸'Ë½Ü×òO¥—û,FCÀªnŞK‘3MèheÉ²Ë½hÀKáà¸¾‘ÛÈå^›Î.WWğëâ|³“$¾<™±À~x­Cg_Vy Úz@Ş_.®?ÂéïÎz"gõ¢ôoY×5±0”jcÈ€Ó‹­íÖ»©ƒÊ	)ıæû+õ<ö@×±¦ñY;JUîMÕO—Ô*®Ê< hºYE¹öÛï9c5^ÇÃ=Ğµ(}ï%OıW·¾WÌoë­í‡ğN(”ì^^iõ‘ñåaé}X·É:;ŠÚ¶®lNbêlƒİQÔ¢-ÔÃîØà—Ç&¢§€Ãé8<Ú½\ßL}Õ6Â‹õĞ7¬ìæŸıÒŒÿ/üwÖœØĞJ8*vKíûWËı[Y'\õà¿.”¯çYÉ½ŸPm½S¿ÎùYjôØ~·ø5ó­:
-v‰²-ã!ÜâCòøğ¨áqĞø»U‘/¦ÖNu…÷ÿ?ˆ|¾8	>ñÅYğ7Ô§Ü
 endstream
 endobj
 1232 0 obj
@@ -4366,21 +4285,8 @@ o
 Sâwz“N3¬¹óÂç–ù‡ŞÃñÅ1²¿Œã4îG£~’$“I0ÙùÑ»Õ²"è¹J{ñ.z‚ïw?gX[#«"ş¹NïÒ¶Î•Ä%Î9ç|[¯Yé¹"ıLªXšNw pœ7Å^Ârm©P&:~À9?Öú÷®I“×’.ÅŠ¾aIbÏõ“Ë-	ù¹^*ß@½L™¼rds/æšŞ÷À4ò—Gí@.Ğ!Œ1×fS4½JINHC*Wt¡>v}î½jïz÷RT)iÛ’*¹ıÚ–-ç–/øµhËß¨£KÚE”°e;hØÃ½Ïöµ”ª]n	*;oáÀ°=ßSG‘U	o¼Ğ„aF“’Æ½É¥»eélÊşc¸$
 endstream
 endobj
-1264 0 obj
-<</BBox[ 0 0 455.23782 230.43399]/Filter/FlateDecode/FormType 1/Length 641/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1258 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœ”Ks›0…÷üŠ»‹Ó¡„‡=5ÍtÑdh›™<š„´Ï0×è«Á–„'É¿í²‹,ºíª#ÄnC§°A€ÎÑwtuWöVEó0L¼0z3!Œ|oEqŠœ O¢îS8}ştûÊ¹tÒ{8:;vVÎQêøP8„AìÅÍO)s>’TG|HoÑgÅ—¤$(â‚çKşˆK©¡”©!—®“Óä8…ªÈ´A“)Òdf£Ùşá>¤ß^¡7	ã8N­ÉèDhR¦"•’¬Î;­Aó¢æ$Ùº.¾…“óëä*…“óôbkÂlÔ=gœ¹ är®È…[md~çB¥(çr¶_ŞŸŞ$×0…ß^{ŞïûƒÜè†©CQ)pI.,«l^ŞéL²íñ‚øpuqÖEÇeVkR™ÁyI¾~J®’!šVş]¿d½wÂî­k*×¿ÏqÙÂ¼”«š4”ôÄšŸ4#vùâ‡·íù~0 4¼¯ ìw§æ‚Ñ}OÍÙı6t?ì™¸şˆ¢í³hÕa—z{Uh‚nX!hÙQ9dú$Ï	*Å—¨¸´E"çv6ñU¨PSQ+Tzca(qİOB ëï%gèÂ¸ÏÛš¶êCÀM=ºPIÍw­Íótü‰ÌšQÓÁÔU‰À¤`ö¤(Eº’ÂºG;îÿF^ ^€T
-şˆLB%•Eã¬™Û¥ìÂH£¤†h³´çe½$°Aò†‰·ÃmöªÀ6äÜÔM—Q b®l°ıfã§­µå·M©àÚ(éıïùL¥-}Ò¶ut	5î¢-•­#ñ²f’:—NrvìüÁ<À
-endstream
-endobj
 1265 0 obj
 <</Georgia 224 0 R >>
-endobj
-1266 0 obj
-<</BBox[ 0 0 455.23727 230.4335]/Filter/FlateDecode/FormType 1/Length 557/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1265 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœ”;oÛ0…wşŠ³Å)\G»±dhRµ4]´x#ßVeR
-Òüã™ºu*ÄÈŠãÖE¡E$¯Î¹ßá…VÂCû˜Ì½Œ'“Q‡Bo4Ã		>Æ“p}Lû“Û7âRÄ÷89?+q™ğø³Ñ¬­‰•8øDÚd,á{ˆoÅàÂpAFÃ—œ²ÌùAÚ"×JÖÚ"Õ%®£ÏÑiŒ*Kl-ëÄ¥z>˜ïí#ş&<¼õƒÑ$˜ÍfÓikòÇÆàL¦äd%,gSYdZ7Î0åŸ%n.>¼#TF«&m¯£•¡”5x‡¯gÑÕKEÂ
-Çğÿ»‡ëÈ:Cy)bI²Jùw›’js½ä¯¾œ¯¹Y'%“Ôr‘“íºù»û “?ŞëyöP¶¡Ò]CùáWÉ©,\c,r½jÈ"§'åŠ¬¢6¬T¦ËÇÑ¦Gèyşx`ÍıõÉöŞl“×rÌ¥¢ûšÕı&t¿ì™wpmEáDû,:u¼¦~½j–°”Ï¬ğ;v(Êw™>•ŠSBe¸†5¨tÁĞAŸ\·÷ˆĞµÑ#,¨Ğ†¥Óï…Ú©¢Ò–9=_Â.`iäË¤PCÛÚè!ŞõöêKi—Ğ&“%?H¥QiÓöÁÊ­“ö†p;ü·tç5há|ÛuÍ©eCw–²ÆtC÷/ÓŞöG°¶.Rm»¬û:ŠÅ¥ˆÎOÅoŞ&}˜
-endstream
 endobj
 1267 0 obj
 <</Georgia 224 0 R >>
@@ -4403,36 +4309,6 @@ xœ+ä
 äÒ©Ppòuæ*är
 á2PHç2T0Ñ3622007RIáÒ÷HÍ)S04QIãÒ°Ô70Ö7202ÕTÉârá
 ärõuæ CMŸ
-endstream
-endobj
-1280 0 obj
-<</BaseFont/Untitled/DescendantFonts[ 1281 0 R ]/Encoding/Identity-H/Subtype/Type0/ToUnicode 1287 0 R /Type/Font>>
-endobj
-1281 0 obj
-<</BaseFont/Untitled/CIDSystemInfo 1282 0 R /CIDToGIDMap 1286 0 R /FontDescriptor 1283 0 R /Subtype/CIDFontType2/Type/Font/W 1285 0 R >>
-endobj
-1282 0 obj
-<</Ordering(Identity)/Registry(Adobe)/Supplement 0>>
-endobj
-1283 0 obj
-<</Ascent 1000/CapHeight 1000/Descent 0/Flags 33/FontBBox[ 0 0 500 1000]/FontFile2 1284 0 R /FontName/Untitled/ItalicAngle 0/StemV 70/Type/FontDescriptor>>
-endobj
-1284 0 obj
-<</Filter/FlateDecode/Length 329/Length1 573>>stream
-xœm‘±OÂ@Æ×^±‰˜(q0¦ã€`Œ“ƒN&¬Ú`µ$´ 0àÆèèÀä?àâÀèîâ¦ƒ“ƒ“›“$n$ÈµÕ ø%—w÷}ï½ûŞˆÓEÇ*mm—ß{ 6€“Šg7ˆ³âX;¯]-¯dAÜ+®cŸ&:Ÿpìº®c'5©ï@ÖõÚ‰‚¸ÌZ½b“Î} æÙc¬›€åÛ3øH¿‚xõV mUéj§V¿w‘:^Øû’sfĞıéfè«øòp;PQğ)4B0”êA§Ih£!#eZ=xc†`„FÿA±T*²vUTb÷oJT('½À’º3ˆ±ñM"ùSLªC!³˜‘Ã¹u6C¿¤»$H£#ä|Ä—qhÒ¢J‹9òe§ÙªÖ}«ËO¿Âìxß¹é9
-endstream
-endobj
-1285 0 obj
-[ 0[ 0]]
-endobj
-1286 0 obj
-<</Filter/FlateDecode/Length 150>>stream
-xœíÂ	    ú:h‡h                                                                                                                              € ÿ 
-endstream
-endobj
-1287 0 obj
-<</Filter/FlateDecode/Length 219>>stream
-xœmÍjÃ0„ïzŠ=&‡ %gc(	¦>4-u^@–ÆF¯„,üöEÊ”´0;ú–ÙòØZv‰äOô¦C¢Á±˜ı¨ÇèXìdIwUª™tîÖ9ajyğTU‚HşbtsŠ+m>¬ï±Í½ïh´i-8¹´–v·„pÅN¤D]“Å äñK‡³@²ğ»±û|ù—5€Eïo©Œ·˜ƒ6ˆšGˆJ)¥jªš¦ij¶ÿü;Õo¾ÓMeêáçyág6³ÄNå*%QÎâÏÃ2UŞßˆt4
 endstream
 endobj
 1288 0 obj
@@ -4473,19 +4349,147 @@ endobj
 1295 0 obj
 <</Georgia 224 0 R >>
 endobj
-1296 0 obj
-<</BBox[ 0 0 455.23773 218.6516]/Filter/FlateDecode/FormType 1/Length 564/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1198 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœ’ÁOÛ0Åïş+Ş‚ $-"Ä”ÃĞ€eÚ©ú4Şœ8µTñßrÜ`§É!ZX'”K;ï½ßó·ÂcçíËQ’Gã““1FñdxœÄÇ°,bÄ8JÆıÎq¿ó°'nÅa¶ÄÅõ¥Xˆ‹LD˜‹£h2ŒÃ™LŠÃÏlì\âÙƒÜXU²5°¬*•+Òê‰Jã ƒ$orSá[ú%½ÌPÏ§Î“ŸZvìï÷»g»È~Šñh˜ŒNOO'“`òîÃàŠrne)è¹F{Z‰îáÓİ×kÔÖÈ&†?®Ò»µå\œcEÑ†Ï8Šâ£Vµ
-!ù±aıÈHbø¦Öä†õİµ¨]Ëº¢’÷Q0ÕÓ™şå¦–I®¯å»°¯E(3mÛ©§™æUğ»:ùótçofÚ,vĞü"Û-'¹íŒòâ÷‡±¼êoñ}İª’¼ìY•\®£öËtÍ›ZÑ¾Nÿam*Bh­Í×Ûô-¾*oÀ¤r¹AnÊvUri¬êz‚dx#»!~©¤ÊÙ!„Æ*ÏV[råyˆTÃr[4(h›¯SÒ`Ñ0£ ê5%F}jÉºsBA®™ºŞ¼ÃÏfÚë]mê±Cùì`ŸëU$ãí:g[Iÿ÷Å·Ì¨GYwrÎ?oC5µW¥z
-}Ôd	³?nÑ°¤ 	5oHK’à%å¶ànŒE{Uû!ùúnô×TğÆ“ÊÉxUæÑ4·"½¾˜¤
+1298 0 obj
+<</BaseFont/Untitled/DescendantFonts[ 1299 0 R ]/Encoding/Identity-H/Subtype/Type0/ToUnicode 1305 0 R /Type/Font>>
+endobj
+1299 0 obj
+<</BaseFont/Untitled/CIDSystemInfo 1300 0 R /CIDToGIDMap 1304 0 R /FontDescriptor 1301 0 R /Subtype/CIDFontType2/Type/Font/W 1303 0 R >>
+endobj
+1300 0 obj
+<</Ordering(Identity)/Registry(Adobe)/Supplement 0>>
+endobj
+1301 0 obj
+<</Ascent 1000/CapHeight 1000/Descent 0/Flags 33/FontBBox[ 0 0 500 1000]/FontFile2 1302 0 R /FontName/Untitled/ItalicAngle 0/StemV 70/Type/FontDescriptor>>
+endobj
+1302 0 obj
+<</Filter/FlateDecode/Length 329/Length1 573>>stream
+xœm‘±OÂ@Æ×^±‰˜(q0¦ã€`Œ“ƒN&¬Ú`µ$´ 0àÆèèÀä?àâÀèîâ¦ƒ“ƒ“›“$n$ÈµÕ ø%—w÷}ï½ûŞˆÓEÇ*mm—ß{ 6€“Šg7ˆ³âX;¯]-¯dAÜ+®cŸ&:Ÿpìº®c'5©ï@ÖõÚ‰‚¸ÌZ½b“Î} æÙc¬›€åÛ3øH¿‚xõV mUéj§V¿w‘:^Øû’sfĞıéfè«øòp;PQğ)4B0”êA§Ih£!#eZ=xc†`„FÿA±T*²vUTb÷oJT('½À’º3ˆ±ñM"ùSLªC!³˜‘Ã¹u6C¿¤»$H£#ä|Ä—qhÒ¢J‹9òe§ÙªÖ}«ËO¿Âìxß¹é9
 endstream
 endobj
-1297 0 obj
-<</BBox[ 0 0 455.23727 325.67151]/Filter/FlateDecode/FormType 1/Length 927/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1179 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœ•UMoÛF½óWÌ-vÁÒ¤dFŠb‡XNc+h„ÑrD¯»Ü¥÷C±ûoız(rë©Ø%EÉi´ˆØÙ™7oŞŞG)øŸ®ÂŸã<OFãÉhãQ¼dyš¢28ÎÇıÑxw´ş!úÍàtvİG§ó(…*Ê`œåI‚æetô‘”®8B–Â||1X+g×ÅûyWŠß AÀ4¡ğ§,9£ğ/,9ÉRÁ—›‹«pşşæ¼%ÓãkÎÚ–7
-J‚C˜ßE)ü˜’|4NON<€ƒ6Ü»ğhª•IàR(Ñ*† EŒ$J én,Õès¢f·|ãƒ	el¥ÉÄ>ÌI†º!‹¯Ô–ª^iò9?]|€²ï.sdms!‘Æ	‹€ ,®î„¦Z2Æ@£JÔÊ’$š(İÕ$Yvüvš&q=`xå8IKÀ”lİ—ÅÙ4‰+2ğóõ§ÙÏ¯çÅuá%ÖƒHŞÁº^Ş¢¹]6šWoÚQnHƒP¡Å\ƒª6ĞGX®=BõC*•§¿G •ª[ÒÆ‘Ødéh’M`%Ô½#“ÀÌ	ËÁú¾ÉXÒp’MG!_¯—ÒI:†Ùé ÿ›Ğ-£5>¬ûlÒºFl¹ÕdÑó½är­Ú[Td—¿.}äâà%’cH‡‹ÃŸ:Áxé ùwM:XÆF³'ÌJÏ°§£E?cwœ¦Ùq¨ş¹m¢¶³w½ï/«àŸn×[|„Q5BI2{Hı²éĞH»2	X’-É$9’CbªNx1%-ê-®ÎØi[ü°S`xçüçÙ^ª?#?Ş~¨´³$	Ø PA¶=ğ/ºzŞM5O—¯-/ˆv_íf¤’À/a%
-¡bp&,µ“Œ“ğ\‹ÃÖrÈ•¤¡äš˜Å:È3Ü¨İKŸÉÄÓà9æ$	¼Ju¡¨Q~ãç}¥³Nc—*¿ í kĞ¿L•aÍƒPz
-bà’	÷æ¿Oqç£œ¦F“	ÊØI¾~zàõk‹.^…UƒÌ:£dàÎ÷Iº‰|ï³šJŞ–şóq÷MÆPò÷³2'IÛ~Bv'/[r+f(üF‹õŒò$MSÿÀQ'ûw0Nó8›øP(‰qİræ}P‡b£Õ¯±ì42@Ù8Í;¨­Šyô9*fgÑ?€»¢Â
+1303 0 obj
+[ 0[ 0]]
+endobj
+1304 0 obj
+<</Filter/FlateDecode/Length 150>>stream
+xœíÂ	    ú:h‡h                                                                                                                              € ÿ 
+endstream
+endobj
+1305 0 obj
+<</Filter/FlateDecode/Length 219>>stream
+xœmÍjÃ0„ïzŠ=&‡ %gc(	¦>4-u^@–ÆF¯„,üöEÊ”´0;ú–ÙòØZv‰äOô¦C¢Á±˜ı¨ÇèXìdIwUª™tîÖ9ajyğTU‚HşbtsŠ+m>¬ï±Í½ïh´i-8¹´–v·„pÅN¤D]“Å äñK‡³@²ğ»±û|ù—5€Eïo©Œ·˜ƒ6ˆšGˆJ)¥jªš¦ij¶ÿü;Õo¾ÓMeêáçyág6³ÄNå*%QÎâÏÃ2UŞßˆt4
+endstream
+endobj
+1306 0 obj
+<</BBox[ 0 0 454.25568 171.52402]/Filter/FlateDecode/FormType 1/Length 470/Matrix[ 1 0 0 1 0 0]/Resources<</Font 979 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœu’ÁN1†ï~Š_\B+ºìn“@¢^@*"w4±g7Fgc{+ÂÛö8T}ÊN)í!²dYš™ÿ›™ß;U#ŸĞ—Çt6­ÚÙl~‰æ¢©fí´nX5h0µo¡ùâ=Ô}T÷ê|õŒ«»kµSW+U£Ïó¦ªÛiİ\`eÔùW–Ğ[BScÕ©Ó¥‡#Œk«IÛ_†$öd$Àˆ7é‡‡“C)ßŒAbêÇ‡û[lhÑ4…áÄP¢ìaØ§ ø€Õ“ªñ©i«Y»X,./s#§a*ê`
+zc¿Ë_é«´ø®¾l^axÍ·úVŒí¬¦Pê
+‰ŒÀIÿ%Ş²O(Ğ1ôndD&Ø~$Âd+fRa“`CšQÄ	÷6¦ÀpÙ'öÚRÄÍİ-ö¸¹¹=+‘5Á>wt„Ê~ÌÅFª#	ßrËí¥LÅ/š²;foæšG—JGe‡kÇšËü95YñĞ²L¤ë&ÿÑ>×u=Ÿ¾ÓŞ7é‘œ5T(³\AaôHüœ‡(œ}!#gN?)ÛèÛYÏCàÎ>ƒ¶ël•·Ç–ñ4ú$ ~U|O‡Áõ+yùrÇ:ıÙØr¥îÕòîZıpıÚ
+endstream
+endobj
+1307 0 obj
+<</BBox[ 0 0 455.23718 229.45203]/Filter/FlateDecode/FormType 1/Length 672/Matrix[ 1 0 0 1 0 0]/Resources<</Font 998 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœTKoÓ@¾ûWÌ7Îƒ&Bh0‰¨´q‰TMv'f«õ»»®šşÛşÄZ;u‘ *G;ï13·Ñ ÂÏæõÇx2‰‡£³d
+Ãá,O†ƒXŠH`<µOg»§õËè2:Íîá|1n£ó,@%0L¦ñ¬Êdtú‘Øæ
+!@¶zßÂ=€'“cÁ4‚Ç•F–P"l@³‰´9Jv}0$È)–B¯<²@”$ãÕZ	”láQ‚á²›h ¯’a<Îf³é4 éIÚ5+-ËJ„I…ÆTA°q•öØ	Í¯…Fçú ÙHG€º@AÁ³¬#tTfÍ¶@¡~¨»»¦¦‹'ü[á[ú%gÀJÂ‡«‹E~|J¯R°¤oáEËèÅ›#hRçÙÇ€¸ez[ültáâó{ t5\¬,Õ¯‚Wd¨¡ ‚uU˜&±‚ôQö*-—Šá 1¤ÎÓCğ`[\:2‡Ùì+?’qİ´ #›0OÁ[«Ød<ÅğmA“¨ê
+Cêƒà¢´¼Ú^à|œêV³n%2;Ë–½–Ñ>¡­‹ËpÔÕã¹CRsêì„Çñ“«ûƒ]94’¡´ª ËÃº2õ€–ùµSt]Zò~³ì-O …ç£uW‘¾kbÚ?;²Ùªz	@S®Všb˜sÁ¡ôcAŞ2`ãöMP¢«OÃÑ½rU}CØÛ6¯ğ[Òè›šH6Á½n«­×ƒbx§Ájõf! i¥ú?é@­Ã3^ÃâüÙeõFQø¶ÈJIn.†şWe(ßÜÃğ>ÜTÆ×áí¹¤{¿õëé\ã‡QA¥»Õä4‹.£t1şÜ«ëU
+endstream
+endobj
+1308 0 obj
+<</BBox[ 0 0 455.23782 267.74298]/Filter/FlateDecode/FormType 1/Length 582/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1038 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœR=s1ìïWlãØçÛ%	($3n(Ÿ¥[ŒNï¬Lòs))iStşH7“¹FsÒÛİ·»Ûj„üùu9œM§Ãz2›×¨ßÏ†³³z1‡çjŒ1Î¦“ÃÕôxuû¶º©N—÷8¿º¨¶Õù²a]QOgÃº<Zêêô‹_Âx„åmuríMÃ^°áF”gÒ‚ä‘V–ĞzÑIE	uä¦;°EØÚ ¤5ä´ ’…Jda	¢OQ%OĞœt0o°üQğn\§õb±˜-'šh½qÊ´d‡ø’x}”i2‹h	° )?×l¡Â
+ç'‹O)i=¼ß®¿vÓBC=a›JÜQ¸x³6.kúÈ¡M¿2o&”ÁsÇ$úİÈ ÔZjH?µt€(id·‘åfKaŸ‚’:jzI/ŸxÍîgváhZ+>ØzVF†=“/¡>“2\²_¡y¢+;ÆÅ0•8D#5ZòYEv\ø\*ÓŒ••mâ Q©%]bD?şİ®LÜ%¶w`<ŸÌgõ Ô²£€”¯§£	ßçT<‡–UE¤†~Ko5'£Ñø¬08‡¯õè«`CØĞÊh3nıè ¨YÁCgÓ‹R=)ÿCWãU¾ü[éI—•Ñ¥ê=íòr!›"#¹|6d_-şƒ-Eöÿ+Ù VğèŒ’²Å†T))‡n=**)z³JQöªóËÀ»e¨½]ÍS¶Ãw’ÑæÖ(ÊX]hİ.—Ëê¦º¼º¨ş ìÎ›y
+endstream
+endobj
+1309 0 obj
+<</BBox[ 0 0 455.23749 294.90698]/Filter/FlateDecode/FormType 1/Length 678/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1092 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœTMoÜ6½ëW¼[ìÂÙì®åd9Åµ5àmWiQÀ@0K7(Ì!äçö7äÖSAj×iD:ˆÃy3ï=êºš"¿a[õÉÉd~ü¢^b¾¬'Ëéóå«f¨Oo·æw[W?Uo«gí'œ®WÕuuÚVSl«æ‹zR— ¶«ıÂ¶–0›¢½ª~§@ØHPOËƒÁ{öQ4OÁY”ÇWz9¦(Á>p/Š¤ÔIS»M–}dñš\$¢ıXMñt6ŸœÌ—Ëå¢Ôqğº9oÚ?_¼YcÒ%“Ñşúµ¹hnçïm‡³ßpy€?šófÕ>Øøêä›‹×ÍÅc`§#ï¤¿<¸<ÄùÙú¬½íöòğå·Oı?Í¹à:1>a°îi‹Ò‘Â‘"¦!Lú,°”ÁŞ$ö10ºü‘B§hI£ÙDË=Øgö©^ÓÆˆOê"MĞd!Æ•‘_÷°¨À:ö
+í2â¥o	˜4ó úx:ÕÙ®’7ö‹¿Ïßg¸Ä[A`#ÿzk¨/¢gÈ!Øƒ(jôÖ9ñ¬è¹³”
+õ“åû•+m$Ow†²eo8€X2V &Ù‚¾8öFÜ‡
+/iãhÁlq¼x1?Ú³öã%vCw‡sñå.Œõ°Åï¤RğC`ò™‘ãQÓŒ2ˆÆm`Å–5Zñô±­×’)œwd‚û¾órÏz÷L§ìØ˜œ¼#=‚Z/»ş=ó( ‘^ğd—¥O"é“#$h‡b™İ^Îæ%ÛöÎ´ÅİûVGªÆUö‹?ÂÀá»DçÿûQ›lÃ½ìÑY5òÃVÉ×â–‹]Pñ;H!0©`(gÓãÏW«Õ»õƒeVì†=|â›ì$Š¢c	M[½­šõªú:Àı
+endstream
+endobj
+1310 0 obj
+<</BBox[ 0 0 455.2373 294.90781]/Filter/FlateDecode/FormType 1/Length 550/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1102 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœRMOÛ0¾çW<7Ê”•$mE»ªbd;Uš\ç¥xKü¦~m?—ãœø“İ•m•–ò*¶Ÿ/?ë¬@|İ*ãÉdXG¨fãá¬8œ–p”•(1Œ¶+Õï•›7ÙUvPßãèü8[gGuV`••¨¦ãá8mª›ìà#±[…²@}“N”¦­‚„U0d=ÁX!§Í³}·ú[VàmY'Õl6›N#Èàôâzş©ÆéE}‰Şq´gÁb°¿š&‡åné(‡xÖßsô´áÅ>¾|8û<¿ÆbPMŠø”9ö¶÷r”9v°Š¢\ì¿}õßí'J²#XÍVBëjaCGÑ–-¯I[¯–­ÊqG.e²Ö¡W {¥½êR8-£3Òñ.•ñY´J^HÊzr†Ir:šV[êáŸ0Ñáøu7g¼ÕãA­Ãh#‘,zY·9tPÑ®£•ïX@â- ÚNi²ªaAÏ[ÿ¤CË’C4GÜzgRb-ËKd1#>†"QÄ2ˆù"XÜÒR›4néRütÇh”çÈk~Ø]´©‡^5<Ä<Ai%éÚ"¤eÜªµ¡Ê¡‘r–7ÃÿíI„Oğö¯˜%Ü³ø•#/‘hg–&Q©Mq>ôñÓ)§U“n¾ct!ªOåÚa°UĞÄ›gûR‘Øštr!)'Ùaf^gWÙüü8û	 ¶I
+endstream
+endobj
+1311 0 obj
+<</BBox[ 0 0 455.23749 227.48898]/Filter/FlateDecode/FormType 1/Length 542/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1104 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœR»rÛ0ìù[:…&i*Ëø•Æ.2‘ÓŸÈ“ƒğĞ$şc©òÀ’í‰ÍL†@`»··Û¢BúÜ&oÚù¼lNNÛMsZ¶‹E·€ã¢Fv~òt5¾Z¿/¾ÇË8»9/¶ÅÙ²¨°)j4õÇ²Ë åPfqE¨+,×ÅÑW†<0¢'Ñ‹&3¾}:¿½½ÁÓæêöú–aTÚ*rkqš`¬£#aEÓÍ;,ïŠ
+ê¦œ7]×-2ûÑ@Aü,‘XêC&Åc¼çò{K½#ˆAêñø	•V&c‚ä1’Gˆ6-š\Oél‚»-Ğ‘] _N€^W]Şqiño¸óhŠ“!ö!ëÛÉ¸ã„%håÈal#Cúh	ô]\v)Ğj¤×4¥5öøÇÚzŞ¶uƒÕ(ÛÈ~†¦k«êğÍF|f"ø¯öNªªn'º›jIiv‚Ş1!B/VQšëA|æòŒá)%.ØÛøà}ÉI5‘w‡k+F°ÁşıAŸ–¦á"É2¡y©iö˜Ïì‚ÿ5Eî½dÛL*N24viñømƒÒôBCrŸÍŞà½İ%.¢KF§.9 g/ÿˆıkû¬ø°qœyKŞóÿ¤öèJ5›À³4Ç¬íH÷ÏYƒ8µI ô’[{é¼ã^=˜ı*3Éå²øR\Şœ ¼ykl
+endstream
+endobj
+1312 0 obj
+<</BBox[ 0 0 455.23761 362.98029]/Filter/FlateDecode/FormType 1/Length 1174/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1123 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœ•VMo7½ï¯˜[œB]í‡Ö–ø'j4+ ( ‘#™.—”É]!î¿Í±‡ßr*†\iåT› 0HœÕ¼7oæ÷6É€ÿÜ:|˜TUZ”g§9”§E:›fÅ%9ä0©Ê}(ëC«Ÿ’wÉxñ.^?Kn“‹E’Á:É¡¬ŠtZÈdü‚¬[+„<ƒÅ*9¹D‡ ¡ĞàR#\Sm=»Q(-s\¨{’ú§6ÎÊV4Ö`CÎ~A©ÈH!¬jtwğİix‹›$ƒŸó"­ŠÙl62›lœZ¶í³Á†İ¶†¿«Uƒ|Ø(¡¬A§1…§VÊ îå«Àİ´äpùôjñrñòí¸ø®¾y1²q$”}ÿ82QF*.0Úç–´¤CN€¬ZÓ±¬7æN¢ÏÉ31.#ĞëáˆûgÜ¤îù¿ıeÇWìù6V¢Ò=xkIí
+‰ĞûV”@]ùEšµåG¶¨­#?ª7ôwk˜"™]óÉáî†09÷0-'¨²<o—±:â“S D0-m»)x%ğähëA"UT²õİ@×Ê×ú³!î%+ÕÚ‚·ÚİÖKØí;Ãİ©•Â\E­Èğ`‡	VîSÌÜ†´×x‡İD±ÑŒouƒ>œ¬”nØXqZ —Y–O°'4Pò@+%‹<tYC!`ÙzÁ‚tM‰Ôî8Ò´EÓĞ¡a$ĞØ.2ÄD+ÚÆ.E½Z.hÎöì
+úïØv “)âÜî{§Á¿Ø¸lúÑn°`ü:¿šsyk‚W/›Ã£¾AîIÛ–ô)wVâv¸%,"º!Ñ´è‚eG»ÌVo©ëy Òô¸Æ;@IÜ¾Ö€fë|5JØ˜$L‹Æ-uÛUÅbãÓ5üyjÈ@Mµu
+Sø½­£XÍĞ¹w¨èmˆµéExXÄ“ƒMñ!{Å4;ÀRÛÛ–WÃA0Á³!Äc¿)âoª£	Ë¬Ê£ÁIå}ğ‡ÖıPE´Ó£	OcÂâhğŒƒùdòĞ¦ßköŠ³Ét_[
+o¹¯&^	’–Š¯X¨k´ß3¨lğı¼iùI<8éÂqÔü{üíR˜–ÕÁR(³¬˜•ıR¨E«Ñiİ;%°æ½Ô]¼ö´îÖi0m8”aç±±¬7÷Œ€s0ÆğÎ»èCmƒš<?ºO'ğ&ÜeçPTi–eüc¾Î¡H«îàĞ<ŠäG¾îÀ­•oœ©bÏ`åà.ÚFéñ+ş8ÍO§0†²œª´¨À‘´Fî_˜–xì,‘>—Âsê¬-÷ûT{§Îİ‹ ·€q$> İK7Ïa6ÍÊÑlï‹8;š—Vì-ÅwòP·âÚBMÆv¯SÖ³²lğípãìGU£ìæè››¦ŸR˜ûAª92B!_~›–$…75×ünÊÃR¶¾Yg	òK×ÑÍİ‚òG•QÆË^“V™/’wÉüõ³ä_ÓØÀš
+endstream
+endobj
+1313 0 obj
+<</BBox[ 0 0 455.23761 192.142]/Filter/FlateDecode/FormType 1/Length 234/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1127 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœmANÃ0E÷sŠ¿,H¤±›”dIJÄ†
+Š|Ç† '¦vRÁq¹	r%Ø€fó4æéŸ(GšĞ_ (ËLnn·¢–™($“€@Qn~ƒü'8^ÓÖêÍ~G'jåèÓy%²m!¡,­Ø‡~Ğ9Ô‘Vm4aè†ÑGÜ¿<=Cİ5-Æ¯v˜üØ†em5–I'v:b1ë.ñ'ÜÂ½Ç+'Ëya7{h˜À:Ài\A½Q!³RÖu]U©Èêò÷àíbf1L‘Ã¬'ëá|Ä8Ä¤³:e–L<gÿ«ş,ZEj÷;úš\Ô
+endstream
+endobj
+1314 0 obj
+<</BBox[ 0 0 455.23709 330.58002]/Filter/FlateDecode/FormType 1/Length 1189/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1151 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœVÁrÛ6½ó+ö»UR²l¹™l‡IÜ‘¥Ä¦§éŒf4+rM£ 5¶ÿÖSn=µ’İ˜MÇ±Ø·ûŞÛï‚øÏäşÇÁd2ÂcÃád†#0DÁÁdÜ¦»£›‚OÁëäN/Î‚»à4	BÈƒÆ£pú $^¿'mr…Ü{×máì2>Ib8Ÿ¿?C‰!5„HÂ•‰”†+(µu¹!{'¡Ô2º¡Ôi°ä£!#p¢Ô Of­åÀÇHûü„ğS4NFÇÇÇÓ)²wW(·˜Ü tdKJÅHk`Î5œi:me))T@Š#¬°
+Œ&½¦m™ëA¯BŠ¦$ç¯+]¬qÎÅù[È:mÀTÊ4øZÚŠKE×»€Pæ«T¢µ}¨¥ÎˆéÖkGŠ0&YˆÂÃIx4ì¹»-D"X‘W‚”#Hµª+ºŠgñY†d‰9Yxw¹¸ØÕóÛ‡ø2æC…õU÷¼¾ëUitV¥N¯DöêMí‡y1¹bV%rİu4 G8Á†àV¥L3ÿÛ”î¥%£MErCp8LBXK}W‘ÂE%(¥H‘û&ë´÷Ô4:ùt}WÑd|§CøØÖKTUéõ +/6$Év4@eÑx$İ;RV|UÀ¼®„b“º;şIeZz"HÂHo‰‡#Õê¹J=ğBYgª4_ÕÏíÆŸ“x~u¾˜Ãù;˜/ˆ?Ÿ_%W½^+îïÑO]†pÛTËíAÚÚaíV–Ë½åşÀs×ÊR[(Èa=n]>¼êyå/Vße¯ºMb«‚e”<Ôé¨(=rQ©VÍ6]=Şáf¸s8İcê,™§ÿÅn3’6$áGˆàäªX9íP¶SÂŒcN^òÿrÿMÀ¼fCË—äºç¤`Ü5flçù—7dF­Í½¥}ø3ßõ`vì˜[g«JIE)© åOò$"Â*jôccv‰A[Vk¢Ü—Î¿v¥^yöp¶¸'Ë½Ü×òO¥—û,FCÀªnŞK‘3MèheÉ²Ë½hÀKáà¸¾‘ÛÈå^›Î.WWğëâ|³“$¾<™±À~x­Cg_Vy Úz@Ş_.®?ÂéïÎz"gõ¢ôoY×5±0”jcÈ€Ó‹­íÖ»©ƒÊ	)ıæû+õ<ö@×±¦ñY;JUîMÕO—Ô*®Ê< hºYE¹öÛï9c5^ÇÃ=Ğµ(}ï%OıW·¾WÌoë­í‡ğN(”ì^^iõ‘ñåaé}X·É:;ŠÚ¶®lNbêlƒİQÔ¢-ÔÃîØà—Ç&¢§€Ãé8<Ú½\ßL}Õ6Â‹õĞ7¬ìæŸıÒŒÿ/üwÖœØĞJ8*vKíûWËı[Y'\õà¿.”¯çYÉ½ŸPm½S¿ÎùYjôØ~·ø5ó­:
+v‰²-ã!ÜâCòøğ¨áqĞø»U‘/¦ÖNu…÷ÿ?ˆêo«8	>ñÅYğ7{¼¨
+
+endstream
+endobj
+1315 0 obj
+<</BBox[ 0 0 455.23758 302.10672]/Filter/FlateDecode/FormType 1/Length 1067/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1175 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœ}VMoÛ8½ëWÌ­É®×µìØ±·ØC“ªÛ ùØ&*6‡ Æ˜;\P¤BRF’›ĞSo=-†ú°ŒDE.9œ7óŞ›¡¢ğŸİ„GÓép<9Îa2ãÑìx–¢b8šNÚ£Ñîhı[ô5zŸ>ÂÉÅiô¤Ñ6QãE<œ… 4‹ŞÿMÆn$B<‚t|s˜§×ÉÇ4³ËOÉ-h„%´@
+¾ëL
+B¢¡0Îo,¹…±Ñš„7à(DCFàea ^ìÊ¨AˆQ!ı/Áñx8/‹ùœ9x(	´{kT\AB®¥¨€9×ğÜ8ÈĞÇ(¨r¤QipÒyÊ0Zq/·Lm™ëA/5‚@[×µÉW–8çÕÙ'È:mA!IgÂ£\É¥"(+…]@(6K¡Ğ¹>ÔÂdÄt›•'M˜ƒ“ÄñÑl¾öÜmQNnJIÚ£«Šn’óä4KªÀ9ø|}u±«çß/ÉuÂ‡s‚¿àí-KBšwzf+l)èÈÅQÈ%W÷Ù,^²8¤(3L}‹®ƒ.Û’Ô–`6ŸÍ`¥ÌCInØ|Q*/%rËä¼	všÇ‹q•ÑwM'Çpq2„šzI.s²&¨+·¤ÈutôúÂ¡)zô¤ü¡)]JÍşô6û‹ÎŒ
+D‚µ÷ŒÄs!ŒŞHjçm)„ü¡ÿlÆ¬;¹M“Ë›³«K8û—W)$·g7éM@¯Á‡ß4÷÷.C¸¯«­Ì©s®ü2ÇâîàîpHêläeää±š´.MÁ Õ¨¶Vño‘êÊœõR1<á¯ )/$=s­Âh¶MWMöhçè…Gpd_öÙ­]¯hK
+~‡>Şô!Ö Ko<ªf@˜(òLÕn"LV
+o–2{wwø¡'ÙeÅ†Q[.)Œñ#/#GM'µ›QgCşlY»?X:„C×w}”íì¸qŞy_Š óBQNÚ×äIDÈ¥ËrÔTëÇÆì	R‹®¬ÆD=¸m¶VKJ>³ı(˜]”ä¼4â	ä&<L­jöj¶ÛOá‹zcÂ§Ğ“†–¬d¦ò3aáy÷¨öqÈˆ[!Ğ%mM³»ßNı+0Áïå$>÷öV½«+¹&à%i¶y%å`w4®ÆÊ³¸¯İêÊd2m­ñ´»eñûst6ŸŒwËó•ÃÚ•ÇæÀÊ`Utøø«ÑÔì_”ÜÒRzÊw–£óèİÛSÔ»kõİáÀ+—¾|
+o›eîuRê¦ƒĞYîöY„ÕÁÅwŞé`iİoç}Au'Ö2>‚{|‚Éì¸æqP¯¥FE>fû_ë¯§¬]ï…Bøk¥*ß&iô5J.N£ÿÓª8
+endstream
+endobj
+1316 0 obj
+<</BBox[ 0 0 455.23697 313.89001]/Filter/FlateDecode/FormType 1/Length 721/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1192 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœ¥TÁrÚ0½û+Ş16Æ`:å&mI¦i™¸{!f„d$;Sú·ù€:½õÔJ²)´¡I§ø€Ç»ûö½·Zm½ æQ+û2ˆc¿Ç#Daä'ã ¡ÈbGûPø+´<ón½Şì3.®§ŞÖ»˜yV^ˆ(ˆüÈ&Í2¯÷–¤Zåa€ÙÒk}dÚHŒÀÍ+¥%©\ª‰’2VœeRc[ˆ£döUšš—æÛ÷2ç ‹’„Ã‹]I;›ÏÚ˜­½ çaßûãñ8I•—b•—U†Œ8
+Ei.k‘Cğñ^êr¥H£ÌI
+©Ñ’ÒR6ØÇ •a.ÁbîDÿÁçiE«\—ª!6lˆM¥ éRv±c(dfM¬RxY’)(óBêÿ ’ûOÿÌ¾äHÙ¦SBÂ0x€T	–IìÌ7ÒuZÊÙ½sŒ;³~&³M=]T¢!©)­DÆT~’gÇà€vQİ`R¶–‚4Xcöq%õŞ>a|ÃRLY‹ëî÷L€A“:jA8°½óUÅxsî>Í[Nü¼	â ğİÑ¯{¼ØÊ©›“1ƒ8„Ì${ü‚ÜPßP–Û³½ü¦6g¯ p†«¢>QÌ[â<œ·íG7Š×\øfº'4ƒ£Ò‘)2»ÒEFº 5™™©YA¢½™ûı
+ïäšËºÃæ­FDÇÊYÍÛö­Vû¼22BC+lğWaw&:ì'‡Êšù½TÛ;¹fú`ş=8Áh<ª]Ò'ÈŞä÷Ä§Öe=ëöıg >˜SbÒš‚ğŸçâö$£½]Ü¤3ö+(@o/Íˆ<Ø!ó»R&ÛÊw÷Ñoí“(¶İŞ°´´7fs.ÜpŒi†~4´ûÓ[ğ­EÇB¹¦={ZaıqtòšªWÛİ„qİ^³2­
+†$›İÆ^Î¼[ïòzêı O´n
+endstream
+endobj
+1317 0 obj
+<</BBox[ 0 0 455.23727 325.67151]/Filter/FlateDecode/FormType 1/Length 938/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1179 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœ­UÁnã6½ë+æ¶I¡*’­m{ØdİM€8ÛM¼hŒ19Q˜R¤BRnÒ¿ÍôPì­§‚”,;»QĞCa°ÍáÌ›÷ŞŒî£üÇ”áËqQ$£|<C>*’·ã¬ÈÀP”AÇEŞå»£›¢ÏÑÑâNæ§Ñ}t²ˆR(£ò¬H²´àÑÑGÒ¦Y
+‹›èà‹ÅJ[8½š½_ÌàüòÃì7¨Ñ 0Ch€$ü¥¸`ş\â¾\Ÿ_~„³÷×gm(Ùš˜¸¬½àD­Ââ.JáÇl”£ét:™x m>¸oÂc¨Ò6m£Ó,Ê
+)T@Ê'´Â:ªĞçDÃnÅÆÔÚºÒ}X£šš¾R[éjmÈçütşxß]gÈÚæB"-m#‚Dp¸–¸_êrÅ$Zµæ?èµ#E&45Pº«I²ìøí4M^ûşbL"XQ6‚”#`Zµ¯g³Ó’5–dáç«OóÀ_ÏfW3¨°„öŞˆ@Ãêííª6Ä„~Ój»!R‡Æ4kjôÜµÁ€>Â	ã©‘ºWk¯G@iû¬n¦Ùq(ËiÓÜdéhœa-õ}C6y#¨¥`èÛ&ë4ÔÚÀ$›BºŞ?-¢IšÃüäÿâsKh…ë†ıN.åšZn©UäĞÓ½êF°º<(É­ş±ò‘Ëƒ—8!].êä­DÔ?™0B¾0Ú=£ÆÀ=ÁU<$êcÈÔl3µ½Ø½û}ƒ	\†êÔğÄŞâ#Œ
+¨„”Z‘İƒòèeÈ¦CU»2	8R-Ë¤€5¤†ÄTÕ‚şôƒÅ´rh¶¸ºIOcØòàÕNáğŸÅ½Ğ~F^ß^UÚÍ(IØ ÔÁ¶=ğ]=ñ–‡DõS)Ôk›Å;¢]`;±‚Wø%ìH)uå¦QL|UğÜ ËÃvä1âd€CÌaüîÔîÀ¥Ï|âiğRŞ¦¦ÂPÔj¿mãË4Ì5¸h¨Ôñæ°êrbš‡½R[è)ˆA(&›Ç ÿ>Åİ µàÕ†lpÆÎóÕÓƒ¨^{{t¹ĞŠ2¬d®A8Jîìş˜äEHÒ)òı UÄEøÍû÷ÉİWáµšNR®}§ìN¾Yx£iênİ3¿ÓÂ*Có£"IÓÔ?pÔùşäigc
+œ˜0-i~p¬0¢Xı *äI8ËÓ¢ÃÚÎÑl}fóÓè_6)¦d
+endstream
+endobj
+1318 0 obj
+<</BBox[ 0 0 455.23773 218.6516]/Filter/FlateDecode/FormType 1/Length 562/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1198 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœ’ÁOÛ0Åïş+Ş‚ $-"Ä”ÃĞ€eÚ©ú4Şœ8µTñßräÀ?°ÓäFÖ	M¹Ä±óŞû=!<vŞ¾$Ép4>:cO†‡I|Ë"FŒƒdÜïö;w;âZìgKœ]‹…8ËD„¹ˆ1Š&Ã8œÉ¤ØÿÌÆÎ!İ‰Á•U%[ËªR¹"­¨4Ú8HòÆ!7¾¥_Òóõ|ê<ù©eÇşvp»}²ì§ˆ°†Éèøøx2	&ï>.(çV–‚k´§•è>İ|½Dmlò`øã"½IQ[Î•Á)FQ½òGQ|ĞªV!$ß7¬ïIßÔšÜğ£¡¾»µËaYWTò.
+¦z:Ó¿ÜÔ2Éõu¡|ö¥e¦c;õ4Ó¼
+şw÷A'ºÕƒnà-ÀL›EÃšŸe»å$·Q^<}œË«şß÷­*ÉËVÉå:k¿ìQ7à¼i í+èÔñØ¦"„ÚÚ|í´½aßàë©ò\A*—ä¦lW%—Æª®(H†7²›âçJªœò@h¨òl•±%W‡H5,·Iƒ‚6ù:%Ã1
+ª^RbÔ§–¬;'äŠ©›àÿ¼Ä´×»x­Çå£ƒ}¬W‘Œ·ëœm%ıßg{Ş2£66eİÉ9ÿ¸	ÕÔ^•ê!ôQ“%Ì~»EÃ’$Ô¼!-I‚—”{Ú€3¸2íUí†äëSøª¿¦‚7tPNÆ«27ˆ¦™¸éå¹ø?$˜Ò
+endstream
+endobj
+1319 0 obj
+<</BBox[ 0 0 455.23782 230.43399]/Filter/FlateDecode/FormType 1/Length 640/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1258 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœ”KsÓ0…÷şw×”1®ÉÓaA;:Óm]ØdÆscİ:¢äHr¦ôß²dÑ[VŒÛI 3ØË¶ÎÑwtuWöVEó0L¼0z5!Œ|oEqŠœ O¢îS8İ~ºá\;Gé#œ\œ:+ç$u|(œ Â öâæ§”9GïIª‚#>¤÷Îè£âKRqÁs%Â¥ÔPJÔK·ÉyršBUdÚ Éi2³ÑìğøÒ//ƒĞ›„qO§Ödt&4)Ó‘€JIVçV‰ yQs†ì]—_ÃÙåmr“ÂÙezµ3a6ê3Î\r9WäÂ€­62p¡R”s9;„OoÏï’[˜Â‰o¯À…ƒNïÀ…À…À÷ıAŒ?îtÃÔÆ¡¨¸$„U6/t¦ÙîxÁ¼»¹ºè¢ã2«5©Ìà¼$Ÿ?$7ÉM+ÿ¦_²>8a÷…Ö5•k‚Ÿ‚ç¸l‚a^ÊUMJzfÍOš‘;Ç|ñİÛõˆ|? ŞW ö»ÓsÁè±§æìqºöÌ\¿EÑˆöY´ê°O½½ª	4Á7¬´ìÀ¨2}Œç•âKT\Ú"‘s»	›ø*T¨©¨*½±°”¸î'!†õ·’3taÜçmM[õ!à¦]¨¤æûÖf; ³&AÔ´F0uU"0)˜=)J‘®¤°îÑû¿‘¨ U‚?!“PIeÑ8kæv)»ğ¤QRC´YÚvYØ yÃÄ»á6{U`rnê¦Ë(1W¶GØ~³ñÓÖÚòÛ¦Tpm”ôş÷|¦Ò–>iÛ:º„wÑ–ÊĞ‘Øj$©sí$§Î/€²À5
+endstream
+endobj
+1320 0 obj
+<</BBox[ 0 0 455.23727 230.4335]/Filter/FlateDecode/FormType 1/Length 557/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1265 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœ”KoÓ@…÷ó+Î®)
+©	mTuA‹¡"úpÅ&’5ñÜ:l3cG¡ÿ¸‹®Ø±Bvl7-!oæquÎıÎ\y%ÔŸIšÅx2yş±wÏwFcßŸÀpáb<ñ»ï¤¿¹#®ÅQ¸ÁùìB¬Äy($Â…çNGÓº&Tâèi“°„ë ¼ƒ+ÃCœsÌ2å™i‹T[(Yj‹Xç¸>!Š$²¥,#C–Êù`~xzˆğ›pğÖõFo:œÔ&.eL¬„å¤bÊK‚ŒËª1Œùg»«ïÃ …ÑªŠkãÛ Da(f3xãàëepó\±ÂÜÿîáÎ6d-‹¡4—±$YD‹ô»Iµ»_r‰7_f7ë¨²d¢R.R²m7w´òg=ÏÁ)ò:TZW”®	¿reÖ1Æ"Õ«Š,RzRM‘UT‡Ëxù8ÚõğÇï,¹>Y¿›­ÒRvÀœ+ÚôÔ¬6»Ğı¶gŞÃõ*ŠF´Ï¢UÇKê—Ø«Š`	K¹e…Û²CQºÏô)W
+Ã™4¬AyáõÉµgø]máaaF™6,ı^¨ª!
+my‘ÒööK#Ÿ'Õ€RJØ–Fñ®·ßQ_J»„6‰ÌùA*B›ºVMQ—Ì°oÔGã±Çÿ•î|àî¢zõ¦%œ¾ví8!¯h­a)©L;tÿ2İá­°m"Õ¶íÈn3Åµfâ7[‘}Æ
 endstream
 endobj
 xref
@@ -4586,954 +4590,958 @@ xref
 0000142728 00000 n
 0000142960 00000 n
 0000285855 00000 n
-0000287148 00000 n
-0000289570 00000 n
-0000293942 00000 n
-0000296178 00000 n
-0000298319 00000 n
-0000300363 00000 n
-0000302715 00000 n
-0000302890 00000 n
-0000304533 00000 n
-0000306392 00000 n
-0000311231 00000 n
-0000314280 00000 n
-0000314559 00000 n
-0000315096 00000 n
-0000319804 00000 n
-0000322909 00000 n
-0000326302 00000 n
-0000326523 00000 n
-0000330672 00000 n
-0000333485 00000 n
-0000336860 00000 n
-0000337069 00000 n
-0000337278 00000 n
-0000338337 00000 n
-0000340348 00000 n
-0000341827 00000 n
-0000343642 00000 n
-0000345440 00000 n
-0000347133 00000 n
-0000349358 00000 n
-0000351281 00000 n
-0000352172 00000 n
-0000353989 00000 n
-0000355764 00000 n
-0000355938 00000 n
-0000357608 00000 n
-0000357813 00000 n
-0000357989 00000 n
-0000358200 00000 n
-0000358406 00000 n
-0000358659 00000 n
-0000358741 00000 n
-0000358823 00000 n
-0000358905 00000 n
-0000358987 00000 n
-0000359069 00000 n
-0000359151 00000 n
-0000361379 00000 n
-0000361461 00000 n
-0000361543 00000 n
-0000361625 00000 n
-0000361707 00000 n
-0000361789 00000 n
-0000361871 00000 n
-0000361953 00000 n
-0000362035 00000 n
-0000362117 00000 n
-0000362199 00000 n
-0000362281 00000 n
-0000362363 00000 n
-0000362445 00000 n
-0000362527 00000 n
-0000362609 00000 n
-0000362691 00000 n
-0000362773 00000 n
-0000362855 00000 n
-0000363109 00000 n
-0000363764 00000 n
-0000363846 00000 n
-0000363928 00000 n
-0000364010 00000 n
-0000364092 00000 n
-0000364174 00000 n
-0000364256 00000 n
-0000364338 00000 n
-0000364420 00000 n
-0000364680 00000 n
-0000364762 00000 n
-0000366319 00000 n
-0000366401 00000 n
-0000366483 00000 n
-0000366639 00000 n
-0000366721 00000 n
-0000366981 00000 n
-0000367421 00000 n
-0000367497 00000 n
-0000367667 00000 n
-0000367771 00000 n
-0000367827 00000 n
-0000367963 00000 n
-0000368020 00000 n
-0000368120 00000 n
-0000368176 00000 n
-0000368270 00000 n
-0000368326 00000 n
-0000368473 00000 n
-0000368529 00000 n
-0000368667 00000 n
-0000368723 00000 n
-0000368779 00000 n
-0000370004 00000 n
-0000370251 00000 n
-0000370347 00000 n
-0000371544 00000 n
-0000371625 00000 n
-0000371779 00000 n
-0000371804 00000 n
-0000371874 00000 n
-0000371942 00000 n
-0000372204 00000 n
-0000372454 00000 n
-0000377658 00000 n
-0000378012 00000 n
-0000378402 00000 n
-0000378736 00000 n
-0000379075 00000 n
-0000379423 00000 n
-0000379762 00000 n
-0000380074 00000 n
-0000380201 00000 n
-0000380513 00000 n
-0000380843 00000 n
-0000381173 00000 n
-0000381512 00000 n
-0000381860 00000 n
-0000382147 00000 n
-0000382485 00000 n
-0000382814 00000 n
-0000383184 00000 n
-0000383560 00000 n
-0000383934 00000 n
-0000384218 00000 n
-0000384282 00000 n
-0000384346 00000 n
-0000384410 00000 n
-0000384474 00000 n
-0000384539 00000 n
-0000384603 00000 n
-0000384667 00000 n
-0000384731 00000 n
-0000384795 00000 n
-0000384859 00000 n
-0000384923 00000 n
-0000384987 00000 n
-0000385051 00000 n
-0000385115 00000 n
-0000385179 00000 n
-0000385243 00000 n
-0000385307 00000 n
-0000385371 00000 n
-0000385435 00000 n
-0000385499 00000 n
-0000385563 00000 n
-0000385627 00000 n
-0000385699 00000 n
-0000385763 00000 n
-0000385835 00000 n
-0000385899 00000 n
-0000385962 00000 n
-0000386036 00000 n
-0000386099 00000 n
-0000386162 00000 n
-0000386225 00000 n
-0000386288 00000 n
-0000386351 00000 n
-0000386415 00000 n
-0000386479 00000 n
-0000386543 00000 n
-0000386607 00000 n
-0000386671 00000 n
-0000386735 00000 n
-0000386799 00000 n
-0000386867 00000 n
-0000386935 00000 n
-0000387003 00000 n
-0000387071 00000 n
-0000387135 00000 n
-0000387203 00000 n
-0000387271 00000 n
-0000387335 00000 n
-0000387399 00000 n
-0000387471 00000 n
-0000387540 00000 n
-0000387604 00000 n
-0000387668 00000 n
-0000387732 00000 n
-0000387796 00000 n
-0000387860 00000 n
-0000387924 00000 n
-0000387988 00000 n
-0000388052 00000 n
-0000388116 00000 n
-0000388180 00000 n
-0000388245 00000 n
-0000388310 00000 n
-0000388375 00000 n
-0000388440 00000 n
-0000388505 00000 n
-0000388570 00000 n
-0000388635 00000 n
-0000388700 00000 n
-0000388765 00000 n
-0000388830 00000 n
-0000388895 00000 n
-0000388960 00000 n
-0000389025 00000 n
-0000389090 00000 n
-0000389155 00000 n
-0000389220 00000 n
-0000389285 00000 n
-0000389350 00000 n
-0000389415 00000 n
-0000389480 00000 n
-0000389545 00000 n
-0000389610 00000 n
-0000389680 00000 n
-0000389744 00000 n
-0000389808 00000 n
-0000389872 00000 n
-0000389936 00000 n
-0000390000 00000 n
-0000390064 00000 n
-0000390128 00000 n
-0000390192 00000 n
-0000390256 00000 n
-0000390321 00000 n
-0000390386 00000 n
-0000390451 00000 n
-0000390516 00000 n
-0000390581 00000 n
-0000390646 00000 n
-0000390711 00000 n
-0000390776 00000 n
-0000390841 00000 n
-0000390906 00000 n
-0000390971 00000 n
-0000391036 00000 n
-0000391101 00000 n
-0000391166 00000 n
-0000391231 00000 n
-0000391296 00000 n
-0000391361 00000 n
-0000391426 00000 n
-0000391491 00000 n
-0000391556 00000 n
-0000391621 00000 n
-0000391691 00000 n
-0000391761 00000 n
-0000391825 00000 n
-0000391889 00000 n
-0000391953 00000 n
-0000392017 00000 n
-0000392081 00000 n
-0000392145 00000 n
-0000392209 00000 n
-0000392273 00000 n
-0000392337 00000 n
-0000392402 00000 n
-0000392467 00000 n
-0000392532 00000 n
-0000392597 00000 n
-0000392662 00000 n
-0000392727 00000 n
-0000392792 00000 n
-0000392857 00000 n
-0000392922 00000 n
-0000392987 00000 n
-0000393052 00000 n
-0000393117 00000 n
-0000393182 00000 n
-0000393247 00000 n
-0000393312 00000 n
-0000393377 00000 n
-0000393442 00000 n
-0000393507 00000 n
-0000393572 00000 n
-0000393637 00000 n
-0000393702 00000 n
-0000393767 00000 n
-0000393837 00000 n
-0000393907 00000 n
-0000393971 00000 n
-0000394035 00000 n
-0000394099 00000 n
-0000394163 00000 n
-0000394227 00000 n
-0000394291 00000 n
-0000394355 00000 n
-0000394419 00000 n
-0000394483 00000 n
-0000394548 00000 n
-0000394613 00000 n
-0000394678 00000 n
-0000394743 00000 n
-0000394808 00000 n
-0000394873 00000 n
-0000394938 00000 n
-0000395003 00000 n
-0000395068 00000 n
-0000395133 00000 n
-0000395198 00000 n
-0000395263 00000 n
-0000395328 00000 n
-0000395393 00000 n
-0000395458 00000 n
-0000395523 00000 n
-0000395588 00000 n
-0000395653 00000 n
-0000395718 00000 n
-0000395783 00000 n
-0000395848 00000 n
-0000395918 00000 n
-0000395988 00000 n
-0000396052 00000 n
-0000396116 00000 n
-0000396180 00000 n
-0000396244 00000 n
-0000396308 00000 n
-0000396372 00000 n
-0000396436 00000 n
-0000396500 00000 n
-0000396564 00000 n
-0000396629 00000 n
-0000396694 00000 n
-0000396759 00000 n
-0000396824 00000 n
-0000396889 00000 n
-0000396954 00000 n
-0000397019 00000 n
-0000397084 00000 n
-0000397149 00000 n
-0000397214 00000 n
-0000397279 00000 n
-0000397344 00000 n
-0000397409 00000 n
-0000397474 00000 n
-0000397539 00000 n
-0000397604 00000 n
-0000397669 00000 n
-0000397734 00000 n
-0000397804 00000 n
-0000397874 00000 n
-0000397938 00000 n
-0000398002 00000 n
-0000398066 00000 n
-0000398130 00000 n
-0000398194 00000 n
-0000398258 00000 n
-0000398322 00000 n
-0000398386 00000 n
-0000398450 00000 n
-0000398520 00000 n
-0000398584 00000 n
-0000398648 00000 n
-0000398712 00000 n
-0000398776 00000 n
-0000398840 00000 n
-0000398904 00000 n
-0000398968 00000 n
-0000399032 00000 n
-0000399096 00000 n
-0000399161 00000 n
-0000399226 00000 n
-0000399291 00000 n
-0000399356 00000 n
-0000399421 00000 n
-0000399486 00000 n
-0000399551 00000 n
-0000399616 00000 n
-0000399681 00000 n
-0000399746 00000 n
-0000399811 00000 n
-0000399876 00000 n
-0000399941 00000 n
-0000400006 00000 n
-0000400071 00000 n
-0000400136 00000 n
-0000400201 00000 n
-0000400266 00000 n
-0000400336 00000 n
-0000400406 00000 n
-0000400470 00000 n
-0000400534 00000 n
-0000400598 00000 n
-0000400662 00000 n
-0000400726 00000 n
-0000400790 00000 n
-0000400854 00000 n
-0000400918 00000 n
-0000400982 00000 n
-0000401047 00000 n
-0000401112 00000 n
-0000401177 00000 n
-0000401242 00000 n
-0000401307 00000 n
-0000401372 00000 n
-0000401437 00000 n
-0000401502 00000 n
-0000401567 00000 n
-0000401632 00000 n
-0000401697 00000 n
-0000401762 00000 n
-0000401827 00000 n
-0000401892 00000 n
-0000401957 00000 n
-0000402022 00000 n
-0000402087 00000 n
-0000402152 00000 n
-0000402217 00000 n
-0000402282 00000 n
-0000402352 00000 n
-0000402422 00000 n
-0000402486 00000 n
-0000402550 00000 n
-0000402614 00000 n
-0000402678 00000 n
-0000402742 00000 n
-0000402806 00000 n
-0000402870 00000 n
-0000402934 00000 n
-0000402998 00000 n
-0000403063 00000 n
-0000403128 00000 n
-0000403193 00000 n
-0000403258 00000 n
-0000403323 00000 n
-0000403388 00000 n
-0000403453 00000 n
-0000403518 00000 n
-0000403583 00000 n
-0000403648 00000 n
-0000403713 00000 n
-0000403778 00000 n
-0000403843 00000 n
-0000403908 00000 n
-0000403973 00000 n
-0000404038 00000 n
-0000404103 00000 n
-0000404168 00000 n
-0000404233 00000 n
-0000404298 00000 n
-0000404368 00000 n
-0000404438 00000 n
-0000404502 00000 n
-0000404566 00000 n
-0000404630 00000 n
-0000404694 00000 n
-0000404758 00000 n
-0000404822 00000 n
-0000404886 00000 n
-0000404950 00000 n
-0000405014 00000 n
-0000405079 00000 n
-0000405144 00000 n
-0000405209 00000 n
-0000405274 00000 n
-0000405339 00000 n
-0000405404 00000 n
-0000405469 00000 n
-0000405534 00000 n
-0000405599 00000 n
-0000405664 00000 n
-0000405729 00000 n
-0000405794 00000 n
-0000405859 00000 n
-0000405924 00000 n
-0000405989 00000 n
-0000406054 00000 n
-0000406119 00000 n
-0000406184 00000 n
-0000406249 00000 n
-0000406314 00000 n
-0000406379 00000 n
-0000406449 00000 n
-0000406519 00000 n
-0000406583 00000 n
-0000406647 00000 n
-0000406711 00000 n
-0000406775 00000 n
-0000406839 00000 n
-0000406903 00000 n
-0000406967 00000 n
-0000407031 00000 n
-0000407095 00000 n
-0000407160 00000 n
-0000407225 00000 n
-0000407290 00000 n
-0000407355 00000 n
-0000407420 00000 n
-0000407485 00000 n
-0000407550 00000 n
-0000407615 00000 n
-0000407680 00000 n
-0000407745 00000 n
-0000407810 00000 n
-0000407875 00000 n
-0000407940 00000 n
-0000408005 00000 n
-0000408070 00000 n
-0000408135 00000 n
-0000408200 00000 n
-0000408265 00000 n
-0000408330 00000 n
-0000408395 00000 n
-0000408460 00000 n
-0000408525 00000 n
-0000408595 00000 n
-0000408665 00000 n
-0000408729 00000 n
-0000408793 00000 n
-0000408857 00000 n
-0000408921 00000 n
-0000408985 00000 n
-0000409049 00000 n
-0000409113 00000 n
-0000409177 00000 n
-0000409241 00000 n
-0000409306 00000 n
-0000409371 00000 n
-0000409436 00000 n
-0000409501 00000 n
-0000409570 00000 n
-0000409635 00000 n
-0000409700 00000 n
-0000409765 00000 n
-0000409830 00000 n
-0000409895 00000 n
-0000409960 00000 n
-0000410025 00000 n
-0000410090 00000 n
-0000410160 00000 n
-0000410230 00000 n
-0000410294 00000 n
-0000410362 00000 n
-0000410426 00000 n
-0000410490 00000 n
-0000410554 00000 n
-0000410618 00000 n
-0000410682 00000 n
-0000410746 00000 n
-0000410810 00000 n
-0000410874 00000 n
-0000410939 00000 n
-0000411004 00000 n
-0000411073 00000 n
-0000411138 00000 n
-0000411203 00000 n
-0000411268 00000 n
-0000411333 00000 n
-0000411398 00000 n
-0000411463 00000 n
-0000411528 00000 n
-0000411593 00000 n
-0000411658 00000 n
-0000411727 00000 n
-0000411792 00000 n
-0000411857 00000 n
-0000411922 00000 n
-0000411987 00000 n
-0000412052 00000 n
-0000412117 00000 n
-0000412182 00000 n
-0000412247 00000 n
-0000412312 00000 n
-0000412377 00000 n
-0000412442 00000 n
-0000412507 00000 n
-0000412575 00000 n
-0000412639 00000 n
-0000412703 00000 n
-0000412767 00000 n
-0000412831 00000 n
-0000412895 00000 n
-0000412959 00000 n
-0000413023 00000 n
-0000413087 00000 n
-0000413151 00000 n
-0000413216 00000 n
-0000413285 00000 n
-0000413350 00000 n
-0000413415 00000 n
-0000413480 00000 n
-0000413545 00000 n
-0000413610 00000 n
-0000413675 00000 n
-0000413740 00000 n
-0000413805 00000 n
-0000413870 00000 n
-0000413939 00000 n
-0000414004 00000 n
-0000414069 00000 n
-0000414134 00000 n
-0000414199 00000 n
-0000414264 00000 n
-0000414329 00000 n
-0000414394 00000 n
-0000414459 00000 n
-0000414524 00000 n
-0000414589 00000 n
-0000414654 00000 n
-0000414719 00000 n
-0000414783 00000 n
-0000414847 00000 n
-0000414911 00000 n
-0000414975 00000 n
-0000415039 00000 n
-0000415103 00000 n
-0000415167 00000 n
-0000415236 00000 n
-0000415301 00000 n
-0000415366 00000 n
-0000415431 00000 n
-0000415496 00000 n
-0000415561 00000 n
-0000415626 00000 n
-0000415691 00000 n
-0000415756 00000 n
-0000415821 00000 n
-0000415886 00000 n
-0000415951 00000 n
-0000416020 00000 n
-0000416085 00000 n
-0000416150 00000 n
-0000416215 00000 n
-0000416280 00000 n
-0000416345 00000 n
-0000416410 00000 n
-0000416475 00000 n
-0000416540 00000 n
-0000416605 00000 n
-0000416675 00000 n
-0000416745 00000 n
-0000416809 00000 n
-0000416873 00000 n
-0000416937 00000 n
-0000417005 00000 n
-0000417069 00000 n
-0000417133 00000 n
-0000417198 00000 n
-0000417263 00000 n
-0000417328 00000 n
-0000417393 00000 n
-0000417458 00000 n
-0000417523 00000 n
-0000417592 00000 n
-0000417657 00000 n
-0000417722 00000 n
-0000417787 00000 n
-0000417852 00000 n
-0000417917 00000 n
-0000417982 00000 n
-0000418047 00000 n
-0000418112 00000 n
-0000418177 00000 n
-0000418242 00000 n
-0000418311 00000 n
-0000418376 00000 n
-0000418441 00000 n
-0000418506 00000 n
-0000418571 00000 n
-0000418636 00000 n
-0000418701 00000 n
-0000418771 00000 n
-0000418839 00000 n
-0000418903 00000 n
-0000418967 00000 n
-0000419031 00000 n
-0000419095 00000 n
-0000419159 00000 n
-0000419224 00000 n
-0000419289 00000 n
-0000419354 00000 n
-0000419423 00000 n
-0000419488 00000 n
-0000419553 00000 n
-0000419618 00000 n
-0000419683 00000 n
-0000419748 00000 n
-0000419813 00000 n
-0000419878 00000 n
-0000419943 00000 n
-0000420008 00000 n
-0000420073 00000 n
-0000420138 00000 n
-0000420203 00000 n
-0000420268 00000 n
-0000420333 00000 n
-0000420398 00000 n
-0000420463 00000 n
-0000420528 00000 n
-0000420593 00000 n
-0000420658 00000 n
-0000420723 00000 n
-0000420788 00000 n
-0000420853 00000 n
-0000420923 00000 n
-0000420988 00000 n
-0000421056 00000 n
-0000421124 00000 n
-0000421192 00000 n
-0000421260 00000 n
-0000421331 00000 n
-0000421402 00000 n
-0000421473 00000 n
-0000421544 00000 n
-0000421615 00000 n
-0000421687 00000 n
-0000421759 00000 n
-0000421831 00000 n
-0000421903 00000 n
-0000421975 00000 n
-0000422047 00000 n
-0000422119 00000 n
-0000422187 00000 n
-0000422255 00000 n
-0000422323 00000 n
-0000422391 00000 n
-0000422459 00000 n
-0000422527 00000 n
-0000422595 00000 n
-0000422663 00000 n
-0000422731 00000 n
-0000422799 00000 n
-0000422867 00000 n
-0000422935 00000 n
-0000422987 00000 n
-0000423039 00000 n
-0000423091 00000 n
-0000423143 00000 n
-0000423195 00000 n
-0000423247 00000 n
-0000423299 00000 n
-0000423351 00000 n
-0000423403 00000 n
-0000423455 00000 n
-0000423507 00000 n
-0000423559 00000 n
-0000423611 00000 n
-0000423663 00000 n
-0000423715 00000 n
+0000287160 00000 n
+0000289590 00000 n
+0000293962 00000 n
+0000296198 00000 n
+0000298339 00000 n
+0000300389 00000 n
+0000302741 00000 n
+0000302916 00000 n
+0000304557 00000 n
+0000306424 00000 n
+0000311263 00000 n
+0000314312 00000 n
+0000314591 00000 n
+0000315130 00000 n
+0000319840 00000 n
+0000322945 00000 n
+0000326338 00000 n
+0000326559 00000 n
+0000330714 00000 n
+0000333459 00000 n
+0000336842 00000 n
+0000337051 00000 n
+0000337260 00000 n
+0000338319 00000 n
+0000340332 00000 n
+0000341811 00000 n
+0000343626 00000 n
+0000345424 00000 n
+0000347117 00000 n
+0000349344 00000 n
+0000351269 00000 n
+0000352160 00000 n
+0000353977 00000 n
+0000355752 00000 n
+0000355926 00000 n
+0000357596 00000 n
+0000357801 00000 n
+0000357977 00000 n
+0000358188 00000 n
+0000358394 00000 n
+0000358647 00000 n
+0000358729 00000 n
+0000358811 00000 n
+0000358893 00000 n
+0000358975 00000 n
+0000359057 00000 n
+0000359139 00000 n
+0000361375 00000 n
+0000361457 00000 n
+0000361539 00000 n
+0000361621 00000 n
+0000361703 00000 n
+0000361785 00000 n
+0000361867 00000 n
+0000361949 00000 n
+0000362031 00000 n
+0000362113 00000 n
+0000362195 00000 n
+0000362277 00000 n
+0000362359 00000 n
+0000362441 00000 n
+0000362523 00000 n
+0000362605 00000 n
+0000362687 00000 n
+0000362769 00000 n
+0000362851 00000 n
+0000363105 00000 n
+0000363760 00000 n
+0000363842 00000 n
+0000363924 00000 n
+0000364006 00000 n
+0000364088 00000 n
+0000364170 00000 n
+0000364252 00000 n
+0000364334 00000 n
+0000364416 00000 n
+0000364676 00000 n
+0000364758 00000 n
+0000366315 00000 n
+0000366397 00000 n
+0000366479 00000 n
+0000366635 00000 n
+0000366717 00000 n
+0000366977 00000 n
+0000367417 00000 n
+0000367493 00000 n
+0000367663 00000 n
+0000367767 00000 n
+0000367823 00000 n
+0000367959 00000 n
+0000368016 00000 n
+0000368116 00000 n
+0000368172 00000 n
+0000368266 00000 n
+0000368322 00000 n
+0000368469 00000 n
+0000368525 00000 n
+0000368663 00000 n
+0000368719 00000 n
+0000368775 00000 n
+0000370000 00000 n
+0000370247 00000 n
+0000370343 00000 n
+0000371540 00000 n
+0000371621 00000 n
+0000371775 00000 n
+0000371800 00000 n
+0000371870 00000 n
+0000371938 00000 n
+0000372200 00000 n
+0000372450 00000 n
+0000377654 00000 n
+0000378008 00000 n
+0000378398 00000 n
+0000378732 00000 n
+0000379071 00000 n
+0000379419 00000 n
+0000379758 00000 n
+0000380070 00000 n
+0000380197 00000 n
+0000380509 00000 n
+0000380839 00000 n
+0000381169 00000 n
+0000381508 00000 n
+0000381856 00000 n
+0000382143 00000 n
+0000382481 00000 n
+0000382810 00000 n
+0000383180 00000 n
+0000383556 00000 n
+0000383930 00000 n
+0000384214 00000 n
+0000384278 00000 n
+0000384342 00000 n
+0000384406 00000 n
+0000384470 00000 n
+0000384535 00000 n
+0000384599 00000 n
+0000384663 00000 n
+0000384727 00000 n
+0000384791 00000 n
+0000384855 00000 n
+0000384919 00000 n
+0000384983 00000 n
+0000385047 00000 n
+0000385111 00000 n
+0000385175 00000 n
+0000385239 00000 n
+0000385303 00000 n
+0000385367 00000 n
+0000385431 00000 n
+0000385495 00000 n
+0000385559 00000 n
+0000385623 00000 n
+0000385695 00000 n
+0000385759 00000 n
+0000385831 00000 n
+0000385895 00000 n
+0000385958 00000 n
+0000386032 00000 n
+0000386095 00000 n
+0000386158 00000 n
+0000386221 00000 n
+0000386284 00000 n
+0000386347 00000 n
+0000386411 00000 n
+0000386475 00000 n
+0000386539 00000 n
+0000386603 00000 n
+0000386667 00000 n
+0000386731 00000 n
+0000386795 00000 n
+0000386863 00000 n
+0000386931 00000 n
+0000386999 00000 n
+0000387067 00000 n
+0000387131 00000 n
+0000387199 00000 n
+0000387267 00000 n
+0000387331 00000 n
+0000387395 00000 n
+0000387467 00000 n
+0000387536 00000 n
+0000387600 00000 n
+0000387664 00000 n
+0000387728 00000 n
+0000387792 00000 n
+0000387856 00000 n
+0000387920 00000 n
+0000387984 00000 n
+0000388048 00000 n
+0000388112 00000 n
+0000388176 00000 n
+0000388241 00000 n
+0000388306 00000 n
+0000388371 00000 n
+0000388436 00000 n
+0000388501 00000 n
+0000388566 00000 n
+0000388631 00000 n
+0000388696 00000 n
+0000388761 00000 n
+0000388826 00000 n
+0000388891 00000 n
+0000388956 00000 n
+0000389021 00000 n
+0000389086 00000 n
+0000389151 00000 n
+0000389216 00000 n
+0000389281 00000 n
+0000389346 00000 n
+0000389411 00000 n
+0000389476 00000 n
+0000389541 00000 n
+0000389606 00000 n
+0000389676 00000 n
+0000389740 00000 n
+0000389804 00000 n
+0000389868 00000 n
+0000389932 00000 n
+0000389996 00000 n
+0000390060 00000 n
+0000390124 00000 n
+0000390188 00000 n
+0000390252 00000 n
+0000390317 00000 n
+0000390382 00000 n
+0000390447 00000 n
+0000390512 00000 n
+0000390577 00000 n
+0000390642 00000 n
+0000390707 00000 n
+0000390772 00000 n
+0000390837 00000 n
+0000390902 00000 n
+0000390967 00000 n
+0000391032 00000 n
+0000391097 00000 n
+0000391162 00000 n
+0000391227 00000 n
+0000391292 00000 n
+0000391357 00000 n
+0000391422 00000 n
+0000391487 00000 n
+0000391552 00000 n
+0000391617 00000 n
+0000391687 00000 n
+0000391757 00000 n
+0000391821 00000 n
+0000391885 00000 n
+0000391949 00000 n
+0000392013 00000 n
+0000392077 00000 n
+0000392141 00000 n
+0000392205 00000 n
+0000392269 00000 n
+0000392333 00000 n
+0000392398 00000 n
+0000392463 00000 n
+0000392528 00000 n
+0000392593 00000 n
+0000392658 00000 n
+0000392723 00000 n
+0000392788 00000 n
+0000392853 00000 n
+0000392918 00000 n
+0000392983 00000 n
+0000393048 00000 n
+0000393113 00000 n
+0000393178 00000 n
+0000393243 00000 n
+0000393308 00000 n
+0000393373 00000 n
+0000393438 00000 n
+0000393503 00000 n
+0000393568 00000 n
+0000393633 00000 n
+0000393698 00000 n
+0000393763 00000 n
+0000393833 00000 n
+0000393903 00000 n
+0000393967 00000 n
+0000394031 00000 n
+0000394095 00000 n
+0000394159 00000 n
+0000394223 00000 n
+0000394287 00000 n
+0000394351 00000 n
+0000394415 00000 n
+0000394479 00000 n
+0000394544 00000 n
+0000394609 00000 n
+0000394674 00000 n
+0000394739 00000 n
+0000394804 00000 n
+0000394869 00000 n
+0000394934 00000 n
+0000394999 00000 n
+0000395064 00000 n
+0000395129 00000 n
+0000395194 00000 n
+0000395259 00000 n
+0000395324 00000 n
+0000395389 00000 n
+0000395454 00000 n
+0000395519 00000 n
+0000395584 00000 n
+0000395649 00000 n
+0000395714 00000 n
+0000395779 00000 n
+0000395844 00000 n
+0000395914 00000 n
+0000395984 00000 n
+0000396048 00000 n
+0000396112 00000 n
+0000396176 00000 n
+0000396240 00000 n
+0000396304 00000 n
+0000396368 00000 n
+0000396432 00000 n
+0000396496 00000 n
+0000396560 00000 n
+0000396625 00000 n
+0000396690 00000 n
+0000396755 00000 n
+0000396820 00000 n
+0000396885 00000 n
+0000396950 00000 n
+0000397015 00000 n
+0000397080 00000 n
+0000397145 00000 n
+0000397210 00000 n
+0000397275 00000 n
+0000397340 00000 n
+0000397405 00000 n
+0000397470 00000 n
+0000397535 00000 n
+0000397600 00000 n
+0000397665 00000 n
+0000397730 00000 n
+0000397800 00000 n
+0000397870 00000 n
+0000397934 00000 n
+0000397998 00000 n
+0000398062 00000 n
+0000398126 00000 n
+0000398190 00000 n
+0000398254 00000 n
+0000398318 00000 n
+0000398382 00000 n
+0000398446 00000 n
+0000398516 00000 n
+0000398580 00000 n
+0000398644 00000 n
+0000398708 00000 n
+0000398772 00000 n
+0000398836 00000 n
+0000398900 00000 n
+0000398964 00000 n
+0000399028 00000 n
+0000399092 00000 n
+0000399157 00000 n
+0000399222 00000 n
+0000399287 00000 n
+0000399352 00000 n
+0000399417 00000 n
+0000399482 00000 n
+0000399547 00000 n
+0000399612 00000 n
+0000399677 00000 n
+0000399742 00000 n
+0000399807 00000 n
+0000399872 00000 n
+0000399937 00000 n
+0000400002 00000 n
+0000400067 00000 n
+0000400132 00000 n
+0000400197 00000 n
+0000400262 00000 n
+0000400332 00000 n
+0000400402 00000 n
+0000400466 00000 n
+0000400530 00000 n
+0000400594 00000 n
+0000400658 00000 n
+0000400722 00000 n
+0000400786 00000 n
+0000400850 00000 n
+0000400914 00000 n
+0000400978 00000 n
+0000401043 00000 n
+0000401108 00000 n
+0000401173 00000 n
+0000401238 00000 n
+0000401303 00000 n
+0000401368 00000 n
+0000401433 00000 n
+0000401498 00000 n
+0000401563 00000 n
+0000401628 00000 n
+0000401693 00000 n
+0000401758 00000 n
+0000401823 00000 n
+0000401888 00000 n
+0000401953 00000 n
+0000402018 00000 n
+0000402083 00000 n
+0000402148 00000 n
+0000402213 00000 n
+0000402278 00000 n
+0000402348 00000 n
+0000402418 00000 n
+0000402482 00000 n
+0000402546 00000 n
+0000402610 00000 n
+0000402674 00000 n
+0000402738 00000 n
+0000402802 00000 n
+0000402866 00000 n
+0000402930 00000 n
+0000402994 00000 n
+0000403059 00000 n
+0000403124 00000 n
+0000403189 00000 n
+0000403254 00000 n
+0000403319 00000 n
+0000403384 00000 n
+0000403449 00000 n
+0000403514 00000 n
+0000403579 00000 n
+0000403644 00000 n
+0000403709 00000 n
+0000403774 00000 n
+0000403839 00000 n
+0000403904 00000 n
+0000403969 00000 n
+0000404034 00000 n
+0000404099 00000 n
+0000404164 00000 n
+0000404229 00000 n
+0000404294 00000 n
+0000404364 00000 n
+0000404434 00000 n
+0000404498 00000 n
+0000404562 00000 n
+0000404626 00000 n
+0000404690 00000 n
+0000404754 00000 n
+0000404818 00000 n
+0000404882 00000 n
+0000404946 00000 n
+0000405010 00000 n
+0000405075 00000 n
+0000405140 00000 n
+0000405205 00000 n
+0000405270 00000 n
+0000405335 00000 n
+0000405400 00000 n
+0000405465 00000 n
+0000405530 00000 n
+0000405595 00000 n
+0000405660 00000 n
+0000405725 00000 n
+0000405790 00000 n
+0000405855 00000 n
+0000405920 00000 n
+0000405985 00000 n
+0000406050 00000 n
+0000406115 00000 n
+0000406180 00000 n
+0000406245 00000 n
+0000406310 00000 n
+0000406375 00000 n
+0000406445 00000 n
+0000406515 00000 n
+0000406579 00000 n
+0000406643 00000 n
+0000406707 00000 n
+0000406771 00000 n
+0000406835 00000 n
+0000406899 00000 n
+0000406963 00000 n
+0000407027 00000 n
+0000407091 00000 n
+0000407156 00000 n
+0000407221 00000 n
+0000407286 00000 n
+0000407351 00000 n
+0000407416 00000 n
+0000407481 00000 n
+0000407546 00000 n
+0000407611 00000 n
+0000407676 00000 n
+0000407741 00000 n
+0000407806 00000 n
+0000407871 00000 n
+0000407936 00000 n
+0000408001 00000 n
+0000408066 00000 n
+0000408131 00000 n
+0000408196 00000 n
+0000408261 00000 n
+0000408326 00000 n
+0000408391 00000 n
+0000408456 00000 n
+0000408521 00000 n
+0000408591 00000 n
+0000408661 00000 n
+0000408725 00000 n
+0000408789 00000 n
+0000408853 00000 n
+0000408917 00000 n
+0000408981 00000 n
+0000409045 00000 n
+0000409109 00000 n
+0000409173 00000 n
+0000409237 00000 n
+0000409302 00000 n
+0000409367 00000 n
+0000409432 00000 n
+0000409497 00000 n
+0000409566 00000 n
+0000409631 00000 n
+0000409696 00000 n
+0000409761 00000 n
+0000409826 00000 n
+0000409891 00000 n
+0000409956 00000 n
+0000410021 00000 n
+0000410086 00000 n
+0000410156 00000 n
+0000410226 00000 n
+0000410290 00000 n
+0000410358 00000 n
+0000410422 00000 n
+0000410486 00000 n
+0000410550 00000 n
+0000410614 00000 n
+0000410678 00000 n
+0000410742 00000 n
+0000410806 00000 n
+0000410870 00000 n
+0000410935 00000 n
+0000411000 00000 n
+0000411069 00000 n
+0000411134 00000 n
+0000411199 00000 n
+0000411264 00000 n
+0000411329 00000 n
+0000411394 00000 n
+0000411459 00000 n
+0000411524 00000 n
+0000411589 00000 n
+0000411654 00000 n
+0000411723 00000 n
+0000411788 00000 n
+0000411853 00000 n
+0000411918 00000 n
+0000411983 00000 n
+0000412048 00000 n
+0000412113 00000 n
+0000412178 00000 n
+0000412243 00000 n
+0000412308 00000 n
+0000412373 00000 n
+0000412438 00000 n
+0000412503 00000 n
+0000412571 00000 n
+0000412635 00000 n
+0000412699 00000 n
+0000412763 00000 n
+0000412827 00000 n
+0000412891 00000 n
+0000412955 00000 n
+0000413019 00000 n
+0000413083 00000 n
+0000413147 00000 n
+0000413212 00000 n
+0000413281 00000 n
+0000413346 00000 n
+0000413411 00000 n
+0000413476 00000 n
+0000413541 00000 n
+0000413606 00000 n
+0000413671 00000 n
+0000413736 00000 n
+0000413801 00000 n
+0000413866 00000 n
+0000413935 00000 n
+0000414000 00000 n
+0000414065 00000 n
+0000414130 00000 n
+0000414195 00000 n
+0000414260 00000 n
+0000414325 00000 n
+0000414390 00000 n
+0000414455 00000 n
+0000414520 00000 n
+0000414585 00000 n
+0000414650 00000 n
+0000414715 00000 n
+0000414779 00000 n
+0000414843 00000 n
+0000414907 00000 n
+0000414971 00000 n
+0000415035 00000 n
+0000415099 00000 n
+0000415163 00000 n
+0000415232 00000 n
+0000415297 00000 n
+0000415362 00000 n
+0000415427 00000 n
+0000415492 00000 n
+0000415557 00000 n
+0000415622 00000 n
+0000415687 00000 n
+0000415752 00000 n
+0000415817 00000 n
+0000415882 00000 n
+0000415947 00000 n
+0000416016 00000 n
+0000416081 00000 n
+0000416146 00000 n
+0000416211 00000 n
+0000416276 00000 n
+0000416341 00000 n
+0000416406 00000 n
+0000416471 00000 n
+0000416536 00000 n
+0000416601 00000 n
+0000416671 00000 n
+0000416741 00000 n
+0000416805 00000 n
+0000416869 00000 n
+0000416933 00000 n
+0000417001 00000 n
+0000417065 00000 n
+0000417129 00000 n
+0000417194 00000 n
+0000417259 00000 n
+0000417324 00000 n
+0000417389 00000 n
+0000417454 00000 n
+0000417519 00000 n
+0000417588 00000 n
+0000417653 00000 n
+0000417718 00000 n
+0000417783 00000 n
+0000417848 00000 n
+0000417913 00000 n
+0000417978 00000 n
+0000418043 00000 n
+0000418108 00000 n
+0000418173 00000 n
+0000418238 00000 n
+0000418307 00000 n
+0000418372 00000 n
+0000418437 00000 n
+0000418502 00000 n
+0000418567 00000 n
+0000418632 00000 n
+0000418697 00000 n
+0000418767 00000 n
+0000418835 00000 n
+0000418899 00000 n
+0000418963 00000 n
+0000419027 00000 n
+0000419091 00000 n
+0000419155 00000 n
+0000419220 00000 n
+0000419285 00000 n
+0000419350 00000 n
+0000419419 00000 n
+0000419484 00000 n
+0000419549 00000 n
+0000419614 00000 n
+0000419679 00000 n
+0000419744 00000 n
+0000419809 00000 n
+0000419874 00000 n
+0000419939 00000 n
+0000420004 00000 n
+0000420069 00000 n
+0000420134 00000 n
+0000420199 00000 n
+0000420264 00000 n
+0000420329 00000 n
+0000420394 00000 n
+0000420459 00000 n
+0000420524 00000 n
+0000420589 00000 n
+0000420654 00000 n
+0000420719 00000 n
+0000420784 00000 n
+0000420849 00000 n
+0000420919 00000 n
+0000420984 00000 n
+0000421052 00000 n
+0000421120 00000 n
+0000421188 00000 n
+0000421256 00000 n
+0000421327 00000 n
+0000421398 00000 n
+0000421469 00000 n
+0000421540 00000 n
+0000421611 00000 n
+0000421683 00000 n
+0000421755 00000 n
+0000421827 00000 n
+0000421899 00000 n
+0000421971 00000 n
+0000422043 00000 n
+0000422115 00000 n
+0000422183 00000 n
+0000422251 00000 n
+0000422319 00000 n
+0000422387 00000 n
+0000422455 00000 n
+0000422523 00000 n
+0000422591 00000 n
+0000422659 00000 n
+0000422727 00000 n
+0000422795 00000 n
+0000422863 00000 n
+0000422931 00000 n
+0000422983 00000 n
+0000423035 00000 n
+0000423087 00000 n
+0000423139 00000 n
+0000423191 00000 n
+0000423243 00000 n
+0000423295 00000 n
+0000423347 00000 n
+0000423399 00000 n
+0000423451 00000 n
+0000423503 00000 n
+0000423555 00000 n
+0000423607 00000 n
+0000423659 00000 n
+0000423711 00000 n
 866 23
-0000423767 00000 n
-0000423847 00000 n
-0000423909 00000 n
-0000423960 00000 n
-0000424011 00000 n
-0000424062 00000 n
-0000424113 00000 n
-0000424164 00000 n
-0000424215 00000 n
-0000424266 00000 n
-0000424317 00000 n
-0000424368 00000 n
-0000424419 00000 n
-0000424470 00000 n
-0000424521 00000 n
-0000424572 00000 n
-0000424623 00000 n
-0000424811 00000 n
-0000424863 00000 n
-0000424915 00000 n
-0000424967 00000 n
-0000425019 00000 n
-0000425071 00000 n
+0000423763 00000 n
+0000423843 00000 n
+0000423905 00000 n
+0000423956 00000 n
+0000424007 00000 n
+0000424058 00000 n
+0000424109 00000 n
+0000424160 00000 n
+0000424211 00000 n
+0000424262 00000 n
+0000424313 00000 n
+0000424364 00000 n
+0000424415 00000 n
+0000424466 00000 n
+0000424517 00000 n
+0000424568 00000 n
+0000424619 00000 n
+0000424807 00000 n
+0000424859 00000 n
+0000424911 00000 n
+0000424963 00000 n
+0000425015 00000 n
+0000425067 00000 n
 890 2
-0000425123 00000 n
-0000425175 00000 n
+0000425119 00000 n
+0000425171 00000 n
 893 12
-0000425227 00000 n
-0000425279 00000 n
-0000425331 00000 n
-0000425383 00000 n
-0000425435 00000 n
-0000425487 00000 n
-0000425539 00000 n
-0000425591 00000 n
-0000425643 00000 n
-0000425695 00000 n
-0000425747 00000 n
-0000425799 00000 n
+0000425223 00000 n
+0000425275 00000 n
+0000425327 00000 n
+0000425379 00000 n
+0000425431 00000 n
+0000425483 00000 n
+0000425535 00000 n
+0000425587 00000 n
+0000425639 00000 n
+0000425691 00000 n
+0000425743 00000 n
+0000425795 00000 n
 906 13
-0000425851 00000 n
-0000425939 00000 n
-0000426240 00000 n
-0000426815 00000 n
-0000426899 00000 n
-0000427687 00000 n
-0000428452 00000 n
-0000429053 00000 n
-0000429779 00000 n
-0000430574 00000 n
-0000431336 00000 n
-0000432182 00000 n
-0000432876 00000 n
+0000425847 00000 n
+0000425935 00000 n
+0000426236 00000 n
+0000426811 00000 n
+0000426895 00000 n
+0000427683 00000 n
+0000428448 00000 n
+0000429049 00000 n
+0000429775 00000 n
+0000430570 00000 n
+0000431332 00000 n
+0000432178 00000 n
+0000432872 00000 n
 924 12
-0000433291 00000 n
-0000433854 00000 n
-0000459000 00000 n
-0000486276 00000 n
-0000505785 00000 n
-0000527171 00000 n
-0000527569 00000 n
-0000527853 00000 n
-0000528101 00000 n
-0000528388 00000 n
-0000528635 00000 n
-0000528885 00000 n
+0000433287 00000 n
+0000433850 00000 n
+0000458996 00000 n
+0000486272 00000 n
+0000505781 00000 n
+0000527167 00000 n
+0000527565 00000 n
+0000527849 00000 n
+0000528097 00000 n
+0000528384 00000 n
+0000528631 00000 n
+0000528881 00000 n
 937 4
-0000529177 00000 n
-0000530374 00000 n
-0000530452 00000 n
-0000530724 00000 n
+0000529173 00000 n
+0000530370 00000 n
+0000530448 00000 n
+0000530720 00000 n
 943 12
-0000530988 00000 n
-0000531056 00000 n
-0000531115 00000 n
-0000531147 00000 n
-0000531272 00000 n
-0000531339 00000 n
-0000531386 00000 n
-0000531418 00000 n
-0000534855 00000 n
-0000537004 00000 n
-0000538903 00000 n
-0000540350 00000 n
+0000530984 00000 n
+0000531052 00000 n
+0000531111 00000 n
+0000531143 00000 n
+0000531268 00000 n
+0000531335 00000 n
+0000531382 00000 n
+0000531414 00000 n
+0000534851 00000 n
+0000537000 00000 n
+0000538899 00000 n
+0000540346 00000 n
 969 9
-0000541812 00000 n
-0000541851 00000 n
-0000541890 00000 n
-0000542186 00000 n
-0000542225 00000 n
-0000542506 00000 n
-0000542545 00000 n
-0000542841 00000 n
-0000542880 00000 n
+0000541808 00000 n
+0000541847 00000 n
+0000541886 00000 n
+0000542182 00000 n
+0000542221 00000 n
+0000542502 00000 n
+0000542541 00000 n
+0000542837 00000 n
+0000542876 00000 n
 979 1
-0000543165 00000 n
+0000543161 00000 n
 998 1
-0000543207 00000 n
+0000543203 00000 n
 1000 1
-0000543249 00000 n
+0000543245 00000 n
 1019 1
-0000543292 00000 n
+0000543288 00000 n
 1038 1
-0000543335 00000 n
-1049 1
-0000543378 00000 n
+0000543331 00000 n
 1059 1
-0000544251 00000 n
-1069 2
-0000544294 00000 n
-0000544961 00000 n
+0000543374 00000 n
+1070 1
+0000543417 00000 n
 1091 2
-0000545004 00000 n
-0000546411 00000 n
-1102 4
-0000546454 00000 n
-0000546497 00000 n
-0000547253 00000 n
-0000547296 00000 n
+0000543460 00000 n
+0000544867 00000 n
+1102 1
+0000544910 00000 n
+1104 1
+0000544953 00000 n
 1114 1
-0000548045 00000 n
+0000544996 00000 n
 1123 1
-0000548340 00000 n
+0000545291 00000 n
 1125 1
-0000548383 00000 n
+0000545334 00000 n
 1127 1
-0000548426 00000 n
-1137 5
-0000548469 00000 n
-0000549303 00000 n
-0000550090 00000 n
-0000551056 00000 n
-0000551940 00000 n
+0000545377 00000 n
+1137 1
+0000545420 00000 n
+1139 1
+0000546254 00000 n
 1151 1
-0000553321 00000 n
+0000547220 00000 n
 1163 2
-0000553364 00000 n
-0000553407 00000 n
+0000547263 00000 n
+0000547306 00000 n
 1175 1
-0000553450 00000 n
-1177 1
-0000553493 00000 n
+0000547349 00000 n
 1179 1
-0000553931 00000 n
+0000547392 00000 n
 1181 1
-0000553974 00000 n
+0000547435 00000 n
 1191 2
-0000554017 00000 n
-0000554281 00000 n
-1194 2
-0000554324 00000 n
-0000555596 00000 n
+0000547478 00000 n
+0000547742 00000 n
+1195 1
+0000547785 00000 n
 1197 2
-0000555639 00000 n
-0000556515 00000 n
-1208 2
-0000556558 00000 n
-0000557602 00000 n
+0000547828 00000 n
+0000548704 00000 n
+1208 1
+0000548747 00000 n
 1220 1
-0000558558 00000 n
-1229 2
-0000559596 00000 n
-0000560096 00000 n
+0000549791 00000 n
+1229 1
+0000550829 00000 n
 1232 1
-0000561492 00000 n
+0000551329 00000 n
 1243 1
-0000561535 00000 n
+0000551372 00000 n
 1245 1
-0000561578 00000 n
+0000551415 00000 n
 1256 1
-0000561621 00000 n
-1258 12
-0000562759 00000 n
-0000562802 00000 n
-0000562845 00000 n
-0000563569 00000 n
-0000564326 00000 n
-0000565063 00000 n
-0000565711 00000 n
-0000566559 00000 n
-0000566602 00000 n
-0000567365 00000 n
-0000567408 00000 n
-0000567451 00000 n
-1278 20
-0000567998 00000 n
-0000568038 00000 n
-0000568324 00000 n
-0000568460 00000 n
-0000568618 00000 n
-0000568692 00000 n
-0000568869 00000 n
-0000569285 00000 n
-0000569315 00000 n
-0000569540 00000 n
-0000569834 00000 n
-0000570587 00000 n
-0000570630 00000 n
-0000571383 00000 n
-0000571426 00000 n
-0000572142 00000 n
-0000572185 00000 n
-0000572914 00000 n
-0000572957 00000 n
-0000573727 00000 n
+0000551458 00000 n
+1258 6
+0000552596 00000 n
+0000552639 00000 n
+0000552682 00000 n
+0000553406 00000 n
+0000554163 00000 n
+0000554900 00000 n
+1265 1
+0000555548 00000 n
+1267 3
+0000555591 00000 n
+0000555634 00000 n
+0000555677 00000 n
+1278 2
+0000556224 00000 n
+0000556264 00000 n
+1288 8
+0000556550 00000 n
+0000557303 00000 n
+0000557346 00000 n
+0000558099 00000 n
+0000558142 00000 n
+0000558858 00000 n
+0000558901 00000 n
+0000559630 00000 n
+1298 23
+0000559673 00000 n
+0000559809 00000 n
+0000559967 00000 n
+0000560041 00000 n
+0000560218 00000 n
+0000560634 00000 n
+0000560664 00000 n
+0000560889 00000 n
+0000561183 00000 n
+0000561859 00000 n
+0000562737 00000 n
+0000563526 00000 n
+0000564411 00000 n
+0000565167 00000 n
+0000565916 00000 n
+0000567298 00000 n
+0000567737 00000 n
+0000569134 00000 n
+0000570409 00000 n
+0000571337 00000 n
+0000572482 00000 n
+0000573250 00000 n
+0000574097 00000 n
 trailer
-<</Info 940 0 R /Root 907 0 R /Size 1298/ID[<8E05B06B05AD0AED101978A41485BDA1><D8DF0365FC8FEFC992F6E6D71161A09D>]>>
+<</Info 940 0 R /Root 907 0 R /Size 1321/ID[<8E05B06B05AD0AED101978A41485BDA1><A3A3705205C5E6A5A5E22E79FF1D1E99>]>>
 startxref
-574861
+574860
 %%EOF
