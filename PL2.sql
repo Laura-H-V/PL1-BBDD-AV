@@ -1,4 +1,3 @@
-/*CREATE DATABASE investigar;*/
 
 CREATE TABLE investigadores (
     codigo_investigador NUMERIC PRIMARY KEY,
@@ -25,12 +24,9 @@ CREATE TABLE investigadores_contratos (
         ON DELETE RESTRICT ON UPDATE RESTRICT
 );
 
-/*
-\COPY investigadores FROM ./DATOS/datos_investigadores.csv WITH (FORMAT csv, HEADER, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
-\COPY contratos FROM ./DATOS/datos_contratos.csv WITH (FORMAT csv, HEADER, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
-\COPY investigadores_contratos FROM ./DATOS/datos_investigadores_contratos.csv WITH (FORMAT csv, HEADER, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
-*/
 
-SELECT * FROM pg_stats WHERE tablename = 'investigadores';
-SELECT * FROM pg_stats WHERE tablename = 'contratos';
-SELECT * FROM pg_stats WHERE tablename = 'investigadores_contratos';
+--\COPY investigadores FROM ./DATOS/datos_investigadores.csv WITH (FORMAT csv, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
+--\COPY contratos FROM ./DATOS/datos_contratos.csv WITH (FORMAT csv, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
+--\COPY investigadores_contratos FROM ./DATOS/datos_investigadores_contratos.csv WITH (FORMAT csv, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
+
+
