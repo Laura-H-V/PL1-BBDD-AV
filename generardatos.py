@@ -8,84 +8,114 @@ provincias = [
     "Álava", "Albacete", "Alicante", "Almería", "Asturias", "Ávila", "Badajoz", "Barcelona", "Burgos", "Cáceres", "Cádiz", "Cantabria", "Castellón", "Ciudad Real", "Córdoba", "Cuenca", "Gerona", "Granada", "Guadalajara", "Guipúzcoa", "Huelva", "Huesca", "Islas Baleares", "Jaén", "La Coruña", "La Rioja", "Las Palmas", "León", "Lérida", "Lugo", "Madrid", "Málaga", "Murcia", "Navarra", "Orense", "Palencia", "Pontevedra", "Salamanca", "Santa Cruz de Tenerife", "Segovia", "Sevilla", "Soria", "Tarragona", "Teruel", "Toledo", "Valencia", "Valladolid", "Vizcaya", "Zamora", "Zaragoza"
 ]
 
+nombres = ["Sergio", "Laura", "Ana", "Carlos", "Elena", "Miguel", "Lucía", "Sergio"]
+apellidos = ["García", "Fernández", "López", "Martínez", "Sánchez"]
+
 # Función para guardar en CSV
 def guardar_csv(nombre, datos, campos):
     with open(nombre, mode='w', newline='', encoding='utf-8') as file:
         writer = csv.DictWriter(file, fieldnames=campos)
         writer.writeheader()
         writer.writerows(datos)
+    print(f"{nombre} generado correctamente.")
 
 # Generar 3.000.000 clientes
-clientes = [{"id": i+1, "provincia": random.choice(provincias)} for i in range(3_000_000)]
-guardar_csv("clientes.csv", clientes, ["id", "provincia"])
+clientes = []
+dnis_generados = set()
+telefonos_generados = set()
+
+for i in range(3_000_000):
+    while (dni := f"{random.randint(10000000, 99999999)}{random.choice(string.ascii_uppercase)}") in dnis_generados:
+        pass
+    dnis_generados.add(dni)
+    
+    while (telefono := f"6{random.randint(10000000, 99999999)}") in telefonos_generados:
+        pass
+    telefonos_generados.add(telefono)
+    
+    clientes.append({
+        "clienteid": i+1,
+        "nombre": random.choice(nombres),
+        "apellido": random.choice(apellidos),
+        "dni": dni,
+        "telefono": telefono,
+        "email": f"cliente{i+1}@mail.com",
+        "provincia": random.choice(provincias)
+    })
+
+guardar_csv("clientes.csv", clientes, ["clienteid", "nombre", "apellido", "dni", "telefono", "email", "provincia"])
 
 # Generar 500 marcas con 5 a 20 modelos y 5 a 15 colores
 marcas = {f"Marca_{i+1}": [f"Modelo_{j+1}" for j in range(1, random.randint(5, 20) + 1)] for i in range(500)}
-colores_disponibles = ["Negro", "Blanco", "Rojo", "Azul", "Verde", "Amarillo", "Gris", "Plateado", "Dorado", "Marrón", "Beige", "Turquesa", "Violeta", "Naranja", "Rosa"]
-colores = random.sample(colores_disponibles, min(len(colores_disponibles), random.randint(5, 15)))
+colores = ["Negro", "Rojo", "Azul", "Verde", "Blanco", "Gris", "Amarillo", "Naranja", "Morado", "Rosa"]
 
 # Generar 5.000.000 vehículos
+matriculas_generadas = set()
 vehiculos = []
+
 for i in range(5_000_000):
+    while (matricula := f"{random.randint(1000,9999)}-{''.join(random.choices(string.ascii_uppercase, k=3))}") in matriculas_generadas:
+        pass
+    matriculas_generadas.add(matricula)
+    
     marca = random.choice(list(marcas.keys()))
-    modelo = random.choice(marcas[marca]) if marcas[marca] else "Modelo_Default"
     vehiculos.append({
-        "id": i+1,
-        "propietario_id": random.randint(1, 3_000_000),
+        "vehiculoid": i+1,
+        "matricula": matricula,
         "marca": marca,
-        "modelo": modelo,
-        "color": random.choice(colores)
+        "modelo": random.choice(marcas[marca]),
+        "color": random.choice(colores),
+        "clienteid": random.randint(1, 3_000_000)
     })
-guardar_csv("vehiculos.csv", vehiculos, ["id", "propietario_id", "marca", "modelo", "color"])
+
+guardar_csv("vehiculos.csv", vehiculos, ["vehiculoid", "matricula", "marca", "modelo", "color", "clienteid"])
 
 # Generar 200.000 plazas de parking
 plazas = [{
-    "id": i+1,
-    "planta": random.randint(-10, 0),
-    "seccion": random.choice(string.ascii_uppercase[:6])  # A-F
+    "plazaid": i+1,
+    "numero": i+1,
+    "nivel": random.randint(-10, 0),
+    "seccion": random.choice("ABCDEF")
 } for i in range(200_000)]
-guardar_csv("plazas.csv", plazas, ["id", "planta", "seccion"])
+guardar_csv("plazas.csv", plazas, ["plazaid", "numero", "nivel", "seccion"])
 
 # Generar 40.000.000 reservas
 reservas = []
-payment_methods = ["Efectivo", "Tarjeta Crédito", "Tarjeta Débito", "PayPal", "Bizzum", "Transferencia"]
+payment_methods = ["Efectivo", "Tarjeta Crédito", "Tarjeta Débito", "PayPal", "Bizum", "Transferencia"]
 base_date = datetime(2024, 1, 1)
 
 def random_datetime(start_date, end_date):
+    if start_date >= end_date:
+        return start_date
     delta = end_date - start_date
-    return start_date + timedelta(days=random.randint(0, max(1, delta.days)), hours=random.randint(0, 23))
+    return start_date + timedelta(days=random.randint(0, delta.days), hours=random.randint(0, 23))
 
 for i in range(40_000_000):
     plaza_id = random.randint(1, 200_000)
     cliente_id = random.randint(1, 3_000_000)
+    vehiculo_id = random.randint(1, 5_000_000)
     inicio = random_datetime(base_date, datetime(2024, 12, 31))
     duracion = timedelta(days=random.randint(1, 10))
     fin = inicio + duracion
-    horas = duracion.days * 24
-    precio = horas * 3
-    metodo_pago = random.choice(payment_methods)
-    fecha_pago = random_datetime(base_date, max(base_date, inicio - timedelta(days=random.randint(1, 10))))
-    
     reservas.append({
-        "id": i+1,
-        "plaza_id": plaza_id,
-        "cliente_id": cliente_id,
-        "inicio": inicio,
-        "fin": fin,
-        "precio": precio,
-        "metodo_pago": metodo_pago,
-        "fecha_pago": fecha_pago
+        "reservaid": i+1,
+        "fechainicio": inicio,
+        "fechafin": fin,
+        "vehiculoid": vehiculo_id,
+        "plazaid": plaza_id,
+        "clienteid": cliente_id
     })
 
-guardar_csv("reservas.csv", reservas, ["id", "plaza_id", "cliente_id", "inicio", "fin", "precio", "metodo_pago", "fecha_pago"])
+guardar_csv("reservas.csv", reservas, ["reservaid", "fechainicio", "fechafin", "vehiculoid", "plazaid", "clienteid"])
 
-# Generar 4.000.000 incidencias
-estados_incidencia = ["Nueva", "Abierta", "En proceso", "Resuelta", "Cerrada"]
-incidencias = [{
-    "id": i+1,
-    "reserva_id": random.randint(1, 40_000_000),
-    "estado": random.choice(estados_incidencia)
-} for i in range(4_000_000)]
-guardar_csv("incidencias.csv", incidencias, ["id", "reserva_id", "estado"])
+# Generar 40.000.000 pagos
+pagos = [{
+    "pagoid": i+1,
+    "cantidad": random.randint(1, 72) * 3,
+    "fechapago": random_datetime(base_date, datetime(2024, 12, 31)),
+    "metodopago": random.choice(payment_methods),
+    "reservaid": i+1
+} for i in range(40_000_000)]
+guardar_csv("pagos.csv", pagos, ["pagoid", "cantidad", "fechapago", "metodopago", "reservaid"])
 
 print("Datos generados y guardados en archivos CSV correctamente.")
