@@ -21,13 +21,10 @@ def guardar_csv(nombre, datos, campos):
 
 # Generar 3.000.000 clientes
 clientes = []
-dnis_generados = set()
 telefonos_generados = set()
 
 for i in range(3_000_000):
-    while (dni := f"{random.randint(10000000, 99999999)}{random.choice(string.ascii_uppercase)}") in dnis_generados:
-        pass
-    dnis_generados.add(dni)
+
     
     while (telefono := f"6{random.randint(10000000, 99999999)}") in telefonos_generados:
         pass
@@ -37,13 +34,12 @@ for i in range(3_000_000):
         "clienteid": i+1,
         "nombre": random.choice(nombres),
         "apellido": random.choice(apellidos),
-        "dni": dni,
         "telefono": telefono,
         "email": f"cliente{i+1}@mail.com",
         "provincia": random.choice(provincias)
     })
 
-guardar_csv("clientes.csv", clientes, ["clienteid", "nombre", "apellido", "dni", "telefono", "email", "provincia"])
+guardar_csv("clientes.csv", clientes, ["clienteid", "nombre", "apellido","telefono", "email", "provincia"])
 
 # Generar 500 marcas con 5 a 20 modelos y 5 a 15 colores
 marcas = {f"Marca_{i+1}": [f"Modelo_{j+1}" for j in range(1, random.randint(5, 20) + 1)] for i in range(500)}
@@ -117,5 +113,27 @@ pagos = [{
     "reservaid": i+1
 } for i in range(40_000_000)]
 guardar_csv("pagos.csv", pagos, ["pagoid", "cantidad", "fechapago", "metodopago", "reservaid"])
+
+
+# Generar 4.000.000 incidencias aleatorias
+incidencias = []
+estados = ["nueva", "abierta", "en proceso", "resuelta", "cerrada"]
+for i in range(4_000_000):
+    incidencia_id = i + 1
+    reservaid = random.randint(1, 40_000_000)  # Asignar a una reserva existente
+    descripcion = f"Incidencia generada automáticamente #{incidencia_id}"
+    fecha_incidencia = random_datetime(base_date, datetime(2024, 12, 31))
+    estado = random.choice(estados)
+
+    incidencias.append({
+        "incidenciaid": incidencia_id,
+        "descripcion": descripcion,
+        "fechaincidencia": fecha_incidencia,
+        "estado": estado,
+        "reservaid": reservaid
+    })
+
+guardar_csv("incidencias.csv", incidencias, ["incidenciaid", "descripcion", "fechaincidencia", "estado", "reservaid"])
+
 
 print("Datos generados y guardados en archivos CSV correctamente.")
