@@ -25,8 +25,8 @@ CREATE TABLE investigadores_contratos (
 );
 
 
---\COPY investigadores FROM ./DATOS/datos_investigadores.csv WITH (FORMAT csv, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
---\COPY contratos FROM ./DATOS/datos_contratos.csv WITH (FORMAT csv, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
---\COPY investigadores_contratos FROM ./DATOS/datos_investigadores_contratos.csv WITH (FORMAT csv, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
+\COPY investigadores FROM ./datos2/datos_investigadores.csv WITH (FORMAT csv, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
+\COPY contratos FROM ./datos2/datos_contratos.csv WITH (FORMAT csv, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
+\COPY investigadores_contratos FROM ./datos2/datos_investigadores_contratos.csv WITH (FORMAT csv, DELIMITER E',', NULL 'NULL', ENCODING 'UTF-8');
 
 
