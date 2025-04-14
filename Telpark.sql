@@ -87,4 +87,5 @@ Clientes: 3.000.000
 Vehiculos: 5.000.000
 plazas: 200.000
 Reservas: 40.000.000
-Pago:
+Pago: 40.000.000
+Incidencias: 4.000.000
