@@ -1410,31 +1410,6 @@ endobj
 Hâ\êœjƒ ∆Ô>≈wãŸú%P∂rËöˆåNR°eby˚é6l°*„˜˝‰sÙ≠Ï)d–o›Ä¶@ûqç;ÑÁ@Í⁄Ç.]››bì“˚öqÈiä –Ô"Æôw8=¯8‚YÈWˆ»Åf8}ﬁÜ3ËaKÈ§txú‰°gõ^ÏÇ†+vÈΩË!Ôa˛{Bhk˝„¢«5YáliFe©ÃìTßê¸?˝†∆…}YV¶-ﬁ¶ë£xè€B…Á‡…mÃí¶N†∆(·}H)&™,ı#¿ Ÿ∆o0
 endstream
 endobj
-90 0 obj
-<</BBox[ 0 0 461.43399 397.039]/Filter/FlateDecode/FormType 1/Length 44/Matrix[ 1 0 0 1 0 0]/Resources<</Font 991 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xú+‰2PpÁ2–3U a3=cccK3=c3Ö¢TÆbÆ@. îì≥
-endstream
-endobj
-91 0 obj
-<</BBox[ 0 0 461.435 431.358]/Filter/FlateDecode/FormType 1/Length 43/Matrix[ 1 0 0 1 0 0]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xú+‰2PpÁ2–3U a3=c3c=cSÖ¢TÆbÆ@. åﬁz
-endstream
-endobj
-92 0 obj
-<</BBox[ 0 0 461.435 169.48]/Filter/FlateDecode/FormType 1/Length 44/Matrix[ 1 0 0 1 0 0]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xú+‰2PpÁ2–3U a3=csC3=sKKÖ¢TÆbÆ@. ï+¿
-endstream
-endobj
-93 0 obj
-<</BBox[ 0 0 461.435 151.054001]/Filter/FlateDecode/FormType 1/Length 44/Matrix[ 1 0 0 1 0 0]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xú+‰2PpÁ2–3U a3=csCS=S#Ö¢TÆbÆ@. ìı•
-endstream
-endobj
-94 0 obj
-<</BBox[ 0 0 461.43399 178.73199]/Filter/FlateDecode/FormType 1/Length 44/Matrix[ 1 0 0 1 0 0]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xú+‰2PpÁ2–3U a3=ccCss=sc#CÖ¢TÆbÆ@. îN¨
-endstream
-endobj
 95 0 obj
 <</BBox[ 0 0 461.435 211.914]/Filter/FlateDecode/FormType 1/Length 43/Matrix[ 1 0 0 1 0 0]/Resources<</ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xú+‰2PpÁ2–3U a3=cK#C=KCÖ¢TÆbÆ@. åÕw
@@ -2045,7 +2020,7 @@ endobj
 <</AP<</N 957 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 37 0 R /RV(La consulta es la siguiente:\r\n SELECT  COUNT\(DISTINCT c.clienteid\) * 100.0 / 3000000 AS Porcentaje\r\nFROM clientes c JOIN reservas r ON c.clienteid = r.clienteid_clientes \r\nJOIN plazas p ON p.plazaid = r.plazaid_plazas JOIN  pagos pa ON pa.reservaid_reservas = r.reservaid JOIN vehiculos v ON v.vehiculoid = r.vehiculoid_vehiculos LEFT JOIN  incidencias i ON i.reservaid_reservas = r.reservaid AND i.estado = 'Cerrada'\r\nWHERE \r\n    c.provincia IN \('AlmerÌa', 'C·diz', 'CÛrdoba', 'Granada', 'Huelva', 'JaÈn', 'M·laga', 'Sevilla'\) AND EXTRACT\(MONTH FROM r.fechainicio\) IN \(6, 7, 8\)  AND pa.cantidad > 150 AND p.nivel < -4  AND v.color ILIKE 'negro' AND i.incidenciaid IS NULL;\r\n\r\nEl tiempo de ejecuciÛn de la consulta es de 43 segundos y devuelve un porcentaje de 0,32713333....)/Rect[ 82.3153 577.79303 543.74902 752.94202]/Subtype/Widget/T(Text11)/Type/Annot/V(La consulta es la siguiente:\r\n SELECT  COUNT\(DISTINCT c.clienteid\) * 100.0 / 3000000 AS Porcentaje\r\nFROM clientes c JOIN reservas r ON c.clienteid = r.clienteid_clientes \r\nJOIN plazas p ON p.plazaid = r.plazaid_plazas JOIN  pagos pa ON pa.reservaid_reservas = r.reservaid JOIN vehiculos v ON v.vehiculoid = r.vehiculoid_vehiculos LEFT JOIN  incidencias i ON i.reservaid_reservas = r.reservaid AND i.estado = 'Cerrada'\r\nWHERE \r\n    c.provincia IN \('AlmerÌa', 'C·diz', 'CÛrdoba', 'Granada', 'Huelva', 'JaÈn', 'M·laga', 'Sevilla'\) AND EXTRACT\(MONTH FROM r.fechainicio\) IN \(6, 7, 8\)  AND pa.cantidad > 150 AND p.nivel < -4  AND v.color ILIKE 'negro' AND i.incidenciaid IS NULL;\r\n\r\nEl tiempo de ejecuciÛn de la consulta es de 43 segundos y devuelve un porcentaje de 0,32713333....)>>
 endobj
 123 0 obj
-<</AP<</N 945 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 37 0 R /RV(Primero se hace una lectura secuencial en la tabla incidencias, donde se filtra por el estado cerrada. Este resultado se encauza a travÈs de un LEFT JOIN posterior con la tabla reservas, de forma que se mantendr·n todas las reservas, incluso aquellas que no tienen incidencia cerrada.\r\n\r\nA continuaciÛn, se realiza otra lectura secuencial sobre la tabla reservas, donde se aplica un filtro por los meses de verano. Este resultado se pasa a un  LEFT JOIN mediante un bulce anidado con la tabla incidencias, donde se compara el reservaid de las reservas con el de las incidencias cerradas. Este paso se materializa,  asegurando que se utilicen los resultados intermedios de las reservas al realizar la comparaciÛn.\r\n\r\nLuego, se ejecuta una lectura secuencial sobre la tabla pagos con el filtro cantidad > 150. Los resultados de este escaneo se encauzan a travÈs de un Hash Join con las reservas de antes, donde se construye una tabla hash para realizar la comparaciÛn eficiente entre los reservaid de pagos y reservas.\r\n\r\nDespuÈs, se realiza una b˙squeda por Ìndice sobre la tabla clientes usando el Ìndice primario. A esto adem·s se le aplica el filtro de las provincias. Los resultados se encauzan para unirse con las tablas de reservas y pagos en el siguiente paso.\r\n\r\nSeguidamente, se hace otra b˙squeda por Ìndice sobre la tabla plazas, utilizando el Ìndice primario para buscar las plazas asociadas a cada reserva. El filtro de nivel < -4 se aplica durante esta lectura y los resultados se encauzan.\r\n\r\nEn la etapa siguiente, se realiza otra lectura por Ìndice sobre la tabla vehiculos, aplicando un filtro por color de vehÌculo \(color ILIKE 'negro'\). Luego se convia con un bucle anidado con la tabla anterior.\r\n\r\nFinalmente, despuÈs de que todas las tablas se hayan combinado,  se ordenan los resultados por cliente_id. Luego, se realiza una agregaciÛn para contar el n˙mero de clientes distintos y calcular el porcentaje correspondiente a la consulta, multiplicando por 100 y dividiendo entre 3.000.000)/Rect[ 81.878998 96.442902 543.31403 555.164]/Subtype/Widget/T(Text12)/Type/Annot/V(Primero se hace una lectura secuencial en la tabla incidencias, donde se filtra por el estado cerrada. Este resultado se encauza a travÈs de un LEFT JOIN posterior con la tabla reservas, de forma que se mantendr·n todas las reservas, incluso aquellas que no tienen incidencia cerrada.\r\n\r\nA continuaciÛn, se realiza otra lectura secuencial sobre la tabla reservas, donde se aplica un filtro por los meses de verano. Este resultado se pasa a un  LEFT JOIN mediante un bulce anidado con la tabla incidencias, donde se compara el reservaid de las reservas con el de las incidencias cerradas. Este paso se materializa,  asegurando que se utilicen los resultados intermedios de las reservas al realizar la comparaciÛn.\r\n\r\nLuego, se ejecuta una lectura secuencial sobre la tabla pagos con el filtro cantidad > 150. Los resultados de este escaneo se encauzan a travÈs de un Hash Join con las reservas de antes, donde se construye una tabla hash para realizar la comparaciÛn eficiente entre los reservaid de pagos y reservas.\r\n\r\nDespuÈs, se realiza una b˙squeda por Ìndice sobre la tabla clientes usando el Ìndice primario. A esto adem·s se le aplica el filtro de las provincias. Los resultados se encauzan para unirse con las tablas de reservas y pagos en el siguiente paso.\r\n\r\nSeguidamente, se hace otra b˙squeda por Ìndice sobre la tabla plazas, utilizando el Ìndice primario para buscar las plazas asociadas a cada reserva. El filtro de nivel < -4 se aplica durante esta lectura y los resultados se encauzan.\r\n\r\nEn la etapa siguiente, se realiza otra lectura por Ìndice sobre la tabla vehiculos, aplicando un filtro por color de vehÌculo \(color ILIKE 'negro'\). Luego se convia con un bucle anidado con la tabla anterior.\r\n\r\nFinalmente, despuÈs de que todas las tablas se hayan combinado,  se ordenan los resultados por cliente_id. Luego, se realiza una agregaciÛn para contar el n˙mero de clientes distintos y calcular el porcentaje correspondiente a la consulta, multiplicando por 100 y dividiendo entre 3.000.000)>>
+<</AP<</N 1016 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 37 0 R /RV(Primero se hace una lectura secuencial en la tabla incidencias, donde se filtra por el estado cerrada. Este resultado se encauza a travÈs de un LEFT JOIN posterior con la tabla reservas, de forma que se mantendr·n todas las reservas, incluso aquellas que no tienen incidencia cerrada.\r\n\r\nA continuaciÛn, se realiza otra lectura secuencial sobre la tabla reservas, donde se aplica un filtro por los meses de verano. Este resultado se pasa a un  LEFT JOIN mediante un bulce anidado con la tabla incidencias, donde se compara el reservaid de las reservas con el de las incidencias cerradas. Este paso se materializa,  asegurando que se utilicen los resultados intermedios de las reservas al realizar la comparaciÛn.\r\n\r\nLuego, se ejecuta una lectura secuencial sobre la tabla pagos con el filtro cantidad > 150. Los resultados de este escaneo se encauzan a travÈs de un Hash Join con las reservas de antes, donde se construye una tabla hash para realizar la comparaciÛn eficiente entre los reservaid de pagos y reservas.\r\n\r\nDespuÈs, se realiza una b˙squeda por Ìndice sobre la tabla clientes usando el Ìndice primario. A esto adem·s se le aplica el filtro de las provincias. Los resultados se encauzan para unirse con las tablas de reservas y pagos en el siguiente paso.\r\n\r\nSeguidamente, se hace otra b˙squeda por Ìndice sobre la tabla plazas, utilizando el Ìndice primario para buscar las plazas asociadas a cada reserva. El filtro de nivel < -4 se aplica durante esta lectura y los resultados se encauzan.\r\n\r\nEn la etapa siguiente, se realiza otra lectura por Ìndice sobre la tabla vehiculos, aplicando un filtro por color de vehÌculo \(color ILIKE 'negro'\). Luego se combina con un bucle anidado con la tabla anterior.\r\n\r\nFinalmente, despuÈs de que todas las tablas se hayan combinado,  se ordenan los resultados por cliente_id. Luego, se realiza una agregaciÛn para contar el n˙mero de clientes distintos y calcular el porcentaje correspondiente a la consulta, multiplicando por 100 y dividiendo entre 3.000.000)/Rect[ 81.878998 96.442902 543.31403 555.164]/Subtype/Widget/T(Text12)/Type/Annot/V(Primero se hace una lectura secuencial en la tabla incidencias, donde se filtra por el estado cerrada. Este resultado se encauza a travÈs de un LEFT JOIN posterior con la tabla reservas, de forma que se mantendr·n todas las reservas, incluso aquellas que no tienen incidencia cerrada.\r\n\r\nA continuaciÛn, se realiza otra lectura secuencial sobre la tabla reservas, donde se aplica un filtro por los meses de verano. Este resultado se pasa a un  LEFT JOIN mediante un bulce anidado con la tabla incidencias, donde se compara el reservaid de las reservas con el de las incidencias cerradas. Este paso se materializa,  asegurando que se utilicen los resultados intermedios de las reservas al realizar la comparaciÛn.\r\n\r\nLuego, se ejecuta una lectura secuencial sobre la tabla pagos con el filtro cantidad > 150. Los resultados de este escaneo se encauzan a travÈs de un Hash Join con las reservas de antes, donde se construye una tabla hash para realizar la comparaciÛn eficiente entre los reservaid de pagos y reservas.\r\n\r\nDespuÈs, se realiza una b˙squeda por Ìndice sobre la tabla clientes usando el Ìndice primario. A esto adem·s se le aplica el filtro de las provincias. Los resultados se encauzan para unirse con las tablas de reservas y pagos en el siguiente paso.\r\n\r\nSeguidamente, se hace otra b˙squeda por Ìndice sobre la tabla plazas, utilizando el Ìndice primario para buscar las plazas asociadas a cada reserva. El filtro de nivel < -4 se aplica durante esta lectura y los resultados se encauzan.\r\n\r\nEn la etapa siguiente, se realiza otra lectura por Ìndice sobre la tabla vehiculos, aplicando un filtro por color de vehÌculo \(color ILIKE 'negro'\). Luego se combina con un bucle anidado con la tabla anterior.\r\n\r\nFinalmente, despuÈs de que todas las tablas se hayan combinado,  se ordenan los resultados por cliente_id. Luego, se realiza una agregaciÛn para contar el n˙mero de clientes distintos y calcular el porcentaje correspondiente a la consulta, multiplicando por 100 y dividiendo entre 3.000.000)>>
 endobj
 124 0 obj
 <</AP<</N 959 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 40 0 R /RV(˛ˇ P r i m e r o   c a l c u l a m o s   e l   n u m e r o   d e   t u p l a s   q u e   p a s a r · n   d e   c a d a   t a b l a   p o r   l a s   d i f e r e n t e s   s e l e c c i o n e s   q u e   s e   h a c e n ,   p a r a   v e r   e l   o r d e n   Û p t i m o   p a r a   h a c e r   l o s   J O I N   d e   t a l   m a n e r a   q u e   s e   q u i t e n   l a   m a y o r   c a n t i d a d   d e   t u p l a s   c u a n t o   a n t e s : \r \n C L I E N T E S :   N r c   =   8   *   \( N r   /   V \( p r o v i n c i a \) \)   =   8   *   \( 3 . 0 0 0 . 0 0 0 / 5 0 \)   =   4 8 0 . 0 0 0   t u p l a s \r \n R E S E R V A S   N r c   =   3   *   \( N r   /   V \( m e s \) \)   =   3   *   \(   4 0 . 0 0 0 . 0 0 0   /   1 2 \)     =   9 . 9 9 9 . 9 9 9   t u p l a s \r \n P A G O :   c o n s u l t a m o s   a   l a   b a s e   d e   d a t o s ,   n o s   d e v u e l v e   q u e   h a y   1 2 . 2 2 2 . 7 0 1   t u p l a s \r \n P L A Z A :   N r c   =   6   *   \( N r   /   V \( n i v e l \) \)   =   6   *   \( 2 0 0 . 0 0 0   /   1 1 \)   =   1 0 9 . 0 9 0   t u p l a s \r \n V E H I C U L O S :   N r c   =   N r   /   V \( c o l o r \)   =   5 . 0 0 0 . 0 0 0   /   1 0   =   5 0 0 . 0 0 0   t u p l a s \r \n I N C I D E N C I A S :   N r c   =   N r   /   V \( E s t a d o \)   =   4 . 0 0 0 . 0 0 0   /   5   =   8 0 0 . 0 0 0   t u p l a s \r \n D e   a q u i ,   b u s c a n d o   l a   m a n e r a   m a s   Û p t i m a   d e   h a c e r   l a s   u n i o n e s   h e m o s   o b t e n i d o   e l   s i g u i e n t e   o r d e n   p a r a   l o s   J O I N :     \( \( \( \( C l i e n t e s   J O I N*   R e s e r v a s \)  *   J O I N   P l a z a s \)  *   J O I N   P a g o s \)  *   J O I N   V e h i c u l o s \)  '’   L E F T   J O I N   I n c i d e n c i a s \) . M i e n t r a s   q u e   p a r a   e l   E X P L A I N   e l   o r d e n   m · s   o p t i m o   s e r Ì a   e l   s i g u i e n t e :   \( \( \( \( R e s e r v a s   L E F T   J O I N   I n c i d e n c i a s \)   J O I N   P a g o s \)   J O I N   C l i e n t e s \)   J O I N   P l a z a s \)   J O I N   V e h i c u l o s \) \r \n E s t a   d i f e r e n c i a   s e   p u e d e   d e b e r   a   q u e   e l   E X P L A I N   v e a   e s t a d Ì s t i c a s   i n t e r n a s   o   p r o p i e d a d e s   d e   l a s   t a b l a s   q u e   h a g a n   l a s   c o n s u l t a s   m · s   Û t i m a s   d e   u n a   m a n e r a   q u e   d e   o t r a .)/Rect[ 81.115997 557.62 542.552 754.77802]/Subtype/Widget/T(Text13)/Type/Annot/V(˛ˇ P r i m e r o   c a l c u l a m o s   e l   n u m e r o   d e   t u p l a s   q u e   p a s a r · n   d e   c a d a   t a b l a   p o r   l a s   d i f e r e n t e s   s e l e c c i o n e s   q u e   s e   h a c e n ,   p a r a   v e r   e l   o r d e n   Û p t i m o   p a r a   h a c e r   l o s   J O I N   d e   t a l   m a n e r a   q u e   s e   q u i t e n   l a   m a y o r   c a n t i d a d   d e   t u p l a s   c u a n t o   a n t e s : \r \n C L I E N T E S :   N r c   =   8   *   \( N r   /   V \( p r o v i n c i a \) \)   =   8   *   \( 3 . 0 0 0 . 0 0 0 / 5 0 \)   =   4 8 0 . 0 0 0   t u p l a s \r \n R E S E R V A S   N r c   =   3   *   \( N r   /   V \( m e s \) \)   =   3   *   \(   4 0 . 0 0 0 . 0 0 0   /   1 2 \)     =   9 . 9 9 9 . 9 9 9   t u p l a s \r \n P A G O :   c o n s u l t a m o s   a   l a   b a s e   d e   d a t o s ,   n o s   d e v u e l v e   q u e   h a y   1 2 . 2 2 2 . 7 0 1   t u p l a s \r \n P L A Z A :   N r c   =   6   *   \( N r   /   V \( n i v e l \) \)   =   6   *   \( 2 0 0 . 0 0 0   /   1 1 \)   =   1 0 9 . 0 9 0   t u p l a s \r \n V E H I C U L O S :   N r c   =   N r   /   V \( c o l o r \)   =   5 . 0 0 0 . 0 0 0   /   1 0   =   5 0 0 . 0 0 0   t u p l a s \r \n I N C I D E N C I A S :   N r c   =   N r   /   V \( E s t a d o \)   =   4 . 0 0 0 . 0 0 0   /   5   =   8 0 0 . 0 0 0   t u p l a s \r \n D e   a q u i ,   b u s c a n d o   l a   m a n e r a   m a s   Û p t i m a   d e   h a c e r   l a s   u n i o n e s   h e m o s   o b t e n i d o   e l   s i g u i e n t e   o r d e n   p a r a   l o s   J O I N :     \( \( \( \( C l i e n t e s   J O I N*   R e s e r v a s \)  *   J O I N   P l a z a s \)  *   J O I N   P a g o s \)  *   J O I N   V e h i c u l o s \)  '’   L E F T   J O I N   I n c i d e n c i a s \) . M i e n t r a s   q u e   p a r a   e l   E X P L A I N   e l   o r d e n   m · s   o p t i m o   s e r Ì a   e l   s i g u i e n t e :   \( \( \( \( R e s e r v a s   L E F T   J O I N   I n c i d e n c i a s \)   J O I N   P a g o s \)   J O I N   C l i e n t e s \)   J O I N   P l a z a s \)   J O I N   V e h i c u l o s \) \r \n E s t a   d i f e r e n c i a   s e   p u e d e   d e b e r   a   q u e   e l   E X P L A I N   v e a   e s t a d Ì s t i c a s   i n t e r n a s   o   p r o p i e d a d e s   d e   l a s   t a b l a s   q u e   h a g a n   l a s   c o n s u l t a s   m · s   Û t i m a s   d e   u n a   m a n e r a   q u e   d e   o t r a .)>>
@@ -2060,19 +2035,19 @@ endobj
 <</AP<</N 990 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 44 0 R /RV(Ejecutando el comando ANALYZE actualizamos todas las estadÌsticas de las tablas como pueden ser el n˙mero de filas, su tamaÒo, el n˙mero de valores distintos, etc.\r\n\r\nEstos valores son los que utiliza el optimizador para elejir la manera Ûptima de ejecutar la consulta. Por esto la consulta puede experimentar ligeras modificaciones en los mÈtodos usados y su orden de ejecuciÛn. En este caso en concreto el tiempo a aumentado un poco y solo ha cambiado la forma en la que se hace un JOIN. Esto nos puede decir que la consulta ya estaba lo sificientemente optimizada y/o que los datos de las tablas ya estaban actualizados.\r\n)/Rect[ 82.751701 537.44897 544.18597 753.80701]/Subtype/Widget/T(Text16)/Type/Annot/V(Ejecutando el comando ANALYZE actualizamos todas las estadÌsticas de las tablas como pueden ser el n˙mero de filas, su tamaÒo, el n˙mero de valores distintos, etc.\r\n\r\nEstos valores son los que utiliza el optimizador para elejir la manera Ûptima de ejecutar la consulta. Por esto la consulta puede experimentar ligeras modificaciones en los mÈtodos usados y su orden de ejecuciÛn. En este caso en concreto el tiempo a aumentado un poco y solo ha cambiado la forma en la que se hace un JOIN. Esto nos puede decir que la consulta ya estaba lo sificientemente optimizada y/o que los datos de las tablas ya estaban actualizados.\r\n)>>
 endobj
 128 0 obj
-<</AP<</N 90 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 44 0 R /Rect[ 85.041702 76.6819 546.47601 473.72]/Subtype/Widget/T(Text17)/Type/Annot>>
+<</AP<</N 1011 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 44 0 R /RV(Primero hemos creado un Ìndice para cada tabla:\r\n- En reservas, hemos hecho un Ìndioce por clienteid_clientes y otro para vehiculoid_vehiculos\r\n- En pagos hemos hehco un Ìndice por reservaid_reservas\r\n- En incidencias hemos hecho otro Ìndice, tambiÈn ordenado por reservaid_reservas\r\n- En vehiculos hemos hehco un Ìndice por clienteid_clientes\r\nLa finalidad de estos Ìndices es acelerar la busquedas a la hora de hacer el borrado y evitar los escaneos secuenciales continuos, algo que ha sido problem·tico para nosotros en las primeras versiones que hemos hecho de los borrados.\r\nUna vez creados, hemos construido una tabla temporal en la que se elige aleatoriamente al 30% de clientes \(900.000 tuplas\). Para mantener la integridad referencial hemos hecho los DELETE en un orden epecÌfico:\r\nPrimero borramos todos los pagos de los clientes seleccionados, usando la tabla temporal creada anteriormente. Luego de esto borramos las incidencias, usando tambien esta tabla temporal. Luego eliminamos los pagos relacionados con reservas de los vehiculos del cliente, y lo mismo con incidencias, eliminamos las que esten relacionadas con reservas del vehiculo del cliente. Estos dos ˙ltimos DELETE los necesitamos hacer ya que si no los hicieramos, a la hora de borrar los vehiculos, nos daba problemas con la integridad referencial. DespuÈs de esto eliminamos las reservas de los clientes, seguido eliminamos las reservas de los vehiculos de los clientes por la misma razÛn que ya hemos explicado antes. Ahora sÌ, eliminamos los vehiculos de los clientes y por ˙ltimo, a los clientes. \r\nLos tiempos han sido los siguientes:\r\n- Seleccionar 900.000 clientes: 1,4 segundos\r\n- Eliminar los pagos de reservas del cliente: 589 segundos\r\n- Eliminar Incidencias de las reservas del cliente: 26 segundos\r\n- Pagos de reservas del vehiculo del cliente: 418 segundos\r\n- Incidencias de reservas del vehiculo del cliente: 23 segundos\r\n- Reservas del cliente: 1148 segundos\r\n- Reservas del vehiculo del cliente: 496 segundos\r\n- Vehiculos del cliente: 139 segundos\r\n- Clientes: 148 segundos\r\nEste borrado ha tardado un total de 2988 segundos o 49,8 minutos.)/Rect[ 85.041702 76.6819 546.47601 473.72]/Subtype/Widget/T(Text17)/Type/Annot/V(Primero hemos creado un Ìndice para cada tabla:\r\n- En reservas, hemos hecho un Ìndioce por clienteid_clientes y otro para vehiculoid_vehiculos\r\n- En pagos hemos hehco un Ìndice por reservaid_reservas\r\n- En incidencias hemos hecho otro Ìndice, tambiÈn ordenado por reservaid_reservas\r\n- En vehiculos hemos hehco un Ìndice por clienteid_clientes\r\nLa finalidad de estos Ìndices es acelerar la busquedas a la hora de hacer el borrado y evitar los escaneos secuenciales continuos, algo que ha sido problem·tico para nosotros en las primeras versiones que hemos hecho de los borrados.\r\nUna vez creados, hemos construido una tabla temporal en la que se elige aleatoriamente al 30% de clientes \(900.000 tuplas\). Para mantener la integridad referencial hemos hecho los DELETE en un orden epecÌfico:\r\nPrimero borramos todos los pagos de los clientes seleccionados, usando la tabla temporal creada anteriormente. Luego de esto borramos las incidencias, usando tambien esta tabla temporal. Luego eliminamos los pagos relacionados con reservas de los vehiculos del cliente, y lo mismo con incidencias, eliminamos las que esten relacionadas con reservas del vehiculo del cliente. Estos dos ˙ltimos DELETE los necesitamos hacer ya que si no los hicieramos, a la hora de borrar los vehiculos, nos daba problemas con la integridad referencial. DespuÈs de esto eliminamos las reservas de los clientes, seguido eliminamos las reservas de los vehiculos de los clientes por la misma razÛn que ya hemos explicado antes. Ahora sÌ, eliminamos los vehiculos de los clientes y por ˙ltimo, a los clientes. \r\nLos tiempos han sido los siguientes:\r\n- Seleccionar 900.000 clientes: 1,4 segundos\r\n- Eliminar los pagos de reservas del cliente: 589 segundos\r\n- Eliminar Incidencias de las reservas del cliente: 26 segundos\r\n- Pagos de reservas del vehiculo del cliente: 418 segundos\r\n- Incidencias de reservas del vehiculo del cliente: 23 segundos\r\n- Reservas del cliente: 1148 segundos\r\n- Reservas del vehiculo del cliente: 496 segundos\r\n- Vehiculos del cliente: 139 segundos\r\n- Clientes: 148 segundos\r\nEste borrado ha tardado un total de 2988 segundos o 49,8 minutos.)>>
 endobj
 129 0 obj
-<</AP<</N 92 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 47 0 R /Rect[ 83.079697 535.25702 544.51501 704.737]/Subtype/Widget/T(Text18)/Type/Annot>>
+<</AP<</N 1013 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 47 0 R /RV(La consulta es la siguiente:\r\n SELECT  COUNT\(DISTINCT c.clienteid\) * 100.0 / 3000000 AS Porcentaje\r\nFROM clientes c JOIN reservas r ON c.clienteid = r.clienteid_clientes \r\nJOIN plazas p ON p.plazaid = r.plazaid_plazas JOIN  pagos pa ON pa.reservaid_reservas = r.reservaid JOIN vehiculos v ON v.vehiculoid = r.vehiculoid_vehiculos LEFT JOIN  incidencias i ON i.reservaid_reservas = r.reservaid AND i.estado = 'Cerrada'\r\nWHERE \r\n    c.provincia IN \('AlmerÌa', 'C·diz', 'CÛrdoba', 'Granada', 'Huelva', 'JaÈn', 'M·laga', 'Sevilla'\) AND EXTRACT\(MONTH FROM r.fechainicio\) IN \(6, 7, 8\)  AND pa.cantidad > 150 AND p.nivel < -4  AND v.color ILIKE 'negro' AND i.incidenciaid IS NULL;\r\n\r\nEl tiempo de ejecuciÛn de la consulta es de 36 minutos y 55 segundos y devuelve un porcentaje de 0,1607666....)/Rect[ 83.079697 535.25702 544.51501 704.737]/Subtype/Widget/T(Text18)/Type/Annot/V(La consulta es la siguiente:\r\n SELECT  COUNT\(DISTINCT c.clienteid\) * 100.0 / 3000000 AS Porcentaje\r\nFROM clientes c JOIN reservas r ON c.clienteid = r.clienteid_clientes \r\nJOIN plazas p ON p.plazaid = r.plazaid_plazas JOIN  pagos pa ON pa.reservaid_reservas = r.reservaid JOIN vehiculos v ON v.vehiculoid = r.vehiculoid_vehiculos LEFT JOIN  incidencias i ON i.reservaid_reservas = r.reservaid AND i.estado = 'Cerrada'\r\nWHERE \r\n    c.provincia IN \('AlmerÌa', 'C·diz', 'CÛrdoba', 'Granada', 'Huelva', 'JaÈn', 'M·laga', 'Sevilla'\) AND EXTRACT\(MONTH FROM r.fechainicio\) IN \(6, 7, 8\)  AND pa.cantidad > 150 AND p.nivel < -4  AND v.color ILIKE 'negro' AND i.incidenciaid IS NULL;\r\n\r\nEl tiempo de ejecuciÛn de la consulta es de 36 minutos y 55 segundos y devuelve un porcentaje de 0,1607666....)>>
 endobj
 130 0 obj
-<</AP<</N 91 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 47 0 R /Rect[ 79.974899 78.602203 541.40997 509.95999]/Subtype/Widget/T(Text19)/Type/Annot>>
+<</AP<</N 1015 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 47 0 R /RV(Primero se hace una lectura secuencial en la tabla incidencias, donde se filtra por el estado cerrada. Este resultado se encauza a travÈs de un LEFT JOIN posterior con la tabla reservas, de forma que se mantendr·n todas las reservas, incluso aquellas que no tienen incidencia cerrada.\r\n\r\nA continuaciÛn, se realiza otra lectura secuencial sobre la tabla reservas, donde se aplica un filtro por los meses de verano. Este resultado se pasa a un  LEFT JOIN mediante un bulce anidado con la tabla incidencias, donde se compara el reservaid de las reservas con el de las incidencias cerradas. Este paso se materializa,  asegurando que se utilicen los resultados intermedios de las reservas al realizar la comparaciÛn.\r\n\r\nTras esto se hace una b˙squeda por Ìndice en cliente, filtrando adem·s solo las provincias de andalucÌa. Esto se une a la tabla anterior con un JOIN de bucle anidado\r\n\r\nSeguidamente, se hace una b˙squeda secuencial sobre la tabla plazas. El filtro de nivel < -4 se aplica durante esta lectura y los resultados se encauzan.\r\n\r\nLuego se utiliza el Ìndice de reservaid_reserva de la tabla pagos para filtrarla  seg˙n el costo y esto se une mediante in JOIN de bulce anidado a la tabla resultante anterior.\r\n\r\nY por ˙ltimo, se realiza otra lectura por Ìndice sobre la tabla vehiculos, aplicando un filtro por color de vehÌculo \(color ILIKE 'negro'\). Luego se combina con un bucle anidado con la tabla anterior.\r\n\r\nFinalmente, despuÈs de que todas las tablas se hayan combinado,  se ordenan los resultados por cliente_id. Luego, se realiza una agregaciÛn para contar el n˙mero de clientes distintos y calcular el porcentaje correspondiente a la consulta, multiplicando por 100 y dividiendo entre 3.000.000)/Rect[ 79.974899 78.602203 541.40997 509.95999]/Subtype/Widget/T(Text19)/Type/Annot/V(Primero se hace una lectura secuencial en la tabla incidencias, donde se filtra por el estado cerrada. Este resultado se encauza a travÈs de un LEFT JOIN posterior con la tabla reservas, de forma que se mantendr·n todas las reservas, incluso aquellas que no tienen incidencia cerrada.\r\n\r\nA continuaciÛn, se realiza otra lectura secuencial sobre la tabla reservas, donde se aplica un filtro por los meses de verano. Este resultado se pasa a un  LEFT JOIN mediante un bulce anidado con la tabla incidencias, donde se compara el reservaid de las reservas con el de las incidencias cerradas. Este paso se materializa,  asegurando que se utilicen los resultados intermedios de las reservas al realizar la comparaciÛn.\r\n\r\nTras esto se hace una b˙squeda por Ìndice en cliente, filtrando adem·s solo las provincias de andalucÌa. Esto se une a la tabla anterior con un JOIN de bucle anidado\r\n\r\nSeguidamente, se hace una b˙squeda secuencial sobre la tabla plazas. El filtro de nivel < -4 se aplica durante esta lectura y los resultados se encauzan.\r\n\r\nLuego se utiliza el Ìndice de reservaid_reserva de la tabla pagos para filtrarla  seg˙n el costo y esto se une mediante in JOIN de bulce anidado a la tabla resultante anterior.\r\n\r\nY por ˙ltimo, se realiza otra lectura por Ìndice sobre la tabla vehiculos, aplicando un filtro por color de vehÌculo \(color ILIKE 'negro'\). Luego se combina con un bucle anidado con la tabla anterior.\r\n\r\nFinalmente, despuÈs de que todas las tablas se hayan combinado,  se ordenan los resultados por cliente_id. Luego, se realiza una agregaciÛn para contar el n˙mero de clientes distintos y calcular el porcentaje correspondiente a la consulta, multiplicando por 100 y dividiendo entre 3.000.000)>>
 endobj
 131 0 obj
-<</AP<</N 93 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 146 0 R /F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 50 0 R /Rect[ 82.5933 600.57397 544.02802 751.62799]/Subtype/Widget/T(Text20)/Type/Annot>>
+<</AP<</N 1018 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 146 0 R /F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 50 0 R /RV(El proceso seguido por el planifiador es muy similar, pero hay algunas diferencias en el orden en el que hace las cosas y los mÈtodos utilizados, adem·s del tiempo de la consulta, que es mucho mayor.\r\n\r\nEl camino ideado es igual en ambas tablas hasta que se llega al tercer JOIN. En la consulta original este JOIN es entre pagos y la tabla obtenida de los JOIN anteriores, mientras que aqui la tabla pagos se sustituye por clientes. Cuanndo en la original se hace el JOIN de clientes, en la nueva se hace el de pagos. El resto de JOIN est·n igual. Adem·s mientras que en la original se usaba un HASH para el JOIN de pagos y reservas, aqui lo hace todo con bucles anidados.\r\nLos metodos de lectura en las tablas son iguales en su mayorÌa. Solo cambia la lectura de pagos, que se usa el Ìndice por reservaid_reservas creado para el borrado anterior , y la lectura de plazas, que en la cuestiÛn 9 usaba el Ìndice primario y aqui usa lectura secuencial. Ambas acaban ordenando y agrupando la tabla resultante.\r\n)/Rect[ 82.5933 600.57397 544.02802 751.62799]/Subtype/Widget/T(Text20)/Type/Annot/V(El proceso seguido por el planifiador es muy similar, pero hay algunas diferencias en el orden en el que hace las cosas y los mÈtodos utilizados, adem·s del tiempo de la consulta, que es mucho mayor.\r\n\r\nEl camino ideado es igual en ambas tablas hasta que se llega al tercer JOIN. En la consulta original este JOIN es entre pagos y la tabla obtenida de los JOIN anteriores, mientras que aqui la tabla pagos se sustituye por clientes. Cuanndo en la original se hace el JOIN de clientes, en la nueva se hace el de pagos. El resto de JOIN est·n igual. Adem·s mientras que en la original se usaba un HASH para el JOIN de pagos y reservas, aqui lo hace todo con bucles anidados.\r\nLos metodos de lectura en las tablas son iguales en su mayorÌa. Solo cambia la lectura de pagos, que se usa el Ìndice por reservaid_reservas creado para el borrado anterior , y la lectura de plazas, que en la cuestiÛn 9 usaba el Ìndice primario y aqui usa lectura secuencial. Ambas acaban ordenando y agrupando la tabla resultante.\r\n)>>
 endobj
 132 0 obj
-<</AP<</N 94 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 50 0 R /Rect[ 82.375099 373.57101 543.81 552.30298]/Subtype/Widget/T(Text21)/Type/Annot>>
+<</AP<</N 1020 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 50 0 R /RV(algo de hacer vaccum y de crear idnices creo??)/Rect[ 82.375099 373.57101 543.81 552.30298]/Subtype/Widget/T(Text21)/Type/Annot/V(algo de hacer vaccum y de crear idnices creo??)>>
 endobj
 133 0 obj
 <</AP<</N 95 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 50 0 R /Rect[ 81.065804 67.560097 542.50098 279.474]/Subtype/Widget/T(Text22)/Type/Annot>>
@@ -4603,12 +4578,6 @@ endobj
 936 0 obj
 <</Georgia 98 0 R >>
 endobj
-945 0 obj
-<</BBox[ 0 0 461.43503 458.7211]/Filter/FlateDecode/FormType 1/Length 1007/Matrix[ 1 0 0 1 0 0]/Resources<</Font 936 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xúçVMè€6ΩÎWÃ-I·(í◊ﬁÓEÅ$u⁄M7mÉ˙†ìcôäî˘aƒ˚osÃ!ßﬁr*Üím≠mÜa√†HŒÃ{oﬁhù¿W•?ìÎ2ü\Mã+òLoÚ«e	é≤JòLo˜OÆ˜Oñ?d≥WÛœÊ√€lùΩôgTY	ì…M>Ê=sôΩ˙ï¨´BY¿|ô=ˇÀ©öúO∞BAÇ&¢C$"°P–A°dZ˜#ê÷H‚”K•ÉCh¨“@>†¥ »9îò√ò?dº,«˘t|{{{s√…<ü˘@‡»Gù∂{2„#Bp∏˘ÍArNp?{7á˜ﬁ˝çıÅú≤ÑÌ%Â»ì€§åñ÷’Îò]£	d§˚b Xâ4˙ﬁ- Ω\G“¸ào3Ç"C¶á¡æ∆ÛqNøÊƒÉ2Ö˙◊å8EG®’#Çeœ†ÔÌ¬—ŸZwËc£ï@F*Ò`ïkÎ°&O	€946áS&ÙLC4–Cø&©8^^D-–(ô®Ó≥—è|U„€´˘ºrÑ≠t»≤È*SíSÎíÆ'Ω[Ó]¥√ﬂw54ËÌqÂ◊7m|OP#´'¡=@OUth§›©%•ï`π[¿É#r\Ωı'π°ﬁ1Ë`∏¯ÆL&˝X+]~ßgÓ#U6IÑHƒÄC˝y§ê+ª«¨SÑ@ò*¯ ië√˝” ìƒΩÃ?ı[‘˜ËoËWﬁ*”i°áêdùz ∫Ò¡≈mk9òµ’¨¯‚$ë>Ã=<ÅñJ(b]í	ÑıOµ‘≤›gt1øêo‚Wˇ§M9·≈wøé$[√˚f§tLÇ–)%—'Öëﬁmlú™—)õ√kFwPØ(©˛‚9¥ﬁ∑¯Å–NÜç≥ïZ·Ñ”>Y	øhîk±OGSûâù#¸ÀIäøÁo€HIP^U±EõõÌb„˚õ™®$÷|r¥8…Û.@≥—¯»∂ëÙq –∂ ﬂ[D/ít|w†∑B±w Ç@πw÷f}îç⁄êÜü‡Â§gµí}#5F8t‰6)oÃ3º\åﬁ,Ÿ+l@¿ÙrC+%¢∂~‘ï¬P^48Ñ’÷µCcıçØÄO›⁄›˝›Ô3xf®rˆŸß9$„Í⁄|√C“övd=02LÎÚN‘ùòd€•ú˚¯a†w
-Ob€";SΩP•/Z'…‡âŸˇmSˇ£dW‰â3`Â®jm)©ëß=¶ó"Û=ΩjI:XÉT>(í7	‘"ÍvÎ@Ù∆:A&‡Î˘∆Ÿ∂"∂ûhR#®£jO/TlA™ç‚‹>…*ØÚ¢(¯õBŒÊŸ«lˆ·mˆhÜfÚ
-endstream
-endobj
 946 0 obj
 <</BBox[ 0 0 460.01819 299.36069]/Filter/FlateDecode/FormType 1/Length 724/Matrix[ 1 0 0 1 0 0]/Resources<</Font 856 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xúùTMo‹6ΩÎWº„:Î¨)ÌG§¥{∞çm`Ì|tÅ4≈≈,EØiP-II˛m~@Nπ˘TP≤\;Ì€B@rÜÛ8oﬁÃ.àü€∂ã…LåDöß≤¢çgbV¿©$Eä…4ø7=˚€tı$yìú¨>‚Ï‚<Ÿ˝»Û]bì≥U"∞MRdy> [À™LN~UÏ∂öê
@@ -4697,40 +4666,92 @@ endobj
 992 0 obj
 <</Georgia 98 0 R >>
 endobj
-994 0 obj
-<</BaseFont/Untitled/DescendantFonts[ 995 0 R ]/Encoding/Identity-H/Subtype/Type0/ToUnicode 1001 0 R /Type/Font>>
-endobj
-995 0 obj
-<</BaseFont/Untitled/CIDSystemInfo 996 0 R /CIDToGIDMap 1000 0 R /FontDescriptor 997 0 R /Subtype/CIDFontType2/Type/Font/W 999 0 R >>
-endobj
-996 0 obj
-<</Ordering(Identity)/Registry(Adobe)/Supplement 0>>
-endobj
-997 0 obj
-<</Ascent 1000/CapHeight 1000/Descent 0/Flags 33/FontBBox[ 0 0 500 1000]/FontFile2 998 0 R /FontName/Untitled/ItalicAngle 0/StemV 70/Type/FontDescriptor>>
-endobj
-998 0 obj
-<</Filter/FlateDecode/Length 329/Length1 573>>stream
-xúmë±O¬@∆◊^±âò(q0¶„Ä`åìÉN&¨⁄`µ$¥ 0‡∆ËË¿‰?‡‚¿ËÓ‚¶ÉìÉìõì$n$»µ’ ¯%ów˜}ÔΩ˚ﬁà”E«*mmóﬂ{ 6Äìäg7à≥‚X;Ø]û-ØdA‹+Æcü&:üpÏ∫Æc'5©Ô@÷ı⁄âÇ∏ÃZΩbìŒ} ÊŸùc¨õÄÂ€û3¯HøÇxıVÅ mUÈjßVøwë:^ÿ˚ísf–˝ÈfË´¯Úp;PQ)4B0çîÍAßIh£!#eZ=xcÜè`ÑFˇA±T*≤vUTb˜oJT('Ω¿í∫3à±ÒM"˘SL™C!≥òë√πu6Cø§ª$H£#‰|ƒóqh“¢Jã9ÚeßŸ™÷}´êÀOø¬ÏxﬂπÈ9û
-endstream
-endobj
-999 0 obj
-[ 0 65535 500]
-endobj
-1000 0 obj
-<</Filter/FlateDecode/Length 150>>stream
-xúÌ¬	   †˙:háh                                                                                                                              Ä ˇ 
-endstream
-endobj
-1001 0 obj
-<</Filter/FlateDecode/Length 219>>stream
-xúmêÕj√0ÑÔzä=&á %gc(	¶>4-u^@ñ∆FØÑ,¸ˆE î¥0;˙ñŸÚÿûZvâ‰OÙ¶C¢¡±çò˝®«ËXÏdùIwU™ôtÓ÷9ajyTUÇH˛btsä+m>¨Ô±ÕΩÔhè¥i-8π¥ñv∑Ñp≈N§D]ì≈ ‰ÒKá≥û@≤ª±˚|˘ó5ÄEÔo©å∑òÉ6àöGàJ)•j™ö¶ij∂ˇ¸;’oæ”MeÍ·Áy·g6≥ƒNÂ*%QŒ‚œ√2Uﬁﬂàt4
-endstream
-endobj
 1002 0 obj
 <</BBox[ 0 0 461.43393 276.58899]/Filter/FlateDecode/FormType 1/Length 773/Matrix[ 1 0 0 1 0 0]/Resources<</Font 992 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
 xúçTΩnGÓÔ)æRË3)QäòNvÑ4v`Lë¿Õv»±∑{‹Ÿ#$ΩMMe
 Ü∫T¡Ïâ¢aÈ É≈;ª3ﬂœÃÏ™)Ïó6Âœ¸bVœœŒg8˝˘¢>øº\,ê∏öaÜ˘˘‚)4?Ü÷?Uü™7Àº˝Æ⁄Uoó’õjÜ”ããzZ.-]ıÊ7éi#ÑŸÀuurÂ¡⁄$YIBM⁄˚Lt∫ÛPŸÙå>†K±aç‡ 'kNÅ3+:“®ˆÏ±ñ «à´ÃÅìù4‘JàhÔØ∞‹VSºûù÷Áßã≈‚Ú“–ú<tY⁄à.™¨<ˇÇë{œæ∆«$-ß8±B]äõD-aœI÷“v=√TB¶QÊèÏ†LÿìG‹ñÀ”ÜêxÕâC#§ dZyR‹éÅßúd’ÁX≤≥fRdjWÚo¿˛ﬁããˆñoD3áÃZõÊl:ùÕ_¶ˆG0wï∞€#/Ãû®∞’hÇèQÛ&±bc–‡T©çŒS‡ËñõæëáPèÒÍ»ﬁrÊ‘J†Ñ¶'Î⁄¨‰µ4bYãÙ—î;r1°œ‚Âé“=L7Sƒ}—,)$dNÅç–É∂#>üÑˇÃ‹Ç◊sÀ!Gù†°ê≈ë≥„‹wûtbR8—‚Ñë≤–û|L¨®‰«ó‡§aED∞ñ…ÕÁW(<G$¶B•kññÈ}iyÕÉú9B‚!b`ƒ‡æ$πE˘+π®5~Â±⁄9ZÎ∞é$1Ÿy+Èﬁ‰wåñCL¢Wª^Ã+Éâ$“v1e≤∂6πéhFÍ;›ÿRpWø_ΩˇÛØÎ◊öO«‘‰ættZ4ˇ”<3ò†˝?<¬Ñ¸&é’f-„ÁAﬂxPt¯Æ{ﬂ?l§!ÎçA˘óÙ~ú°";(ß˚Q⁄-o≠m¨kûµØ≠8;¥|9—ä∂–ƒîX;S:Ä˜…L3‡¸ùıèn∂√¯ì],ÎÕ»€ËÎ≤ÃùZ_∑ènÊaÊéK¡3Üœé˜—ÔÖãqΩˆîd‘_î4÷ß?˚zY}™Æ?º´˛·ﬂ3X
+endstream
+endobj
+1003 0 obj
+<</BaseFont/Untitled/DescendantFonts[ 1004 0 R ]/Encoding/Identity-H/Subtype/Type0/ToUnicode 1010 0 R /Type/Font>>
+endobj
+1004 0 obj
+<</BaseFont/Untitled/CIDSystemInfo 1005 0 R /CIDToGIDMap 1009 0 R /FontDescriptor 1006 0 R /Subtype/CIDFontType2/Type/Font/W 1008 0 R >>
+endobj
+1005 0 obj
+<</Ordering(Identity)/Registry(Adobe)/Supplement 0>>
+endobj
+1006 0 obj
+<</Ascent 1000/CapHeight 1000/Descent 0/Flags 33/FontBBox[ 0 0 500 1000]/FontFile2 1007 0 R /FontName/Untitled/ItalicAngle 0/StemV 70/Type/FontDescriptor>>
+endobj
+1007 0 obj
+<</Filter/FlateDecode/Length 329/Length1 573>>stream
+xúmë±O¬@∆◊^±âò(q0¶„Ä`åìÉN&¨⁄`µ$¥ 0‡∆ËË¿‰?‡‚¿ËÓ‚¶ÉìÉìõì$n$»µ’ ¯%ów˜}ÔΩ˚ﬁà”E«*mmóﬂ{ 6Äìäg7à≥‚X;Ø]û-ØdA‹+Æcü&:üpÏ∫Æc'5©Ô@÷ı⁄âÇ∏ÃZΩbìŒ} ÊŸùc¨õÄÂ€û3¯HøÇxıVÅ mUÈjßVøwë:^ÿ˚ísf–˝ÈfË´¯Úp;PQ)4B0çîÍAßIh£!#eZ=xcÜè`ÑFˇA±T*≤vUTb˜oJT('Ω¿í∫3à±ÒM"˘SL™C!≥òë√πu6Cø§ª$H£#‰|ƒóqh“¢Jã9ÚeßŸ™÷}´êÀOø¬ÏxﬂπÈ9û
+endstream
+endobj
+1008 0 obj
+[ 0 65535 500]
+endobj
+1009 0 obj
+<</Filter/FlateDecode/Length 150>>stream
+xúÌ¬	   †˙:háh                                                                                                                              Ä ˇ 
+endstream
+endobj
+1010 0 obj
+<</Filter/FlateDecode/Length 219>>stream
+xúmêÕj√0ÑÔzä=&á %gc(	¶>4-u^@ñ∆FØÑ,¸ˆE î¥0;˙ñŸÚÿûZvâ‰OÙ¶C¢¡±çò˝®«ËXÏdùIwU™ôtÓ÷9ajyTUÇH˛btsä+m>¨Ô±ÕΩÔhè¥i-8π¥ñv∑Ñp≈N§D]ì≈ ‰ÒKá≥û@≤ª±˚|˘ó5ÄEÔo©å∑òÉ6àöGàJ)•j™ö¶ij∂ˇ¸;’oæ”MeÍ·Áy·g6≥ƒNÂ*%QŒ‚œ√2Uﬁﬂàt4
+endstream
+endobj
+1011 0 obj
+<</BBox[ 0 0 461.43433 397.03809]/Filter/FlateDecode/FormType 1/Length 989/Matrix[ 1 0 0 1 0 0]/Resources<</Font 991 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xúïVMo€FΩÛWÃ•ÄS»)JÆ®[„EpRµß ∆h9í∂XÓ ;K# øÕ1üzÎ©ÿÂáDE¥U¯BÉ‹˜ﬁºy3´«(ˇg7·arì∆ìlíeêÂøƒI6Kr∞•ê¬döwØ¶áWÎü£è—€Âx˜·6zåﬁ-£6Q
+ŸÏ&ûÜèñEÙˆ72v#“ñÎËÍﬁ í¨Å-ïÜAX¬¬@•·YRÏ–",ÆŒﬂ¿ÚÔ(ÅÎtO«yûœfÙÍ,1Ÿ'‰Q∂%±Ì∞å3Ñí§…‚°ybÿÉq÷‘TO¥ï¢RFÌ#øƒπ√M`™˘∂¢ß›ÿVì,Zu/°I-dAZH‰^A_ç:áÂJ~◊`lA⁄ªıˇy∫“^P˛£Qàwk©Q…(àù·âÅPê"ã¬™‚«ä
+d@ˇÔ÷XÙg∂(»)Xk}M{†'È¸„1j2
+òD\Sƒ åvRWÜGÄjc‡±Ú¿“;eÕJQ˘ÕI—Ù[ˆÊ2êÖªGdx"À“h‚ pLú%…8œÒqè
+
+Zõ8>—z3´è¸©}»æ6IÔ≤*åfg+¬ﬂÑï;cQ’‚Ç& %7®ù±Kﬂ@YÚì1 µK˚Á´<I‚$I¿U;Ö¸˘M˜ﬁäµ#M°MR;⁄ÿ–QKk≤µªΩL˙bﬂ/ÓÀÖóWÈ”Ê¥áòÌH<Ø•0Û}È$|’ÆÅ`ü'q¶0HÍkÏÌ `R$Ñ4∫v±b‘ÖÒ“O¨>„Pr|…VLå·Æ¢çi3|–‚Éq4ö[òD_ªSﬁkÄóî,•Æ¡ª-)l+ÚÅËZ[¸alR≠#ÿÉ2PJ.M8’Sz?÷'v§è4‡T'‡ò?ÜEx/˙_Âdy»≈ π/@ì ñ.(®áﬂ\ÇÆ√µïBRh¿®ø,B_lﬂëëüd(pÖÌê„‡∫ef<Ü˜ƒªÍ;w18ÒÍ¥)m"G¿¥	|ôÁ/5∑uøçÜ#X¸˙èNÌ±ôG˙≤SR‡0≥O9«k0êüGpøaÍ} Ø€∫pÙ2¢ªÛ„+˝ ¯ﬁÍzı˙ì,7U}ˆÙüe”Êv˙£õkÌ¢jÁêé&¡f]ÙØÂ£Ewã∫:€ﬂΩ 7àsòŒÚ≥Ä˝≥¸˝Ë~ˆVı€x;æyı˛¨≤s#6áI:{D›∞„Ïu‘OgL”…ä>]PY~ÅUù[|sH≥öw{œÎíÏ®˚≤ıK›ÕRg*ÔÎÿ‹‚ÄÅI>öA)uÂ⁄[±å>Fã∑—·†¯
+endstream
+endobj
+1012 0 obj
+<</Georgia 98 0 R >>
+endobj
+1013 0 obj
+<</BBox[ 0 0 461.4353 169.47998]/Filter/FlateDecode/FormType 1/Length 596/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1012 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xúÖì¡R€0ÜÔ~äˇÊÑ	¬&±∑•3¡∏ö8Öòiô…®í0bål‰ÿ”Ú∂{ËâËXòÑŒê÷>xwµ˚Ìø≤to9h^ùc‡ªd–˜˙p˝ÄÜA0Çñ/xYnWÆ˜¨Î ˘Å„Yh›[«âÂ mÚΩ	LR¬≠ÉSëÎTR∏ík´3•`π*´lM!Jd•L+)‘ZºÎ"πµÏªáƒ;Ç`d,¢i&@8øäìeÁd≤H&qòÄñôJ…ó]Ï¡u‚‡ }«</%◊L®5Ω;‡ü.Á3¥òÁÛI-J°kZBcønÉ#Ë≠∑⁄‘ΩÜ7›˝ÅÅXë—Z¢hP1^jÌUõa≤Q–4/QPìNI+EÚ’FTS∫	c«\Vã…™,/Q7∏öºZ[wµMùFüíVãTLr°ò§%dCÿ1ß¸øÃq|IDπ¶<«ÏPhM9µw»ˇz]Fªf F
+ù◊ç@äIåe«gwBˇ¶vv¯»ÂÉ1û4œøõÿ©¶™iÿÉ}Vâ¨6÷9˝•öÔÏ1£©â,D-≥å⁄ÀÆëºCAÙ-πá…≤3õ«…Ã!“‰Z∞*ïd2_vüU˘={-ª0∏ÇF’Zr ÒÆÁ<Gâíµ»˚¸´mMXûÂìÈ‰s[âTÁvªµ€%9&ƒW”È˚∑9oÃìa-≈]ëÉà[¡*&üT„dﬂW.–˜q'UµŒK¸ÑÁ°i•∏Ò∏®õ≠®äÕÕkäv‰Ù\ﬂ˙æO!&'J¨+öÖ÷˜ÍP”
+endstream
+endobj
+1014 0 obj
+<</Georgia 98 0 R >>
+endobj
+1015 0 obj
+<</BBox[ 0 0 461.43506 431.35779]/Filter/FlateDecode/FormType 1/Length 924/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1014 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xúïVKo€FæÛWÃ-N°(î%;–K(Ö[ßmP]
+FªczÉÂΩ°ÚøÕ1üzÛ©ò%)QñT§‰rgæ◊,Ôã‰Á´|1ªúåg”ãÚf”…xzÒÊÕ<ò¿Ïbﬁ?:üÔ›˛P|,^/ˇÜ∑ﬁ˜≈€eQBUL`v^éØÚ¢•.^ˇLÏ+É0)ay[ú˝·MMû!‹°"H¡íä…#Râú2hÅXÑà+ã`ú2:ﬂ#–Ï4…€∑∆Fè–∞≤@!¢fP‰=j√KX~)Jx59_úœÁÛ´+iÊl"Åßêl^»)L—„˙[ -=¡Õ‚˝~˘˝˙7h8DÚÜ=(4Â)ê_ÁénŸ◊˜)7v¢tç.í”˛´É»XÉ]åS6ºOdÂëÏÊ¢!Gn¿¡„Ò:áÖí∆£q	ï˘«ç§EOhÕÉGÿºÚtkœ>6÷(¶≤úu8Å‹rÄöen◊‰—Òïh0à…¡Ä˝ö¥‚‰ˆ*YEÄŒË,ıPçïè;Gq›†G±MáÃhim(Hﬁûl{∞QœË04xØ˛¥,œÁ”\?‘(Ó…tè 0Pï<:ÕΩ[R4÷(±;áR1íÙzC€+Ë·¸ÂU[ºÉ)¢èè˜w¯Œ“cê,ÌÁsıÓÈ6lèN%πeπH£.ä
+5’_∂ú[n<ØMKõÈ4⁄§üÂs@ÿ¢+ùÓ‰l#ò\kM∞J nqúÜ√Rïå∆∫Ì˝(Œ”Qh,>dÈmo|M‡Ãö,¸ØfÉh<kÁjzë´kë?RX€Ëmû´øLÓªs~ì®‚≠•≤ø;±4Ìú˛πªj]’√¬ä‰T¥bzã Å™ßú≈¢ÀfÎåq’∂Å5CôÜ¡≈Ω¡"àey/Òw√˝+ªÒ…FSÛÈ°6pÏ3%◊tgT≤Fùb‚ﬂ˝y¶ÿ≤ œ‹:ôÂ÷t˜(;¿ß≥vÂıÕıØx·®Ú¸‚”À1l%Q\Øå√ﬁø{æ›üdˇõá˜∆°ÌÃ¨)4©=√dºÏŒôºwhÕæA◊˜£y$*{Mf–ÃÙ.˚üçÓPÓI a¬ SïßOÎ+9Ñ0ü’Ó)hÍ'H mB4.rÄ(¥*ŸvÈâÍ{E.‚a÷{
+;ù∑j›•ÿe#®ìçf+Ø öî%l@õµë74πË	¶„≤,ÂüK.ñ≈«bÒ·]Ò/r}Ó
+endstream
+endobj
+1016 0 obj
+<</BBox[ 0 0 461.43503 458.7211]/Filter/FlateDecode/FormType 1/Length 1005/Matrix[ 1 0 0 1 0 0]/Resources<</Font 936 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xúçVMè€6ΩÎWÃ-I·(í◊ﬁÓEÅ$u⁄M7mÉ˙†ìcôäî˘aƒ˚osÃ!ßﬁr*Üím≠mÜa√†HŒÃ{oﬁhù¿W•?ìÎ2ü\Mã+òLoÚ«e	é≤JòLo˜OÆ˜Oñ?d≥WÛœÊ√€lùΩôgTY	ì…M>Ê=sôΩ˙ï¨´BY¿|ô=ˇÀ©öúO∞BAÇ&¢C$"°P–A°dZ˜#ê÷H‚”K•ÉCh¨“@>†¥ »9îò√ò?dº,«˘t|{{{s√…<ü˘@‡»Gù∂{2„#Bp∏˘ÍArNp?{7á˜ﬁ˝çıÅú≤ÑÌ%Â»ì€§åñ÷’Îò]£	d§˚b Xâ4˙ﬁ- Ω\G“¸ào3Ç"C¶á¡æ∆ÛqNøÊƒÉ2Ö˙◊å8EG®’#Çeœ†ÔÌ¬—ŸZwËc£ï@F*Ò`ïkÎ°&O	€946áS&ÙLC4–Cø&©8^^D-–(ô®Ó≥—è|U„€´˘ºrÑ≠t»≤È*SíSÎíÆ'Ω[Ó]¥√ﬂw54ËÌqÂ◊7m|OP#´'¡=@OUth§›©%•ï`π[¿É#r\Ωı'π°ﬁ1Ë`∏¯ÆL&˝X+]~ßgÓ#U6IÑHƒÄC˝y§ê+ª«¨SÑ@ò*¯ ië√˝” ìƒΩÃ?ı[‘˜ËoËWﬁ*”i°áêdùz ∫Ò¡≈mk9òµ’¨¯‚$ë>Ã=<ÅñJ(b]í	ÑıOµ‘≤›gt1øêo‚Wˇ§M9·≈wøé$[√˚f§tLÇ–)%—'Öëﬁmlú™—)õ√kFwPØ(©˛‚9¥ﬁ∑¯Å–NÜç≥ïZ·Ñ”>Y	øhîk±OGSûâù#¸ÀIäøÁo€HIP^U±EõõÌb„˚õ™®$÷|r¥8…Û.@≥—¯»∂ëÙq –∂ ﬂ[D/ít|w†∑B±w Ç@πw÷f}îç⁄êÜü‡Â§gµí}#5F8t‰6)oÃ3º\åﬁ,Ÿ+l@¿ÙrC+%¢∂~‘ï¬P^48Ñ’÷µCcıçØÄO›⁄›˝›Ô3xf®rˆŸß9$„ÍÃ}°&…•ô!Ù¿Ã`4yÆ_å»;ePwjímõrrl‰áâﬁI<©mãfóè¥#‡EÎ$<q˚ˇ°ÌÍîÏ™<±¨U≠/%9Ú∏«ÙVdæßw-Ioê eB2'ÅZD›nàﬁX'»|`dù#ﬂX#€^ƒ÷M*bu‘AÌ˘ÂÇ ¢Ä-HµQ|Ç˚'yÂU^S»Ÿ<˚òÕ>ºÕ˛ÿÇgK
+endstream
+endobj
+1017 0 obj
+<</Georgia 98 0 R >>
+endobj
+1018 0 obj
+<</BBox[ 0 0 461.43472 151.054016]/Filter/FlateDecode/FormType 1/Length 658/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1017 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xú}TOo”0øÁS¸éï,›“±∑©b öVâ#zç_S#«n˝ÏâÓ€Ó»Å_ Ÿi∂N–©ßˆÛÔo≤)*§üoÛ¢>óıi˝˛„…∏¨&u5>ÉÁbå1Í…tÿ´ß{{À∑≈mq<ˇâÀõ´bÛÍ—oÖ-.ÁEÖ6´´r“oÕUq¸Åùo5a\aæ,éfkÔ·6jÂ∞vl∞6dıRìJèÇ.n!∫”Ü¸kˆ+⁄ÇL-	î^≤g€h∞M„Œ´¥»ÎMdº¡¸GQ·›¯§úúLß”ÛÛDÁhE√ê†qBÇ-åtøÇSNÉ6˙ÅîìHq˜(Pl4wkï—8+—eîL¥Y9t¥uæ¸?ËÓè”™™ŒÍÃbf–Pß≠ÉVL •{t…$‘-HhëhÆHe(a√-Å˚Ü=>}˝¯•ƒÃÓÛÇÛ∫’6]%·†i2Å≤û±¶÷e/®áÖ[∂ZQ÷Ï$Ål`Øùg°”ií$3£M‘œ≥˝eÚzOªD	:ƒ-Á‡ìnb)q…⁄dEñÛ§B936=≈O3£›Y˘ûˆ™É∫3π3œr¶;+¬£Ì#(q—GˇB„ø¨¢–Ç-Æ/ÓÆ±&O	˙5ø’≥”ûÖ˝=•ûeÛ\œ=’0%âEl(Ö†ú(÷—ÁT^ÓÀõ¢‚&ƒƒ√ÊäÔ*$nß,Áâ}YSâ;g\j‚BSí7ÃDGCÒ¿G…ö[•õ>Œù.≠æ
+—¯‹¡†ÖÛ>=m¬®/ﬁ>∂°⁄Å˜æ¿o"K–,¶ª4ˆ»x›ë◊€ﬁ·DuÄnb˛v§¨ÛÀF-»ˆﬂJ%‹Ç§÷«u>ÚTxœ˘≈≥Åƒ4õ∑≈ÏÊ™¯ê®øa
+endstream
+endobj
+1019 0 obj
+<</Georgia 98 0 R >>
+endobj
+1020 0 obj
+<</BBox[ 0 0 461.43491 178.73196]/Filter/FlateDecode/FormType 1/Length 146/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1019 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xúEã±Ç0Ñ˜ˇ)nT‡óZËD!N$}Å¶îÇQ	5}{SÕ-w˜›≠î!*¯Õ…â»ÖbpQ&EŒJ"8b0ƒI˝ê¸£Ò@=•˙ç∫kh•ZS≤Lé€Hîû›¸l¿ÙH;sıá…X2÷>o¯ƒ∆gÊ·>[˜ài©™=ÙÖZM=µ]C_—,ú
 endstream
 endobj
 xref
@@ -4799,1575 +4820,815 @@ xref
 0000339505 00000 n
 0000343332 00000 n
 0000361635 00000 n
-90 10
+95 5
 0000361934 00000 n
-0000362179 00000 n
-0000362407 00000 n
-0000362635 00000 n
-0000362867 00000 n
-0000363100 00000 n
-0000363328 00000 n
-0000506222 00000 n
-0000506571 00000 n
-0000507795 00000 n
+0000362162 00000 n
+0000505056 00000 n
+0000505405 00000 n
+0000506629 00000 n
 101 619
-0000508024 00000 n
-0000509883 00000 n
-0000511989 00000 n
-0000514852 00000 n
-0000516837 00000 n
-0000519170 00000 n
-0000522575 00000 n
-0000525556 00000 n
-0000525821 00000 n
-0000526097 00000 n
-0000526354 00000 n
-0000526626 00000 n
-0000526883 00000 n
-0000527151 00000 n
-0000527413 00000 n
-0000527688 00000 n
-0000527947 00000 n
-0000528221 00000 n
-0000528487 00000 n
-0000528762 00000 n
-0000530880 00000 n
-0000534746 00000 n
-0000536546 00000 n
-0000540822 00000 n
-0000545957 00000 n
-0000548161 00000 n
-0000549945 00000 n
-0000551415 00000 n
-0000551608 00000 n
-0000551804 00000 n
-0000552002 00000 n
-0000552210 00000 n
-0000552405 00000 n
-0000552601 00000 n
-0000552793 00000 n
-0000553868 00000 n
-0000554046 00000 n
-0000554222 00000 n
-0000556933 00000 n
-0000556965 00000 n
-0000557136 00000 n
-0000557402 00000 n
-0000557475 00000 n
-0000557728 00000 n
-0000558925 00000 n
-0000559003 00000 n
-0000559085 00000 n
-0000559331 00000 n
-0000559407 00000 n
-0000559573 00000 n
-0000559659 00000 n
-0000559715 00000 n
-0000559852 00000 n
-0000559909 00000 n
-0000560021 00000 n
-0000560078 00000 n
-0000560178 00000 n
-0000560234 00000 n
-0000560328 00000 n
-0000560384 00000 n
-0000560548 00000 n
-0000560604 00000 n
-0000560742 00000 n
-0000560798 00000 n
-0000560854 00000 n
-0000560950 00000 n
-0000562147 00000 n
-0000562228 00000 n
-0000562364 00000 n
-0000562434 00000 n
-0000562502 00000 n
-0000562740 00000 n
-0000562990 00000 n
-0000566817 00000 n
-0000567377 00000 n
-0000567513 00000 n
-0000567762 00000 n
-0000568091 00000 n
-0000568475 00000 n
-0000568822 00000 n
-0000569142 00000 n
-0000569677 00000 n
-0000569979 00000 n
-0000570317 00000 n
-0000570646 00000 n
-0000570975 00000 n
-0000571322 00000 n
-0000571660 00000 n
-0000571998 00000 n
-0000572445 00000 n
-0000572545 00000 n
-0000572645 00000 n
-0000572709 00000 n
-0000572773 00000 n
-0000572837 00000 n
-0000572901 00000 n
+0000506858 00000 n
+0000508717 00000 n
+0000510823 00000 n
+0000513686 00000 n
+0000515671 00000 n
+0000518004 00000 n
+0000521409 00000 n
+0000524390 00000 n
+0000524655 00000 n
+0000524931 00000 n
+0000525188 00000 n
+0000525460 00000 n
+0000525717 00000 n
+0000525985 00000 n
+0000526247 00000 n
+0000526522 00000 n
+0000526781 00000 n
+0000527055 00000 n
+0000527321 00000 n
+0000527596 00000 n
+0000529714 00000 n
+0000533580 00000 n
+0000535380 00000 n
+0000539659 00000 n
+0000544794 00000 n
+0000546998 00000 n
+0000548782 00000 n
+0000550252 00000 n
+0000554802 00000 n
+0000556627 00000 n
+0000560320 00000 n
+0000562569 00000 n
+0000562867 00000 n
+0000563063 00000 n
+0000563255 00000 n
+0000564330 00000 n
+0000564508 00000 n
+0000564684 00000 n
+0000567395 00000 n
+0000567427 00000 n
+0000567598 00000 n
+0000567864 00000 n
+0000567937 00000 n
+0000568190 00000 n
+0000569387 00000 n
+0000569465 00000 n
+0000569547 00000 n
+0000569793 00000 n
+0000569869 00000 n
+0000570035 00000 n
+0000570121 00000 n
+0000570177 00000 n
+0000570314 00000 n
+0000570371 00000 n
+0000570483 00000 n
+0000570540 00000 n
+0000570640 00000 n
+0000570696 00000 n
+0000570790 00000 n
+0000570846 00000 n
+0000571010 00000 n
+0000571066 00000 n
+0000571204 00000 n
+0000571260 00000 n
+0000571316 00000 n
+0000571412 00000 n
+0000572609 00000 n
+0000572690 00000 n
+0000572826 00000 n
+0000572896 00000 n
 0000572964 00000 n
-0000573014 00000 n
-0000573077 00000 n
-0000573127 00000 n
-0000573191 00000 n
-0000573242 00000 n
-0000573293 00000 n
-0000573357 00000 n
-0000573408 00000 n
-0000573459 00000 n
-0000573523 00000 n
-0000573574 00000 n
-0000573638 00000 n
-0000573689 00000 n
-0000573753 00000 n
-0000573804 00000 n
-0000573855 00000 n
-0000573919 00000 n
-0000573970 00000 n
-0000574021 00000 n
-0000574085 00000 n
-0000574136 00000 n
-0000574200 00000 n
-0000574251 00000 n
-0000574302 00000 n
-0000574366 00000 n
-0000574417 00000 n
-0000574481 00000 n
-0000574532 00000 n
-0000574604 00000 n
-0000574655 00000 n
-0000574706 00000 n
-0000574757 00000 n
-0000574808 00000 n
-0000574872 00000 n
-0000574923 00000 n
-0000574974 00000 n
-0000575039 00000 n
-0000575103 00000 n
-0000575167 00000 n
-0000575231 00000 n
-0000575295 00000 n
-0000575359 00000 n
-0000575422 00000 n
-0000575485 00000 n
-0000575552 00000 n
-0000575619 00000 n
-0000575687 00000 n
-0000575751 00000 n
-0000575820 00000 n
-0000575884 00000 n
-0000575948 00000 n
-0000576012 00000 n
-0000576080 00000 n
-0000576149 00000 n
-0000576218 00000 n
-0000576287 00000 n
-0000576356 00000 n
-0000576425 00000 n
-0000576491 00000 n
-0000576592 00000 n
-0000576644 00000 n
-0000576708 00000 n
-0000576772 00000 n
-0000576836 00000 n
-0000576900 00000 n
-0000576964 00000 n
-0000577028 00000 n
-0000577092 00000 n
-0000577156 00000 n
-0000577220 00000 n
-0000577285 00000 n
-0000577350 00000 n
-0000577415 00000 n
-0000577480 00000 n
-0000577545 00000 n
-0000577610 00000 n
-0000577675 00000 n
-0000577745 00000 n
-0000577797 00000 n
-0000577862 00000 n
-0000577927 00000 n
-0000577992 00000 n
-0000578057 00000 n
-0000578122 00000 n
-0000578187 00000 n
-0000578252 00000 n
-0000578317 00000 n
-0000578382 00000 n
-0000578447 00000 n
-0000578512 00000 n
-0000578577 00000 n
-0000578642 00000 n
-0000578707 00000 n
-0000578775 00000 n
-0000578826 00000 n
-0000578894 00000 n
-0000578962 00000 n
-0000579031 00000 n
-0000579096 00000 n
-0000579161 00000 n
-0000579230 00000 n
-0000579299 00000 n
-0000579368 00000 n
-0000579433 00000 n
-0000579498 00000 n
-0000579563 00000 n
-0000579628 00000 n
-0000579693 00000 n
-0000579758 00000 n
-0000579823 00000 n
-0000579888 00000 n
-0000579953 00000 n
-0000580018 00000 n
-0000580083 00000 n
-0000580148 00000 n
-0000580213 00000 n
-0000580278 00000 n
-0000580343 00000 n
-0000580408 00000 n
-0000580473 00000 n
-0000580538 00000 n
-0000580606 00000 n
-0000580657 00000 n
-0000580721 00000 n
-0000580785 00000 n
-0000580849 00000 n
-0000580913 00000 n
-0000580977 00000 n
-0000581041 00000 n
-0000581105 00000 n
-0000581170 00000 n
-0000581235 00000 n
-0000581300 00000 n
-0000581365 00000 n
-0000581430 00000 n
-0000581495 00000 n
-0000581560 00000 n
-0000581625 00000 n
-0000581695 00000 n
-0000581747 00000 n
-0000581812 00000 n
-0000581877 00000 n
-0000581942 00000 n
-0000582007 00000 n
-0000582072 00000 n
-0000582137 00000 n
-0000582202 00000 n
-0000582267 00000 n
-0000582332 00000 n
-0000582397 00000 n
-0000582462 00000 n
-0000582527 00000 n
-0000582592 00000 n
-0000582657 00000 n
-0000582722 00000 n
-0000582790 00000 n
-0000582841 00000 n
-0000582905 00000 n
-0000582969 00000 n
-0000583033 00000 n
-0000583097 00000 n
-0000583161 00000 n
-0000583225 00000 n
-0000583289 00000 n
-0000583354 00000 n
-0000583419 00000 n
-0000583484 00000 n
-0000583549 00000 n
-0000583614 00000 n
-0000583679 00000 n
-0000583744 00000 n
-0000583809 00000 n
-0000583879 00000 n
-0000583931 00000 n
-0000583996 00000 n
-0000584061 00000 n
-0000584126 00000 n
-0000584191 00000 n
-0000584256 00000 n
-0000584321 00000 n
-0000584386 00000 n
-0000584451 00000 n
-0000584516 00000 n
-0000584581 00000 n
-0000584646 00000 n
-0000584711 00000 n
-0000584775 00000 n
-0000584843 00000 n
-0000584894 00000 n
-0000584958 00000 n
-0000585022 00000 n
-0000585086 00000 n
-0000585150 00000 n
-0000585214 00000 n
-0000585278 00000 n
-0000585343 00000 n
-0000585408 00000 n
-0000585473 00000 n
-0000585538 00000 n
-0000585603 00000 n
-0000585668 00000 n
-0000585733 00000 n
-0000585798 00000 n
-0000585868 00000 n
-0000585920 00000 n
-0000585985 00000 n
-0000586050 00000 n
-0000586115 00000 n
-0000586180 00000 n
-0000586232 00000 n
-0000586297 00000 n
-0000586362 00000 n
-0000586414 00000 n
-0000586479 00000 n
-0000586544 00000 n
-0000586596 00000 n
-0000586661 00000 n
-0000586726 00000 n
-0000586778 00000 n
-0000586843 00000 n
-0000586908 00000 n
-0000586960 00000 n
-0000587025 00000 n
-0000587090 00000 n
-0000587142 00000 n
-0000587207 00000 n
-0000587272 00000 n
-0000587324 00000 n
-0000587389 00000 n
-0000587454 00000 n
-0000587519 00000 n
-0000587584 00000 n
-0000587648 00000 n
-0000587712 00000 n
-0000587776 00000 n
-0000587840 00000 n
-0000587904 00000 n
-0000587968 00000 n
-0000588032 00000 n
-0000588096 00000 n
-0000588160 00000 n
-0000588224 00000 n
-0000588289 00000 n
-0000588354 00000 n
-0000588419 00000 n
-0000588484 00000 n
-0000588549 00000 n
-0000588614 00000 n
-0000588679 00000 n
-0000588744 00000 n
-0000588814 00000 n
-0000588866 00000 n
-0000588931 00000 n
-0000588996 00000 n
-0000589061 00000 n
-0000589126 00000 n
-0000589191 00000 n
-0000589256 00000 n
-0000589321 00000 n
-0000589386 00000 n
-0000589451 00000 n
-0000589516 00000 n
-0000589580 00000 n
-0000589644 00000 n
-0000589708 00000 n
-0000589772 00000 n
-0000589836 00000 n
-0000589900 00000 n
-0000589964 00000 n
-0000590028 00000 n
-0000590092 00000 n
-0000590156 00000 n
-0000590221 00000 n
-0000590286 00000 n
-0000590351 00000 n
-0000590416 00000 n
-0000590481 00000 n
-0000590546 00000 n
-0000590611 00000 n
-0000590676 00000 n
-0000590741 00000 n
-0000590806 00000 n
-0000590871 00000 n
-0000590936 00000 n
-0000591001 00000 n
-0000591066 00000 n
-0000591131 00000 n
-0000591196 00000 n
-0000591261 00000 n
-0000591326 00000 n
-0000591391 00000 n
-0000591456 00000 n
-0000591521 00000 n
-0000591586 00000 n
-0000591651 00000 n
-0000591716 00000 n
-0000591781 00000 n
-0000591845 00000 n
-0000591909 00000 n
-0000591973 00000 n
-0000592037 00000 n
-0000592101 00000 n
-0000592165 00000 n
-0000592229 00000 n
-0000592293 00000 n
-0000592357 00000 n
-0000592421 00000 n
-0000592486 00000 n
-0000592556 00000 n
-0000592608 00000 n
-0000592673 00000 n
-0000592738 00000 n
-0000592803 00000 n
-0000592868 00000 n
-0000592933 00000 n
-0000592998 00000 n
-0000593063 00000 n
-0000593128 00000 n
-0000593193 00000 n
-0000593258 00000 n
-0000593323 00000 n
-0000593388 00000 n
-0000593453 00000 n
-0000593518 00000 n
-0000593583 00000 n
-0000593648 00000 n
-0000593713 00000 n
-0000593778 00000 n
-0000593843 00000 n
-0000593908 00000 n
-0000593972 00000 n
-0000594036 00000 n
-0000594100 00000 n
-0000594164 00000 n
-0000594228 00000 n
-0000594292 00000 n
-0000594356 00000 n
-0000594420 00000 n
-0000594484 00000 n
-0000594548 00000 n
-0000594613 00000 n
-0000594678 00000 n
-0000594748 00000 n
-0000594800 00000 n
-0000594865 00000 n
-0000594930 00000 n
-0000594995 00000 n
-0000595060 00000 n
-0000595125 00000 n
-0000595190 00000 n
-0000595255 00000 n
-0000595320 00000 n
-0000595385 00000 n
-0000595450 00000 n
-0000595515 00000 n
-0000595580 00000 n
-0000595645 00000 n
-0000595710 00000 n
-0000595775 00000 n
-0000595840 00000 n
-0000595905 00000 n
-0000595970 00000 n
-0000596035 00000 n
-0000596103 00000 n
-0000596154 00000 n
-0000596218 00000 n
-0000596282 00000 n
-0000596346 00000 n
-0000596410 00000 n
-0000596474 00000 n
-0000596538 00000 n
-0000596602 00000 n
-0000596667 00000 n
-0000596732 00000 n
-0000596797 00000 n
-0000596862 00000 n
-0000596927 00000 n
-0000596992 00000 n
-0000597057 00000 n
-0000597122 00000 n
-0000597187 00000 n
-0000597252 00000 n
-0000597317 00000 n
-0000597382 00000 n
-0000597447 00000 n
-0000597512 00000 n
-0000597577 00000 n
-0000597642 00000 n
-0000597707 00000 n
-0000597772 00000 n
-0000597837 00000 n
-0000597902 00000 n
-0000597967 00000 n
-0000598032 00000 n
-0000598097 00000 n
-0000598162 00000 n
-0000598227 00000 n
-0000598292 00000 n
-0000598356 00000 n
-0000598420 00000 n
-0000598484 00000 n
-0000598548 00000 n
-0000598612 00000 n
-0000598676 00000 n
-0000598740 00000 n
-0000598804 00000 n
-0000598868 00000 n
-0000598937 00000 n
-0000598989 00000 n
-0000599054 00000 n
-0000599119 00000 n
-0000599184 00000 n
-0000599249 00000 n
-0000599314 00000 n
-0000599379 00000 n
-0000599444 00000 n
-0000599509 00000 n
-0000599574 00000 n
-0000599644 00000 n
-0000599696 00000 n
-0000599761 00000 n
-0000599826 00000 n
-0000599891 00000 n
-0000599956 00000 n
-0000600021 00000 n
-0000600086 00000 n
-0000600151 00000 n
-0000600216 00000 n
-0000600281 00000 n
-0000600346 00000 n
-0000600411 00000 n
-0000600475 00000 n
-0000600539 00000 n
-0000600603 00000 n
-0000600667 00000 n
-0000600731 00000 n
-0000600795 00000 n
-0000600859 00000 n
-0000600923 00000 n
-0000600987 00000 n
-0000601051 00000 n
-0000601116 00000 n
-0000601181 00000 n
-0000601246 00000 n
-0000601311 00000 n
-0000601376 00000 n
-0000601441 00000 n
-0000601506 00000 n
-0000601571 00000 n
-0000601636 00000 n
-0000601701 00000 n
-0000601766 00000 n
-0000601831 00000 n
-0000601896 00000 n
-0000601961 00000 n
-0000602026 00000 n
-0000602091 00000 n
-0000602156 00000 n
-0000602221 00000 n
-0000602286 00000 n
-0000602351 00000 n
-0000602416 00000 n
-0000602481 00000 n
-0000602546 00000 n
-0000602611 00000 n
-0000602676 00000 n
-0000602744 00000 n
-0000602795 00000 n
-0000602859 00000 n
-0000602923 00000 n
-0000602987 00000 n
-0000603051 00000 n
-0000603116 00000 n
-0000603181 00000 n
-0000603245 00000 n
-0000603310 00000 n
-0000603375 00000 n
-0000603440 00000 n
-0000603505 00000 n
-0000603571 00000 n
-0000603636 00000 n
-0000603705 00000 n
-0000603774 00000 n
-0000603843 00000 n
-0000603912 00000 n
-0000603984 00000 n
-0000604056 00000 n
-0000604139 00000 n
-0000604191 00000 n
-0000604274 00000 n
-0000604326 00000 n
-0000604394 00000 n
-0000604462 00000 n
-0000604530 00000 n
-0000604582 00000 n
-0000604698 00000 n
-0000604750 00000 n
-0000604802 00000 n
-0000604854 00000 n
-0000604906 00000 n
-0000604958 00000 n
-0000605010 00000 n
-0000605062 00000 n
-0000605133 00000 n
-0000605231 00000 n
-0000605302 00000 n
-0000605373 00000 n
-0000605495 00000 n
-0000605547 00000 n
-0000605599 00000 n
-0000605651 00000 n
-0000605703 00000 n
-0000605755 00000 n
-0000605807 00000 n
-0000605859 00000 n
-0000605911 00000 n
-0000605963 00000 n
-0000606015 00000 n
-0000606067 00000 n
-0000606119 00000 n
-0000606171 00000 n
-0000606223 00000 n
-721 8
-0000606275 00000 n
-0000606371 00000 n
-0000606434 00000 n
-0000606497 00000 n
-0000606560 00000 n
-0000606623 00000 n
-0000606686 00000 n
-0000606749 00000 n
-730 22
-0000606812 00000 n
-0000606875 00000 n
-0000606938 00000 n
-0000607001 00000 n
-0000607053 00000 n
-0000607116 00000 n
-0000607168 00000 n
-0000607231 00000 n
-0000607283 00000 n
-0000607346 00000 n
-0000607398 00000 n
-0000607461 00000 n
-0000607513 00000 n
-0000607576 00000 n
-0000607628 00000 n
-0000607671 00000 n
-0000607714 00000 n
-0000607757 00000 n
-0000607800 00000 n
-0000607843 00000 n
-0000607886 00000 n
-0000607932 00000 n
-753 15
-0000607978 00000 n
-0000608042 00000 n
-0000608108 00000 n
-0000608195 00000 n
-0000608426 00000 n
-0000608973 00000 n
-0000609057 00000 n
-0000609876 00000 n
-0000610647 00000 n
-0000611211 00000 n
-0000611896 00000 n
-0000612636 00000 n
-0000613321 00000 n
-0000614077 00000 n
-0000614788 00000 n
-772 1
-0000615209 00000 n
-774 18
-0000615433 00000 n
-0000616106 00000 n
-0000616670 00000 n
-0000645936 00000 n
-0000665030 00000 n
-0000687511 00000 n
-0000687925 00000 n
-0000688215 00000 n
-0000688463 00000 n
-0000688753 00000 n
-0000688997 00000 n
-0000689233 00000 n
-0000689507 00000 n
-0000690704 00000 n
-0000690782 00000 n
-0000691036 00000 n
-0000691296 00000 n
-0000691568 00000 n
-802 1
-0000691812 00000 n
-804 11
-0000691853 00000 n
-0000691892 00000 n
-0000691931 00000 n
-0000692226 00000 n
-0000692511 00000 n
-0000692550 00000 n
-0000692846 00000 n
-0000692885 00000 n
-0000692924 00000 n
-0000693209 00000 n
-0000693248 00000 n
-823 1
-0000693289 00000 n
-832 3
-0000694092 00000 n
-0000694369 00000 n
-0000694410 00000 n
-843 1
-0000695271 00000 n
-845 1
-0000695312 00000 n
-854 1
-0000695353 00000 n
-856 1
-0000696339 00000 n
-865 1
-0000696380 00000 n
-867 1
-0000697157 00000 n
-869 1
-0000697198 00000 n
-880 1
-0000697239 00000 n
-889 24
-0000697278 00000 n
-0000697317 00000 n
-0000697609 00000 n
-0000697648 00000 n
-0000697934 00000 n
-0000697973 00000 n
-0000698263 00000 n
-0000698551 00000 n
-0000698590 00000 n
-0000698629 00000 n
-0000698916 00000 n
-0000698955 00000 n
-0000699248 00000 n
-0000699287 00000 n
-0000699579 00000 n
-0000699618 00000 n
-0000699906 00000 n
-0000699945 00000 n
-0000700233 00000 n
-0000700272 00000 n
-0000700558 00000 n
-0000700597 00000 n
-0000700892 00000 n
-0000701179 00000 n
-914 1
-0000701220 00000 n
-923 2
-0000701958 00000 n
-0000703126 00000 n
-935 2
-0000703167 00000 n
-0000703208 00000 n
-945 4
-0000703249 00000 n
-0000704461 00000 n
-0000705390 00000 n
-0000706530 00000 n
-957 5
-0000707538 00000 n
-0000708335 00000 n
-0000708417 00000 n
-0000709387 00000 n
-0000710442 00000 n
-984 1
-0000710593 00000 n
-987 6
-0000710634 00000 n
-0000711542 00000 n
-0000711583 00000 n
-0000712357 00000 n
-0000713051 00000 n
-0000713092 00000 n
-994 9
-0000713133 00000 n
-0000713267 00000 n
-0000713421 00000 n
-0000713494 00000 n
-0000713669 00000 n
-0000714084 00000 n
-0000714119 00000 n
-0000714344 00000 n
-0000714638 00000 n
-trailer
-<</Info 791 0 R /Root 756 0 R /Size 1003/ID[<99A0A5D93A62E8AC2F5BBBE862CDA3D2><850438753A3F140E4794E8F2B0012A43>]>>
-startxref
-715617
-%%EOF
-9098 00000 n
-0000559176 00000 n
-0000559258 00000 n
-0000559504 00000 n
-0000559580 00000 n
-0000559746 00000 n
-0000559832 00000 n
-0000559888 00000 n
-0000560025 00000 n
-0000560082 00000 n
-0000560194 00000 n
-0000560251 00000 n
-0000560351 00000 n
-0000560407 00000 n
-0000560501 00000 n
-0000560557 00000 n
-0000560721 00000 n
-0000560777 00000 n
-0000560915 00000 n
-0000560971 00000 n
-0000561027 00000 n
-0000561123 00000 n
-0000562320 00000 n
-0000562401 00000 n
-0000562537 00000 n
-0000562607 00000 n
-0000562675 00000 n
-0000562913 00000 n
-0000563163 00000 n
-0000566990 00000 n
-0000567550 00000 n
-0000567686 00000 n
-0000567935 00000 n
-0000568264 00000 n
-0000568648 00000 n
-0000568995 00000 n
-0000569315 00000 n
-0000569850 00000 n
-0000570152 00000 n
-0000570490 00000 n
-0000570819 00000 n
-0000571148 00000 n
-0000571495 00000 n
-0000571833 00000 n
-0000572171 00000 n
-0000572618 00000 n
-0000572718 00000 n
-0000572818 00000 n
-0000572882 00000 n
-0000572946 00000 n
-0000573010 00000 n
-0000573074 00000 n
-0000573137 00000 n
-0000573187 00000 n
-0000573250 00000 n
-0000573300 00000 n
-0000573364 00000 n
-0000573415 00000 n
-0000573466 00000 n
-0000573530 00000 n
-0000573581 00000 n
-0000573632 00000 n
-0000573696 00000 n
-0000573747 00000 n
-0000573811 00000 n
-0000573862 00000 n
-0000573926 00000 n
-0000573977 00000 n
-0000574028 00000 n
-0000574092 00000 n
-0000574143 00000 n
-0000574194 00000 n
-0000574258 00000 n
-0000574309 00000 n
-0000574373 00000 n
-0000574424 00000 n
-0000574475 00000 n
-0000574539 00000 n
-0000574590 00000 n
-0000574654 00000 n
-0000574705 00000 n
-0000574777 00000 n
-0000574828 00000 n
-0000574879 00000 n
-0000574930 00000 n
-0000574981 00000 n
-0000575045 00000 n
-0000575096 00000 n
-0000575147 00000 n
-0000575212 00000 n
-0000575276 00000 n
-0000575340 00000 n
-0000575404 00000 n
-0000575468 00000 n
-0000575532 00000 n
-0000575595 00000 n
-0000575658 00000 n
-0000575725 00000 n
-0000575792 00000 n
-0000575860 00000 n
-0000575924 00000 n
-0000575993 00000 n
-0000576057 00000 n
-0000576121 00000 n
-0000576185 00000 n
-0000576253 00000 n
-0000576322 00000 n
-0000576391 00000 n
-0000576460 00000 n
-0000576529 00000 n
-0000576598 00000 n
-0000576664 00000 n
-0000576765 00000 n
-0000576817 00000 n
-0000576881 00000 n
-0000576945 00000 n
-0000577009 00000 n
-0000577073 00000 n
-0000577137 00000 n
-0000577201 00000 n
-0000577265 00000 n
-0000577329 00000 n
-0000577393 00000 n
-0000577458 00000 n
-0000577523 00000 n
-0000577588 00000 n
-0000577653 00000 n
-0000577718 00000 n
-0000577783 00000 n
-0000577848 00000 n
-0000577918 00000 n
-0000577970 00000 n
-0000578035 00000 n
-0000578100 00000 n
-0000578165 00000 n
-0000578230 00000 n
-0000578295 00000 n
-0000578360 00000 n
-0000578425 00000 n
-0000578490 00000 n
-0000578555 00000 n
-0000578620 00000 n
-0000578685 00000 n
-0000578750 00000 n
-0000578815 00000 n
-0000578880 00000 n
-0000578948 00000 n
-0000578999 00000 n
-0000579067 00000 n
-0000579135 00000 n
-0000579204 00000 n
-0000579269 00000 n
-0000579334 00000 n
-0000579403 00000 n
-0000579472 00000 n
-0000579541 00000 n
-0000579606 00000 n
-0000579671 00000 n
-0000579736 00000 n
-0000579801 00000 n
-0000579866 00000 n
-0000579931 00000 n
-0000579996 00000 n
-0000580061 00000 n
-0000580126 00000 n
-0000580191 00000 n
-0000580256 00000 n
-0000580321 00000 n
-0000580386 00000 n
-0000580451 00000 n
-0000580516 00000 n
-0000580581 00000 n
-0000580646 00000 n
-0000580711 00000 n
+0000573202 00000 n
+0000573452 00000 n
+0000577279 00000 n
+0000577839 00000 n
+0000577975 00000 n
+0000578224 00000 n
+0000578553 00000 n
+0000578937 00000 n
+0000579284 00000 n
+0000579604 00000 n
+0000580139 00000 n
+0000580441 00000 n
 0000580779 00000 n
-0000580830 00000 n
-0000580894 00000 n
-0000580958 00000 n
-0000581022 00000 n
-0000581086 00000 n
-0000581150 00000 n
-0000581214 00000 n
-0000581278 00000 n
-0000581343 00000 n
-0000581408 00000 n
-0000581473 00000 n
-0000581538 00000 n
-0000581603 00000 n
-0000581668 00000 n
-0000581733 00000 n
-0000581798 00000 n
-0000581868 00000 n
-0000581920 00000 n
-0000581985 00000 n
-0000582050 00000 n
-0000582115 00000 n
-0000582180 00000 n
-0000582245 00000 n
-0000582310 00000 n
-0000582375 00000 n
-0000582440 00000 n
-0000582505 00000 n
-0000582570 00000 n
-0000582635 00000 n
-0000582700 00000 n
-0000582765 00000 n
-0000582830 00000 n
-0000582895 00000 n
-0000582963 00000 n
-0000583014 00000 n
-0000583078 00000 n
-0000583142 00000 n
-0000583206 00000 n
-0000583270 00000 n
-0000583334 00000 n
-0000583398 00000 n
-0000583462 00000 n
-0000583527 00000 n
-0000583592 00000 n
-0000583657 00000 n
-0000583722 00000 n
-0000583787 00000 n
-0000583852 00000 n
-0000583917 00000 n
-0000583982 00000 n
-0000584052 00000 n
-0000584104 00000 n
-0000584169 00000 n
-0000584234 00000 n
-0000584299 00000 n
-0000584364 00000 n
-0000584429 00000 n
-0000584494 00000 n
-0000584559 00000 n
-0000584624 00000 n
-0000584689 00000 n
-0000584754 00000 n
-0000584819 00000 n
-0000584884 00000 n
-0000584948 00000 n
-0000585016 00000 n
-0000585067 00000 n
-0000585131 00000 n
-0000585195 00000 n
-0000585259 00000 n
-0000585323 00000 n
-0000585387 00000 n
-0000585451 00000 n
-0000585516 00000 n
-0000585581 00000 n
-0000585646 00000 n
-0000585711 00000 n
-0000585776 00000 n
-0000585841 00000 n
-0000585906 00000 n
-0000585971 00000 n
-0000586041 00000 n
-0000586093 00000 n
-0000586158 00000 n
-0000586223 00000 n
-0000586288 00000 n
-0000586353 00000 n
-0000586405 00000 n
-0000586470 00000 n
-0000586535 00000 n
-0000586587 00000 n
-0000586652 00000 n
-0000586717 00000 n
-0000586769 00000 n
-0000586834 00000 n
-0000586899 00000 n
-0000586951 00000 n
-0000587016 00000 n
-0000587081 00000 n
-0000587133 00000 n
-0000587198 00000 n
-0000587263 00000 n
-0000587315 00000 n
-0000587380 00000 n
-0000587445 00000 n
-0000587497 00000 n
-0000587562 00000 n
-0000587627 00000 n
-0000587692 00000 n
-0000587757 00000 n
-0000587821 00000 n
-0000587885 00000 n
-0000587949 00000 n
-0000588013 00000 n
-0000588077 00000 n
-0000588141 00000 n
-0000588205 00000 n
-0000588269 00000 n
-0000588333 00000 n
-0000588397 00000 n
-0000588462 00000 n
-0000588527 00000 n
-0000588592 00000 n
-0000588657 00000 n
-0000588722 00000 n
-0000588787 00000 n
-0000588852 00000 n
-0000588917 00000 n
-0000588987 00000 n
+0000581108 00000 n
+0000581437 00000 n
+0000581784 00000 n
+0000582122 00000 n
+0000582460 00000 n
+0000582907 00000 n
+0000583007 00000 n
+0000583107 00000 n
+0000583171 00000 n
+0000583235 00000 n
+0000583299 00000 n
+0000583363 00000 n
+0000583426 00000 n
+0000583476 00000 n
+0000583539 00000 n
+0000583589 00000 n
+0000583653 00000 n
+0000583704 00000 n
+0000583755 00000 n
+0000583819 00000 n
+0000583870 00000 n
+0000583921 00000 n
+0000583985 00000 n
+0000584036 00000 n
+0000584100 00000 n
+0000584151 00000 n
+0000584215 00000 n
+0000584266 00000 n
+0000584317 00000 n
+0000584381 00000 n
+0000584432 00000 n
+0000584483 00000 n
+0000584547 00000 n
+0000584598 00000 n
+0000584662 00000 n
+0000584713 00000 n
+0000584764 00000 n
+0000584828 00000 n
+0000584879 00000 n
+0000584943 00000 n
+0000584994 00000 n
+0000585066 00000 n
+0000585117 00000 n
+0000585168 00000 n
+0000585219 00000 n
+0000585270 00000 n
+0000585334 00000 n
+0000585385 00000 n
+0000585436 00000 n
+0000585501 00000 n
+0000585565 00000 n
+0000585629 00000 n
+0000585693 00000 n
+0000585757 00000 n
+0000585821 00000 n
+0000585884 00000 n
+0000585947 00000 n
+0000586014 00000 n
+0000586081 00000 n
+0000586149 00000 n
+0000586213 00000 n
+0000586282 00000 n
+0000586346 00000 n
+0000586410 00000 n
+0000586474 00000 n
+0000586542 00000 n
+0000586611 00000 n
+0000586680 00000 n
+0000586749 00000 n
+0000586818 00000 n
+0000586887 00000 n
+0000586953 00000 n
+0000587054 00000 n
+0000587106 00000 n
+0000587170 00000 n
+0000587234 00000 n
+0000587298 00000 n
+0000587362 00000 n
+0000587426 00000 n
+0000587490 00000 n
+0000587554 00000 n
+0000587618 00000 n
+0000587682 00000 n
+0000587747 00000 n
+0000587812 00000 n
+0000587877 00000 n
+0000587942 00000 n
+0000588007 00000 n
+0000588072 00000 n
+0000588137 00000 n
+0000588207 00000 n
+0000588259 00000 n
+0000588324 00000 n
+0000588389 00000 n
+0000588454 00000 n
+0000588519 00000 n
+0000588584 00000 n
+0000588649 00000 n
+0000588714 00000 n
+0000588779 00000 n
+0000588844 00000 n
+0000588909 00000 n
+0000588974 00000 n
 0000589039 00000 n
 0000589104 00000 n
 0000589169 00000 n
-0000589234 00000 n
-0000589299 00000 n
-0000589364 00000 n
-0000589429 00000 n
-0000589494 00000 n
-0000589559 00000 n
-0000589624 00000 n
-0000589689 00000 n
-0000589753 00000 n
-0000589817 00000 n
-0000589881 00000 n
-0000589945 00000 n
-0000590009 00000 n
-0000590073 00000 n
-0000590137 00000 n
-0000590201 00000 n
-0000590265 00000 n
-0000590329 00000 n
-0000590394 00000 n
-0000590459 00000 n
-0000590524 00000 n
-0000590589 00000 n
-0000590654 00000 n
-0000590719 00000 n
-0000590784 00000 n
-0000590849 00000 n
-0000590914 00000 n
-0000590979 00000 n
-0000591044 00000 n
-0000591109 00000 n
-0000591174 00000 n
-0000591239 00000 n
-0000591304 00000 n
-0000591369 00000 n
-0000591434 00000 n
-0000591499 00000 n
-0000591564 00000 n
-0000591629 00000 n
-0000591694 00000 n
-0000591759 00000 n
-0000591824 00000 n
-0000591889 00000 n
-0000591954 00000 n
-0000592018 00000 n
-0000592082 00000 n
-0000592146 00000 n
-0000592210 00000 n
+0000589237 00000 n
+0000589288 00000 n
+0000589356 00000 n
+0000589424 00000 n
+0000589493 00000 n
+0000589558 00000 n
+0000589623 00000 n
+0000589692 00000 n
+0000589761 00000 n
+0000589830 00000 n
+0000589895 00000 n
+0000589960 00000 n
+0000590025 00000 n
+0000590090 00000 n
+0000590155 00000 n
+0000590220 00000 n
+0000590285 00000 n
+0000590350 00000 n
+0000590415 00000 n
+0000590480 00000 n
+0000590545 00000 n
+0000590610 00000 n
+0000590675 00000 n
+0000590740 00000 n
+0000590805 00000 n
+0000590870 00000 n
+0000590935 00000 n
+0000591000 00000 n
+0000591068 00000 n
+0000591119 00000 n
+0000591183 00000 n
+0000591247 00000 n
+0000591311 00000 n
+0000591375 00000 n
+0000591439 00000 n
+0000591503 00000 n
+0000591567 00000 n
+0000591632 00000 n
+0000591697 00000 n
+0000591762 00000 n
+0000591827 00000 n
+0000591892 00000 n
+0000591957 00000 n
+0000592022 00000 n
+0000592087 00000 n
+0000592157 00000 n
+0000592209 00000 n
 0000592274 00000 n
-0000592338 00000 n
-0000592402 00000 n
-0000592466 00000 n
-0000592530 00000 n
-0000592594 00000 n
-0000592659 00000 n
+0000592339 00000 n
+0000592404 00000 n
+0000592469 00000 n
+0000592534 00000 n
+0000592599 00000 n
+0000592664 00000 n
 0000592729 00000 n
-0000592781 00000 n
-0000592846 00000 n
-0000592911 00000 n
-0000592976 00000 n
-0000593041 00000 n
-0000593106 00000 n
-0000593171 00000 n
-0000593236 00000 n
-0000593301 00000 n
-0000593366 00000 n
+0000592794 00000 n
+0000592859 00000 n
+0000592924 00000 n
+0000592989 00000 n
+0000593054 00000 n
+0000593119 00000 n
+0000593184 00000 n
+0000593252 00000 n
+0000593303 00000 n
+0000593367 00000 n
 0000593431 00000 n
-0000593496 00000 n
-0000593561 00000 n
-0000593626 00000 n
-0000593691 00000 n
-0000593756 00000 n
-0000593821 00000 n
-0000593886 00000 n
-0000593951 00000 n
-0000594016 00000 n
-0000594081 00000 n
-0000594145 00000 n
-0000594209 00000 n
-0000594273 00000 n
-0000594337 00000 n
-0000594401 00000 n
-0000594465 00000 n
-0000594529 00000 n
-0000594593 00000 n
-0000594657 00000 n
-0000594721 00000 n
-0000594786 00000 n
-0000594851 00000 n
-0000594921 00000 n
-0000594973 00000 n
-0000595038 00000 n
-0000595103 00000 n
-0000595168 00000 n
-0000595233 00000 n
-0000595298 00000 n
-0000595363 00000 n
-0000595428 00000 n
-0000595493 00000 n
-0000595558 00000 n
-0000595623 00000 n
-0000595688 00000 n
-0000595753 00000 n
-0000595818 00000 n
-0000595883 00000 n
-0000595948 00000 n
-0000596013 00000 n
-0000596078 00000 n
-0000596143 00000 n
-0000596208 00000 n
-0000596276 00000 n
-0000596327 00000 n
-0000596391 00000 n
-0000596455 00000 n
-0000596519 00000 n
-0000596583 00000 n
-0000596647 00000 n
-0000596711 00000 n
-0000596775 00000 n
-0000596840 00000 n
-0000596905 00000 n
-0000596970 00000 n
-0000597035 00000 n
-0000597100 00000 n
-0000597165 00000 n
-0000597230 00000 n
-0000597295 00000 n
-0000597360 00000 n
-0000597425 00000 n
-0000597490 00000 n
-0000597555 00000 n
-0000597620 00000 n
-0000597685 00000 n
-0000597750 00000 n
-0000597815 00000 n
-0000597880 00000 n
-0000597945 00000 n
-0000598010 00000 n
-0000598075 00000 n
-0000598140 00000 n
-0000598205 00000 n
-0000598270 00000 n
-0000598335 00000 n
-0000598400 00000 n
-0000598465 00000 n
-0000598529 00000 n
-0000598593 00000 n
-0000598657 00000 n
-0000598721 00000 n
-0000598785 00000 n
-0000598849 00000 n
-0000598913 00000 n
-0000598977 00000 n
-0000599041 00000 n
-0000599110 00000 n
-0000599162 00000 n
-0000599227 00000 n
-0000599292 00000 n
-0000599357 00000 n
-0000599422 00000 n
-0000599487 00000 n
-0000599552 00000 n
-0000599617 00000 n
-0000599682 00000 n
-0000599747 00000 n
-0000599817 00000 n
-0000599869 00000 n
-0000599934 00000 n
-0000599999 00000 n
-0000600064 00000 n
-0000600129 00000 n
-0000600194 00000 n
-0000600259 00000 n
-0000600324 00000 n
-0000600389 00000 n
-0000600454 00000 n
-0000600519 00000 n
-0000600584 00000 n
-0000600648 00000 n
-0000600712 00000 n
-0000600776 00000 n
-0000600840 00000 n
-0000600904 00000 n
-0000600968 00000 n
-0000601032 00000 n
-0000601096 00000 n
-0000601160 00000 n
-0000601224 00000 n
-0000601289 00000 n
-0000601354 00000 n
-0000601419 00000 n
-0000601484 00000 n
-0000601549 00000 n
-0000601614 00000 n
-0000601679 00000 n
-0000601744 00000 n
-0000601809 00000 n
-0000601874 00000 n
-0000601939 00000 n
-0000602004 00000 n
-0000602069 00000 n
-0000602134 00000 n
-0000602199 00000 n
-0000602264 00000 n
-0000602329 00000 n
-0000602394 00000 n
-0000602459 00000 n
-0000602524 00000 n
-0000602589 00000 n
-0000602654 00000 n
-0000602719 00000 n
-0000602784 00000 n
-0000602849 00000 n
-0000602917 00000 n
-0000602968 00000 n
-0000603032 00000 n
-0000603096 00000 n
-0000603160 00000 n
-0000603224 00000 n
-0000603289 00000 n
-0000603354 00000 n
-0000603418 00000 n
-0000603483 00000 n
-0000603548 00000 n
-0000603613 00000 n
-0000603678 00000 n
-0000603744 00000 n
-0000603809 00000 n
-0000603878 00000 n
-0000603947 00000 n
-0000604016 00000 n
-0000604085 00000 n
-0000604157 00000 n
-0000604229 00000 n
-0000604312 00000 n
-0000604364 00000 n
-0000604447 00000 n
-0000604499 00000 n
-0000604567 00000 n
-0000604635 00000 n
-0000604703 00000 n
-0000604755 00000 n
-0000604871 00000 n
-0000604923 00000 n
-0000604975 00000 n
-0000605027 00000 n
-0000605079 00000 n
-0000605131 00000 n
-0000605183 00000 n
-0000605235 00000 n
-0000605306 00000 n
-0000605404 00000 n
-0000605475 00000 n
-0000605546 00000 n
-0000605668 00000 n
-0000605720 00000 n
-0000605772 00000 n
-0000605824 00000 n
-0000605876 00000 n
-0000605928 00000 n
-0000605980 00000 n
-0000606032 00000 n
-0000606084 00000 n
-0000606136 00000 n
-0000606188 00000 n
-0000606240 00000 n
-0000606292 00000 n
-0000606344 00000 n
-0000606396 00000 n
-721 8
-0000606448 00000 n
-0000606544 00000 n
-0000606607 00000 n
-0000606670 00000 n
-0000606733 00000 n
-0000606796 00000 n
-0000606859 00000 n
-0000606922 00000 n
-730 22
-0000606985 00000 n
-0000607048 00000 n
-0000607111 00000 n
-0000607174 00000 n
-0000607226 00000 n
-0000607289 00000 n
-0000607341 00000 n
-0000607404 00000 n
-0000607456 00000 n
+0000593495 00000 n
+0000593559 00000 n
+0000593623 00000 n
+0000593687 00000 n
+0000593751 00000 n
+0000593816 00000 n
+0000593881 00000 n
+0000593946 00000 n
+0000594011 00000 n
+0000594076 00000 n
+0000594141 00000 n
+0000594206 00000 n
+0000594271 00000 n
+0000594341 00000 n
+0000594393 00000 n
+0000594458 00000 n
+0000594523 00000 n
+0000594588 00000 n
+0000594653 00000 n
+0000594718 00000 n
+0000594783 00000 n
+0000594848 00000 n
+0000594913 00000 n
+0000594978 00000 n
+0000595043 00000 n
+0000595108 00000 n
+0000595173 00000 n
+0000595237 00000 n
+0000595305 00000 n
+0000595356 00000 n
+0000595420 00000 n
+0000595484 00000 n
+0000595548 00000 n
+0000595612 00000 n
+0000595676 00000 n
+0000595740 00000 n
+0000595805 00000 n
+0000595870 00000 n
+0000595935 00000 n
+0000596000 00000 n
+0000596065 00000 n
+0000596130 00000 n
+0000596195 00000 n
+0000596260 00000 n
+0000596330 00000 n
+0000596382 00000 n
+0000596447 00000 n
+0000596512 00000 n
+0000596577 00000 n
+0000596642 00000 n
+0000596694 00000 n
+0000596759 00000 n
+0000596824 00000 n
+0000596876 00000 n
+0000596941 00000 n
+0000597006 00000 n
+0000597058 00000 n
+0000597123 00000 n
+0000597188 00000 n
+0000597240 00000 n
+0000597305 00000 n
+0000597370 00000 n
+0000597422 00000 n
+0000597487 00000 n
+0000597552 00000 n
+0000597604 00000 n
+0000597669 00000 n
+0000597734 00000 n
+0000597786 00000 n
+0000597851 00000 n
+0000597916 00000 n
+0000597981 00000 n
+0000598046 00000 n
+0000598110 00000 n
+0000598174 00000 n
+0000598238 00000 n
+0000598302 00000 n
+0000598366 00000 n
+0000598430 00000 n
+0000598494 00000 n
+0000598558 00000 n
+0000598622 00000 n
+0000598686 00000 n
+0000598751 00000 n
+0000598816 00000 n
+0000598881 00000 n
+0000598946 00000 n
+0000599011 00000 n
+0000599076 00000 n
+0000599141 00000 n
+0000599206 00000 n
+0000599276 00000 n
+0000599328 00000 n
+0000599393 00000 n
+0000599458 00000 n
+0000599523 00000 n
+0000599588 00000 n
+0000599653 00000 n
+0000599718 00000 n
+0000599783 00000 n
+0000599848 00000 n
+0000599913 00000 n
+0000599978 00000 n
+0000600042 00000 n
+0000600106 00000 n
+0000600170 00000 n
+0000600234 00000 n
+0000600298 00000 n
+0000600362 00000 n
+0000600426 00000 n
+0000600490 00000 n
+0000600554 00000 n
+0000600618 00000 n
+0000600683 00000 n
+0000600748 00000 n
+0000600813 00000 n
+0000600878 00000 n
+0000600943 00000 n
+0000601008 00000 n
+0000601073 00000 n
+0000601138 00000 n
+0000601203 00000 n
+0000601268 00000 n
+0000601333 00000 n
+0000601398 00000 n
+0000601463 00000 n
+0000601528 00000 n
+0000601593 00000 n
+0000601658 00000 n
+0000601723 00000 n
+0000601788 00000 n
+0000601853 00000 n
+0000601918 00000 n
+0000601983 00000 n
+0000602048 00000 n
+0000602113 00000 n
+0000602178 00000 n
+0000602243 00000 n
+0000602307 00000 n
+0000602371 00000 n
+0000602435 00000 n
+0000602499 00000 n
+0000602563 00000 n
+0000602627 00000 n
+0000602691 00000 n
+0000602755 00000 n
+0000602819 00000 n
+0000602883 00000 n
+0000602948 00000 n
+0000603018 00000 n
+0000603070 00000 n
+0000603135 00000 n
+0000603200 00000 n
+0000603265 00000 n
+0000603330 00000 n
+0000603395 00000 n
+0000603460 00000 n
+0000603525 00000 n
+0000603590 00000 n
+0000603655 00000 n
+0000603720 00000 n
+0000603785 00000 n
+0000603850 00000 n
+0000603915 00000 n
+0000603980 00000 n
+0000604045 00000 n
+0000604110 00000 n
+0000604175 00000 n
+0000604240 00000 n
+0000604305 00000 n
+0000604370 00000 n
+0000604434 00000 n
+0000604498 00000 n
+0000604562 00000 n
+0000604626 00000 n
+0000604690 00000 n
+0000604754 00000 n
+0000604818 00000 n
+0000604882 00000 n
+0000604946 00000 n
+0000605010 00000 n
+0000605075 00000 n
+0000605140 00000 n
+0000605210 00000 n
+0000605262 00000 n
+0000605327 00000 n
+0000605392 00000 n
+0000605457 00000 n
+0000605522 00000 n
+0000605587 00000 n
+0000605652 00000 n
+0000605717 00000 n
+0000605782 00000 n
+0000605847 00000 n
+0000605912 00000 n
+0000605977 00000 n
+0000606042 00000 n
+0000606107 00000 n
+0000606172 00000 n
+0000606237 00000 n
+0000606302 00000 n
+0000606367 00000 n
+0000606432 00000 n
+0000606497 00000 n
+0000606565 00000 n
+0000606616 00000 n
+0000606680 00000 n
+0000606744 00000 n
+0000606808 00000 n
+0000606872 00000 n
+0000606936 00000 n
+0000607000 00000 n
+0000607064 00000 n
+0000607129 00000 n
+0000607194 00000 n
+0000607259 00000 n
+0000607324 00000 n
+0000607389 00000 n
+0000607454 00000 n
 0000607519 00000 n
-0000607571 00000 n
-0000607634 00000 n
-0000607686 00000 n
-0000607749 00000 n
-0000607801 00000 n
+0000607584 00000 n
+0000607649 00000 n
+0000607714 00000 n
+0000607779 00000 n
 0000607844 00000 n
-0000607887 00000 n
-0000607930 00000 n
-0000607973 00000 n
-0000608016 00000 n
-0000608059 00000 n
-0000608105 00000 n
+0000607909 00000 n
+0000607974 00000 n
+0000608039 00000 n
+0000608104 00000 n
+0000608169 00000 n
+0000608234 00000 n
+0000608299 00000 n
+0000608364 00000 n
+0000608429 00000 n
+0000608494 00000 n
+0000608559 00000 n
+0000608624 00000 n
+0000608689 00000 n
+0000608754 00000 n
+0000608818 00000 n
+0000608882 00000 n
+0000608946 00000 n
+0000609010 00000 n
+0000609074 00000 n
+0000609138 00000 n
+0000609202 00000 n
+0000609266 00000 n
+0000609330 00000 n
+0000609399 00000 n
+0000609451 00000 n
+0000609516 00000 n
+0000609581 00000 n
+0000609646 00000 n
+0000609711 00000 n
+0000609776 00000 n
+0000609841 00000 n
+0000609906 00000 n
+0000609971 00000 n
+0000610036 00000 n
+0000610106 00000 n
+0000610158 00000 n
+0000610223 00000 n
+0000610288 00000 n
+0000610353 00000 n
+0000610418 00000 n
+0000610483 00000 n
+0000610548 00000 n
+0000610613 00000 n
+0000610678 00000 n
+0000610743 00000 n
+0000610808 00000 n
+0000610873 00000 n
+0000610937 00000 n
+0000611001 00000 n
+0000611065 00000 n
+0000611129 00000 n
+0000611193 00000 n
+0000611257 00000 n
+0000611321 00000 n
+0000611385 00000 n
+0000611449 00000 n
+0000611513 00000 n
+0000611578 00000 n
+0000611643 00000 n
+0000611708 00000 n
+0000611773 00000 n
+0000611838 00000 n
+0000611903 00000 n
+0000611968 00000 n
+0000612033 00000 n
+0000612098 00000 n
+0000612163 00000 n
+0000612228 00000 n
+0000612293 00000 n
+0000612358 00000 n
+0000612423 00000 n
+0000612488 00000 n
+0000612553 00000 n
+0000612618 00000 n
+0000612683 00000 n
+0000612748 00000 n
+0000612813 00000 n
+0000612878 00000 n
+0000612943 00000 n
+0000613008 00000 n
+0000613073 00000 n
+0000613138 00000 n
+0000613206 00000 n
+0000613257 00000 n
+0000613321 00000 n
+0000613385 00000 n
+0000613449 00000 n
+0000613513 00000 n
+0000613578 00000 n
+0000613643 00000 n
+0000613707 00000 n
+0000613772 00000 n
+0000613837 00000 n
+0000613902 00000 n
+0000613967 00000 n
+0000614033 00000 n
+0000614098 00000 n
+0000614167 00000 n
+0000614236 00000 n
+0000614305 00000 n
+0000614374 00000 n
+0000614446 00000 n
+0000614518 00000 n
+0000614601 00000 n
+0000614653 00000 n
+0000614736 00000 n
+0000614788 00000 n
+0000614856 00000 n
+0000614924 00000 n
+0000614992 00000 n
+0000615044 00000 n
+0000615160 00000 n
+0000615212 00000 n
+0000615264 00000 n
+0000615316 00000 n
+0000615368 00000 n
+0000615420 00000 n
+0000615472 00000 n
+0000615524 00000 n
+0000615595 00000 n
+0000615693 00000 n
+0000615764 00000 n
+0000615835 00000 n
+0000615957 00000 n
+0000616009 00000 n
+0000616061 00000 n
+0000616113 00000 n
+0000616165 00000 n
+0000616217 00000 n
+0000616269 00000 n
+0000616321 00000 n
+0000616373 00000 n
+0000616425 00000 n
+0000616477 00000 n
+0000616529 00000 n
+0000616581 00000 n
+0000616633 00000 n
+0000616685 00000 n
+721 8
+0000616737 00000 n
+0000616833 00000 n
+0000616896 00000 n
+0000616959 00000 n
+0000617022 00000 n
+0000617085 00000 n
+0000617148 00000 n
+0000617211 00000 n
+730 22
+0000617274 00000 n
+0000617337 00000 n
+0000617400 00000 n
+0000617463 00000 n
+0000617515 00000 n
+0000617578 00000 n
+0000617630 00000 n
+0000617693 00000 n
+0000617745 00000 n
+0000617808 00000 n
+0000617860 00000 n
+0000617923 00000 n
+0000617975 00000 n
+0000618038 00000 n
+0000618090 00000 n
+0000618133 00000 n
+0000618176 00000 n
+0000618219 00000 n
+0000618262 00000 n
+0000618305 00000 n
+0000618348 00000 n
+0000618394 00000 n
 753 15
-0000608151 00000 n
-0000608215 00000 n
-0000608281 00000 n
-0000608368 00000 n
-0000608599 00000 n
-0000609146 00000 n
-0000609230 00000 n
-0000610049 00000 n
-0000610820 00000 n
-0000611384 00000 n
-0000612069 00000 n
-0000612809 00000 n
-0000613494 00000 n
-0000614250 00000 n
-0000614961 00000 n
+0000618440 00000 n
+0000618504 00000 n
+0000618570 00000 n
+0000618657 00000 n
+0000618888 00000 n
+0000619435 00000 n
+0000619519 00000 n
+0000620338 00000 n
+0000621109 00000 n
+0000621673 00000 n
+0000622358 00000 n
+0000623098 00000 n
+0000623783 00000 n
+0000624539 00000 n
+0000625250 00000 n
 772 1
-0000615382 00000 n
+0000625671 00000 n
 774 18
-0000615606 00000 n
-0000616279 00000 n
-0000616843 00000 n
-0000646109 00000 n
-0000665203 00000 n
-0000687684 00000 n
-0000688098 00000 n
-0000688388 00000 n
-0000688636 00000 n
-0000688926 00000 n
-0000689170 00000 n
-0000689406 00000 n
-0000689680 00000 n
-0000690877 00000 n
-0000690955 00000 n
-0000691209 00000 n
-0000691469 00000 n
-0000691741 00000 n
+0000625895 00000 n
+0000626568 00000 n
+0000627132 00000 n
+0000656398 00000 n
+0000675492 00000 n
+0000697973 00000 n
+0000698387 00000 n
+0000698677 00000 n
+0000698925 00000 n
+0000699215 00000 n
+0000699459 00000 n
+0000699695 00000 n
+0000699969 00000 n
+0000701166 00000 n
+0000701244 00000 n
+0000701498 00000 n
+0000701758 00000 n
+0000702030 00000 n
 802 1
-0000691985 00000 n
+0000702274 00000 n
 804 11
-0000692026 00000 n
-0000692065 00000 n
-0000692104 00000 n
-0000692399 00000 n
-0000692684 00000 n
-0000692723 00000 n
-0000693019 00000 n
-0000693058 00000 n
-0000693097 00000 n
-0000693382 00000 n
-0000693421 00000 n
+0000702315 00000 n
+0000702354 00000 n
+0000702393 00000 n
+0000702688 00000 n
+0000702973 00000 n
+0000703012 00000 n
+0000703308 00000 n
+0000703347 00000 n
+0000703386 00000 n
+0000703671 00000 n
+0000703710 00000 n
 823 1
-0000693462 00000 n
+0000703751 00000 n
 832 3
-0000694265 00000 n
-0000694542 00000 n
-0000694583 00000 n
+0000704554 00000 n
+0000704831 00000 n
+0000704872 00000 n
 843 1
-0000695444 00000 n
+0000705733 00000 n
 845 1
-0000695485 00000 n
+0000705774 00000 n
 854 1
-0000695526 00000 n
+0000705815 00000 n
 856 1
-0000696512 00000 n
+0000706801 00000 n
 865 1
-0000696553 00000 n
+0000706842 00000 n
 867 1
-0000697330 00000 n
+0000707619 00000 n
 869 1
-0000697371 00000 n
+0000707660 00000 n
 880 1
-0000697412 00000 n
+0000707701 00000 n
 889 24
-0000697451 00000 n
-0000697490 00000 n
-0000697782 00000 n
-0000697821 00000 n
-0000698107 00000 n
-0000698146 00000 n
-0000698436 00000 n
-0000698724 00000 n
-0000698763 00000 n
-0000698802 00000 n
-0000699089 00000 n
-0000699128 00000 n
-0000699421 00000 n
-0000699460 00000 n
-0000699752 00000 n
-0000699791 00000 n
-0000700079 00000 n
-0000700118 00000 n
-0000700406 00000 n
-0000700445 00000 n
-0000700731 00000 n
-0000700770 00000 n
-0000701065 00000 n
-0000701352 00000 n
+0000707740 00000 n
+0000707779 00000 n
+0000708071 00000 n
+0000708110 00000 n
+0000708396 00000 n
+0000708435 00000 n
+0000708725 00000 n
+0000709013 00000 n
+0000709052 00000 n
+0000709091 00000 n
+0000709378 00000 n
+0000709417 00000 n
+0000709710 00000 n
+0000709749 00000 n
+0000710041 00000 n
+0000710080 00000 n
+0000710368 00000 n
+0000710407 00000 n
+0000710695 00000 n
+0000710734 00000 n
+0000711020 00000 n
+0000711059 00000 n
+0000711354 00000 n
+0000711641 00000 n
 914 1
-0000701393 00000 n
+0000711682 00000 n
 923 2
-0000702131 00000 n
-0000703299 00000 n
+0000712420 00000 n
+0000713588 00000 n
 935 2
-0000703340 00000 n
-0000703381 00000 n
-945 49
-0000703422 00000 n
-0000704634 00000 n
-0000705563 00000 n
-0000706703 00000 n
-0000707711 00000 n
-0000707844 00000 n
-0000707997 00000 n
-0000708070 00000 n
-0000708245 00000 n
-0000708660 00000 n
-0000708695 00000 n
-0000708919 00000 n
-0000709212 00000 n
-0000710009 00000 n
-0000710091 00000 n
-0000711061 00000 n
-0000712116 00000 n
-0000712267 00000 n
-0000713322 00000 n
-0000713473 00000 n
-0000714528 00000 n
-0000714679 00000 n
-0000715734 00000 n
-0000715885 00000 n
-0000716940 00000 n
-0000717091 00000 n
-0000718146 00000 n
-0000718297 00000 n
-0000719352 00000 n
-0000719503 00000 n
-0000720558 00000 n
-0000720709 00000 n
-0000721764 00000 n
-0000721915 00000 n
-0000722970 00000 n
-0000723121 00000 n
-0000724176 00000 n
-0000724327 00000 n
-0000725382 00000 n
-0000725533 00000 n
-0000725574 00000 n
-0000726629 00000 n
-0000726780 00000 n
-0000727688 00000 n
-0000727729 00000 n
-0000728503 00000 n
-0000729197 00000 n
-0000729238 00000 n
-0000729279 00000 n
+0000713629 00000 n
+0000713670 00000 n
+946 3
+0000713711 00000 n
+0000714640 00000 n
+0000715780 00000 n
+957 5
+0000716788 00000 n
+0000717585 00000 n
+0000717667 00000 n
+0000718637 00000 n
+0000719692 00000 n
+984 1
+0000719843 00000 n
+987 6
+0000719884 00000 n
+0000720792 00000 n
+0000720833 00000 n
+0000721607 00000 n
+0000722301 00000 n
+0000722342 00000 n
+1002 19
+0000722383 00000 n
+0000723362 00000 n
+0000723498 00000 n
+0000723656 00000 n
+0000723730 00000 n
+0000723907 00000 n
+0000724323 00000 n
+0000724359 00000 n
+0000724584 00000 n
+0000724878 00000 n
+0000726073 00000 n
+0000726115 00000 n
+0000726917 00000 n
+0000726959 00000 n
+0000728090 00000 n
+0000729301 00000 n
+0000729343 00000 n
+0000730209 00000 n
+0000730251 00000 n
 trailer
-<</Info 791 0 R /Root 756 0 R /Size 994/ID[<99A0A5D93A62E8AC2F5BBBE862CDA3D2><B9B6B097B886729EC9A6D9CC1BA5AE1B>]>>
+<</Info 791 0 R /Root 756 0 R /Size 1021/ID[<99A0A5D93A62E8AC2F5BBBE862CDA3D2><27A938000938DD6A7E378755C294C030>]>>
+startxref
+730604
+%%EOF
+7B886729EC9A6D9CC1BA5AE1B>]>>
 startxref
 730290
 %%EOF
