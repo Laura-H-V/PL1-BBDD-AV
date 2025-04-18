@@ -97,6 +97,7 @@ CREATE INDEX IF NOT EXISTS idx_vehiculos_clienteid ON vehiculos(clienteid_client
 --Pago: 40.000.000
 --Incidencias: 4.000.000
 */
+/*
 BEGIN;
 -- 1. Seleccionar aleatoriamente el 30% de los clientes
 CREATE TEMP TABLE clientes_a_borrar AS
@@ -151,3 +152,15 @@ WHERE v.clienteid_clientes = c.clienteid;
 DELETE FROM clientes
 WHERE clienteid IN (SELECT clienteid FROM clientes_a_borrar);
 COMMIT;
+*/
+VACUUM clientes;
+VACUUM reservas;
+VACUUM incidencias;
+VACUUM vehiculos;
+VACUUM pagos;
+VACUUM plazas;
+
+CREATE INDEX IF NOT EXISTS idx_pagos ON pagos(reservaid_reservas, cantidad);
+CREATE INDEX IF NOT EXISTS idx_clientes_prov ON clientes(provincia);
+CREATE INDEX IF NOT EXISTS idx_incidencias ON incidencias(reservaid_reservas, estado);
+CREATE INDEX IF NOT EXISTS idx_reservasd ON reservas(reservaid);
