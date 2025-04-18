@@ -1938,7 +1938,7 @@ endobj
 <</BaseFont/Georgia/Encoding/WinAnsiEncoding/FirstChar 0/FontDescriptor 147 0 R /LastChar 255/Name/Georgia/Subtype/TrueType/Type/Font/Widths[ 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 241 331 412 643 610 817 710 215 375 375 472 643 270 374 270 469 614 430 559 552 565 528 566 502 596 566 313 313 643 643 643 479 929 671 654 642 749 653 599 725 815 390 518 694 604 927 767 744 610 744 702 561 619 756 667 976 710 615 602 375 469 375 643 643 500 504 560 454 574 483 325 509 582 293 292 536 286 881 591 539 571 560 410 432 345 575 497 737 505 492 444 430 375 430 643 393 642 393 227 519 410 807 472 472 500 1206 561 415 998 393 602 393 393 227 227 410 410 393 643 857 500 942 432 415 816 393 444 615 241 331 555 622 571 615 375 500 500 942 500 581 643 374 942 643 419 643 500 500 500 566 500 279 500 500 500 581 1050 1050 1050 479 671 671 671 671 671 671 971 642 653 653 653 653 390 390 390 390 749 767 744 744 744 744 744 643 744 756 756 756 756 615 614 548 504 504 504 504 504 504 737 454 483 483 483 483 293 293 293 293 532 591 539 539 539 539 539 643 539 575 575 575 575 492 559 492]>>
 endobj
 101 0 obj
-<</AP<</N 823 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 18 0 R /RV(\r\nEn la ubicación del ordenador donde están los datos de postgresSQL hay una carpeta "data" y dentro de esta está el archivo postgresql.conf.  Ahí deberemos de modificar el apartado log_statement para que sea igual a 'mod'. Esto hace que solo registre las sentencias DML y DDL, las pedidas en el enunciado.\r\nPara que no aparezca la duración de las consultas se establece log_duration como 'off'.\r\nPara modificar la salida de los logs con un texto personalizado, se añade en log_line_prefix ambos dni junto a los datos que ya aparecían por defecto. Para que aparezca el nombre del Host ponemos %h, y para que aparezca el puerto añadimos 5432, que es el puerto que usamos. \r\n\r\nPara desactivar el procesamiento paralelo de consultas deberemos buscar max_parallel_workers_per_gather en postgresql.conf y darle de valor 0.)/Rect[ 82.4235 479.09601 538.18903 722.00702]/Subtype/Widget/T(Text1)/Type/Annot/V(\r\nEn la ubicación del ordenador donde están los datos de postgresSQL hay una carpeta "data" y dentro de esta está el archivo postgresql.conf.  Ahí deberemos de modificar el apartado log_statement para que sea igual a 'mod'. Esto hace que solo registre las sentencias DML y DDL, las pedidas en el enunciado.\r\nPara que no aparezca la duración de las consultas se establece log_duration como 'off'.\r\nPara modificar la salida de los logs con un texto personalizado, se añade en log_line_prefix ambos dni junto a los datos que ya aparecían por defecto. Para que aparezca el nombre del Host ponemos %h, y para que aparezca el puerto añadimos 5432, que es el puerto que usamos. \r\n\r\nPara desactivar el procesamiento paralelo de consultas deberemos buscar max_parallel_workers_per_gather en postgresql.conf y darle de valor 0.)>>
+<</AP<</N 1057 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 18 0 R /RV(\r\nEn la ubicación del ordenador donde están los datos de postgresSQL hay una carpeta "data" y dentro de esta está el archivo postgresql.conf.  Ahí deberemos de modificar el apartado log_statement para que sea igual a 'mod'. Esto hace que solo registre las sentencias DML y DDL, las pedidas en el enunciado.\r\n\r\nPara que no aparezca la duración de las consultas se establece log_duration como 'off'.\r\nPara modificar la salida de los logs con un texto personalizado, se añade en log_line_prefix ambos dni junto a los datos que ya aparecían por defecto. Para que aparezca el nombre del Host ponemos %h, y para que aparezca el puerto añadimos 5432, que es el puerto que usamos. \r\n\r\nPara desactivar el procesamiento paralelo de consultas deberemos buscar max_parallel_workers_per_gather en postgresql.conf y darle de valor 0.)/Rect[ 82.4235 479.09601 538.18903 722.00702]/Subtype/Widget/T(Text1)/Type/Annot/V(\r\nEn la ubicación del ordenador donde están los datos de postgresSQL hay una carpeta "data" y dentro de esta está el archivo postgresql.conf.  Ahí deberemos de modificar el apartado log_statement para que sea igual a 'mod'. Esto hace que solo registre las sentencias DML y DDL, las pedidas en el enunciado.\r\n\r\nPara que no aparezca la duración de las consultas se establece log_duration como 'off'.\r\nPara modificar la salida de los logs con un texto personalizado, se añade en log_line_prefix ambos dni junto a los datos que ya aparecían por defecto. Para que aparezca el nombre del Host ponemos %h, y para que aparezca el puerto añadimos 5432, que es el puerto que usamos. \r\n\r\nPara desactivar el procesamiento paralelo de consultas deberemos buscar max_parallel_workers_per_gather en postgresql.conf y darle de valor 0.)>>
 endobj
 102 0 obj
 <</AP<</N 834 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 18 0 R /RV(Sí, PostgreSQL cuenta con un recolector de estadísticas que recopila información sobre los datos en cada campo de las tablas.\r\n\r\nEstas incluyen el número total de tuplas en cada tabla y detalles específicos sobre cada columna, como su cardinalidad \(cantidad de valores distintos\), una lista de los valores más frecuentes junto con el número de veces que aparecen y un histograma que divide los valores en intervalos con cantidades similares de datos.\r\n\r\nAdemás, PostgreSQL mantiene una correlación estadística entre el orden físico y lógico de los valores en una columna. Esto permite estimar el costo de acceder a los datos mediante índices, lo que es crucial para optimizar consultas.\r\n\r\nPara que estas estadísticas sean precisas y útiles, el Administrador de Bases de Datos \(ABD\) debe asegurarse de que se actualicen periódicamente ejecutando el comando ANALYZE, que recalcula estos valores en función de los cambios en los datos.)/Rect[ 80.847801 105.103996 542.28198 386.14801]/Subtype/Widget/T(Text3)/Type/Annot/V(Sí, PostgreSQL cuenta con un recolector de estadísticas que recopila información sobre los datos en cada campo de las tablas.\r\n\r\nEstas incluyen el número total de tuplas en cada tabla y detalles específicos sobre cada columna, como su cardinalidad \(cantidad de valores distintos\), una lista de los valores más frecuentes junto con el número de veces que aparecen y un histograma que divide los valores en intervalos con cantidades similares de datos.\r\n\r\nAdemás, PostgreSQL mantiene una correlación estadística entre el orden físico y lógico de los valores en una columna. Esto permite estimar el costo de acceder a los datos mediante índices, lo que es crucial para optimizar consultas.\r\n\r\nPara que estas estadísticas sean precisas y útiles, el Administrador de Bases de Datos \(ABD\) debe asegurarse de que se actualicen periódicamente ejecutando el comando ANALYZE, que recalcula estos valores en función de los cambios en los datos.)>>
@@ -1950,13 +1950,13 @@ endobj
 <</AP<</N 865 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 24 0 R /RV(Hacemos esta consulta para la tabla investigadores: SELECT relname, reltuples, relpages\r\nFROM pg_class WHERE relname = 'investigadores'; para que nos devuelva el número de tuplas y el numero de bloques.  Nos devuelve que contiene 3 millones de tuplas, que ocupan 28040 bloques.\r\n\r\nRepetimos esto para la tabla contrato, con la misma consulta, nos devuelve que hay 200000 tuplas que ocupan un total de 1800 bloques.\r\n\r\nPor último, hacemos la consulta con la tabla investigadores_contratos. nos devuelve que contiene 9000196 tuplas y que ocupa 57328 bloques. \r\n\r\nLos datos que nos han devuelto las tablas parecen correctos, viendo la cantidad de filas que contienen los csv. En el caso de que nos hubieran devuelto datos incorrectos, habriamos ejecutado ANALYZE más el nombre de cada una de las tablas. Lo que hace esto es actualizar los datos de las estadísticas de las tablas.)/Rect[ 83.407898 448.715 551.92999 738.67102]/Subtype/Widget/T(Text5)/Type/Annot/V(Hacemos esta consulta para la tabla investigadores: SELECT relname, reltuples, relpages\r\nFROM pg_class WHERE relname = 'investigadores'; para que nos devuelva el número de tuplas y el numero de bloques.  Nos devuelve que contiene 3 millones de tuplas, que ocupan 28040 bloques.\r\n\r\nRepetimos esto para la tabla contrato, con la misma consulta, nos devuelve que hay 200000 tuplas que ocupan un total de 1800 bloques.\r\n\r\nPor último, hacemos la consulta con la tabla investigadores_contratos. nos devuelve que contiene 9000196 tuplas y que ocupa 57328 bloques. \r\n\r\nLos datos que nos han devuelto las tablas parecen correctos, viendo la cantidad de filas que contienen los csv. En el caso de que nos hubieran devuelto datos incorrectos, habriamos ejecutado ANALYZE más el nombre de cada una de las tablas. Lo que hace esto es actualizar los datos de las estadísticas de las tablas.)>>
 endobj
 105 0 obj
-<</AP<</N 946 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 24 0 R /RV(Actualizamos las estadísticas con ANALYZE investigadores;\r\nHacemos la consulta:  EXPLAIN SELECT * FROM investigadores WHERE salario < 24000;\r\n\r\nLos resultados del EXPLAIN son correctos porque este comando es un optimizador que calcula el mejor camino para ejecutar la consulta, este ha sido utilizar la búsqueda secuencial ya que no existen índices.\r\n\r\nPrimero obtenemos la longitud de cada tupla de la tabla investigador: Lr = L\(codigo_investigador\) + L\(nombre\) + L\(apellidos\) + L\(salario\) =  8 +  16 + 19 + 8 =  51 + 4 bytes de puntero = 55.\r\n\r\nBútil = 8192 - información de control = 8192 - 24 = 8168.\r\n\r\nfr = 8168 / 55 = 148,55 = 148\r\nbr = 3.000.000/148 = 20270 bloques.\r\n\r\nEl coste de la búsqueda secuencial será de 20270 bloques\r\n\r\nBusqueda binaria no podemos usarla al no estar ordenada la tabla\r\n\r\nNo existe ningún índice por lo que tampoco podremos hacer este tipo de búsqueda.\r\n\r\nPor lo tanto el comando EXPLAIN ha usado el tipo de busqueda correcto, ya que es el único que puede utilizar.\r\n\r\n\r\n\r\n\r\n)/Rect[ 78.937798 84.491302 538.95599 383.85199]/Subtype/Widget/T(Text6)/Type/Annot/V(Actualizamos las estadísticas con ANALYZE investigadores;\r\nHacemos la consulta:  EXPLAIN SELECT * FROM investigadores WHERE salario < 24000;\r\n\r\nLos resultados del EXPLAIN son correctos porque este comando es un optimizador que calcula el mejor camino para ejecutar la consulta, este ha sido utilizar la búsqueda secuencial ya que no existen índices.\r\n\r\nPrimero obtenemos la longitud de cada tupla de la tabla investigador: Lr = L\(codigo_investigador\) + L\(nombre\) + L\(apellidos\) + L\(salario\) =  8 +  16 + 19 + 8 =  51 + 4 bytes de puntero = 55.\r\n\r\nBútil = 8192 - información de control = 8192 - 24 = 8168.\r\n\r\nfr = 8168 / 55 = 148,55 = 148\r\nbr = 3.000.000/148 = 20270 bloques.\r\n\r\nEl coste de la búsqueda secuencial será de 20270 bloques\r\n\r\nBusqueda binaria no podemos usarla al no estar ordenada la tabla\r\n\r\nNo existe ningún índice por lo que tampoco podremos hacer este tipo de búsqueda.\r\n\r\nPor lo tanto el comando EXPLAIN ha usado el tipo de busqueda correcto, ya que es el único que puede utilizar.\r\n\r\n\r\n\r\n\r\n)>>
+<</AP<</N 1058 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 24 0 R /RV(Actualizamos las estadísticas con ANALYZE investigadores;\r\nHacemos la consulta:  EXPLAIN SELECT * FROM investigadores WHERE salario < 24000;\r\n\r\nLos resultados del EXPLAIN son correctos porque este comando es un optimizador que calcula el mejor camino para ejecutar la consulta, este ha sido utilizar la búsqueda secuencial ya que no existen índices.\r\n\r\nPrimero obtenemos la longitud de cada tupla de la tabla investigador: Lr = L\(codigo_investigador\) + L\(nombre\) + L\(apellidos\) + L\(salario\) =  8 +  16 + 19 + 8 =  51 + 4 bytes de puntero = 55.\r\n\r\nBútil = 8192 - información de control = 8192 - 24 = 8168.\r\n\r\nfr = 8168 / 55 = 148,55 = 148\r\nbr = 3.000.000/148 = 20270 bloques.\r\n\r\nEl coste de la búsqueda secuencial será de 20270 bloques\r\n\r\nBusqueda binaria no podemos usarla al no estar ordenada la tabla.\r\n\r\nNo existe ningún índice por lo que tampoco podremos hacer este tipo de búsqueda.\r\n\r\nPor lo tanto el comando EXPLAIN ha usado el tipo de busqueda correcto, ya que es el único que puede utilizar.\r\n\r\n\r\n\r\n\r\n)/Rect[ 78.937798 84.491302 538.95599 383.85199]/Subtype/Widget/T(Text6)/Type/Annot/V(Actualizamos las estadísticas con ANALYZE investigadores;\r\nHacemos la consulta:  EXPLAIN SELECT * FROM investigadores WHERE salario < 24000;\r\n\r\nLos resultados del EXPLAIN son correctos porque este comando es un optimizador que calcula el mejor camino para ejecutar la consulta, este ha sido utilizar la búsqueda secuencial ya que no existen índices.\r\n\r\nPrimero obtenemos la longitud de cada tupla de la tabla investigador: Lr = L\(codigo_investigador\) + L\(nombre\) + L\(apellidos\) + L\(salario\) =  8 +  16 + 19 + 8 =  51 + 4 bytes de puntero = 55.\r\n\r\nBútil = 8192 - información de control = 8192 - 24 = 8168.\r\n\r\nfr = 8168 / 55 = 148,55 = 148\r\nbr = 3.000.000/148 = 20270 bloques.\r\n\r\nEl coste de la búsqueda secuencial será de 20270 bloques\r\n\r\nBusqueda binaria no podemos usarla al no estar ordenada la tabla.\r\n\r\nNo existe ningún índice por lo que tampoco podremos hacer este tipo de búsqueda.\r\n\r\nPor lo tanto el comando EXPLAIN ha usado el tipo de busqueda correcto, ya que es el único que puede utilizar.\r\n\r\n\r\n\r\n\r\n)>>
 endobj
 106 0 obj
-<</AP<</N 947 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 28 0 R /RV(Actualizamos las estadísticas con ANALYZE investigadores; y ANALYZE investigadores_contratos;\r\nLanzamos la consulta: EXPLAIN SELECT COUNT\(*\) FROM investigadores i  JOIN investigadores_contratos ic ON i.codigo_investigador = ic.codigo_investigador WHERE ic.horas = 8 AND i.salario = 20000;\r\nLos resultados del EXPLAIN son correctos , es el que ha considerado mejor camino para ejecutar la consulta. Este ha sido primero, realizar una búsqueda secuencial en la tabla investigadores para filtrar  con salario = 20000,  segundo, se emplea la búsqueda por índice primario de investigadores_contratos y aplicar el filtro de horas = 8. Luego se hace el JOIN con bucle anidado y se agrupa para hacer el count. Ahora calcularemos el mejor camino según la teoría.\r\n\r\nRAMA INVESTIGADORES: incialmente tiene 3.000.000 de tuplas, pero con la seleccion de salario = 20000 quedan solo 13, según postgres.\r\n\r\nRAMA INVESTIGADORES_CONTRATOS: inicialmente 9.000.000 de tuplas, postgres nos dice que con la selección se reduce a 374412 tuplas.\r\nAmbas tablas no tienen índices ni están ordenadas, por lo que habría que usar obligatoriamente la búsqueda secuencial\r\nJOIN: llegarán 13 tuplas por un lado y 374412 por el otro, devolverá 13 tuplas. Como no hay índices, ni están ordenadas ni nos dan función Hash, solo podríamos aplicar el bucle anidado por bloques. \r\nPara contar las tablas usaríamos la ordenación por mezcla externa.\r\nLa única diferencia es que postgres usa el índice por clave primaria en investigadores_contratos, un índice creado automaticamente por el programa sobre la tabla. \r\n)/Rect[ 82.3153 408.241 539.49799 699.28003]/Subtype/Widget/T(Text7)/Type/Annot/V(Actualizamos las estadísticas con ANALYZE investigadores; y ANALYZE investigadores_contratos;\r\nLanzamos la consulta: EXPLAIN SELECT COUNT\(*\) FROM investigadores i  JOIN investigadores_contratos ic ON i.codigo_investigador = ic.codigo_investigador WHERE ic.horas = 8 AND i.salario = 20000;\r\nLos resultados del EXPLAIN son correctos , es el que ha considerado mejor camino para ejecutar la consulta. Este ha sido primero, realizar una búsqueda secuencial en la tabla investigadores para filtrar  con salario = 20000,  segundo, se emplea la búsqueda por índice primario de investigadores_contratos y aplicar el filtro de horas = 8. Luego se hace el JOIN con bucle anidado y se agrupa para hacer el count. Ahora calcularemos el mejor camino según la teoría.\r\n\r\nRAMA INVESTIGADORES: incialmente tiene 3.000.000 de tuplas, pero con la seleccion de salario = 20000 quedan solo 13, según postgres.\r\n\r\nRAMA INVESTIGADORES_CONTRATOS: inicialmente 9.000.000 de tuplas, postgres nos dice que con la selección se reduce a 374412 tuplas.\r\nAmbas tablas no tienen índices ni están ordenadas, por lo que habría que usar obligatoriamente la búsqueda secuencial\r\nJOIN: llegarán 13 tuplas por un lado y 374412 por el otro, devolverá 13 tuplas. Como no hay índices, ni están ordenadas ni nos dan función Hash, solo podríamos aplicar el bucle anidado por bloques. \r\nPara contar las tablas usaríamos la ordenación por mezcla externa.\r\nLa única diferencia es que postgres usa el índice por clave primaria en investigadores_contratos, un índice creado automaticamente por el programa sobre la tabla. \r\n)>>
+<</AP<</N 1059 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 28 0 R /RV(Actualizamos las estadísticas con ANALYZE investigadores; y ANALYZE investigadores_contratos;\r\nLanzamos la consulta: EXPLAIN SELECT COUNT\(*\) FROM investigadores i  JOIN investigadores_contratos ic ON i.codigo_investigador = ic.codigo_investigador WHERE ic.horas = 8 AND i.salario = 20000;\r\nLos resultados del EXPLAIN son correctos , es el que ha considerado mejor camino para ejecutar la consulta. Este ha sido primero, realizar una búsqueda secuencial en la tabla investigadores para filtrar  con salario = 20000,  segundo, se emplea la búsqueda por índice primario de investigadores_contratos y aplicar el filtro de horas = 8. Luego se hace el JOIN con bucle anidado y se agrupa para hacer el count. Ahora calcularemos el mejor camino según la teoría.\r\n\r\nRAMA INVESTIGADORES: incialmente tiene 3.000.000 de tuplas, pero con la seleccion de salario = 20000 quedan solo 13, según postgres.\r\n\r\nRAMA INVESTIGADORES_CONTRATOS: inicialmente 9.000.000 de tuplas, postgres nos dice que con la selección se reduce a 374412 tuplas.\r\nAmbas tablas no tienen índices ni están ordenadas, por lo que habría que usar obligatoriamente la búsqueda secuencial.\r\nJOIN: llegarán 13 tuplas por un lado y 374412 por el otro, devolverá 13 tuplas. Como no hay índices, ni están ordenadas ni nos dan función Hash, solo podríamos aplicar el bucle anidado por bloques. \r\nPara contar las tablas usaríamos la ordenación por mezcla externa.\r\nLa única diferencia es que postgres usa el índice por clave primaria en investigadores_contratos, un índice creado automaticamente por el programa sobre la tabla. \r\n)/Rect[ 82.3153 408.241 539.49799 699.28003]/Subtype/Widget/T(Text7)/Type/Annot/V(Actualizamos las estadísticas con ANALYZE investigadores; y ANALYZE investigadores_contratos;\r\nLanzamos la consulta: EXPLAIN SELECT COUNT\(*\) FROM investigadores i  JOIN investigadores_contratos ic ON i.codigo_investigador = ic.codigo_investigador WHERE ic.horas = 8 AND i.salario = 20000;\r\nLos resultados del EXPLAIN son correctos , es el que ha considerado mejor camino para ejecutar la consulta. Este ha sido primero, realizar una búsqueda secuencial en la tabla investigadores para filtrar  con salario = 20000,  segundo, se emplea la búsqueda por índice primario de investigadores_contratos y aplicar el filtro de horas = 8. Luego se hace el JOIN con bucle anidado y se agrupa para hacer el count. Ahora calcularemos el mejor camino según la teoría.\r\n\r\nRAMA INVESTIGADORES: incialmente tiene 3.000.000 de tuplas, pero con la seleccion de salario = 20000 quedan solo 13, según postgres.\r\n\r\nRAMA INVESTIGADORES_CONTRATOS: inicialmente 9.000.000 de tuplas, postgres nos dice que con la selección se reduce a 374412 tuplas.\r\nAmbas tablas no tienen índices ni están ordenadas, por lo que habría que usar obligatoriamente la búsqueda secuencial.\r\nJOIN: llegarán 13 tuplas por un lado y 374412 por el otro, devolverá 13 tuplas. Como no hay índices, ni están ordenadas ni nos dan función Hash, solo podríamos aplicar el bucle anidado por bloques. \r\nPara contar las tablas usaríamos la ordenación por mezcla externa.\r\nLa única diferencia es que postgres usa el índice por clave primaria en investigadores_contratos, un índice creado automaticamente por el programa sobre la tabla. \r\n)>>
 endobj
 107 0 obj
-<</AP<</N 948 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 28 0 R /RV(Hacemos la consulta: EXPLAIN SELECT c.nombre, c.entidad FROM contratos c JOIN investigadores_contratos ic ON c.codigo_contrato = ic.codigo_contrato JOIN investigadores i ON ic.codigo_investigador = i.codigo_investigador WHERE c.coste > 10000 AND c.coste < 15000  AND i.salario > 16000  AND ic.horas = 5;\r\n\r\nLos resultados del EXPLAIN son correctos, hace un bucle anidado para unir investigadores \(la lee usando su índice primario\) con, a su vez, un Hash JOIN entre contratos \(lectura secuencial\) e investigadores contratos\(lectura secuencial\). \r\n\r\nEn cuanto a los JOIN, primero se hará el JOIN entre contratos e investigadores_contratos, lo que nos devolverá unas 33,373 tuplas. Esto se debe a que los filtros en estas tablas eliminan muchas tuplas antes de realizar el siguiente paso. Si se realizara primero el JOIN entre investigadores e investigadores_contratos, el resultado sería mucho mayor, de 376,050 tuplas. No tenemos indices, ni función de asociación ni están ordenadeas las tablas, por lo que en ambos JOIN solo podremos hacer un bucle anidado por bloques.\r\n\r\nEn ambos casos hacemos los JOIN en el mismo orden, solo que postgres considera usar un Hash para el segundo JOIN. Lo mismo pasa con las tablas, solo investigadores es leída con índice, el resto con secuenciales según postgres, mientras que para nosotros solo sería posible utilizar la secuencial.)/Rect[ 83.357399 66.218597 547.62701 318.99799]/Subtype/Widget/T(Text8)/Type/Annot/V(Hacemos la consulta: EXPLAIN SELECT c.nombre, c.entidad FROM contratos c JOIN investigadores_contratos ic ON c.codigo_contrato = ic.codigo_contrato JOIN investigadores i ON ic.codigo_investigador = i.codigo_investigador WHERE c.coste > 10000 AND c.coste < 15000  AND i.salario > 16000  AND ic.horas = 5;\r\n\r\nLos resultados del EXPLAIN son correctos, hace un bucle anidado para unir investigadores \(la lee usando su índice primario\) con, a su vez, un Hash JOIN entre contratos \(lectura secuencial\) e investigadores contratos\(lectura secuencial\). \r\n\r\nEn cuanto a los JOIN, primero se hará el JOIN entre contratos e investigadores_contratos, lo que nos devolverá unas 33,373 tuplas. Esto se debe a que los filtros en estas tablas eliminan muchas tuplas antes de realizar el siguiente paso. Si se realizara primero el JOIN entre investigadores e investigadores_contratos, el resultado sería mucho mayor, de 376,050 tuplas. No tenemos indices, ni función de asociación ni están ordenadeas las tablas, por lo que en ambos JOIN solo podremos hacer un bucle anidado por bloques.\r\n\r\nEn ambos casos hacemos los JOIN en el mismo orden, solo que postgres considera usar un Hash para el segundo JOIN. Lo mismo pasa con las tablas, solo investigadores es leída con índice, el resto con secuenciales según postgres, mientras que para nosotros solo sería posible utilizar la secuencial.)>>
+<</AP<</N 1060 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 28 0 R /RV(Hacemos la consulta: EXPLAIN SELECT c.nombre, c.entidad FROM contratos c JOIN investigadores_contratos ic ON c.codigo_contrato = ic.codigo_contrato JOIN investigadores i ON ic.codigo_investigador = i.codigo_investigador WHERE c.coste > 10000 AND c.coste < 15000  AND i.salario > 16000  AND ic.horas = 5;\r\n\r\nLos resultados del EXPLAIN son correctos, hace un bucle anidado para unir investigadores \(la lee usando su índice primario\) con, a su vez, un Hash JOIN entre contratos \(lectura secuencial\) e investigadores contratos\(lectura secuencial\). \r\n\r\nEn cuanto a los JOIN, primero se hará el JOIN entre contratos e investigadores_contratos, lo que nos devolverá unas 33,373 tuplas. Esto se debe a que los filtros en estas tablas eliminan muchas tuplas antes de realizar el siguiente paso. Si se realizara primero el JOIN entre investigadores e investigadores_contratos, el resultado sería mucho mayor, de 376,050 tuplas. No tenemos índices, ni función de asociación ni están ordenadeas las tablas, por lo que en ambos JOIN solo podremos hacer un bucle anidado por bloques.\r\n\r\nEn ambos casos hacemos los JOIN en el mismo orden, solo que postgres considera usar un Hash para el segundo JOIN. Lo mismo pasa con las tablas, solo investigadores es leída con índice, el resto con secuenciales según postgres, mientras que para nosotros solo sería posible utilizar la secuencial.)/Rect[ 83.357399 66.218597 547.62701 318.99799]/Subtype/Widget/T(Text8)/Type/Annot/V(Hacemos la consulta: EXPLAIN SELECT c.nombre, c.entidad FROM contratos c JOIN investigadores_contratos ic ON c.codigo_contrato = ic.codigo_contrato JOIN investigadores i ON ic.codigo_investigador = i.codigo_investigador WHERE c.coste > 10000 AND c.coste < 15000  AND i.salario > 16000  AND ic.horas = 5;\r\n\r\nLos resultados del EXPLAIN son correctos, hace un bucle anidado para unir investigadores \(la lee usando su índice primario\) con, a su vez, un Hash JOIN entre contratos \(lectura secuencial\) e investigadores contratos\(lectura secuencial\). \r\n\r\nEn cuanto a los JOIN, primero se hará el JOIN entre contratos e investigadores_contratos, lo que nos devolverá unas 33,373 tuplas. Esto se debe a que los filtros en estas tablas eliminan muchas tuplas antes de realizar el siguiente paso. Si se realizara primero el JOIN entre investigadores e investigadores_contratos, el resultado sería mucho mayor, de 376,050 tuplas. No tenemos índices, ni función de asociación ni están ordenadeas las tablas, por lo que en ambos JOIN solo podremos hacer un bucle anidado por bloques.\r\n\r\nEn ambos casos hacemos los JOIN en el mismo orden, solo que postgres considera usar un Hash para el segundo JOIN. Lo mismo pasa con las tablas, solo investigadores es leída con índice, el resto con secuenciales según postgres, mientras que para nosotros solo sería posible utilizar la secuencial.)>>
 endobj
 108 0 obj
 <</AP<</N 890 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 144 0 R >>/Font<</Helv 145 0 R >>>>/F 4/FT/Tx/P 31 0 R /Q 1/Rect[ 195.84 268.20001 305.51999 287.04001]/Subtype/Widget/T(TablaRow1)/TU(Tabla_Row_1)/Type/Annot/V(Clientes)>>
@@ -1995,25 +1995,25 @@ endobj
 <</AP<</N 911 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 144 0 R >>/Font<</Helv 145 0 R >>>>/F 4/FT/Tx/P 31 0 R /Q 1/Rect[ 307.32001 167.520004 427.92001 186.36]/Subtype/Widget/T(Tiempo segRow6)/TU(Tiempo \(seg\)_Row_6)/Type/Annot/V(212)>>
 endobj
 120 0 obj
-<</AP<</N 914 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<<>>/P 31 0 R /RV(El codigo completo no cabe, pero pondremos a modo de ejemplo como se crea el csv para clientes:\r\n\r\ndef guardar_csv\(nombre, datos, campos\):\r\n    with open\(nombre, mode='w', newline='', encoding='utf-8'\) as file:\r\n        writer = csv.DictWriter\(file, fieldnames=campos\)\r\n        writer.writeheader\(\)\r\n        writer.writerows\(datos\)\r\n    print\(f"{nombre} generado correctamente."\)\r\n\r\nfor i in range\(3_000_000\):\r\n    while \(telefono := f"6{random.randint\(10000000, 99999999\)}"\) in telefonos_generados:\r\n        pass\r\n    telefonos_generados.add\(telefono\)\r\n    \r\n    clientes.append\({\r\n        "clienteid": i+1, "nombre": random.choice\(nombres\), "apellido": random.choice\(apellidos\),\r\n"telefono": telefono, "email": f"cliente{i+1}@mail.com", "provincia": random.choice\(provincias\)\r\n    }\)\r\n\r\nguardar_csv\("clientes.csv", clientes, ["clienteid", "nombre", "apellido","telefono", "email", "provincia"]\))/Rect[ 80.793404 425.142 543.646 692.513]/Subtype/Widget/T(Text9)/Type/Annot/V(El codigo completo no cabe, pero pondremos a modo de ejemplo como se crea el csv para clientes:\r\n\r\ndef guardar_csv\(nombre, datos, campos\):\r\n    with open\(nombre, mode='w', newline='', encoding='utf-8'\) as file:\r\n        writer = csv.DictWriter\(file, fieldnames=campos\)\r\n        writer.writeheader\(\)\r\n        writer.writerows\(datos\)\r\n    print\(f"{nombre} generado correctamente."\)\r\n\r\nfor i in range\(3_000_000\):\r\n    while \(telefono := f"6{random.randint\(10000000, 99999999\)}"\) in telefonos_generados:\r\n        pass\r\n    telefonos_generados.add\(telefono\)\r\n    \r\n    clientes.append\({\r\n        "clienteid": i+1, "nombre": random.choice\(nombres\), "apellido": random.choice\(apellidos\),\r\n"telefono": telefono, "email": f"cliente{i+1}@mail.com", "provincia": random.choice\(provincias\)\r\n    }\)\r\n\r\nguardar_csv\("clientes.csv", clientes, ["clienteid", "nombre", "apellido","telefono", "email", "provincia"]\))>>
+<</AP<</N 1061 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<<>>/P 31 0 R /RV(El código completo no cabe, pero pondremos a modo de ejemplo como se crea el csv para clientes:\r\n\r\ndef guardar_csv\(nombre, datos, campos\):\r\n    with open\(nombre, mode='w', newline='', encoding='utf-8'\) as file:\r\n        writer = csv.DictWriter\(file, fieldnames=campos\)\r\n        writer.writeheader\(\)\r\n        writer.writerows\(datos\)\r\n    print\(f"{nombre} generado correctamente."\)\r\n\r\nfor i in range\(3_000_000\):\r\n    while \(telefono := f"6{random.randint\(10000000, 99999999\)}"\) in telefonos_generados:\r\n        pass\r\n    telefonos_generados.add\(telefono\)\r\n    \r\n    clientes.append\({\r\n        "clienteid": i+1, "nombre": random.choice\(nombres\), "apellido": random.choice\(apellidos\),\r\n"telefono": telefono, "email": f"cliente{i+1}@mail.com", "provincia": random.choice\(provincias\)\r\n    }\)\r\n\r\nguardar_csv\("clientes.csv", clientes, ["clienteid", "nombre", "apellido","telefono", "email", "provincia"]\))/Rect[ 80.793404 425.142 543.646 692.513]/Subtype/Widget/T(Text9)/Type/Annot/V(El código completo no cabe, pero pondremos a modo de ejemplo como se crea el csv para clientes:\r\n\r\ndef guardar_csv\(nombre, datos, campos\):\r\n    with open\(nombre, mode='w', newline='', encoding='utf-8'\) as file:\r\n        writer = csv.DictWriter\(file, fieldnames=campos\)\r\n        writer.writeheader\(\)\r\n        writer.writerows\(datos\)\r\n    print\(f"{nombre} generado correctamente."\)\r\n\r\nfor i in range\(3_000_000\):\r\n    while \(telefono := f"6{random.randint\(10000000, 99999999\)}"\) in telefonos_generados:\r\n        pass\r\n    telefonos_generados.add\(telefono\)\r\n    \r\n    clientes.append\({\r\n        "clienteid": i+1, "nombre": random.choice\(nombres\), "apellido": random.choice\(apellidos\),\r\n"telefono": telefono, "email": f"cliente{i+1}@mail.com", "provincia": random.choice\(provincias\)\r\n    }\)\r\n\r\nguardar_csv\("clientes.csv", clientes, ["clienteid", "nombre", "apellido","telefono", "email", "provincia"]\))>>
 endobj
 121 0 obj
-<</AP<</N 923 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 34 0 R /RV(Para cargar los datos hemos usado el comando \\COPY de postgres, indicando para cada tabla la dirección de archivo del csv, indicando el formato, la existencia de header, el separador \(en este caso la coma\) y el formato de codificación UTF-8\r\n\r\nPara asegurar la integridad de los datos hemos cargado las tablas en el siguiente orden: primero clientes y luego plazas, ya que estas dos tablas no tienen ninguna foreign key, luego se podrán crear primero. Después de estas dos hemos creado vehiculos, que solo tiene como clave foránea el id del cliente, y como este ya ha sido creado, no dará ningún tipo de error. Luego hemos creado reservas, que tiene de clave foránea vehiculoid, cliendeid y plazaid. Después de esta hemos cargado incidencias ya que su clave foránea es el id de la reserva, y por último se carga incidencias, cuya clave foránea también es el id de la reserva.\r\n\r\nLa que menos tarda es plazas, al ser muy pocos datos y sin restricciones. Clientes también son relativamente  pocos datos, pero tarda bastante más que plazas debido a las restricciones UNIQUE de telefono y email. la tabla Vehiculos tarda aún más en cargarse ya que aparte de la restricción UNIQUE en matricula, tiene una clave foránea con la id de los clientes, por lo que por cada entrada debe verififcar que el id del cliente exista en Clientes.\r\n\r\nPor eso reservas tarda en cargarse tanto tiempo, debido a sus 40.000.000 de entradas y a las tres claves foráneas con id coche, id cliente e id plaza.\r\n\r\npagos tarda algo menos ya que aunque también tiene 40.000.000 de registros, solo tiene que comprobar 1 clave foránea, el id_reserva\r\n\r\nPor último la tabla incidencias, que al igual que la anterior no tiene restricciones y su única clave foránea es el id de reserva, además tiene solo 4.000.000 de registros.\r\n\r\n\r\n\r\n)/Rect[ 83.624397 436.45499 540.80701 828.461]/Subtype/Widget/T(Text10)/Type/Annot/V(Para cargar los datos hemos usado el comando \\COPY de postgres, indicando para cada tabla la dirección de archivo del csv, indicando el formato, la existencia de header, el separador \(en este caso la coma\) y el formato de codificación UTF-8\r\n\r\nPara asegurar la integridad de los datos hemos cargado las tablas en el siguiente orden: primero clientes y luego plazas, ya que estas dos tablas no tienen ninguna foreign key, luego se podrán crear primero. Después de estas dos hemos creado vehiculos, que solo tiene como clave foránea el id del cliente, y como este ya ha sido creado, no dará ningún tipo de error. Luego hemos creado reservas, que tiene de clave foránea vehiculoid, cliendeid y plazaid. Después de esta hemos cargado incidencias ya que su clave foránea es el id de la reserva, y por último se carga incidencias, cuya clave foránea también es el id de la reserva.\r\n\r\nLa que menos tarda es plazas, al ser muy pocos datos y sin restricciones. Clientes también son relativamente  pocos datos, pero tarda bastante más que plazas debido a las restricciones UNIQUE de telefono y email. la tabla Vehiculos tarda aún más en cargarse ya que aparte de la restricción UNIQUE en matricula, tiene una clave foránea con la id de los clientes, por lo que por cada entrada debe verififcar que el id del cliente exista en Clientes.\r\n\r\nPor eso reservas tarda en cargarse tanto tiempo, debido a sus 40.000.000 de entradas y a las tres claves foráneas con id coche, id cliente e id plaza.\r\n\r\npagos tarda algo menos ya que aunque también tiene 40.000.000 de registros, solo tiene que comprobar 1 clave foránea, el id_reserva\r\n\r\nPor último la tabla incidencias, que al igual que la anterior no tiene restricciones y su única clave foránea es el id de reserva, además tiene solo 4.000.000 de registros.\r\n\r\n\r\n\r\n)>>
+<</AP<</N 1044 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 34 0 R /RV(Para cargar los datos hemos usado el comando \\COPY de postgres, indicando para cada tabla la dirección de archivo del csv, indicando el formato, la existencia de header, el separador \(en este caso la coma\) y el formato de codificación UTF-8.\r\n\r\nPara asegurar la integridad de los datos hemos cargado las tablas en el siguiente orden: primero clientes y luego plazas, ya que estas dos tablas no tienen ninguna foreign key, luego se podrán crear primero. Después de estas dos hemos creado vehiculos, que solo tiene como clave foránea el id del cliente, y como este ya ha sido creado, no dará ningún tipo de error. Luego hemos creado reservas, que tiene de clave foránea vehiculoid, cliendeid y plazaid. Después de esta hemos cargado incidencias ya que su clave foránea es el id de la reserva, y por último se carga incidencias, cuya clave foránea también es el id de la reserva.\r\n\r\nLa que menos tarda es plazas, al ser muy pocos datos y sin restricciones. Clientes también son relativamente  pocos datos, pero tarda bastante más que plazas debido a las restricciones UNIQUE de telefono y email. La tabla Vehiculos tarda aún más en cargarse ya que aparte de la restricción UNIQUE en matricula, tiene una clave foránea con la id de los clientes, por lo que por cada entrada debe verififcar que el id del cliente exista en Clientes.\r\n\r\nPor eso Reservas tarda en cargarse tanto tiempo, debido a sus 40.000.000 de entradas y a las tres claves foráneas con id coche, id cliente e id plaza.\r\n\r\nPagos tarda algo menos ya que aunque también tiene 40.000.000 de registros, solo tiene que comprobar 1 clave foránea, el id_reserva.\r\n\r\nPor último la tabla Incidencias, que al igual que la anterior no tiene restricciones y su única clave foránea es el id de reserva, además tiene solo 4.000.000 de registros.\r\n\r\n\r\n\r\n)/Rect[ 83.624397 436.45499 540.80701 828.461]/Subtype/Widget/T(Text10)/Type/Annot/V(Para cargar los datos hemos usado el comando \\COPY de postgres, indicando para cada tabla la dirección de archivo del csv, indicando el formato, la existencia de header, el separador \(en este caso la coma\) y el formato de codificación UTF-8.\r\n\r\nPara asegurar la integridad de los datos hemos cargado las tablas en el siguiente orden: primero clientes y luego plazas, ya que estas dos tablas no tienen ninguna foreign key, luego se podrán crear primero. Después de estas dos hemos creado vehiculos, que solo tiene como clave foránea el id del cliente, y como este ya ha sido creado, no dará ningún tipo de error. Luego hemos creado reservas, que tiene de clave foránea vehiculoid, cliendeid y plazaid. Después de esta hemos cargado incidencias ya que su clave foránea es el id de la reserva, y por último se carga incidencias, cuya clave foránea también es el id de la reserva.\r\n\r\nLa que menos tarda es plazas, al ser muy pocos datos y sin restricciones. Clientes también son relativamente  pocos datos, pero tarda bastante más que plazas debido a las restricciones UNIQUE de telefono y email. La tabla Vehiculos tarda aún más en cargarse ya que aparte de la restricción UNIQUE en matricula, tiene una clave foránea con la id de los clientes, por lo que por cada entrada debe verififcar que el id del cliente exista en Clientes.\r\n\r\nPor eso Reservas tarda en cargarse tanto tiempo, debido a sus 40.000.000 de entradas y a las tres claves foráneas con id coche, id cliente e id plaza.\r\n\r\nPagos tarda algo menos ya que aunque también tiene 40.000.000 de registros, solo tiene que comprobar 1 clave foránea, el id_reserva.\r\n\r\nPor último la tabla Incidencias, que al igual que la anterior no tiene restricciones y su única clave foránea es el id de reserva, además tiene solo 4.000.000 de registros.\r\n\r\n\r\n\r\n)>>
 endobj
 122 0 obj
 <</AP<</N 1032 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 37 0 R /RV(La consulta es la siguiente:\r\nSELECT  COUNT\(DISTINCT c.clienteid\) * 100.0 / 3000000 AS Porcentaje\r\nFROM clientes c JOIN reservas r ON c.clienteid = r.clienteid_clientes \r\nJOIN plazas p ON p.plazaid = r.plazaid_plazas JOIN  pagos pa ON pa.reservaid_reservas = r.reservaid JOIN vehiculos v ON v.vehiculoid = r.vehiculoid_vehiculos LEFT JOIN  incidencias i ON i.reservaid_reservas = r.reservaid AND i.estado = 'Cerrada'\r\nWHERE \r\n    c.provincia IN \('Almería', 'Cádiz', 'Córdoba', 'Granada', 'Huelva', 'Jaén', 'Málaga', 'Sevilla'\) AND EXTRACT\(MONTH FROM r.fechainicio\) IN \(6, 7, 8\)  AND pa.cantidad > 150 AND p.nivel < -4  AND v.color ILIKE 'negro' AND i.incidenciaid IS NULL;\r\n\r\nEl tiempo de ejecución de la consulta es de 43 segundos y devuelve un porcentaje de 0,32713333....)/Rect[ 82.3153 577.79303 543.74902 752.94202]/Subtype/Widget/T(Text11)/Type/Annot/V(La consulta es la siguiente:\r\nSELECT  COUNT\(DISTINCT c.clienteid\) * 100.0 / 3000000 AS Porcentaje\r\nFROM clientes c JOIN reservas r ON c.clienteid = r.clienteid_clientes \r\nJOIN plazas p ON p.plazaid = r.plazaid_plazas JOIN  pagos pa ON pa.reservaid_reservas = r.reservaid JOIN vehiculos v ON v.vehiculoid = r.vehiculoid_vehiculos LEFT JOIN  incidencias i ON i.reservaid_reservas = r.reservaid AND i.estado = 'Cerrada'\r\nWHERE \r\n    c.provincia IN \('Almería', 'Cádiz', 'Córdoba', 'Granada', 'Huelva', 'Jaén', 'Málaga', 'Sevilla'\) AND EXTRACT\(MONTH FROM r.fechainicio\) IN \(6, 7, 8\)  AND pa.cantidad > 150 AND p.nivel < -4  AND v.color ILIKE 'negro' AND i.incidenciaid IS NULL;\r\n\r\nEl tiempo de ejecución de la consulta es de 43 segundos y devuelve un porcentaje de 0,32713333....)>>
 endobj
 123 0 obj
-<</AP<</N 1016 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 37 0 R /RV(Primero se hace una lectura secuencial en la tabla incidencias, donde se filtra por el estado cerrada. Este resultado se encauza a través de un LEFT JOIN posterior con la tabla reservas, de forma que se mantendrán todas las reservas, incluso aquellas que no tienen incidencia cerrada.\r\n\r\nA continuación, se realiza otra lectura secuencial sobre la tabla reservas, donde se aplica un filtro por los meses de verano. Este resultado se pasa a un  LEFT JOIN mediante un bulce anidado con la tabla incidencias, donde se compara el reservaid de las reservas con el de las incidencias cerradas. Este paso se materializa,  asegurando que se utilicen los resultados intermedios de las reservas al realizar la comparación.\r\n\r\nLuego, se ejecuta una lectura secuencial sobre la tabla pagos con el filtro cantidad > 150. Los resultados de este escaneo se encauzan a través de un Hash Join con las reservas de antes, donde se construye una tabla hash para realizar la comparación eficiente entre los reservaid de pagos y reservas.\r\n\r\nDespués, se realiza una búsqueda por índice sobre la tabla clientes usando el índice primario. A esto además se le aplica el filtro de las provincias. Los resultados se encauzan para unirse con las tablas de reservas y pagos en el siguiente paso.\r\n\r\nSeguidamente, se hace otra búsqueda por índice sobre la tabla plazas, utilizando el índice primario para buscar las plazas asociadas a cada reserva. El filtro de nivel < -4 se aplica durante esta lectura y los resultados se encauzan.\r\n\r\nEn la etapa siguiente, se realiza otra lectura por índice sobre la tabla vehiculos, aplicando un filtro por color de vehículo \(color ILIKE 'negro'\). Luego se combina con un bucle anidado con la tabla anterior.\r\n\r\nFinalmente, después de que todas las tablas se hayan combinado,  se ordenan los resultados por cliente_id. Luego, se realiza una agregación para contar el número de clientes distintos y calcular el porcentaje correspondiente a la consulta, multiplicando por 100 y dividiendo entre 3.000.000)/Rect[ 81.878998 96.442902 543.31403 555.164]/Subtype/Widget/T(Text12)/Type/Annot/V(Primero se hace una lectura secuencial en la tabla incidencias, donde se filtra por el estado cerrada. Este resultado se encauza a través de un LEFT JOIN posterior con la tabla reservas, de forma que se mantendrán todas las reservas, incluso aquellas que no tienen incidencia cerrada.\r\n\r\nA continuación, se realiza otra lectura secuencial sobre la tabla reservas, donde se aplica un filtro por los meses de verano. Este resultado se pasa a un  LEFT JOIN mediante un bulce anidado con la tabla incidencias, donde se compara el reservaid de las reservas con el de las incidencias cerradas. Este paso se materializa,  asegurando que se utilicen los resultados intermedios de las reservas al realizar la comparación.\r\n\r\nLuego, se ejecuta una lectura secuencial sobre la tabla pagos con el filtro cantidad > 150. Los resultados de este escaneo se encauzan a través de un Hash Join con las reservas de antes, donde se construye una tabla hash para realizar la comparación eficiente entre los reservaid de pagos y reservas.\r\n\r\nDespués, se realiza una búsqueda por índice sobre la tabla clientes usando el índice primario. A esto además se le aplica el filtro de las provincias. Los resultados se encauzan para unirse con las tablas de reservas y pagos en el siguiente paso.\r\n\r\nSeguidamente, se hace otra búsqueda por índice sobre la tabla plazas, utilizando el índice primario para buscar las plazas asociadas a cada reserva. El filtro de nivel < -4 se aplica durante esta lectura y los resultados se encauzan.\r\n\r\nEn la etapa siguiente, se realiza otra lectura por índice sobre la tabla vehiculos, aplicando un filtro por color de vehículo \(color ILIKE 'negro'\). Luego se combina con un bucle anidado con la tabla anterior.\r\n\r\nFinalmente, después de que todas las tablas se hayan combinado,  se ordenan los resultados por cliente_id. Luego, se realiza una agregación para contar el número de clientes distintos y calcular el porcentaje correspondiente a la consulta, multiplicando por 100 y dividiendo entre 3.000.000)>>
+<</AP<</N 1062 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 37 0 R /RV(Primero se hace una lectura secuencial en la tabla incidencias, donde se filtra por el estado cerrada. Este resultado se encauza a través de un LEFT JOIN posterior con la tabla reservas, de forma que se mantendrán todas las reservas, incluso aquellas que no tienen incidencia cerrada.\r\n\r\nA continuación, se realiza otra lectura secuencial sobre la tabla reservas, donde se aplica un filtro por los meses de verano. Este resultado se pasa a un  LEFT JOIN mediante un bulce anidado con la tabla incidencias, donde se compara el reservaid de las reservas con el de las incidencias cerradas. Este paso se materializa,  asegurando que se utilicen los resultados intermedios de las reservas al realizar la comparación.\r\n\r\nLuego, se ejecuta una lectura secuencial sobre la tabla pagos con el filtro cantidad > 150. Los resultados de este escaneo se encauzan a través de un Hash Join con las reservas de antes, donde se construye una tabla hash para realizar la comparación eficiente entre los reservaid de pagos y reservas.\r\n\r\nDespués, se realiza una búsqueda por índice sobre la tabla clientes usando el índice primario. A esto además se le aplica el filtro de las provincias. Los resultados se encauzan para unirse con las tablas de reservas y pagos en el siguiente paso.\r\n\r\nSeguidamente, se hace otra búsqueda por índice sobre la tabla plazas, utilizando el índice primario para buscar las plazas asociadas a cada reserva. El filtro de nivel < -4 se aplica durante esta lectura y los resultados se encauzan.\r\n\r\nEn la etapa siguiente, se realiza otra lectura por índice sobre la tabla vehiculos, aplicando un filtro por color de vehículo \(color ILIKE 'negro'\). Luego se combina con un bucle anidado con la tabla anterior.\r\n\r\nFinalmente, después de que todas las tablas se hayan combinado,  se ordenan los resultados por cliente_id. Luego, se realiza una agregación para contar el número de clientes distintos y calcular el porcentaje correspondiente a la consulta, multiplicando por 100 y dividiendo entre 3.000.000.)/Rect[ 81.878998 96.442902 543.31403 555.164]/Subtype/Widget/T(Text12)/Type/Annot/V(Primero se hace una lectura secuencial en la tabla incidencias, donde se filtra por el estado cerrada. Este resultado se encauza a través de un LEFT JOIN posterior con la tabla reservas, de forma que se mantendrán todas las reservas, incluso aquellas que no tienen incidencia cerrada.\r\n\r\nA continuación, se realiza otra lectura secuencial sobre la tabla reservas, donde se aplica un filtro por los meses de verano. Este resultado se pasa a un  LEFT JOIN mediante un bulce anidado con la tabla incidencias, donde se compara el reservaid de las reservas con el de las incidencias cerradas. Este paso se materializa,  asegurando que se utilicen los resultados intermedios de las reservas al realizar la comparación.\r\n\r\nLuego, se ejecuta una lectura secuencial sobre la tabla pagos con el filtro cantidad > 150. Los resultados de este escaneo se encauzan a través de un Hash Join con las reservas de antes, donde se construye una tabla hash para realizar la comparación eficiente entre los reservaid de pagos y reservas.\r\n\r\nDespués, se realiza una búsqueda por índice sobre la tabla clientes usando el índice primario. A esto además se le aplica el filtro de las provincias. Los resultados se encauzan para unirse con las tablas de reservas y pagos en el siguiente paso.\r\n\r\nSeguidamente, se hace otra búsqueda por índice sobre la tabla plazas, utilizando el índice primario para buscar las plazas asociadas a cada reserva. El filtro de nivel < -4 se aplica durante esta lectura y los resultados se encauzan.\r\n\r\nEn la etapa siguiente, se realiza otra lectura por índice sobre la tabla vehiculos, aplicando un filtro por color de vehículo \(color ILIKE 'negro'\). Luego se combina con un bucle anidado con la tabla anterior.\r\n\r\nFinalmente, después de que todas las tablas se hayan combinado,  se ordenan los resultados por cliente_id. Luego, se realiza una agregación para contar el número de clientes distintos y calcular el porcentaje correspondiente a la consulta, multiplicando por 100 y dividiendo entre 3.000.000.)>>
 endobj
 124 0 obj
-<</AP<</N 959 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 40 0 R /RV(şÿ P r i m e r o   c a l c u l a m o s   e l   n u m e r o   d e   t u p l a s   q u e   p a s a r á n   d e   c a d a   t a b l a   p o r   l a s   d i f e r e n t e s   s e l e c c i o n e s   q u e   s e   h a c e n ,   p a r a   v e r   e l   o r d e n   ó p t i m o   p a r a   h a c e r   l o s   J O I N   d e   t a l   m a n e r a   q u e   s e   q u i t e n   l a   m a y o r   c a n t i d a d   d e   t u p l a s   c u a n t o   a n t e s : \r \n C L I E N T E S :   N r c   =   8   *   \( N r   /   V \( p r o v i n c i a \) \)   =   8   *   \( 3 . 0 0 0 . 0 0 0 / 5 0 \)   =   4 8 0 . 0 0 0   t u p l a s \r \n R E S E R V A S   N r c   =   3   *   \( N r   /   V \( m e s \) \)   =   3   *   \(   4 0 . 0 0 0 . 0 0 0   /   1 2 \)     =   9 . 9 9 9 . 9 9 9   t u p l a s \r \n P A G O :   c o n s u l t a m o s   a   l a   b a s e   d e   d a t o s ,   n o s   d e v u e l v e   q u e   h a y   1 2 . 2 2 2 . 7 0 1   t u p l a s \r \n P L A Z A :   N r c   =   6   *   \( N r   /   V \( n i v e l \) \)   =   6   *   \( 2 0 0 . 0 0 0   /   1 1 \)   =   1 0 9 . 0 9 0   t u p l a s \r \n V E H I C U L O S :   N r c   =   N r   /   V \( c o l o r \)   =   5 . 0 0 0 . 0 0 0   /   1 0   =   5 0 0 . 0 0 0   t u p l a s \r \n I N C I D E N C I A S :   N r c   =   N r   /   V \( E s t a d o \)   =   4 . 0 0 0 . 0 0 0   /   5   =   8 0 0 . 0 0 0   t u p l a s \r \n D e   a q u i ,   b u s c a n d o   l a   m a n e r a   m a s   ó p t i m a   d e   h a c e r   l a s   u n i o n e s   h e m o s   o b t e n i d o   e l   s i g u i e n t e   o r d e n   p a r a   l o s   J O I N :     \( \( \( \( C l i e n t e s   J O I N*   R e s e r v a s \)  *   J O I N   P l a z a s \)  *   J O I N   P a g o s \)  *   J O I N   V e h i c u l o s \)  'Õ   L E F T   J O I N   I n c i d e n c i a s \) . M i e n t r a s   q u e   p a r a   e l   E X P L A I N   e l   o r d e n   m á s   o p t i m o   s e r í a   e l   s i g u i e n t e :   \( \( \( \( R e s e r v a s   L E F T   J O I N   I n c i d e n c i a s \)   J O I N   P a g o s \)   J O I N   C l i e n t e s \)   J O I N   P l a z a s \)   J O I N   V e h i c u l o s \) \r \n E s t a   d i f e r e n c i a   s e   p u e d e   d e b e r   a   q u e   e l   E X P L A I N   v e a   e s t a d í s t i c a s   i n t e r n a s   o   p r o p i e d a d e s   d e   l a s   t a b l a s   q u e   h a g a n   l a s   c o n s u l t a s   m á s   ó t i m a s   d e   u n a   m a n e r a   q u e   d e   o t r a .)/Rect[ 81.115997 557.62 542.552 754.77802]/Subtype/Widget/T(Text13)/Type/Annot/V(şÿ P r i m e r o   c a l c u l a m o s   e l   n u m e r o   d e   t u p l a s   q u e   p a s a r á n   d e   c a d a   t a b l a   p o r   l a s   d i f e r e n t e s   s e l e c c i o n e s   q u e   s e   h a c e n ,   p a r a   v e r   e l   o r d e n   ó p t i m o   p a r a   h a c e r   l o s   J O I N   d e   t a l   m a n e r a   q u e   s e   q u i t e n   l a   m a y o r   c a n t i d a d   d e   t u p l a s   c u a n t o   a n t e s : \r \n C L I E N T E S :   N r c   =   8   *   \( N r   /   V \( p r o v i n c i a \) \)   =   8   *   \( 3 . 0 0 0 . 0 0 0 / 5 0 \)   =   4 8 0 . 0 0 0   t u p l a s \r \n R E S E R V A S   N r c   =   3   *   \( N r   /   V \( m e s \) \)   =   3   *   \(   4 0 . 0 0 0 . 0 0 0   /   1 2 \)     =   9 . 9 9 9 . 9 9 9   t u p l a s \r \n P A G O :   c o n s u l t a m o s   a   l a   b a s e   d e   d a t o s ,   n o s   d e v u e l v e   q u e   h a y   1 2 . 2 2 2 . 7 0 1   t u p l a s \r \n P L A Z A :   N r c   =   6   *   \( N r   /   V \( n i v e l \) \)   =   6   *   \( 2 0 0 . 0 0 0   /   1 1 \)   =   1 0 9 . 0 9 0   t u p l a s \r \n V E H I C U L O S :   N r c   =   N r   /   V \( c o l o r \)   =   5 . 0 0 0 . 0 0 0   /   1 0   =   5 0 0 . 0 0 0   t u p l a s \r \n I N C I D E N C I A S :   N r c   =   N r   /   V \( E s t a d o \)   =   4 . 0 0 0 . 0 0 0   /   5   =   8 0 0 . 0 0 0   t u p l a s \r \n D e   a q u i ,   b u s c a n d o   l a   m a n e r a   m a s   ó p t i m a   d e   h a c e r   l a s   u n i o n e s   h e m o s   o b t e n i d o   e l   s i g u i e n t e   o r d e n   p a r a   l o s   J O I N :     \( \( \( \( C l i e n t e s   J O I N*   R e s e r v a s \)  *   J O I N   P l a z a s \)  *   J O I N   P a g o s \)  *   J O I N   V e h i c u l o s \)  'Õ   L E F T   J O I N   I n c i d e n c i a s \) . M i e n t r a s   q u e   p a r a   e l   E X P L A I N   e l   o r d e n   m á s   o p t i m o   s e r í a   e l   s i g u i e n t e :   \( \( \( \( R e s e r v a s   L E F T   J O I N   I n c i d e n c i a s \)   J O I N   P a g o s \)   J O I N   C l i e n t e s \)   J O I N   P l a z a s \)   J O I N   V e h i c u l o s \) \r \n E s t a   d i f e r e n c i a   s e   p u e d e   d e b e r   a   q u e   e l   E X P L A I N   v e a   e s t a d í s t i c a s   i n t e r n a s   o   p r o p i e d a d e s   d e   l a s   t a b l a s   q u e   h a g a n   l a s   c o n s u l t a s   m á s   ó t i m a s   d e   u n a   m a n e r a   q u e   d e   o t r a .)>>
+<</AP<</N 1049 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 40 0 R /RV(şÿ P r i m e r o   c a l c u l a m o s   e l   n u m e r o   d e   t u p l a s   q u e   p a s a r á n   d e   c a d a   t a b l a   p o r   l a s   d i f e r e n t e s   s e l e c c i o n e s   q u e   s e   h a c e n ,   p a r a   v e r   e l   o r d e n   ó p t i m o   p a r a   h a c e r   l o s   J O I N   d e   t a l   m a n e r a   q u e   s e   q u i t e n   l a   m a y o r   c a n t i d a d   d e   t u p l a s   c u a n t o   a n t e s : \r \n C L I E N T E S :   N r c   =   8   *   \( N r   /   V \( p r o v i n c i a \) \)   =   8   *   \( 3 . 0 0 0 . 0 0 0 / 5 0 \)   =   4 8 0 . 0 0 0   t u p l a s \r \n R E S E R V A S   N r c   =   3   *   \( N r   /   V \( m e s \) \)   =   3   *   \(   4 0 . 0 0 0 . 0 0 0   /   1 2 \)     =   9 . 9 9 9 . 9 9 9   t u p l a s \r \n P A G O :   c o n s u l t a m o s   a   l a   b a s e   d e   d a t o s ,   n o s   d e v u e l v e   q u e   h a y   1 2 . 2 2 2 . 7 0 1   t u p l a s \r \n P L A Z A :   N r c   =   6   *   \( N r   /   V \( n i v e l \) \)   =   6   *   \( 2 0 0 . 0 0 0   /   1 1 \)   =   1 0 9 . 0 9 0   t u p l a s \r \n V E H I C U L O S :   N r c   =   N r   /   V \( c o l o r \)   =   5 . 0 0 0 . 0 0 0   /   1 0   =   5 0 0 . 0 0 0   t u p l a s \r \n I N C I D E N C I A S :   N r c   =   N r   /   V \( E s t a d o \)   =   4 . 0 0 0 . 0 0 0   /   5   =   8 0 0 . 0 0 0   t u p l a s \r \n D e   a q u í ,   b u s c a n d o   l a   m a n e r a   m a s   ó p t i m a   d e   h a c e r   l a s   u n i o n e s   h e m o s   o b t e n i d o   e l   s i g u i e n t e   o r d e n   p a r a   l o s   J O I N :     \( \( \( \( C l i e n t e s   J O I N*   R e s e r v a s \)  *   J O I N   P l a z a s \)  *   J O I N   P a g o s \)  *   J O I N   V e h i c u l o s \)  'Õ   L E F T   J O I N   I n c i d e n c i a s \) .   M i e n t r a s   q u e   p a r a   e l   E X P L A I N   e l   o r d e n   m á s   o p t i m o   s e r í a   e l   s i g u i e n t e :   \( \( \( \( R e s e r v a s   L E F T   J O I N   I n c i d e n c i a s \)   J O I N   P a g o s \)   J O I N   C l i e n t e s \)   J O I N   P l a z a s \)   J O I N   V e h i c u l o s \) \r \n E s t a   d i f e r e n c i a   s e   p u e d e   d e b e r   a   q u e   e l   E X P L A I N   v e a   e s t a d í s t i c a s   i n t e r n a s   o   p r o p i e d a d e s   d e   l a s   t a b l a s   q u e   h a g a n   l a s   c o n s u l t a s   m á s   ó t i m a s   d e   u n a   m a n e r a   q u e   d e   o t r a .)/Rect[ 81.115997 557.62 542.552 754.77802]/Subtype/Widget/T(Text13)/Type/Annot/V(şÿ P r i m e r o   c a l c u l a m o s   e l   n u m e r o   d e   t u p l a s   q u e   p a s a r á n   d e   c a d a   t a b l a   p o r   l a s   d i f e r e n t e s   s e l e c c i o n e s   q u e   s e   h a c e n ,   p a r a   v e r   e l   o r d e n   ó p t i m o   p a r a   h a c e r   l o s   J O I N   d e   t a l   m a n e r a   q u e   s e   q u i t e n   l a   m a y o r   c a n t i d a d   d e   t u p l a s   c u a n t o   a n t e s : \r \n C L I E N T E S :   N r c   =   8   *   \( N r   /   V \( p r o v i n c i a \) \)   =   8   *   \( 3 . 0 0 0 . 0 0 0 / 5 0 \)   =   4 8 0 . 0 0 0   t u p l a s \r \n R E S E R V A S   N r c   =   3   *   \( N r   /   V \( m e s \) \)   =   3   *   \(   4 0 . 0 0 0 . 0 0 0   /   1 2 \)     =   9 . 9 9 9 . 9 9 9   t u p l a s \r \n P A G O :   c o n s u l t a m o s   a   l a   b a s e   d e   d a t o s ,   n o s   d e v u e l v e   q u e   h a y   1 2 . 2 2 2 . 7 0 1   t u p l a s \r \n P L A Z A :   N r c   =   6   *   \( N r   /   V \( n i v e l \) \)   =   6   *   \( 2 0 0 . 0 0 0   /   1 1 \)   =   1 0 9 . 0 9 0   t u p l a s \r \n V E H I C U L O S :   N r c   =   N r   /   V \( c o l o r \)   =   5 . 0 0 0 . 0 0 0   /   1 0   =   5 0 0 . 0 0 0   t u p l a s \r \n I N C I D E N C I A S :   N r c   =   N r   /   V \( E s t a d o \)   =   4 . 0 0 0 . 0 0 0   /   5   =   8 0 0 . 0 0 0   t u p l a s \r \n D e   a q u í ,   b u s c a n d o   l a   m a n e r a   m a s   ó p t i m a   d e   h a c e r   l a s   u n i o n e s   h e m o s   o b t e n i d o   e l   s i g u i e n t e   o r d e n   p a r a   l o s   J O I N :     \( \( \( \( C l i e n t e s   J O I N*   R e s e r v a s \)  *   J O I N   P l a z a s \)  *   J O I N   P a g o s \)  *   J O I N   V e h i c u l o s \)  'Õ   L E F T   J O I N   I n c i d e n c i a s \) .   M i e n t r a s   q u e   p a r a   e l   E X P L A I N   e l   o r d e n   m á s   o p t i m o   s e r í a   e l   s i g u i e n t e :   \( \( \( \( R e s e r v a s   L E F T   J O I N   I n c i d e n c i a s \)   J O I N   P a g o s \)   J O I N   C l i e n t e s \)   J O I N   P l a z a s \)   J O I N   V e h i c u l o s \) \r \n E s t a   d i f e r e n c i a   s e   p u e d e   d e b e r   a   q u e   e l   E X P L A I N   v e a   e s t a d í s t i c a s   i n t e r n a s   o   p r o p i e d a d e s   d e   l a s   t a b l a s   q u e   h a g a n   l a s   c o n s u l t a s   m á s   ó t i m a s   d e   u n a   m a n e r a   q u e   d e   o t r a .)>>
 endobj
 125 0 obj
-<</AP<</N 987 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 40 0 R /RV(Podríamos hacer que la consulta se haga algo más rápido ejecutando un ANALYZE antes de ejecutarla. esto actualizará los datos de las tablas, lo que ayudará a optimizar mejor la consulta\r\nSELECT  COUNT\(DISTINCT c.clienteid\) * 100.0 / 3000000 AS Porcentaje\r\nFROM clientes c JOIN reservas r ON c.clienteid = r.clienteid_clientes \r\nJOIN plazas p ON p.plazaid = r.plazaid_plazas JOIN  pagos pa ON pa.reservaid_reservas = r.reservaid JOIN vehiculos v ON v.vehiculoid = r.vehiculoid_vehiculos LEFT JOIN  incidencias i ON i.reservaid_reservas = r.reservaid AND i.estado = 'Cerrada'\r\nWHERE \r\n    c.provincia IN \('Almería', 'Cádiz', 'Córdoba', 'Granada', 'Huelva', 'Jaén', 'Málaga', 'Sevilla'\) AND EXTRACT\(MONTH FROM r.fechainicio\) IN \(6, 7, 8\)  AND pa.cantidad > 150 AND p.nivel < -4  AND v.color ILIKE 'negro' AND i.incidenciaid IS NULL;\r\nEl ANALYZE ha tardado 4,2 segundos y la consulta 48 segundos, unos pocos segundos más de lo que tardaba antes. Se obtiene de resultado 0.3271333....)/Rect[ 84.497101 289.522 545.93201 460.42001]/Subtype/Widget/T(Text14)/Type/Annot/V(Podríamos hacer que la consulta se haga algo más rápido ejecutando un ANALYZE antes de ejecutarla. esto actualizará los datos de las tablas, lo que ayudará a optimizar mejor la consulta\r\nSELECT  COUNT\(DISTINCT c.clienteid\) * 100.0 / 3000000 AS Porcentaje\r\nFROM clientes c JOIN reservas r ON c.clienteid = r.clienteid_clientes \r\nJOIN plazas p ON p.plazaid = r.plazaid_plazas JOIN  pagos pa ON pa.reservaid_reservas = r.reservaid JOIN vehiculos v ON v.vehiculoid = r.vehiculoid_vehiculos LEFT JOIN  incidencias i ON i.reservaid_reservas = r.reservaid AND i.estado = 'Cerrada'\r\nWHERE \r\n    c.provincia IN \('Almería', 'Cádiz', 'Córdoba', 'Granada', 'Huelva', 'Jaén', 'Málaga', 'Sevilla'\) AND EXTRACT\(MONTH FROM r.fechainicio\) IN \(6, 7, 8\)  AND pa.cantidad > 150 AND p.nivel < -4  AND v.color ILIKE 'negro' AND i.incidenciaid IS NULL;\r\nEl ANALYZE ha tardado 4,2 segundos y la consulta 48 segundos, unos pocos segundos más de lo que tardaba antes. Se obtiene de resultado 0.3271333....)>>
+<</AP<</N 1052 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 40 0 R /RV(Podríamos hacer que la consulta se haga algo más rápido ejecutando un ANALYZE antes de ejecutarla. esto actualizará los datos de las tablas, lo que ayudará a optimizar mejor la consulta.\r\nSELECT  COUNT\(DISTINCT c.clienteid\) * 100.0 / 3000000 AS Porcentaje\r\nFROM clientes c JOIN reservas r ON c.clienteid = r.clienteid_clientes \r\nJOIN plazas p ON p.plazaid = r.plazaid_plazas JOIN  pagos pa ON pa.reservaid_reservas = r.reservaid JOIN vehiculos v ON v.vehiculoid = r.vehiculoid_vehiculos LEFT JOIN  incidencias i ON i.reservaid_reservas = r.reservaid AND i.estado = 'Cerrada'\r\nWHERE \r\n    c.provincia IN \('Almería', 'Cádiz', 'Córdoba', 'Granada', 'Huelva', 'Jaén', 'Málaga', 'Sevilla'\) AND EXTRACT\(MONTH FROM r.fechainicio\) IN \(6, 7, 8\)  AND pa.cantidad > 150 AND p.nivel < -4  AND v.color ILIKE 'negro' AND i.incidenciaid IS NULL;\r\nEl ANALYZE ha tardado 4,2 segundos y la consulta 48 segundos, unos pocos segundos más de lo que tardaba antes. Se obtiene de resultado 0.3271333....)/Rect[ 84.497101 289.522 545.93201 460.42001]/Subtype/Widget/T(Text14)/Type/Annot/V(Podríamos hacer que la consulta se haga algo más rápido ejecutando un ANALYZE antes de ejecutarla. esto actualizará los datos de las tablas, lo que ayudará a optimizar mejor la consulta.\r\nSELECT  COUNT\(DISTINCT c.clienteid\) * 100.0 / 3000000 AS Porcentaje\r\nFROM clientes c JOIN reservas r ON c.clienteid = r.clienteid_clientes \r\nJOIN plazas p ON p.plazaid = r.plazaid_plazas JOIN  pagos pa ON pa.reservaid_reservas = r.reservaid JOIN vehiculos v ON v.vehiculoid = r.vehiculoid_vehiculos LEFT JOIN  incidencias i ON i.reservaid_reservas = r.reservaid AND i.estado = 'Cerrada'\r\nWHERE \r\n    c.provincia IN \('Almería', 'Cádiz', 'Córdoba', 'Granada', 'Huelva', 'Jaén', 'Málaga', 'Sevilla'\) AND EXTRACT\(MONTH FROM r.fechainicio\) IN \(6, 7, 8\)  AND pa.cantidad > 150 AND p.nivel < -4  AND v.color ILIKE 'negro' AND i.incidenciaid IS NULL;\r\nEl ANALYZE ha tardado 4,2 segundos y la consulta 48 segundos, unos pocos segundos más de lo que tardaba antes. Se obtiene de resultado 0.3271333....)>>
 endobj
 126 0 obj
-<</AP<</N 989 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 40 0 R /RV(Comparando con los resultados del EXPLAIN Hecho antes, hemos visto que hace lo mismo:  lee y selecciona en la tabla reservas y la une con incidencias, donde tambien lee y selecciona. El resultado lo une con la tabla de pagos ya filtrada, y el resultado de esto se une a su vez con clientes. Luego la salida de esto se une con plazas, y por último con vehiculos. Finalmente las ordena por clienteid y las agrupa para contarlas.\r\n\r\nTodas las tablas las lee secuencialmente, menos clientes, en la que usa el índice primario \(como en la cuestión 9\). En cuanto a los JOIN, son todos bucles anidados menos el JOIN de reservas con incidencias y el JOIN de pagos. En este caso ha usado un HASH. Esto es diferente a como lo resuelve en la Cuestión 9, dónde solo usa HASH JOIN para pagos.\r\n)/Rect[ 85.041702 72.436302 546.47601 263.95099]/Subtype/Widget/T(Text15)/Type/Annot/V(Comparando con los resultados del EXPLAIN Hecho antes, hemos visto que hace lo mismo:  lee y selecciona en la tabla reservas y la une con incidencias, donde tambien lee y selecciona. El resultado lo une con la tabla de pagos ya filtrada, y el resultado de esto se une a su vez con clientes. Luego la salida de esto se une con plazas, y por último con vehiculos. Finalmente las ordena por clienteid y las agrupa para contarlas.\r\n\r\nTodas las tablas las lee secuencialmente, menos clientes, en la que usa el índice primario \(como en la cuestión 9\). En cuanto a los JOIN, son todos bucles anidados menos el JOIN de reservas con incidencias y el JOIN de pagos. En este caso ha usado un HASH. Esto es diferente a como lo resuelve en la Cuestión 9, dónde solo usa HASH JOIN para pagos.\r\n)>>
+<</AP<</N 1063 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 40 0 R /RV(Comparando con los resultados del EXPLAIN Hecho antes, hemos visto que hace lo mismo:  lee y selecciona en la tabla reservas y la une con incidencias, donde tambien lee y selecciona. El resultado lo une con la tabla de pagos ya filtrada, y el resultado de esto se une a su vez con clientes. Luego la salida de esto se une con plazas, y por último con vehiculos. Finalmente, las ordena por clienteid y las agrupa para contarlas.\r\n\r\nTodas las tablas las lee secuencialmente, menos clientes, en la que usa el índice primario \(como en la cuestión 9\). En cuanto a los JOIN, son todos bucles anidados menos el JOIN de reservas con incidencias y el JOIN de pagos. En este caso ha usado un HASH. Esto es diferente a como lo resuelve en la Cuestión 9, dónde solo usa HASH JOIN para pagos.\r\n)/Rect[ 85.041702 72.436302 546.47601 263.95099]/Subtype/Widget/T(Text15)/Type/Annot/V(Comparando con los resultados del EXPLAIN Hecho antes, hemos visto que hace lo mismo:  lee y selecciona en la tabla reservas y la une con incidencias, donde tambien lee y selecciona. El resultado lo une con la tabla de pagos ya filtrada, y el resultado de esto se une a su vez con clientes. Luego la salida de esto se une con plazas, y por último con vehiculos. Finalmente, las ordena por clienteid y las agrupa para contarlas.\r\n\r\nTodas las tablas las lee secuencialmente, menos clientes, en la que usa el índice primario \(como en la cuestión 9\). En cuanto a los JOIN, son todos bucles anidados menos el JOIN de reservas con incidencias y el JOIN de pagos. En este caso ha usado un HASH. Esto es diferente a como lo resuelve en la Cuestión 9, dónde solo usa HASH JOIN para pagos.\r\n)>>
 endobj
 127 0 obj
 <</AP<</N 990 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 44 0 R /RV(Ejecutando el comando ANALYZE actualizamos todas las estadísticas de las tablas como pueden ser el número de filas, su tamaño, el número de valores distintos, etc.\r\n\r\nEstos valores son los que utiliza el optimizador para elejir la manera óptima de ejecutar la consulta. Por esto la consulta puede experimentar ligeras modificaciones en los métodos usados y su orden de ejecución. En este caso en concreto el tiempo a aumentado un poco y solo ha cambiado la forma en la que se hace un JOIN. Esto nos puede decir que la consulta ya estaba lo sificientemente optimizada y/o que los datos de las tablas ya estaban actualizados.\r\n)/Rect[ 82.751701 537.44897 544.18597 753.80701]/Subtype/Widget/T(Text16)/Type/Annot/V(Ejecutando el comando ANALYZE actualizamos todas las estadísticas de las tablas como pueden ser el número de filas, su tamaño, el número de valores distintos, etc.\r\n\r\nEstos valores son los que utiliza el optimizador para elejir la manera óptima de ejecutar la consulta. Por esto la consulta puede experimentar ligeras modificaciones en los métodos usados y su orden de ejecución. En este caso en concreto el tiempo a aumentado un poco y solo ha cambiado la forma en la que se hace un JOIN. Esto nos puede decir que la consulta ya estaba lo sificientemente optimizada y/o que los datos de las tablas ya estaban actualizados.\r\n)>>
@@ -2025,22 +2025,22 @@ endobj
 <</AP<</N 1013 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 47 0 R /RV(La consulta es la siguiente:\r\n SELECT  COUNT\(DISTINCT c.clienteid\) * 100.0 / 3000000 AS Porcentaje\r\nFROM clientes c JOIN reservas r ON c.clienteid = r.clienteid_clientes \r\nJOIN plazas p ON p.plazaid = r.plazaid_plazas JOIN  pagos pa ON pa.reservaid_reservas = r.reservaid JOIN vehiculos v ON v.vehiculoid = r.vehiculoid_vehiculos LEFT JOIN  incidencias i ON i.reservaid_reservas = r.reservaid AND i.estado = 'Cerrada'\r\nWHERE \r\n    c.provincia IN \('Almería', 'Cádiz', 'Córdoba', 'Granada', 'Huelva', 'Jaén', 'Málaga', 'Sevilla'\) AND EXTRACT\(MONTH FROM r.fechainicio\) IN \(6, 7, 8\)  AND pa.cantidad > 150 AND p.nivel < -4  AND v.color ILIKE 'negro' AND i.incidenciaid IS NULL;\r\n\r\nEl tiempo de ejecución de la consulta es de 36 minutos y 55 segundos y devuelve un porcentaje de 0,1607666....)/Rect[ 83.079697 535.25702 544.51501 704.737]/Subtype/Widget/T(Text18)/Type/Annot/V(La consulta es la siguiente:\r\n SELECT  COUNT\(DISTINCT c.clienteid\) * 100.0 / 3000000 AS Porcentaje\r\nFROM clientes c JOIN reservas r ON c.clienteid = r.clienteid_clientes \r\nJOIN plazas p ON p.plazaid = r.plazaid_plazas JOIN  pagos pa ON pa.reservaid_reservas = r.reservaid JOIN vehiculos v ON v.vehiculoid = r.vehiculoid_vehiculos LEFT JOIN  incidencias i ON i.reservaid_reservas = r.reservaid AND i.estado = 'Cerrada'\r\nWHERE \r\n    c.provincia IN \('Almería', 'Cádiz', 'Córdoba', 'Granada', 'Huelva', 'Jaén', 'Málaga', 'Sevilla'\) AND EXTRACT\(MONTH FROM r.fechainicio\) IN \(6, 7, 8\)  AND pa.cantidad > 150 AND p.nivel < -4  AND v.color ILIKE 'negro' AND i.incidenciaid IS NULL;\r\n\r\nEl tiempo de ejecución de la consulta es de 36 minutos y 55 segundos y devuelve un porcentaje de 0,1607666....)>>
 endobj
 130 0 obj
-<</AP<</N 1015 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 47 0 R /RV(Primero se hace una lectura secuencial en la tabla incidencias, donde se filtra por el estado cerrada. Este resultado se encauza a través de un LEFT JOIN posterior con la tabla reservas, de forma que se mantendrán todas las reservas, incluso aquellas que no tienen incidencia cerrada.\r\n\r\nA continuación, se realiza otra lectura secuencial sobre la tabla reservas, donde se aplica un filtro por los meses de verano. Este resultado se pasa a un  LEFT JOIN mediante un bulce anidado con la tabla incidencias, donde se compara el reservaid de las reservas con el de las incidencias cerradas. Este paso se materializa,  asegurando que se utilicen los resultados intermedios de las reservas al realizar la comparación.\r\n\r\nTras esto se hace una búsqueda por índice en cliente, filtrando además solo las provincias de andalucía. Esto se une a la tabla anterior con un JOIN de bucle anidado\r\n\r\nSeguidamente, se hace una búsqueda secuencial sobre la tabla plazas. El filtro de nivel < -4 se aplica durante esta lectura y los resultados se encauzan.\r\n\r\nLuego se utiliza el índice de reservaid_reserva de la tabla pagos para filtrarla  según el costo y esto se une mediante in JOIN de bulce anidado a la tabla resultante anterior.\r\n\r\nY por último, se realiza otra lectura por índice sobre la tabla vehiculos, aplicando un filtro por color de vehículo \(color ILIKE 'negro'\). Luego se combina con un bucle anidado con la tabla anterior.\r\n\r\nFinalmente, después de que todas las tablas se hayan combinado,  se ordenan los resultados por cliente_id. Luego, se realiza una agregación para contar el número de clientes distintos y calcular el porcentaje correspondiente a la consulta, multiplicando por 100 y dividiendo entre 3.000.000)/Rect[ 79.974899 78.602203 541.40997 509.95999]/Subtype/Widget/T(Text19)/Type/Annot/V(Primero se hace una lectura secuencial en la tabla incidencias, donde se filtra por el estado cerrada. Este resultado se encauza a través de un LEFT JOIN posterior con la tabla reservas, de forma que se mantendrán todas las reservas, incluso aquellas que no tienen incidencia cerrada.\r\n\r\nA continuación, se realiza otra lectura secuencial sobre la tabla reservas, donde se aplica un filtro por los meses de verano. Este resultado se pasa a un  LEFT JOIN mediante un bulce anidado con la tabla incidencias, donde se compara el reservaid de las reservas con el de las incidencias cerradas. Este paso se materializa,  asegurando que se utilicen los resultados intermedios de las reservas al realizar la comparación.\r\n\r\nTras esto se hace una búsqueda por índice en cliente, filtrando además solo las provincias de andalucía. Esto se une a la tabla anterior con un JOIN de bucle anidado\r\n\r\nSeguidamente, se hace una búsqueda secuencial sobre la tabla plazas. El filtro de nivel < -4 se aplica durante esta lectura y los resultados se encauzan.\r\n\r\nLuego se utiliza el índice de reservaid_reserva de la tabla pagos para filtrarla  según el costo y esto se une mediante in JOIN de bulce anidado a la tabla resultante anterior.\r\n\r\nY por último, se realiza otra lectura por índice sobre la tabla vehiculos, aplicando un filtro por color de vehículo \(color ILIKE 'negro'\). Luego se combina con un bucle anidado con la tabla anterior.\r\n\r\nFinalmente, después de que todas las tablas se hayan combinado,  se ordenan los resultados por cliente_id. Luego, se realiza una agregación para contar el número de clientes distintos y calcular el porcentaje correspondiente a la consulta, multiplicando por 100 y dividiendo entre 3.000.000)>>
+<</AP<</N 1053 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 47 0 R /RV(Primero, se hace una lectura secuencial en la tabla incidencias, donde se filtra por el estado cerrada. Este resultado se encauza a través de un LEFT JOIN posterior con la tabla reservas, de forma que se mantendrán todas las reservas, incluso aquellas que no tienen incidencia cerrada.\r\n\r\nA continuación, se realiza otra lectura secuencial sobre la tabla reservas, donde se aplica un filtro por los meses de verano. Este resultado se pasa a un  LEFT JOIN mediante un bulce anidado con la tabla incidencias, donde se compara el reservaid de las reservas con el de las incidencias cerradas. Este paso se materializa,  asegurando que se utilicen los resultados intermedios de las reservas al realizar la comparación.\r\n\r\nTras esto se hace una búsqueda por índice en cliente, filtrando además solo las provincias de Andalucía. Esto se une a la tabla anterior con un JOIN de bucle anidado\r\n\r\nSeguidamente, se hace una búsqueda secuencial sobre la tabla plazas. El filtro de nivel < -4 se aplica durante esta lectura y los resultados se encauzan.\r\n\r\nLuego se utiliza el índice de reservaid_reserva de la tabla pagos para filtrarla  según el costo y esto se une mediante in JOIN de bulce anidado a la tabla resultante anterior.\r\n\r\nY por último, se realiza otra lectura por índice sobre la tabla vehiculos, aplicando un filtro por color de vehículo \(color ILIKE 'negro'\). Luego se combina con un bucle anidado con la tabla anterior.\r\n\r\nFinalmente, después de que todas las tablas se hayan combinado,  se ordenan los resultados por cliente_id. Luego, se realiza una agregación para contar el número de clientes distintos y calcular el porcentaje correspondiente a la consulta, multiplicando por 100 y dividiendo entre 3.000.000.)/Rect[ 79.974899 78.602203 541.40997 509.95999]/Subtype/Widget/T(Text19)/Type/Annot/V(Primero, se hace una lectura secuencial en la tabla incidencias, donde se filtra por el estado cerrada. Este resultado se encauza a través de un LEFT JOIN posterior con la tabla reservas, de forma que se mantendrán todas las reservas, incluso aquellas que no tienen incidencia cerrada.\r\n\r\nA continuación, se realiza otra lectura secuencial sobre la tabla reservas, donde se aplica un filtro por los meses de verano. Este resultado se pasa a un  LEFT JOIN mediante un bulce anidado con la tabla incidencias, donde se compara el reservaid de las reservas con el de las incidencias cerradas. Este paso se materializa,  asegurando que se utilicen los resultados intermedios de las reservas al realizar la comparación.\r\n\r\nTras esto se hace una búsqueda por índice en cliente, filtrando además solo las provincias de Andalucía. Esto se une a la tabla anterior con un JOIN de bucle anidado\r\n\r\nSeguidamente, se hace una búsqueda secuencial sobre la tabla plazas. El filtro de nivel < -4 se aplica durante esta lectura y los resultados se encauzan.\r\n\r\nLuego se utiliza el índice de reservaid_reserva de la tabla pagos para filtrarla  según el costo y esto se une mediante in JOIN de bulce anidado a la tabla resultante anterior.\r\n\r\nY por último, se realiza otra lectura por índice sobre la tabla vehiculos, aplicando un filtro por color de vehículo \(color ILIKE 'negro'\). Luego se combina con un bucle anidado con la tabla anterior.\r\n\r\nFinalmente, después de que todas las tablas se hayan combinado,  se ordenan los resultados por cliente_id. Luego, se realiza una agregación para contar el número de clientes distintos y calcular el porcentaje correspondiente a la consulta, multiplicando por 100 y dividiendo entre 3.000.000.)>>
 endobj
 131 0 obj
-<</AP<</N 1018 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 146 0 R /F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 50 0 R /RV(El proceso seguido por el planifiador es muy similar, pero hay algunas diferencias en el orden en el que hace las cosas y los métodos utilizados, además del tiempo de la consulta, que es mucho mayor.\r\n\r\nEl camino ideado es igual en ambas tablas hasta que se llega al tercer JOIN. En la consulta original este JOIN es entre pagos y la tabla obtenida de los JOIN anteriores, mientras que aqui la tabla pagos se sustituye por clientes. Cuanndo en la original se hace el JOIN de clientes, en la nueva se hace el de pagos. El resto de JOIN están igual. Además mientras que en la original se usaba un HASH para el JOIN de pagos y reservas, aqui lo hace todo con bucles anidados.\r\nLos metodos de lectura en las tablas son iguales en su mayoría. Solo cambia la lectura de pagos, que se usa el índice por reservaid_reservas creado para el borrado anterior , y la lectura de plazas, que en la cuestión 9 usaba el índice primario y aqui usa lectura secuencial. Ambas acaban ordenando y agrupando la tabla resultante.\r\n)/Rect[ 82.5933 600.57397 544.02802 751.62799]/Subtype/Widget/T(Text20)/Type/Annot/V(El proceso seguido por el planifiador es muy similar, pero hay algunas diferencias en el orden en el que hace las cosas y los métodos utilizados, además del tiempo de la consulta, que es mucho mayor.\r\n\r\nEl camino ideado es igual en ambas tablas hasta que se llega al tercer JOIN. En la consulta original este JOIN es entre pagos y la tabla obtenida de los JOIN anteriores, mientras que aqui la tabla pagos se sustituye por clientes. Cuanndo en la original se hace el JOIN de clientes, en la nueva se hace el de pagos. El resto de JOIN están igual. Además mientras que en la original se usaba un HASH para el JOIN de pagos y reservas, aqui lo hace todo con bucles anidados.\r\nLos metodos de lectura en las tablas son iguales en su mayoría. Solo cambia la lectura de pagos, que se usa el índice por reservaid_reservas creado para el borrado anterior , y la lectura de plazas, que en la cuestión 9 usaba el índice primario y aqui usa lectura secuencial. Ambas acaban ordenando y agrupando la tabla resultante.\r\n)>>
+<</AP<</N 1064 0 R >>/DA(/Georgia 10 Tf 0 g)/DS 146 0 R /F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 50 0 R /RV(El proceso seguido por el planifiador es muy similar, pero hay algunas diferencias en el orden en el que hace las cosas y los métodos utilizados, además del tiempo de la consulta, que es mucho mayor.\r\n\r\nEl camino ideado es igual en ambas tablas hasta que se llega al tercer JOIN. En la consulta original este JOIN es entre pagos y la tabla obtenida de los JOIN anteriores, mientras que aquí la tabla pagos se sustituye por clientes. Cuando en la original se hace el JOIN de clientes, en la nueva se hace el de pagos. El resto de JOIN están igual. Además mientras que en la original se usaba un HASH para el JOIN de pagos y reservas, aqui lo hace todo con bucles anidados.\r\nLos metodos de lectura en las tablas son iguales en su mayoría. Sólo cambia la lectura de pagos, que se usa el índice por reservaid_reservas creado para el borrado anterior , y la lectura de plazas, que en la cuestión 9 usaba el índice primario y aquí usa lectura secuencial. Ambas acaban ordenando y agrupando la tabla resultante.\r\n)/Rect[ 82.5933 600.57397 544.02802 751.62799]/Subtype/Widget/T(Text20)/Type/Annot/V(El proceso seguido por el planifiador es muy similar, pero hay algunas diferencias en el orden en el que hace las cosas y los métodos utilizados, además del tiempo de la consulta, que es mucho mayor.\r\n\r\nEl camino ideado es igual en ambas tablas hasta que se llega al tercer JOIN. En la consulta original este JOIN es entre pagos y la tabla obtenida de los JOIN anteriores, mientras que aquí la tabla pagos se sustituye por clientes. Cuando en la original se hace el JOIN de clientes, en la nueva se hace el de pagos. El resto de JOIN están igual. Además mientras que en la original se usaba un HASH para el JOIN de pagos y reservas, aqui lo hace todo con bucles anidados.\r\nLos metodos de lectura en las tablas son iguales en su mayoría. Sólo cambia la lectura de pagos, que se usa el índice por reservaid_reservas creado para el borrado anterior , y la lectura de plazas, que en la cuestión 9 usaba el índice primario y aquí usa lectura secuencial. Ambas acaban ordenando y agrupando la tabla resultante.\r\n)>>
 endobj
 132 0 obj
-<</AP<</N 1029 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 50 0 R /RV(Primero haremos un vaccum para limpiar la base de datos de todas las tuplas muertas que han quedado del DELETE de la pregunta 11. Este comando lo usaremos para todas las tablas de la base de datos. Luego para hacer las lecturas de tablas y los JOIN más eficientes, podremos crear índices en cada una de las tablas. Crearíamos un índice en pagos por reservaid y cantidad, otro en clientes por provincia, uno en inincidencias por reservaid_reservas y estado, y por último en reservas por reservaid)/Rect[ 82.375099 373.57101 543.81 552.30298]/Subtype/Widget/T(Text21)/Type/Annot/V(Primero haremos un vaccum para limpiar la base de datos de todas las tuplas muertas que han quedado del DELETE de la pregunta 11. Este comando lo usaremos para todas las tablas de la base de datos. Luego para hacer las lecturas de tablas y los JOIN más eficientes, podremos crear índices en cada una de las tablas. Crearíamos un índice en pagos por reservaid y cantidad, otro en clientes por provincia, uno en inincidencias por reservaid_reservas y estado, y por último en reservas por reservaid)>>
+<</AP<</N 1054 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 50 0 R /RV(Primero haremos un vaccum para limpiar la base de datos de todas las tuplas muertas que han quedado del DELETE de la pregunta 11. Este comando lo usaremos para todas las tablas de la base de datos. Luego para hacer las lecturas de tablas y los JOIN más eficientes, podremos crear índices en cada una de las tablas. Crearíamos un índice en pagos por reservaid y cantidad, otro en clientes por provincia, uno en inincidencias por reservaid_reservas y estado, y por último en reservas por reservaid.)/Rect[ 82.375099 373.57101 543.81 552.30298]/Subtype/Widget/T(Text21)/Type/Annot/V(Primero haremos un vaccum para limpiar la base de datos de todas las tuplas muertas que han quedado del DELETE de la pregunta 11. Este comando lo usaremos para todas las tablas de la base de datos. Luego para hacer las lecturas de tablas y los JOIN más eficientes, podremos crear índices en cada una de las tablas. Crearíamos un índice en pagos por reservaid y cantidad, otro en clientes por provincia, uno en inincidencias por reservaid_reservas y estado, y por último en reservas por reservaid.)>>
 endobj
 133 0 obj
 <</AP<</N 1031 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 50 0 R /RV(La consulta es la siguiente:\r\nSELECT  COUNT\(DISTINCT c.clienteid\) * 100.0 / 3000000 AS Porcentaje\r\nFROM clientes c JOIN reservas r ON c.clienteid = r.clienteid_clientes \r\nJOIN plazas p ON p.plazaid = r.plazaid_plazas JOIN  pagos pa ON pa.reservaid_reservas = r.reservaid JOIN vehiculos v ON v.vehiculoid = r.vehiculoid_vehiculos LEFT JOIN  incidencias i ON i.reservaid_reservas = r.reservaid AND i.estado = 'Cerrada'\r\nWHERE \r\n    c.provincia IN \('Almería', 'Cádiz', 'Córdoba', 'Granada', 'Huelva', 'Jaén', 'Málaga', 'Sevilla'\) AND EXTRACT\(MONTH FROM r.fechainicio\) IN \(6, 7, 8\)  AND pa.cantidad > 150 AND p.nivel < -4  AND v.color ILIKE 'negro' AND i.incidenciaid IS NULL;\r\n\r\nEl tiempo de ejecución de la consulta es de 37 minutos y devuelve un porcentaje de 0,1607666....)/Rect[ 81.065804 67.560097 542.50098 279.474]/Subtype/Widget/T(Text22)/Type/Annot/V(La consulta es la siguiente:\r\nSELECT  COUNT\(DISTINCT c.clienteid\) * 100.0 / 3000000 AS Porcentaje\r\nFROM clientes c JOIN reservas r ON c.clienteid = r.clienteid_clientes \r\nJOIN plazas p ON p.plazaid = r.plazaid_plazas JOIN  pagos pa ON pa.reservaid_reservas = r.reservaid JOIN vehiculos v ON v.vehiculoid = r.vehiculoid_vehiculos LEFT JOIN  incidencias i ON i.reservaid_reservas = r.reservaid AND i.estado = 'Cerrada'\r\nWHERE \r\n    c.provincia IN \('Almería', 'Cádiz', 'Córdoba', 'Granada', 'Huelva', 'Jaén', 'Málaga', 'Sevilla'\) AND EXTRACT\(MONTH FROM r.fechainicio\) IN \(6, 7, 8\)  AND pa.cantidad > 150 AND p.nivel < -4  AND v.color ILIKE 'negro' AND i.incidenciaid IS NULL;\r\n\r\nEl tiempo de ejecución de la consulta es de 37 minutos y devuelve un porcentaje de 0,1607666....)>>
 endobj
 134 0 obj
-<</AP<</N 1035 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 53 0 R /RV(En este caso, todos los JOIN son bucles anidados, no se usa ningún Hash como sí ocurria en preguntas anteriores.\r\nPrimero se hace una lectura secuencial en reservas filtrando por la fecha de inicio y se hace un LEFT JOIN con incidencias, que se lee usando el índice por reservaid_reservas y se filtra. \r\n\r\nLuego se lee clientes usando el índice primario, se filtra y se une con un JOIN al resultado de la tabla anterior.\r\n\r\nEl resultado de esto se une con plazas, que se lee secuencialmente y se filtra.\r\n\r\nLuego se lee pagos usando su índice organizado por reservaid y se une al resultado anterior\r\n\r\nPor último se lee y filtra vehiculos usando su índice primario y se une al resultado anterior\r\n\r\nEsta tabla resultante de unir todas las anteriores se ordena, se agrupa por cliente id y se cuenta. Luego el resultado se multiplica por 100 y se divide entre 3.000.000.\r\n\r\n\r\n\r\n\r\n)/Rect[ 86.4608 488.091 547.896 731.27301]/Subtype/Widget/T(Text23)/Type/Annot/V(En este caso, todos los JOIN son bucles anidados, no se usa ningún Hash como sí ocurria en preguntas anteriores.\r\nPrimero se hace una lectura secuencial en reservas filtrando por la fecha de inicio y se hace un LEFT JOIN con incidencias, que se lee usando el índice por reservaid_reservas y se filtra. \r\n\r\nLuego se lee clientes usando el índice primario, se filtra y se une con un JOIN al resultado de la tabla anterior.\r\n\r\nEl resultado de esto se une con plazas, que se lee secuencialmente y se filtra.\r\n\r\nLuego se lee pagos usando su índice organizado por reservaid y se une al resultado anterior\r\n\r\nPor último se lee y filtra vehiculos usando su índice primario y se une al resultado anterior\r\n\r\nEsta tabla resultante de unir todas las anteriores se ordena, se agrupa por cliente id y se cuenta. Luego el resultado se multiplica por 100 y se divide entre 3.000.000.\r\n\r\n\r\n\r\n\r\n)>>
+<</AP<</N 1065 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 53 0 R /RV(En este caso, todos los JOIN son bucles anidados, no se usa ningún Hash como sí ocurria en preguntas anteriores.\r\nPrimero se hace una lectura secuencial en reservas filtrando por la fecha de inicio y se hace un LEFT JOIN con incidencias, que se lee usando el índice por reservaid_reservas y se filtra. \r\n\r\nLuego se lee clientes usando el índice primario, se filtra y se une con un JOIN al resultado de la tabla anterior.\r\n\r\nEl resultado de esto se une con plazas, que se lee secuencialmente y se filtra.\r\n\r\nLuego se lee pagos usando su índice organizado por reservaid y se une al resultado anterior.\r\n\r\nPor último se lee y filtra vehiculos usando su índice primario y se une al resultado anterior.\r\n\r\nEsta tabla resultante de unir todas las anteriores se ordena, se agrupa por cliente id y se cuenta. Luego el resultado se multiplica por 100 y se divide entre 3.000.000.\r\n\r\n\r\n\r\n\r\n)/Rect[ 86.4608 488.091 547.896 731.27301]/Subtype/Widget/T(Text23)/Type/Annot/V(En este caso, todos los JOIN son bucles anidados, no se usa ningún Hash como sí ocurria en preguntas anteriores.\r\nPrimero se hace una lectura secuencial en reservas filtrando por la fecha de inicio y se hace un LEFT JOIN con incidencias, que se lee usando el índice por reservaid_reservas y se filtra. \r\n\r\nLuego se lee clientes usando el índice primario, se filtra y se une con un JOIN al resultado de la tabla anterior.\r\n\r\nEl resultado de esto se une con plazas, que se lee secuencialmente y se filtra.\r\n\r\nLuego se lee pagos usando su índice organizado por reservaid y se une al resultado anterior.\r\n\r\nPor último se lee y filtra vehiculos usando su índice primario y se une al resultado anterior.\r\n\r\nEsta tabla resultante de unir todas las anteriores se ordena, se agrupa por cliente id y se cuenta. Luego el resultado se multiplica por 100 y se divide entre 3.000.000.\r\n\r\n\r\n\r\n\r\n)>>
 endobj
 135 0 obj
-<</AP<</N 1034 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 53 0 R /RV( El plan de ejecución en su mayoría se mantiene igual al de la cuestión 12. Los JOINS son del mismo tipo, y se hacen en el mismo orden, pero lo que si cambia ligeramente es la forma en la que se hacen las lecturas de cada tabla. \r\n\r\nIncidencias originalmente se leía secuencialmente, ahora se utiliza el índice que la ordena por reservaid.\r\nPara clientes se sigue usando el índice primario para la lectura. La tabla plazas se lee secuencialmente, mientras que en pagos se usa el índice por reservas. Por último se lee la tabla vehiculo con su índice primario, se ordenan y se agrupan las tuplas de la tabla resultante de todos los JOIN encadenados, igual que en la cuestión 12.\r\n\r\nVemos que a pesar de las optimizaciones que hemos hecho de VACUUM el tiempo de consulta apenas ha cambiado. Ademas de que de los 4 índices que hemos creado para la optimización, solo se han usado 2, para los otros el optimizador a considerado más eficiente la lectura secuencial o el uso de índices primarios en su lugar.\r\n \r\n\r\n \r\n )/Rect[ 87.393097 66.272202 548.828 462.07101]/Subtype/Widget/T(Text24)/Type/Annot/V( El plan de ejecución en su mayoría se mantiene igual al de la cuestión 12. Los JOINS son del mismo tipo, y se hacen en el mismo orden, pero lo que si cambia ligeramente es la forma en la que se hacen las lecturas de cada tabla. \r\n\r\nIncidencias originalmente se leía secuencialmente, ahora se utiliza el índice que la ordena por reservaid.\r\nPara clientes se sigue usando el índice primario para la lectura. La tabla plazas se lee secuencialmente, mientras que en pagos se usa el índice por reservas. Por último se lee la tabla vehiculo con su índice primario, se ordenan y se agrupan las tuplas de la tabla resultante de todos los JOIN encadenados, igual que en la cuestión 12.\r\n\r\nVemos que a pesar de las optimizaciones que hemos hecho de VACUUM el tiempo de consulta apenas ha cambiado. Ademas de que de los 4 índices que hemos creado para la optimización, solo se han usado 2, para los otros el optimizador a considerado más eficiente la lectura secuencial o el uso de índices primarios en su lugar.\r\n \r\n\r\n \r\n )>>
+<</AP<</N 1055 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 33558528/MK<</BC[ 0 0 0]>>/P 53 0 R /RV( El plan de ejecución en su mayoría se mantiene igual al de la cuestión 12. Los JOINS son del mismo tipo, y se hacen en el mismo orden, pero lo que si cambia ligeramente es la forma en la que se hacen las lecturas de cada tabla. \r\n\r\nIncidencias originalmente se leía secuencialmente, ahora se utiliza el índice que la ordena por reservaid.\r\nPara clientes se sigue usando el índice primario para la lectura. La tabla plazas se lee secuencialmente, mientras que en pagos se usa el índice por reservas. Por último se lee la tabla vehiculo con su índice primario, se ordenan y se agrupan las tuplas de la tabla resultante de todos los JOIN encadenados, igual que en la cuestión 12.\r\n\r\nVemos que a pesar de las optimizaciones que hemos hecho de VACUUM el tiempo de consulta apenas ha cambiado. Además de que de los 4 índices que hemos creado para la optimización, solo se han usado 2 para los otros el optimizador a considerado más eficiente la lectura secuencial o el uso de índices primarios en su lugar.\r\n \r\n\r\n \r\n )/Rect[ 87.393097 66.272202 548.828 462.07101]/Subtype/Widget/T(Text24)/Type/Annot/V( El plan de ejecución en su mayoría se mantiene igual al de la cuestión 12. Los JOINS son del mismo tipo, y se hacen en el mismo orden, pero lo que si cambia ligeramente es la forma en la que se hacen las lecturas de cada tabla. \r\n\r\nIncidencias originalmente se leía secuencialmente, ahora se utiliza el índice que la ordena por reservaid.\r\nPara clientes se sigue usando el índice primario para la lectura. La tabla plazas se lee secuencialmente, mientras que en pagos se usa el índice por reservas. Por último se lee la tabla vehiculo con su índice primario, se ordenan y se agrupan las tuplas de la tabla resultante de todos los JOIN encadenados, igual que en la cuestión 12.\r\n\r\nVemos que a pesar de las optimizaciones que hemos hecho de VACUUM el tiempo de consulta apenas ha cambiado. Además de que de los 4 índices que hemos creado para la optimización, solo se han usado 2 para los otros el optimizador a considerado más eficiente la lectura secuencial o el uso de índices primarios en su lugar.\r\n \r\n\r\n \r\n )>>
 endobj
 136 0 obj
 <</A 754 0 R /BS<</S/S/Type/Border/W 0>>/Border[ 0 0 0]/H/I/P 56 0 R /Rect[ 118.800003 264.603 281.80801 284.23801]/StructParent 16/Subtype/Link/Type/Annot>>
@@ -2049,7 +2049,7 @@ endobj
 <</A 753 0 R /BS<</S/S/Type/Border/W 0>>/Border[ 0 0 0]/H/I/P 56 0 R /Rect[ 118.800003 244.968 272.07001 264.603]/StructParent 17/Subtype/Link/Type/Annot>>
 endobj
 138 0 obj
-<</AP<</N 1002 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 56 0 R /RV(Al escribir una consulta, psql sigue un proceso en difernetes pasos con el fin de obtener el camino más óptimo posible:  \r\n\r\n- Primero, el programa verifica que la sintaxis de la consulta sea valida, y que haga referencias a tablas y atributos de estas también válidos y existentes.\r\n\r\nUna vez que se haya verificado que la consulta es válida, Postgres genera diferentes planes de ejecución. para determinar cual es el más eficiente, el optimizador utilizará las estadísticas internas de las tablas \(número de elementos, cantidad de tuplas, la distribución de valores, si existen índices o no, etc\) para realizar una estimación de los costes de cada uno de los distintos planes de ejecución diseñados. De todos estos planes de ejecución, elejirá el de menor coste. Aqui es donde tiene importancia la ejecución del comando ANALYZE. Este  comando actualiza las estadist¡cas de las tablas a su estado actual ,algo esencial al realizar un plan de ejecución. Lógicamente los planes de ejecución que se diseñen serán mejores si las estadísticas con las que trabajan corresponden a los datos reales de las tablas.\r\n\r\nUna vez elejido el plan más óptimo, el sistema ejecutará la consulta paso a paso, devolviendo al usuario los resultados.\r\n\r\n)/Rect[ 83.466103 447.479 544.90002 724.06799]/Subtype/Widget/T(Text25)/Type/Annot/V(Al escribir una consulta, psql sigue un proceso en difernetes pasos con el fin de obtener el camino más óptimo posible:  \r\n\r\n- Primero, el programa verifica que la sintaxis de la consulta sea valida, y que haga referencias a tablas y atributos de estas también válidos y existentes.\r\n\r\nUna vez que se haya verificado que la consulta es válida, Postgres genera diferentes planes de ejecución. para determinar cual es el más eficiente, el optimizador utilizará las estadísticas internas de las tablas \(número de elementos, cantidad de tuplas, la distribución de valores, si existen índices o no, etc\) para realizar una estimación de los costes de cada uno de los distintos planes de ejecución diseñados. De todos estos planes de ejecución, elejirá el de menor coste. Aqui es donde tiene importancia la ejecución del comando ANALYZE. Este  comando actualiza las estadist¡cas de las tablas a su estado actual ,algo esencial al realizar un plan de ejecución. Lógicamente los planes de ejecución que se diseñen serán mejores si las estadísticas con las que trabajan corresponden a los datos reales de las tablas.\r\n\r\nUna vez elejido el plan más óptimo, el sistema ejecutará la consulta paso a paso, devolviendo al usuario los resultados.\r\n\r\n)>>
+<</AP<</N 1056 0 R >>/DA(/Georgia 10 Tf 0 g)/F 4/FT/Tx/Ff 41947136/MK<</BC[ 0 0 0]>>/P 56 0 R /RV(Al escribir una consulta, psql sigue un proceso en diferentes pasos con el fin de obtener el camino más óptimo posible:  \r\n\r\nPrimero, el programa verifica que la sintaxis de la consulta sea valida, y que haga referencias a tablas y atributos de estas también válidos y existentes.\r\n\r\nUna vez que se haya verificado que la consulta es válida, Postgres genera diferentes planes de ejecución. Para determinar cual es el más eficiente, el optimizador utilizará las estadísticas internas de las tablas \(número de elementos, cantidad de tuplas, la distribución de valores, si existen índices o no, etc\) para realizar una estimación de los costes de cada uno de los distintos planes de ejecución diseñados. De todos estos planes de ejecución, elejirá el de menor coste. Aquí es donde tiene importancia la ejecución del comando ANALYZE, este  comando actualiza las estadísticas de las tablas a su estado actual ,algo esencial al realizar un plan de ejecución. Lógicamente los planes de ejecución que se diseñen serán mejores si las estadísticas con las que trabajan corresponden a los datos reales de las tablas.\r\n\r\nUna vez elejido el plan más óptimo, el sistema ejecutará la consulta paso a paso, devolviendo al usuario los resultados.\r\n\r\n)/Rect[ 83.466103 447.479 544.90002 724.06799]/Subtype/Widget/T(Text25)/Type/Annot/V(Al escribir una consulta, psql sigue un proceso en diferentes pasos con el fin de obtener el camino más óptimo posible:  \r\n\r\nPrimero, el programa verifica que la sintaxis de la consulta sea valida, y que haga referencias a tablas y atributos de estas también válidos y existentes.\r\n\r\nUna vez que se haya verificado que la consulta es válida, Postgres genera diferentes planes de ejecución. Para determinar cual es el más eficiente, el optimizador utilizará las estadísticas internas de las tablas \(número de elementos, cantidad de tuplas, la distribución de valores, si existen índices o no, etc\) para realizar una estimación de los costes de cada uno de los distintos planes de ejecución diseñados. De todos estos planes de ejecución, elejirá el de menor coste. Aquí es donde tiene importancia la ejecución del comando ANALYZE, este  comando actualiza las estadísticas de las tablas a su estado actual ,algo esencial al realizar un plan de ejecución. Lógicamente los planes de ejecución que se diseñen serán mejores si las estadísticas con las que trabajan corresponden a los datos reales de las tablas.\r\n\r\nUna vez elejido el plan más óptimo, el sistema ejecutará la consulta paso a paso, devolviendo al usuario los resultados.\r\n\r\n)>>
 endobj
 139 0 obj
 [ 140 0 R ]
@@ -3971,11 +3971,6 @@ endobj
 767 0 obj
 <</BaseFont/BKLZRL+CourierNewPS-BoldMT/Encoding/WinAnsiEncoding/FirstChar 32/FontDescriptor 790 0 R /LastChar 122/Subtype/TrueType/ToUnicode 779 0 R /Type/Font/Widths[ 600 0 0 0 0 0 0 600 0 0 0 0 0 0 600 0 0 0 600 0 0 0 0 0 0 0 0 0 0 0 0 0 0 600 0 600 600 600 0 0 0 600 0 0 600 0 600 0 600 0 0 0 0 0 0 0 0 0 0 0 0 0 0 600 0 0 0 0 600 600 0 0 0 600 0 0 600 600 600 600 600 0 0 600 0 600 0 0 0 0 600]>>
 endobj
-772 0 obj
-<</BBox[ 0 0 97.800003 18.360001]/Filter/FlateDecode/FormType 1/Length 20/Matrix[ 1 0 0 1 0 0]/Resources<</Font 811 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœÓ©Ppòuærõuæ &×
-endstream
-endobj
 774 0 obj
 <</Filter/FlateDecode/Length 599>>stream
 H‰\ÔÍÚ@à»Ÿb»‡•ÁÓİBâÇ–8äG!y °b)Ëx¼}¦\«$–bí¡?×¡óİaèÚÑåß‡{}Œ£»´]3ÄÇı}¨£;ÇkÛeóÂ5m=~|›şÖ·SŸåéğñùãíĞ]îÙjåòéâcîeÓÜÏñ5Ë¿MÚîê^~í¯.?¾÷ıŸx‹İèfn½vM¼¤úrê¿nÑåÓ±·C“®·ãó-ùwÇÏg]1}ŸSß›øèOuNİ5f«Yz­İªJ¯u»æ¿ëå±ó¥ş}²U›g³ô‘²2+ò‚y¼d^"o™·È;æòy\2—ÈsÂ¬<gyÌòsæ9rÁ\ {f,Ì‚L›‡Í³!æ€L³‡ÙÓìaöæ2ı~O›‡Mèx„Gèx„Gèx„Gèx„Gèx„AØ¡ Ca‡‚…
@@ -4271,7 +4266,7 @@ endobj
 <</AP<</N 812 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 786 0 R >>/Font<</Helv 787 0 R >>>>/F 4/FT/Tx/P 5 0 R /Rect[ 117.959999 441 226.92 459.35999]/Subtype/Widget/T(DNI_2)/TU(DNI)/Type/Annot/V(03226822Z)>>
 endobj
 784 0 obj
-<</AP<</N 772 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 786 0 R >>/Font<</Helv 787 0 R >>>>/F 4/FT/Tx/P 5 0 R /Rect[ 129.119995 401.76001 226.92 420.12]/Subtype/Widget/T(Fecha)/TU(Fecha)/Type/Annot>>
+<</AP<</N 1066 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 786 0 R >>/Font<</Helv 787 0 R >>>>/F 4/FT/Tx/P 5 0 R /Rect[ 129.119995 401.76001 226.92 420.12]/Subtype/Widget/T(Fecha)/TU(Fecha)/Type/Annot/V(18/04/25)>>
 endobj
 785 0 obj
 <</AP<</N 832 0 R >>/DA(/Helv  0 Tf 0 g)/DR<</Encoding<</PDFDocEncoding 786 0 R >>/Font<</Helv 787 0 R >>>>/F 4/FT/Tx/P 5 0 R /Rect[ 227.88 362.28 464.04001 380.64001]/Subtype/Widget/T(Profesor Responsable)/TU(Profesor Responsable)/Type/Annot/V(Óscar)>>
@@ -4347,13 +4342,6 @@ endobj
 endobj
 814 0 obj
 <</Georgia 98 0 R >>
-endobj
-823 0 obj
-<</BBox[ 0 0 455.76553 242.91101]/Filter/FlateDecode/FormType 1/Length 598/Matrix[ 1 0 0 1 0 0]/Resources<</Font 814 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœ}S]oÓ@|÷¯!¡\;<Ò6‚‡V¢"ïÑÆ·v®œo»siúoù}¨øè.")ˆ K–åİ›Ù™Ûfâãšô1™Nóï§Ó1F“Q>/Ë¢„ã¬D‰Ét|(ÇRı6»ÍÎ—¸¸¹Ì¶ÙÅ2+Ğd%Få<ŸÍbÓReçŸX\£	ee-,¡_ëŠ*ıÓB±8Å–”8(±ŠÁ>ü°0â¡(Ä7£Çşëí56´Co	¹á•¢@¯°ƒbœà–wYwå(Ÿæóùl9ÛSB«6ú^Ğ[“Wbëø¸y‚â5;n÷ì­(]ëŠ\:×‘¤Fš•¸eĞ‘£SÔÛá™ ›ƒVÔ ÇÂÁ†*Fj#pÜhÃ‡gØVš<®n®±ÃÕÕõ0U:VZ‘Û8Ñ	V¶}<¬$?Ñğ%©­¤­ø±¢èêİos[%Ö÷&¤‰’†kÃ§ıckĞbQI+H]şËvTÒ<­(±ˆp‰
-½Eà‡ èØy±dô#)Frz¦h£MÜF[^ukı j×Ñ*«O‰q×Û  ©Š‹ïh¿xõD] ×\ÉqĞæ Xi×Sf?‹èÄ¦ˆ¼Ş±ûƒy\å$wÿêzvqœgR:L'ãÑ0u±Q?zO­øüÄ^'dVì©
-ú~ŸØÎIÅZÍQƒ8a#Q÷£³Ç¼¯{ı9¡cK«„`Ø¬¾‹ûÆÎ¯:v«†Â†]ôæ¯/&9eÃ=q(öY,³Ûlqs™ı&qp;
-endstream
 endobj
 832 0 obj
 <</BBox[ 0 0 236.16 18.360016]/Filter/FlateDecode/FormType 1/Length 76/Matrix[ 1 0 0 1 0 0]/Resources<</Font 813 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
@@ -4542,17 +4530,6 @@ endobj
 912 0 obj
 <</Georgia 98 0 R >>
 endobj
-914 0 obj
-<</BBox[ 0 0 462.8526 267.371]/Filter/FlateDecode/FormType 1/Length 550/Matrix[ 1 0 0 1 0 0]/Resources<</Font 802 0 R >>/Subtype/Form/Type/XObject>>stream
-xœ•TÑjÛ0}÷Wô‡ª®İ®]ŒvaO}(ö0 J×Š-©’›Bş}8“†¬ig0IçÜsÎ½ösô]Lÿàöş.zn§QŠ2Êpy}“¾f˜ªèâY_j,Å´ˆâIi•.-¤­]E…±â‘8ygòTÛ Ú*E 'ª]µX‚ô$@dXÀ	/ +M¦¡0êcú¥8Ï.“ëËáp8´"6bEÊá•ğ3yllıè‰C‰Æ)jgCŞ‡0€¥næ°Ì][EãŞ²ÇahYiCã^ƒLkÙ”ãŞKSœzy" Ğ¢ß”ğº!që4ù®eós³‘Ç-˜£ĞT)#j
-ãNğ§“Í2'¡Z®ÿy»y¼Ié$Îymš<.Øê5›5J2ä…j»è=ÉFÔmËöÍ1oa=4´¦¤<¾š¥iÚ¾ôi®+B7TQaÅhŒ‚İ¬¼0ÊÖI»l´féëÃ1Ü>yÍò~[±Ã†YgãpÖ®Ò4ûrš!œõÂD(µWy2İGİ§çÈ¨<^}Ğ]¶EhÅFĞg{ma‘œ[-©ó÷9˜pTUZÙã[İI{ïÚ¬sÉF»$8ÕBWl„¢Ó´ÒgÙú[»›H[3æ¼]h#µ8®»;:=™ëÏÜÁ‚í’•aÁø.h_o"Ü§÷6#¾7¼³y`æ÷VÔd=D“û»è/D‹—
-endstream
-endobj
-923 0 obj
-<</BBox[ 0 0 457.18262 392.00601]/Filter/FlateDecode/FormType 1/Length 963/Matrix[ 1 0 0 1 0 0]/Resources<</Font 912 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœ•UËnãF¼ó+úè¸ZI~DÊq'°›Ø€ € 5Ó¢:ÎĞ=¤°Ú¿õqÏ¹ù”ôÔkÍÄ èÁawUuuñ1ƒ¾¤H_..¿MfÓ«)œÏ§£ñøj<¡l¸¸¼Ü]ï/­¾Éî²w‹Oğşãuö˜½_dc(²	œÏ&£Ëtha³w?R‚&cX¬²³[ƒR €,Ö!ÂšÊ¡‰hJô6ÀÃÃõ/·¿%¨B¬¡˜{Ë&]­ÚR¡Æ¥Cpo`ñG6†·“éèr:ŸÏg3ÅpfYÈşËk)³æM «âæ°"9X)±¹V£Okò†Qï[Z’\EÒŞ6<œ‘Š5Áş‚RzxÛƒZÔË+6˜Àİ/~x;{ùş¯&!1RÑˆJ‰À¾¦BØ¢ÕÂ§Ú&É­"Œ­\¹ƒÈEÃäk‚ –üwP	—$aˆK§#lÁ5T¨~Æ˜Ãá±!#Ø°kãÔL<xöEãQùş¤mŞ‰:b+OŒÊQóóñx:?OÍ;l#øbÕ|‰Êtß°c*¤D7´fÓ¸ó+×áPw07¤H<¡êÀ69â„õÕìüuÛöö4ò-Â!²]Ó\ÉZ”§DõÙCÍU3‰Á‡Äõ¦P$Ù`‡r€v‹[ír„º§È6‡Ğ[Ø¶aû•J'V`oØ&{G¥2À<‰×œêw’©õ:ªN]ÍešijuØ(Ólñ¤Ú€Ój,—üÅ4½vQ>´¾,É'OŠMğ{×¢n³@Ù(t³[š-DöÚª6†ƒ§8‚ëŞú=²üx!‡5o°L«uX;‡J×«E²ÄX£(Ÿb‚ÙâKKµ¦}=‚÷?ÿtw£béFVÁ›ÙTµ6"í—¢kÏ>u&ßer¤~±B©i¯y‹@Sªí?Ğœş)ˆz¶q˜w§;<q|Š¬]Tõ©’'¹Ğj¤Íwòµè§¥å ë	¯xePÚÚmtWºMs­µ›ã«-t(î—µ·Ñj:Å0eòıøbáBŸ™é±å¢k§[Åá°ÅÅ^¶˜tc&˜5åé[ON$ï¼šT…ÅŞ®İ†ôão¼~ôNoyÌD¨àX‹:ú ]OcìøXIX¢ÀäØy;®ß;}ÿÏXº¬Ù9ü(k\4èÒ‡ Û&d÷\:Y¯­¦İ³gÓ{v€ÌKQ¸ËA´¤kÕÖOâ\¼¨Ük‡õßÜ,²»ìæãuö7Ë;b
-endstream
-endobj
 924 0 obj
 <</Georgia 98 0 R >>
 endobj
@@ -4562,43 +4539,8 @@ endobj
 936 0 obj
 <</Georgia 98 0 R >>
 endobj
-946 0 obj
-<</BBox[ 0 0 460.01819 299.36069]/Filter/FlateDecode/FormType 1/Length 724/Matrix[ 1 0 0 1 0 0]/Resources<</Font 856 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœTMoÜ6½ëW¼ã:ë¬)íG¤´{°m`í|t4ÅÅ,E¯iP-IIşm~@N¹ùTP²\;íÛB@r†ó8oŞÌ.ˆŸÛ¶‹ÉLŒDš§²¢gbVÀ©$EŠÉ4¿7=ûÛtõ$y“œ¬>âìâ<ÙıÈó]b“³U"°MRdy>Ê[ËªLN~Uì¶š
-¬®’Á©ı™*ö0ä¡| ò«Z’‡d‹ÓËÓåû?ĞöƒòAo©d§üOGXİ$OÓl4ÍŠ¢Èó~ğ‚¤êBÅË¾1‹ß_/O_^â·Årq¾ÂüòöÕÅwñîÅâí9ÍøÙD±çŸÀKöpª,Ù£TæÕ³…dç”ìQ³Û5*æ© ¹"[2”GcÁuĞ•şŸƒè"ÉÈÆ”Ál+uÃ’*m59‚ºQ²	äpÜ]¼.MĞ‘ğÖesëw*	^ÉFY©Éàµè–¡>j”}„>"´à_m©¥ò£Czít¥ƒ7AÙ¾H†íV‡¦Dó-	¡©Å!ÚzT¦çX:Ì±\$—zË>4®0ÄrUëåjãTç´P­ŒÑ%ûşà®ğë#ÌC aˆ´Ày<›¦b‚Í§ b}Q76Ä|æ˜N&áì6hƒ9ò´ÈğÚ^±«Hêo¶e€mpüÀMÚõ,?àÊİİÀ	¦SÌ‘Nòã~±‡›M¼3	!â’Nb¾™È	lïšÿPä…ä¨¶®‚ÿ¦/¯Ü—h~p0Í]À¶ä4E™Ö\¶rj<9C Ój×Ç.`W*eÕ«éPœË^ı°Úno-:µÇî…á¶AU5ËŞµø×$•ëz-èšc}şßó—§pÇBdÅ¸k’.~ 86~?!úYrM1Í²µİƒôœôCæ¸ïaå£ß­Õ²{rİ¨Rí&ı\8´Öÿã`±JŞ$‹‹óä/k™ÜD
-endstream
-endobj
-947 0 obj
-<</BBox[ 0 0 457.18268 291.03903]/Filter/FlateDecode/FormType 1/Length 935/Matrix[ 1 0 0 1 0 0]/Resources<</Font 867 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœ¥UÉnÛH½ó+ŞÑ	4%YÉŠÂI<°¥ÄÖ¬`”šeºV7İMqşÖ ÓÜ|Tkñó0v±ŞRK_'äçËø°?x›v‡½Ÿ‡èºiÖe}xNºèb0ØGG¯“/É›ù7¼?™$×Éûy’¡Lºè³tƒæEòæ#;_jB7Ãü"Ù«º!£¿ÓÒ
-àPS±
-µV œÅx:>şëïÚŞp¨uI…óŞá¶åä\9[{ª]x÷
-ó«$ÃOİ^:èF£áP(ì“İâ	BhLMÈÿü|<>šâ,?Î'sLf¿Mç_÷^}…_Ng'Ï@ _gGS´@´Q‚V˜M¡Så
-]ºóÇq8„V/üñ)?ÍåğÒy
-8Ä°w<ı 2äµÃ!zY–e­>¸ ÏQ~á
-6;‚³PÎ{VBº`ƒë†q¹öLì©pXò•óP´ÔÖ¡"Oà+VMM^ÜmŞš"uLtáPy½dï:ğ[Â£±„Å}¸n¸ V[¥É€­d¯iaèya"‡mjOOô³¬»¿ÅÇ3:@à²±…ë 0xY&ÙÁWÎce­8üŸàT­È‹¡‘gL³«lŠã†K'$.I±DÅFÎ‹FY]ˆõ·ÓO¥o*Z›!i"šr­SŒŠŒjy–A`ó´ËûµÅìüŠÒ—Q~„=ŸŒq4ı=?›}˜ægĞ±fK¶5£Ölı4Ë2ù‹òº©…*ö.ª4RjÃJig%à¡R-bc«dœqèö;•ué9ü	ç“Ùt~:Ï¢ı fô¢"¬Ì”´‹ŒMû$<Òû•’z.Å ôßîïw{›Ä-öÆË…õ(äÚa»éÔ «e£ŞY8_°¥bÍĞÃ¸Í4/üŠâcÈÃ-Œ.©v^ÓZbû¿0—-‘Ò¿0†KòwİşFR$Òˆ±›7rå%¸Z6AÁ7ÎÜ°¿{ø*ÅÄ-H½¤Û­Îm¦_"ciÈâ¢±ÑõO.;ëÖ©\áWñvx4§OO.Œ»n8¤m Ÿeòdêã"ÜHL^mï5¥H@R.ù»2şV³·?ÌÜ°?Ø\^¸·Z
-}Á>ú.ÛY*¸ë¼&°Şn+™kC7»½E²?ÛTG*òlmöFñîŞÛ$TÅjj·$¹¨×­²)\å]éiInáy·§ÛœÊçÉ—$?™$ÿ¥1­q
-endstream
-endobj
-948 0 obj
-<</BBox[ 0 0 464.26962 252.77939]/Filter/FlateDecode/FormType 1/Length 803/Matrix[ 1 0 0 1 0 0]/Resources<</Font 869 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœ•UMo7½ï¯xG»ØnV–£¶)¸jÂ–›D@{0PŒ¸c‰Å‘9\£Í¿õğ©·œR–ü¥-Pè"ÉyïÍ¼]5Ò',ò—áhXõGãQı£~u|<Œ¸è¡‡á¨¿;ª®¾)>¯fãİùIq]¼›5Eıa¿êçK³¦xõKXXB¯Æìª88%Ã+Q8‚¯­‹ô&üvööıŸ&g““Låe5\ÂTì£m¨ÁÏ/ÎÓ‹(ŠÂà×‹÷SböWQãÛ^¿:êÇã×¯æõ7¬Ñ.¨‘ÀúçÃ3kp1…©Œ4v!»¼}ÌOSÁ¦÷]¨»¥Ü{ã¿ŸN>N2ŒÑ«ëºÆÛéO»Øè¥XvVJ‚•”a´»mMµ”@Š78ú~ÿÓ—¹ÎD8÷¤EÃn×#!°‰¢%–d­Ç¼5A>µH°¦@h½Ï«vyà¹KD«ä¶¸ó5Œu°«$êò0õ¼¥³ş\&ĞSÒå¦9ìcàG®¸<plbÊ¦eo,¹ËC<ÅÔuo¸Ç&yö§©:Ø¿”3ñ0-ù( 8ÑÌµÌš8”±¤pvûE0ºì[Â	®[†í*eÃ7ân8Ü¢õ¤ÊÁñ ±];Ò
-™@Ãså\‰à•u1$hÖHŠHsG
-vve=y¬Z³Láœä#ÿ&g?SHÕ.ZË>2Ö¤Rá“MøÛ´«ÊÓj<ëL§qº+ÅîÁÊPw”EVô„cp<*ë£zWœ© ²ÏÛÉfj	o» ¯Zoì¿>%"c)ÿò6UğÖCBÃ¦´ê¶-±–°m"{Ğj~o¨8ÁZšñÓ|…äõğgs's'×-kõ?<ºA7¤÷€y-où$+8¬¬®d£¥ÜPLÌ×¢qq?1jNS¯v³™÷ ».òÊ‹6{Â©p&÷(kÒüŸğ¤^ó¹ïšÍåÍÂØö;Jvo§™Ê‹/~'¥Ä*¹4mÌ¬0)ğ¢’Ç"“Øxh-jçÑF»±¸{¼$6ÕŸÌŠÅäü¤ø
-O)Tç
-endstream
-endobj
 958 0 obj
 <</ArialUnicodeMS_01 960 0 R /Georgia 98 0 R /Helv 165 0 R >>
-endobj
-959 0 obj
-<</BBox[ 0 0 461.436 197.15802]/Filter/FlateDecode/FormType 1/Length 767/Matrix[ 1 0 0 1 0 0]/Resources<</Font 958 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœT_Oâ@ï§˜G0^ÙV@JâbÏã‚ˆÊ™Ë…—a;â^ÊnÙmÉyßÖà“_à²[Šà‰Ò„Îü:¿™ßüYzìOÏİŸf;ğ›Gm¢c?huXš¼ h¶¢µ£õâ¸;ğ®¼Æäœ^ô½¥w:ñÌ-¼ÓöÛ4I¼Æ9)=ƒÉWk± ­€cÊ‹Ê ¥ gLò"KÑÀ² ÈĞ ~”ÖÊ1AÈq–"dJƒE$â4ÉœJ‰s¡$•‚:L~{¾¡ß
-£(êtl2µ{ä$!C°"m©•NHÂs–‹…*¤!U¾_F.)La’4Vñ—…ÈIBŠ°À¥£ÌE‚‰Eïá^WÆ”¹´™w÷@ûÃA<šÄ7]i'Ğ˜ÖFp;­eZ­„ä§õi}ã=òcöi´˜37;îu­è¦ëø&¾¾íİ¬‰vˆdÖ¥š¬"á´p‘Eîyƒéˆ1Ön:¦qïü²\IS¤¹ë;ZùfhÈŠ–`®Ì!He ¡UAéŠœÖ÷ø Aè‡aè³àıbÆÃŞ¯^¥Y{§)V”®‹)=áK!3,òYô^·ñ·AÿÇğrÓšŠ€«Ti§µ­³ö‰FFıÁY<êzÿ…M‰*{º»e[ÿ™Ğg¸,Ä!Ì
-ÃQ&ª[7Î4åì£mÂzòÑ@!Ëuº'Û)5ËIŠDÙ}1b^»wëÍq+³§çÕu¦µò×OE¹´Öî>{}!àšéšiŞ¸µ§ø÷CÎÕ[º¼Hßã¯“»¯u’‹„ìBšiİ¿°õéÍ	ÓhE‹‡½ÁèåŞ,¨òæÒO¸£lw£V%E™Ä~—ÛN»Õ»—J÷³’ïµ
-{HìV7—´70+È..ÍHCy·*]ÙÁ}2¹àh@Èœ´D
-2­2A	&d—İÍ›»íf_…å!˜£tØê†§â³^§¸}¥•kô]Ìxâ]yñEßûkjÿ
-endstream
 endobj
 960 0 obj
 <</BaseFont/ChromeSansMM/Encoding/WinAnsiEncoding/FirstChar 32/FontDescriptor 961 0 R /LastChar 255/Subtype/TrueType/Type/Font/Widths[ 376 256 376 590 624 815 687 216 392 392 486 635 239 411 239 501 678 567 675 675 678 677 677 625 676 677 239 239 635 635 635 507 777 602 640 674 674 559 539 674 703 272 439 596 529 963 694 729 627 729 632 588 546 660 608 969 609 566 539 377 501 376 635 567 406 553 584 559 584 560 401 592 590 242 242 528 242 875 590 595 584 584 421 538 459 594 526 883 530 534 452 369 380 369 635 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 256 644 651 661 633 380 566 406 764 380 476 635 411 764 406 383 635 443 445 406 594 569 239 406 403 393 476 938 948 1015 508 602 602 602 602 602 602 903 674 559 559 559 559 272 272 272 272 682 694 729 729 729 729 729 635 729 660 660 660 660 566 627 603 553 553 553 553 553 553 900 559 560 560 560 560 242 242 242 242 595 590 595 595 595 595 595 635 595 594 594 594 594 534 586 534]>>
@@ -4609,25 +4551,8 @@ endobj
 984 0 obj
 <</Georgia 98 0 R >>
 endobj
-987 0 obj
-<</BBox[ 0 0 461.43491 170.89801]/Filter/FlateDecode/FormType 1/Length 703/Matrix[ 1 0 0 1 0 0]/Resources<</Font 984 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœ…TËnÛ8İë+ÎNvá2Rì86f:€ëª;¶ÜÆ*æÁÈÈhQ!%aš¿õ²‹®ú2Y¸#-tyï¹çñõDp¯)|0ÆlĞŒcÄ—GQ#‚1ãçÒpt,İ½
->gÙ?x»˜ÁÛ,ˆP¸†aÄú”ñàìƒĞ¦„8Bvt>in¾ÓV[l(€"äº´ª	V`CT¡±İY˜]%¹†¸ySSÉ5š“t2ÿëïTÖÂ‚‹ç²QÄĞEvDxŸ³‹óñx<9#akÊë†”|$³ƒÒœjí	YÔt«Èö ´·E_îp]Õrëš°÷Ú¼4|Bl•Ì“iL—_Òlİy7[e³tš!g¹’¢¬…äë.^!"áıÈ?˜¬ğI›\”5İ‹—Ü0xî÷×Ëö49>.g)Œ°Â´da°L_ÊàÌqtsè;aÜ“UŠÉ¢rTó£=Ñ>¾Ù#<Ú¢"'¶·"ùÍÁ”k=¤*İŠÌ·4­£kÙsboà8¼9BçÉûlïE–¹ä¢Ì%YHÇpbåÿÛœ¤ï ™°5q7§Ââ°ÿÇUrœú7 ÈYetëf)Öp¢¶Â|§°‡pºãòÑ?×·>÷ÁPé{¯¡Z}¤o¥û.vŠ
-ŸY‰V*Eáºë-Ÿpü™]O¦Ùº³X¦Ùü&2ìNä’¥Ì¥^wŸ\{¸ìa´îÂÓUÄr*kÉ‰ã7ÄÑS–•²
-¿âõ ?“mY®•6˜Íg¿'KQî§ö¸V’c¶Búe>ÿå”}u8ôBM†»UôÎaEÑ”\[|ıÏE2*=4¥Û :×öw—‹;øO‡ı„¬º¥§‹†a% ok)JáZğR\#bıóË¸ßï3Æ˜§J²às,¦Á¿7)š
-endstream
-endobj
 988 0 obj
 <</Georgia 98 0 R >>
-endobj
-989 0 obj
-<</BBox[ 0 0 461.43433 191.51468]/Filter/FlateDecode/FormType 1/Length 569/Matrix[ 1 0 0 1 0 0]/Resources<</Font 988 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœuRÁN1½ïW¼#TÛe—”í¢´P-j=pìIâÊë	;»QÃ?÷Ä­§ÊNQEä‹eÏ¼yóŞ{ÊJÄÓÎÓex^ÃÁp0@UWÅY5<¡å¬B…áYıú5ªß¾f²ûìdú—·ãì)»œf%æ±aTe*šÚìäK;w„ªÄt–¥YRKÁ
-ŒxQ´¬½ïÈŠÂ²Çäç÷›‹ë;\±Y(t¬9Üˆbå´<õŒ†4Nùxf¬qŒé¯¬ÄÇê´8;­ëz”(){6ÆI p€'tôè)ÎåvEŠu|ë'F.g9GšÃJ°ŒšG;Ó7´ÿÆ>Ò9@à{7Ú2–4Åš0s¾kÉR5xÏ28î«œÈ´ÇŠŸ’ñ£2nzKDVòÎÒ!
-ÿEŒ¥§ç¸äKiñ×w®Ù˜²â…3½-ğÙòMO
-i-Jõ[Î&ù4oûåÁñÑóˆİQëI‹÷«¶ƒ²,Ï‡©m*–4Á'İ6×hƒ²é“Ir9¢;Yò­Ñ1*½RÔõO°Î0–­k¨u‚‡##lë°6=kç^ê‡ã“ ÓSè”rûõÛõ]•€Nbx{ãYAÁÙæ%ö©0º¹\yäŞÆ{ñÛäáµ9å%‘`í†T° ¸ôW?®
-L¢Ç¬°nÆm²-ÊŞ¤pÆd±_qÜùÀÂ0ŞíœÃ¾Äø«xI*Æ>ÉÎ£÷‘&Óì>›Ü³[8
-endstream
 endobj
 990 0 obj
 <</BBox[ 0 0 461.43427 216.35803]/Filter/FlateDecode/FormType 1/Length 489/Matrix[ 1 0 0 1 0 0]/Resources<</Font 935 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
@@ -4643,12 +4568,6 @@ endobj
 endobj
 992 0 obj
 <</Georgia 98 0 R >>
-endobj
-1002 0 obj
-<</BBox[ 0 0 461.43393 276.58899]/Filter/FlateDecode/FormType 1/Length 773/Matrix[ 1 0 0 1 0 0]/Resources<</Font 992 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœT½nGîï)¾Rè3)QŠ˜Nv„4v`L‘ÀÍğvÈ±·{ÜÙ#$½MMe
-†ºTÁì‰¢aé ƒÅ;»3ßÏÌìª)ì—6åÏübVÏÏÎg8ıù¢>¿¼\,¸ša†ùùâ)4?†Ö?UŸª7Ë¼ığ®ÚUo—Õ›j†Ó‹‹zZ.-]õæ7i#„ÙËuuråÁÚ$YIBMÚûLtºóPÙôŒ> K±aà 'kN3+:Ò¨öì±– Çˆ«Ì“4ÔJˆhï¯°ÜVS¼Öç§‹ÅâòÒĞœ<tYÚˆ.ª¬<ÿ‚‘{Ï¾ÆÇ$-§8±B]Š›D-aÏIÖÒv=ÃTB¦Qæì LØ“GÜ–ËÓ†xÍ‰C#¤ dZyRÜ§œdÕçX²³fRdjWòoÀşŞ‹‹ö–oD3‡ÌZ›æl:Í_¦öG0w•°Û#/Ì¨°Õh‚Qó&±bcĞàT©ÎSàè–›¾‘‡PñêÈŞræÔJ „¦'ëÚ¬äµ4bY‹ôÑ”;r1¡ÏâåÒ=L7SÄ}Ñ,)$dNĞƒ¶#>Ÿ„ÿÌÜ‚×sË!G ¡Å‘³ãÜwtbR8Ñâ„‘²Ğ|L¬¨äÇ—à¤aED°–ÉÍçW(<G$¦B¥k––é}iyÍƒœ9Bâ!b`Äà¾$¹Eù+¹¨5~å±Ú9Zë°$1Ùy+éŞäwŒ–CL¢W»^Ì+ƒ‰$Òv1e²¶6¹hFê;İØRpW¿_½ÿó¯ë×šOÇÔä¾ttZ4ÿÓ<3˜ ı?<Â„ü&Õf-ãçAßxPtø®{ß?l¤!ëAù—ô~œ¡";(§ûQÚ-o­m¬kµ¯­8;´|9ÑŠ¶ĞÄ”X;S:€÷ÉL3àüõn¶Ãø“],ëÍÈÛèë²ÌZ_·næaæKÁ3†Ï÷Ñï…‹q½ö”dÔ_”4Ö§?ûzY}ª®?¼«şáß3X
-endstream
 endobj
 1011 0 obj
 <</BBox[ 0 0 461.43433 397.03809]/Filter/FlateDecode/FormType 1/Length 989/Matrix[ 1 0 0 1 0 0]/Resources<</Font 991 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
@@ -4672,68 +4591,11 @@ endobj
 1014 0 obj
 <</Georgia 98 0 R >>
 endobj
-1015 0 obj
-<</BBox[ 0 0 461.43506 431.35779]/Filter/FlateDecode/FormType 1/Length 924/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1014 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœ•VKoÛF¾óWÌ-N¡(”%;ĞK(…[§mP]
-F»czƒå½¡ò¿Í1Ÿzó©˜%)Q–T¤ärg¾×,ï‹äç«|1»œŒgÓ‹òfÓÉxzñæÍ<˜ÀìbŞ?:ŸïİşP|,^/ÿ†·Ş÷ÅÛeQBUL`v^¯ò¢¥.^ÿLì+ƒ0)ay[œıáMM!Ü¡"HÁ’ŠÉ#R‰œ2hX„ˆ+‹`œ2:ß#Ğì4ÉÛ·ÆFĞ°²@!¢fPä=jÃKX~)Jx59_œÏçó«+iæl"§l^È)LÑãú[ -=ÁÍâı~ùıú7h8Dò†=(4å)_çnÙ×÷)7v¢t.’Óş«ƒÈXƒ]ŒS6¼Odå‘ìæ¢!GnÀÁãñ:‡…’Æ£q	•ùÇ¤EOhÍƒGØ¼òtkÏ>6Ö(¦²œu8Ür€šen×äÑñ•h0ˆÉÁ€ıš´âäö*YE€Îè,õP•;Gqİ G±M‡Ìhim(HŞl{°QÏè04x¯ş´,ÏçÓ\?Ô(îÉt 0P•<:Í½[R4Ö(±;‡R1’ôzCÛ+èáüåU[¼ƒ)¢÷wøÎÒc,íçsõîé6lN%¹e¹H£.Š
-5Õ_¶œ[n<¯MK›é4Ú¤Ÿås@Ø¢+îäl#˜\kM°JÊnqœ†ÃR•ŒÆºíı(ÎÓQh,>démo|MàÌš,ü¯fƒh<kçjz‘«k‘?RXÛèm«¿Lî»s~“¨â­¥²¿;±4íœş¹»j]ÕÃÂŠäT´bz‹ ª§œÅ¢ËfëŒqÕ¶5C™†ÁÅ½Á"ˆey/ñwÃı+»ñÉFSóé¡6pì3%×tgT²Fbâßıy¦Ø² ÏÜ:™åÖt÷(;À§³våõÍõ¯xá¨òüâÓË1l%Q\¯ŒÃŞ¿{¾İŸdÿ›‡÷Æ¡íÌ¬)4©=Ãd¼ìÎ™¼whÍ¾A×÷£y$*{MfĞÌô.ûŸîPîI aÂÊS•§Oë+9„0ŸÕî)hê'H mB4.r€(´*Ùvé‰ê{E.âaÖ{
-;·jİ¥Øe#¨“f+¯ š”%l@›µ‘74¹è	¦ã²,åŸK.–ÅÇbñá]ñ/r}î
-endstream
-endobj
-1016 0 obj
-<</BBox[ 0 0 461.43503 458.7211]/Filter/FlateDecode/FormType 1/Length 1005/Matrix[ 1 0 0 1 0 0]/Resources<</Font 936 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœVMÛ6½ëWÌ-Iá(’×ŞîE$uÚM7mƒú “c™Š”ùaÄûosÌ!§Şr*†’m­m†aÃ HÎÌ{oŞhÀW¥?“ë2Ÿ\M‹+˜LoòÇe	²J˜Lo÷O®÷O–?d³WóÏğæÃÛl½™gTY	“ÉM>æ=s™½ú•¬«BYÀ|™=ÿË©šœO°BA‚&¢Cğ$"¡PĞA¡dZ÷#ÖHâÓK¥ƒCh¬Ò@> ´ È9”˜Ã˜?d¼,Çùt|{{{sÃÉ<Ÿù@àÈG¶{2ã#Bp¸ùêArNp?{7‡÷Şıõœ²„í%åÈ“Û¤Œ–ÖÕë˜]£	d¤ûb X‰4úŞ-Ê½\GÒüˆo3‚"C¦‡Á¾ÆóqN¿æÄƒ2…ú×Œ8EG¨Õ#‚eÏ ïíÂÑÙZwèc£•@F*ñ`•kë¡&O	Û946‡S&ôLC4ĞC¿&©8^^D-Ğ(™¨î³Ñ|UãÛ«ù¼r„­tÈ²é*S’Së’®'½[î]´Ãßw54èíqå×7m|OP#«'Á=@OUth¤İ©%¥•`¹[Àƒ#r\½õ'¹¡Ş1è`¸ø®L&ıX+]~§gî#U6I„HÄ€Cıy¤+»Ç¬S„@˜*øÊi‘ÃıÓ “Ä½Ì?õ[Ô÷èoèWğŞ*Ói¡‡dzÊºñÁÅmk9˜µÕ¬øâ$‘>Ì=<–J(b]’	„õOµÔ²İgt1¿oâWÿ¤M9áÅw¿$[Ãûf¤tL‚Ğ)%Ñ'…‘ŞmlœªÑ)›ÃkFwP¯(©şâ9´Ş·øĞN†³•Zá„Ó>Y	¿h”k±OGS‰#üËIŠ¿çoÛHIP^U±E››íbãû›ª¨$Ö|r´8Éó.@³ÑøÈ¶‘ôq Ğ¶Êß[D/’t|w ·B±w ‚@¹wÖf}”Ú†Ÿàå¤gµ’}#5F8tä6)oÌ3¼\ŒŞ,Ù+lğ@ÀğôrC+%¢¶~Ô•ÂP^48„ÕÖµCcõ¯€OİÚİıİï3xf¨röÙ§9$ãêÌ}¡&É¥™!ôÀÌ`4y®_ŒÈ;ePwj’m›rrlä‡‰ŞI<©m‹f—´#àEë$<qûÿ¡íê”ìª<±¬U­/%9ò¸ÇôVd¾§w-IoÊeB2'ZDİnˆŞX'È|`d#ßX#Û^ÄÖM*buÔAíùå‚Ê¢€-HµQ|‚û'yåU^SÈÙ<û˜Í>¼ÍşØ‚gK
-endstream
-endobj
 1017 0 obj
 <</Georgia 98 0 R >>
 endobj
-1018 0 obj
-<</BBox[ 0 0 461.43472 151.054016]/Filter/FlateDecode/FormType 1/Length 658/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1017 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœ}TOoÓ0¿çSü•,İÒ±·©b šV‰#z_S#Çnıì‰îÛîÈ_ Ùi¶NĞ©§öóïo²)*¤Ÿoó¢>—õiışãÉ¸¬&u5>ƒçbŒ1êÉtØ«§{{Ë·Åmq<ÿ‰Ë›«bóêÑo…-.çE…6««rÒoÍUqüo5a\a¾,fkïá6jå°vl°6dõR“J‚.n!ºÓ†ükö+Ú‚L-	”^²gÛh°MãÎ«´ÈëMd¼ÁüGQáİø¤œœL§ÓóóDçhEÃ qB‚-Œt¿‚SNƒ6ú”“Hq÷(Pl4wk•Ñ8+Ñe”L´Y9t´u¾ü?èîÓªªÎêÌbfĞP§­ƒVLÊ¥{tÉ$Ô-Hh‘h®He(aÃ-û†=>}ıø¥ÄÌîó‚óºÕ6]%á i2²±¦Öe/¨‡…[¶ZQÖì$l`¯g¡Ói’$3£MÔÏ³ıeòzO»D	:Ä-çà“nb)qÉÚdE–ó¤B936=ÅO3£İYùöªƒº3¹3Ïr¦;+Â£í#(qÑGÿBã¿¬¢Ğ‚-®/î®±&O	ú5¿Õ³Ó…ı=¥eó\Ï=Õ0%‰El(… œ(ÖÑçT^îË›¢â&ÄÄÃæŠï*$n§,ç‰}YS‰;g\jâBS’7ÌDGCñÀGÉš[¥›>Î.­¾
-ÑøÜğÁ …ó>=mÂ¨/Ş>¶¡Ú÷¾Ào"KĞ,¦»4öÈxİ‘×ÛŞáDu€nbşv¤¬óËF-ÈößJ%Ü‚¤ÖÇu>òTxÏùÅ³Ä4›·Åìæªø¨¿a
-endstream
-endobj
 1019 0 obj
 <</Georgia 98 0 R >>
-endobj
-1021 0 obj
-<</BaseFont/Untitled/DescendantFonts[ 1022 0 R ]/Encoding/Identity-H/Subtype/Type0/ToUnicode 1028 0 R /Type/Font>>
-endobj
-1022 0 obj
-<</BaseFont/Untitled/CIDSystemInfo 1023 0 R /CIDToGIDMap 1027 0 R /FontDescriptor 1024 0 R /Subtype/CIDFontType2/Type/Font/W 1026 0 R >>
-endobj
-1023 0 obj
-<</Ordering(Identity)/Registry(Adobe)/Supplement 0>>
-endobj
-1024 0 obj
-<</Ascent 1000/CapHeight 1000/Descent 0/Flags 33/FontBBox[ 0 0 500 1000]/FontFile2 1025 0 R /FontName/Untitled/ItalicAngle 0/StemV 70/Type/FontDescriptor>>
-endobj
-1025 0 obj
-<</Filter/FlateDecode/Length 329/Length1 573>>stream
-xœm‘±OÂ@Æ×^±‰˜(q0¦ã€`Œ“ƒN&¬Ú`µ$´ 0àÆèèÀä?àâÀèîâ¦ƒ“ƒ“›“$n$ÈµÕ ø%—w÷}ï½ûŞˆÓEÇ*mm—ß{ 6€“Šg7ˆ³âX;¯]-¯dAÜ+®cŸ&:Ÿpìº®c'5©ï@ÖõÚ‰‚¸ÌZ½b“Î} æÙc¬›€åÛ3øH¿‚xõV mUéj§V¿w‘:^Øû’sfĞıéfè«øòp;PQğ)4B0”êA§Ih£!#eZ=xc†`„FÿA±T*²vUTb÷oJT('½À’º3ˆ±ñM"ùSLªC!³˜‘Ã¹u6C¿¤»$H£#ä|Ä—qhÒ¢J‹9òe§ÙªÖ}«ËO¿Âìxß¹é9
-endstream
-endobj
-1026 0 obj
-[ 0 65535 500]
-endobj
-1027 0 obj
-<</Filter/FlateDecode/Length 150>>stream
-xœíÂ	    ú:h‡h                                                                                                                              € ÿ 
-endstream
-endobj
-1028 0 obj
-<</Filter/FlateDecode/Length 219>>stream
-xœmÍjÃ0„ïzŠ=&‡ %gc(	¦>4-u^@–ÆF¯„,üöEÊ”´0;ú–ÙòØZv‰äOô¦C¢Á±˜ı¨ÇèXìdIwUª™tîÖ9ajyğTU‚HşbtsŠ+m>¬ï±Í½ïh´i-8¹´–v·„pÅN¤D]“Å äñK‡³@²ğ»±û|ù—5€Eïo©Œ·˜ƒ6ˆšGˆJ)¥jªš¦ij¶ÿü;Õo¾ÓMeêáçyág6³ÄNå*%QÎâÏÃ2UŞßˆt4
-endstream
-endobj
-1029 0 obj
-<</BBox[ 0 0 461.43491 178.73196]/Filter/FlateDecode/FormType 1/Length 398/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1019 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœuÍnÛ0„ï|Š9¦…«XãX×8BÑ"i@÷bC®e)óÇ¨·è© e¤IC‡]€3ßÌj/æÈŸïË²\ÕÕòjÙÔ¨oÖÕÍUİ¬àYÔ¨±¼n^ŸVÿ¶Å£¸ì~áöa#öâ¶sôÙ°ZW‹"ê”¸üÌÎ÷šPÏÑmÅÅ¯ö;ò<¸€dq )Ó€‘<ÁèaÔäaOŠ¡(º—è
-ˆiÌcHì#ìcG6OEÊáºg1Ç§zQ]/š¦Y¯s“Åwí}Ûµ™f£ç>ÙH¨ë
-mˆé²ÊÁ8¤pjXz½É¦§<&Â»Õ¹àûÄ½›8;’ìÇ°ŒÉO¤óã¾~ÿòÃï Şj©ÙF3ŒNMm¤gòx±JK`IŠ,¿úMí
-›ì¡Ó¯Ÿ83RŸouûi…#$Ù¨©\ô®Ä™©R‘Ş´•šfçÒ“-.m³LqÖş—òó´åó9DRn†c‘ü1QÅş*yç,‘m'Eû°tã™
-endstream
 endobj
 1030 0 obj
 <</Georgia 98 0 R >>
@@ -4755,19 +4617,178 @@ endobj
 1033 0 obj
 <</Georgia 98 0 R >>
 endobj
-1034 0 obj
-<</BBox[ 0 0 461.43491 395.79883]/Filter/FlateDecode/FormType 1/Length 668/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Georgia 98 0 R >>/ProcSet[/PDF/Text]>>/Subtype/Form/Type/XObject>>stream
-xœTMo1½ï¯xÇ‚Â6›¤¡ª¨åC¤½OíéÆÈëÙÚkı·ü€zã„loÚ¨!ÚËÊ;ó>Æoö¶š"=¾Í/‹×M½˜/Væ«“úÍj¹œÃsÕ Áâdõøişôéæeõµ:^ÿÄ»‹Óê¶z·®¦h«óåI=ËEk]¿gñ­!4S¬oª#œYô–4ƒ¿³ŠÊ<8°Cˆèè—ø{B`täÃaÚHdS½%¨ÈaHÍ¬Æ¹|üüáÓ7I€	àÖß«)^5³úd¶Z­–Ë¤äh0½Lğ+ÁoHqf}ì¯ÙMĞ³XÁmdEİµ!XÓ²§İÀàtÜˆï(X*µ[LKá¿e5DO!YQ¤	][ª”ï÷pÊhvÊP€xÓG¶h
-Ëyp*æ‚r>mÄçyÆÁXsGÉï½ÓFqVm©ø&ôâá9°ÿAF×|!OPÖ$ìPƒi##rZv {o:òFĞ§K×8M§ÜQ(Ây_÷]¢NLâÙ¡§V2H»ÖvÌ„_ÄãL'[:»Uñƒ7FE+P’8öï²Ï§ÓÙ*'ùhkk’pÊÜ\‰µ>öT.ˆ½-wüHã9D;Pº)ÍDK€³vŠ”–°çûuÙ¡£²£ég[ğo±ûWÜI¡ç@¾H~0¹#eÄq©ØäÚ«¤ª«·§——iÀƒá®ÏgJ\6êÙ=Ëü|:m™tCã
-i©ñVsW&“8»,Æ¡ï+Ï¤ŸÒó$ğÁMÄJY7—®]\÷ÙdD ¼„d`‹¥Åƒ²	£Ù'”îw ß•Ó½Úp"‡<†<€­ììÛ°„ñßfcKşĞbı÷/à[9?[W_«³‹Óê/Î¢ĞØ
+1036 0 obj
+<</BaseFont/Untitled/DescendantFonts[ 1037 0 R ]/Encoding/Identity-H/Subtype/Type0/ToUnicode 1043 0 R /Type/Font>>
+endobj
+1037 0 obj
+<</BaseFont/Untitled/CIDSystemInfo 1038 0 R /CIDToGIDMap 1042 0 R /FontDescriptor 1039 0 R /Subtype/CIDFontType2/Type/Font/W 1041 0 R >>
+endobj
+1038 0 obj
+<</Ordering(Identity)/Registry(Adobe)/Supplement 0>>
+endobj
+1039 0 obj
+<</Ascent 1000/CapHeight 1000/Descent 0/Flags 33/FontBBox[ 0 0 500 1000]/FontFile2 1040 0 R /FontName/Untitled/ItalicAngle 0/StemV 70/Type/FontDescriptor>>
+endobj
+1040 0 obj
+<</Filter/FlateDecode/Length 329/Length1 573>>stream
+xœm‘±OÂ@Æ×^±‰˜(q0¦ã€`Œ“ƒN&¬Ú`µ$´ 0àÆèèÀä?àâÀèîâ¦ƒ“ƒ“›“$n$ÈµÕ ø%—w÷}ï½ûŞˆÓEÇ*mm—ß{ 6€“Šg7ˆ³âX;¯]-¯dAÜ+®cŸ&:Ÿpìº®c'5©ï@ÖõÚ‰‚¸ÌZ½b“Î} æÙc¬›€åÛ3øH¿‚xõV mUéj§V¿w‘:^Øû’sfĞıéfè«øòp;PQğ)4B0”êA§Ih£!#eZ=xc†`„FÿA±T*²vUTb÷oJT('½À’º3ˆ±ñM"ùSLªC!³˜‘Ã¹u6C¿¤»$H£#ä|Ä—qhÒ¢J‹9òe§ÙªÖ}«ËO¿Âìxß¹é9
 endstream
 endobj
-1035 0 obj
-<</BBox[ 0 0 461.43518 243.18201]/Filter/FlateDecode/FormType 1/Length 550/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1033 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
-xœ­“ËnÛ0D÷üŠY¦…«H~ö6ûBÒ&€€,‹òZfA“6A“ÎdUP¶ì$µÛ´(IÌÎ\­D‰üø¦ıTÅp0ªÆèE5î—<‹
-†£Év«ÚmÍŞŠ+q\ÿÀéÅ™Xıîäµ°â´%Q¡?è'íN­Äñv¾Ñ„ªD=GS‘!)¸¢S.À¸€Ï_?}Ap7I «)z°‘ÁjÛ<Z|¤0‡t‡ğ '“÷šÀKÏM²‘Ş ş.J¼«úÅ¨?™LÆãŒrD6²×Îs(œ¸ôzÁ¾5œ“d$K0,cò„À2±•šL6óØßRÀL›èÉ*‡¥ó0„Ë9A1´ÕR;Ü=QÃùô}}¯@:m¥V­Uèa•8n3È>lğ`•–Ü:n@´ú¶Ej×\Å³_İÏ7®s’F³öXz½ ¯]oç±öK–[ød×]’ÉhÉDR.§a‘nı©œgÕÊ²îç¾ĞçİS¥¡ûùí\äÛ=ËéŸbZRã¶…Ôeä|CVßÓf&¶í‚zNwó×"\:GõbËq×5qËs-“ÙÕ÷Ÿ ¦!v…nDr¢*+kŸÿk
-0°ûç²­óŠ-µ³COKjÚLº„rK‘
-¬³>0/ü”>0ÉD½4Z®5«²\‹)}«óxØèƒ¢,Ëö}å=ÿfa<å…i-®ÄôâLüŒ>¥×
+1041 0 obj
+[ 0 65535 500]
+endobj
+1042 0 obj
+<</Filter/FlateDecode/Length 150>>stream
+xœíÂ	    ú:h‡h                                                                                                                              € ÿ 
+endstream
+endobj
+1043 0 obj
+<</Filter/FlateDecode/Length 219>>stream
+xœmÍjÃ0„ïzŠ=&‡ %gc(	¦>4-u^@–ÆF¯„,üöEÊ”´0;ú–ÙòØZv‰äOô¦C¢Á±˜ı¨ÇèXìdIwUª™tîÖ9ajyğTU‚HşbtsŠ+m>¬ï±Í½ïh´i-8¹´–v·„pÅN¤D]“Å äñK‡³@²ğ»±û|ù—5€Eïo©Œ·˜ƒ6ˆšGˆJ)¥jªš¦ij¶ÿü;Õo¾ÓMeêáçyág6³ÄNå*%QÎâÏÃ2UŞßˆt4
+endstream
+endobj
+1044 0 obj
+<</BBox[ 0 0 457.18262 392.00601]/Filter/FlateDecode/FormType 1/Length 965/Matrix[ 1 0 0 1 0 0]/Resources<</Font 912 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœ•UËnãF¼ó+úè¸ZI~DÎq'XÀ›Ø € 5Ó¢:ÎĞ=¤°Êßú¸çÜ|JzHêµfâ… èÁawUuuñ1ƒ¾¤H_ÎÎ¿MfÓ‹)œ^NGãñÅxBÙ&pv~¾½4Ş]Z~“İeïæŸàıÇ«ì1{?ÏÆPd8MFçéĞÜfï~¤ #LÆ0_f'·(¥@"X¬C„•!BÑ &”èm€‡‡«ŸoKP…XB1ö–MºZµ¥,B‡àŞÀülo'ÓÑùôòòr6S'–…Œá¿½–B1+^°Ú(®÷+’ƒeëk5úÄ±&oõ¾¡%ÉõP$ímƒÀÃ	y XŒá? (¥‡7°Ùë¡EM°¼dƒ	Üıü‡·³ÑË¾¬˜”ÄHE#ª%ûš
+a‹V+‹›4·
+1¶zEPè"“¯	‚XòßA%\’„A&.°×P røÆ6©Á†m fòäÁ³/* qááOÚä]‘¨3¶òäÁ¡4?§—§©y‡mßS¬šÏQ™îvL…”èšVlb`Åà:j¯ ÆášÉ“'TØ&K±¾˜î³ÎaÓŞf¾AX!D¶¡kš+Y‹ò”¨>{¨¹Js&‘ #¸I\`
+E’5v(h·¸Õ/¨{ŠlsH -±…M;¶_¨tdö†mòwT*Ì“xÍ±^q+™Z¯#¡êTAàÙÕ\¦™¦Vûr0Íª8­ÆrÁŸı@³W/ÊMëË’|ò¤Ø¿w-ê:”B7Û¥Ù@d¯­jac8xŠ#¸ê­ß#‹ÁrXóË´Zûµs¨t½Z$Œ5ê‰ò)&˜-.°´P[aÚ×pÿÓ‡»ûkcH7r´>hÚ”Èn7}FşÚ/E×Ÿ}êL¾åHıc…RÓNóÆTÛ 9ı[õlã0ïNwşpâ&øYÛ¨êS%Or¡Õ"HğäkÑOK‹AÖk^òÒ ´1´İè®tçZk;Ç×gm à—nY{í©¦SLSV!ß/6Îô¡™Şi[.j±vºµP[\Sìe‹I7¶`‚YQ¾õäôGòÎW<@Š\ºéÇßxıèŞò‰PÁ±uô^ºÇØáC°’°@É¡òv\¿íjßîÂÆõÿ°6‰‰.té‡CĞu²}0í×FãîÙ³éM;Àæ¥,Ü!ZÒ½jë'uÎ^”îµTÿÿëyv—]¼ÊşŒ>
+endstream
+endobj
+1045 0 obj
+<</BaseFont/ChromeSansMM/Encoding/WinAnsiEncoding/FirstChar 32/FontDescriptor 1046 0 R /LastChar 255/Subtype/TrueType/Type/Font/Widths[ 376 256 376 590 624 815 687 216 392 392 486 635 239 411 239 501 678 567 675 675 678 677 677 625 676 677 239 239 635 635 635 507 777 602 640 674 674 559 539 674 703 272 439 596 529 963 694 729 627 729 632 588 546 660 608 969 609 566 539 377 501 376 635 567 406 553 584 559 584 560 401 592 590 242 242 528 242 875 590 595 584 584 421 538 459 594 526 883 530 534 452 369 380 369 635 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 256 644 651 661 633 380 566 406 764 380 476 635 411 764 406 383 635 443 445 406 594 569 239 406 403 393 476 938 948 1015 508 602 602 602 602 602 602 903 674 559 559 559 559 272 272 272 272 682 694 729 729 729 729 729 635 729 660 660 660 660 566 627 603 553 553 553 553 553 553 900 559 560 560 560 560 242 242 242 242 595 590 595 595 595 595 595 635 595 594 594 594 594 534 586 534]>>
+endobj
+1046 0 obj
+<</Ascent 872/Descent -256/Flags 32/FontBBox[ -55 872 424 -257]/FontName/ChromeSansMM/ItalicAngle 0/StemV 80/Type/FontDescriptor>>
+endobj
+1047 0 obj
+<</BaseFont/ChromeSansMM/Encoding/WinAnsiEncoding/FirstChar 32/FontDescriptor 1048 0 R /LastChar 255/Subtype/TrueType/Type/Font/Widths[ 376 256 376 590 624 815 687 216 392 392 486 635 239 411 239 501 678 567 675 675 678 677 677 625 676 677 239 239 635 635 635 507 777 602 640 674 674 559 539 674 703 272 439 596 529 963 694 729 627 729 632 588 546 660 608 969 609 566 539 377 501 376 635 567 406 553 584 559 584 560 401 592 590 242 242 528 242 875 590 595 584 584 421 538 459 594 526 883 530 534 452 369 380 369 635 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 256 644 651 661 633 380 566 406 764 380 476 635 411 764 406 383 635 443 445 406 594 569 239 406 403 393 476 938 948 1015 508 602 602 602 602 602 602 903 674 559 559 559 559 272 272 272 272 682 694 729 729 729 729 729 635 729 660 660 660 660 566 627 603 553 553 553 553 553 553 900 559 560 560 560 560 242 242 242 242 595 590 595 595 595 595 595 635 595 594 594 594 594 534 586 534]>>
+endobj
+1048 0 obj
+<</Ascent 872/Descent -256/Flags 32/FontBBox[ -55 872 424 -257]/FontName/ChromeSansMM/ItalicAngle 0/StemV 80/Type/FontDescriptor>>
+endobj
+1049 0 obj
+<</BBox[ 0 0 461.436 197.15802]/Filter/FlateDecode/FormType 1/Length 768/Matrix[ 1 0 0 1 0 0]/Resources<</Font 958 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœT_Oâ@ï§˜G0^ÙV@JâbÏã‚ˆÊ™Ë…—a;â^ÊnÙmÉyßÖà“_à²[Šà‰Ò„Îü:~3¿YzìOÏİŸf;ğ›Gm¢c?huXš¼ h¶¢µ£õâ¸;ğ®¼Æäœ^ô½¥w:ñÌ-¼ÓöÛ4I¼Æ9)=ƒÉWk± ­€cÊ‹Ê ¥ gLò"KÑÀ² ÈĞ ~”ÖÊ1AÈq–"dJƒE$â4ÉœJ‰s¡$•‚:L~{¾¡ß
+£(êtl1µ{ä$!C°"mS+„ç,U:,HCª|¿Œ\Q˜Â%i¬â/‘“„aJG™‹‹Ş“{İ/Pæ
+ĞVŞİíñhßta¤9œ@`ZihÀí´–iµ’œÖ§õ÷ÈgŒÙ§ÑbÎÜì¸×5£{2]Ç7ñõmïfèh'Ñ‚Ì:Ei‡&«’@‚pZ8È"÷¼‘éˆ1ÖnºLãŞùe¸’¦Hs7w´ôÍĞ%-Á\™CÊ@B«‚Ò9®ïñ‚ĞÃĞ?fÁûÍŒ‡½_½Š³öN+R¬(]7SzÂ—FgXä³è¾nãoƒşáåf4U®R¥]œÖ6GÌØ'1õgñ¨?èı:69&ªœéVì–ıgBŸà²x:„Ya8ÊD•këÖy¦Ü}´CXo>(d)§{²“R³œ¤H”Õ‹óBXİ­•ã$³gæ•†º ÓZùë§¢­µ»Ï^_¸&Cz…fZ‡·N–ãÿ~ˆÁ¹ú rK÷‚é;°aüuRb÷Nr‘¤™Ö}¸°êÍÓhY‹‡½Áèåà,¨òèÒO¸CmwCWÅEYÅ\q;Uì¶ï^*â7ÎŠ¿×4ìIb·°:º\ =‚YAV¹4#åeÜêtEd7÷Éä‚£!sÒ(È´Ê%˜U»[8wÜÍ¾ËK0Gé°Õ1Åg»½.N!qûL'*×è»˜ñÄ»òâ‹¾÷¨’ÿÁ
+endstream
+endobj
+1050 0 obj
+<</BaseFont/ChromeSansMM/Encoding/WinAnsiEncoding/FirstChar 32/FontDescriptor 1051 0 R /LastChar 255/Subtype/TrueType/Type/Font/Widths[ 376 256 376 590 624 815 687 216 392 392 486 635 239 411 239 501 678 567 675 675 678 677 677 625 676 677 239 239 635 635 635 507 777 602 640 674 674 559 539 674 703 272 439 596 529 963 694 729 627 729 632 588 546 660 608 969 609 566 539 377 501 376 635 567 406 553 584 559 584 560 401 592 590 242 242 528 242 875 590 595 584 584 421 538 459 594 526 883 530 534 452 369 380 369 635 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 376 256 644 651 661 633 380 566 406 764 380 476 635 411 764 406 383 635 443 445 406 594 569 239 406 403 393 476 938 948 1015 508 602 602 602 602 602 602 903 674 559 559 559 559 272 272 272 272 682 694 729 729 729 729 729 635 729 660 660 660 660 566 627 603 553 553 553 553 553 553 900 559 560 560 560 560 242 242 242 242 595 590 595 595 595 595 595 635 595 594 594 594 594 534 586 534]>>
+endobj
+1051 0 obj
+<</Ascent 872/Descent -256/Flags 32/FontBBox[ -55 872 424 -257]/FontName/ChromeSansMM/ItalicAngle 0/StemV 80/Type/FontDescriptor>>
+endobj
+1052 0 obj
+<</BBox[ 0 0 461.43491 170.89801]/Filter/FlateDecode/FormType 1/Length 705/Matrix[ 1 0 0 1 0 0]/Resources<</Font 984 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœ…T]sÚ8}÷¯8o†Uì@L·;C©ÛĞÓwº»ÃLæÆR@a9’íÙæßòØ‡>õt$dhí_]{Î±>îCÁ½fåƒ^?f½no#¾ŒØ`8ˆbÄˆÑ»>MõÇ©»Á§à,ûofãà!x“V® ±®e<8{/´YIB!»Z57ßi£-Ö”ƒ‡Z@r]ØZU+°¦ÔJc³µ0ÛRrq/òº¢‚kÔFéhúÏ¿	¨¨„OÓFCÙ}áe|Î.Î‡Ãá`àŒ´„­4(¯jRò‘ÌJ[pª´'PdQÑ­"ÛÒŞ}­¹ÃtYÉ+ÂFÜkóÜ0;¡¶H¦É8ÆóÏi¶l½,²I:Î³\IQTBòe/G‹p†näŒø¨M.ŠŠîÅsnè÷<÷»ëù{‹æ“FXa²0˜§Ïeğæ8º9Ô0îÉJEdQ:ª’ùÑhßì’VÚ¢$'¶·"ùÍÁ”+=¤)İˆµÌk·7£kØSboà8¼9B§É»lïE¹ä¢È%YHÇpbåïmÒ·LØŠ¸Æk„caq
+OØÿr•\'§ş rVİ8ƒ„IŠe+©0ß)ì o¹|ôÁÃõ­Ï½7T8ÁÂ«Z¨ÆGè[á¾³­¢•Ï,D#•¢pÙö–O8HşÎ®GãlÙšÍÓì
+şv'ò5ÉBæR/Û;Wı.;,Ûğt%±œŠJrâøñE´Ë²B6Bá¼ìáW²ËµÒ“éä¯a!VF‡û¥=î•ä˜,~N_²¯·~M¨Èp·+½Î9¬XÕ×_ÿ×IzƒÃLuá¨Îµ=Â]wq7wÛOÈz¡[Úu†…€¾­¤(„+5ÂKqˆuÏ/ãn·ËÛµ„$>ÉlüXéšF
+endstream
+endobj
+1053 0 obj
+<</BBox[ 0 0 461.43506 431.35779]/Filter/FlateDecode/FormType 1/Length 926/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1014 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœ•VKoÛF¾óWÌ-N¡(”%;ĞK(…[§mP]
+F»czƒå½¡ò¿Í±Ÿzó©˜%)Q–T¤ärf¾×P÷E	òñUş1»œŒgÓ‹òfÓÉxzñæÍ<˜ÀìbŞß:ŸïnİşP|*^/ÿ‚wß÷Å»eQBUL`v^¯ò¡¥.^ÿDì+ƒ0)ay[œıîMMGîP$‡`IÅä©DN´@,BÄ•E0N¯‡hvšäé[c£GhØY Q3(ò5á%,¿%¼šœ/ÎçóùÕ•Ls¶‘ÀSH6ä¦„èqıw -3ÁÍâÃ~şíúWh8Dò†=(å)_ç‰nÙ×÷)v¢u.’Óş›ƒÈXƒ*Æ)›Ş'²rKª9†hÈ‘p°Åx¼Ïaã·2x4.¡2ÿ¸Ì¼'´æ…Á#ì^y:Šµgk
+SYÎ:œ@n9@M2·kòèx‡J4D†ä`À~MÚqry•¬"@gt–z¨Æ‰ÎÇ£¸nĞ£Ø¦Cf´Œ6$—'Û_êù†ïõŸ–åù|šû‚Å=™î ª’G§¹wKŠÆ%vç°ãC:Fò‚ÃÁlh{=‚¿¼j›w0EôññùŸYz’%ŞËçê)Ü'ÒmØ6JrÊr‘F]jª¿l9Üx^›–6MğÖi´I=>Ëç€°E×:9ÜÉ+ØF0¹Öš`•”İ:â8‡=ş *u;ûQœ§£ĞX|ÈÒÛŞøšÀ™5Yø^ÍÑx6ÎÕô"w×"¤¼°¶ÑÛ<W·˜Üwçü&QÅ[K=dwbiÚ9ıK÷«uU+SÑŠé-ªr
+‹.›­3NÄMTÛÖe÷‹ –ã½Äß÷ÏìÆ'MÍ§—ÚÀ±Ï”\ÓQÉruŠ‰÷÷™bË^ <sëd–'XÓİ£T€ÏgíÉë›ë_ğÂQåùÅç—cØJ¢¸^‡½÷|»¿Éş7ŒCÛ™YShRû“õ²{ÏäÚ¡5û]?æ‘¨ì59<ØAÿ±Ó»ì1ºC¹'„	+OUŞ>­¯ä%„ù]íä/€ÙU	 MˆÆE°…V%Û=Ñ½a¯ÈEü*ÌzO¡a§s©Ö]Š]1‚:Ùh¶ò
+ IYÂ´YyB3‹`:.Ë2sÏÅ²øT,>¾/şcxîO
+endstream
+endobj
+1054 0 obj
+<</BBox[ 0 0 461.43491 178.73196]/Filter/FlateDecode/FormType 1/Length 398/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1019 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœuÍnÛ0„ï|Š9¦…«XãX×8BÑ"i@÷bC®e)óÇ¨·è© e¤IC‡]€3ßÌj/æÈŸïË²\ÕÕòjÙÔ¨oÖÕÍUİ¬àYÔ¨±¼n^ŸVÿ¶Å£¸ì~áöa#öâ¶sôÙ°ZW‹"ê”¸üÌÎ÷šPÏÑmÅÅ¯ö;ò<¸€dq )Ó€‘<ÁèaÔäaOŠ¡(º—è
+ˆiÌcHì#ìcG6OEÊáºg1Ç§zQ]/š¦Y¯s“Åwí}Ûµ™f£ç>ÙH¨ë
+mˆé²ÊÁ8¤pjXz½É¦§<&Â»Õ¹àûÄ½›8;’ìÇ°ŒÉO¤óã¾~ÿòÃï Şj©ÙF3ŒNMm¤gòx±JK`IŠ,¿úMí
+›ì¡Ó¯Ÿ83RŸouûi…#$Ù¨©\ô®Ä™©R‘Ş´•šfçÒ“-.m³LqÖş—òó´åó9DRn†c‘ü1QÅş*yç¬JfÛ‰GÑ>lÄ_ïÑãÇ
+endstream
+endobj
+1055 0 obj
+<</BBox[ 0 0 461.43491 395.79883]/Filter/FlateDecode/FormType 1/Length 667/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Georgia 98 0 R >>/ProcSet[/PDF/Text]>>/Subtype/Form/Type/XObject>>stream
+xœTMOÛ@½ûW¼#­R'&G@¨¢‚¶¨û°;8‹Ö;f×‹
+ÿ¶?€·ª];‘Fª|±Ö3ïcöï‹1Òãëü2;¬ÊÙt¶¨0]”Ÿóù‹
+f‹×OÓ·O·‹ËbùÇ'Å}q¼,Æ¨‹
+ÓùA9ÉEK]ìañµ!Tc,o‹=œZ´–4ƒïXEe^Ø!D4ô(ş™¹Î°c˜:’ÙTo	*rèRG5)q._¿Ÿ}û‰ 	Ğ¢1¡|Àò®ãS5)&‹Åb>OJö:ÓÊ	~EŠ3ëkxÍn„–½À
+î##(jnÁšš=5ì:‡¤ãV|C	ÀR_»Æ´vñ[V]ô’EšĞÑ¥rGùvÿ™SF³S†Ä›Ú8²½¦À°œ§b.èÏG •ø<ÏØk(ù}vÚ(Îª-õ¾	­xxìÈèr‡ä	Êš„j0udÄ@NËtëMCŞÚÔ`	ƒóçƒé'
+½pŞÖ½C@“¨Ó“xvh©–Ã¦µ3¡Äñøc;ÓÈšÎ®U<ğÊ¨hJr ‡şMöéx<Yä$ï­mN?7×Ç‰j[ê/¿‹­íïø•Æsˆ¶£tSšÑ‰– ;dì%(-aË÷a¿C{ı¦ßmÁ¿Ånc\s#ıà-ò½Ä i;Ó˜'RF÷«\»bµ’Tu}truu‘ÜnÚ|¦ÄeS –İ»ÌOÇãj–IW4¬–Gš›ßy2‰#±KÀlú&±òLú-=o_ÜA¬ôëæÒµëë> $@:/!é_Ciñ ìÁhö	$)ã[£r¸72»‘MäŒÇı¯Uï _g%¿6kò»öê¿ÿ »ØúóÓeqYœ^œÍÑ,
+endstream
+endobj
+1056 0 obj
+<</BBox[ 0 0 461.43393 276.58899]/Filter/FlateDecode/FormType 1/Length 762/Matrix[ 1 0 0 1 0 0]/Resources<</Font 992 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœT=oGíïW¼R.4)QŠ˜Nv„4v L‘ÀÍğnxbo÷¸³GHú·,S¨0Ô¥
+fOmK,ØÙy3³-¦°_lòŸùÅl2?;[œáô—‹ÉùååbÈÅ3ÌÏÏ¡ù1´ş©øT¼]ŞâİÇ÷Å¶x·,¦hŠN/.&Ó|iYoç!Ì¦X®‹“+Ö*ÊJ"zO¨‚×Ş%*ÑéÖA¥é½GCÅÀµ¬9²O¬èHƒÚ°ÃZ<jFX%öí¤¢V|@»W¼ÁrSLñóìtr~ºX,./ÍÉc—¤è‚ÊÊñ¯¹÷òáM”–c(­LC©%ì8ÊZ*Â¶g8‚ŠOt+j°Ü‘”	;rRS‰»|ùj‘3±JHAH´r¤¸ƒN)ÊªO!ggM¤HÔ®ä_İŞIì-ßŠ¦¬Õäë4gÓélş:±?½ñ¸Ï¨Ô€İyÕáÀì™
+ëPJÜMMdEcúÓ7>9ò< İpÕWòè'c¼nÈŞrâØŠ§ˆª'ëÚŒäµTbY³ôÁü“{ªCDŸÄÉ=Å=L7S¤~Ğ$)Ä'ŒĞƒ¶#>ŸøÿÌÜŒ×qË>-Q‘ORSmÇ©ïiiRÔ¢Ù	#e¡¹YK¨äÇƒ¯¥bE€·–IÕç7èŒç‚È”©ä‘`MÒÒ!½Ë¯i³¢šĞûpˆ1¸¯InQşBuĞ	~ã±Ú)Xë°$1Ùy#qoò×Œ–}ˆ¢	®¶ıƒyUo"	{†´]ˆ‰¬­M®#š‘úµnhÉ×W\}øëïëÒà0©J}è¥ÓßLĞ~ˆ¡$×„±Ú¬yüÈá+²ßuï‡ÇF*²Ş”Mï§Ê²³‡rÜÒnycmc]ó‚”-8;´|)ÒŠ6äQ…Y;SÚƒ÷ÉL3àü“İk‡ñÏ&×!¯7#o£7,Ë<wj}İ>¹™†™;.[Ë>%jŞ·ÎÆ9ôÚS”Q\&ÓXŸş ìëeñ©¸şø¾ø)m3Ù
+endstream
+endobj
+1057 0 obj
+<</BBox[ 0 0 455.76553 242.91101]/Filter/FlateDecode/FormType 1/Length 602/Matrix[ 1 0 0 1 0 0]/Resources<</Font 814 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœuSËnÛ@¼ë+
+§…«H~´ö±IŒö ê»Ak){ÓÕRŞ]¥vş¶CĞ(vÚiC€ ˆä9Cn²ñq«ô1óÆã!£A>-Ë¢„ã¬D‰ÑxxÇPı.»Ë.æ[\Ş^e›ìrXe%å4ŸLbÒ\eŸYÜJÊó:;ŸYB·ÔUú—…bqŠ-)qPbƒ}øiaÄCQˆoF+>¬ûow7XÓ%TäZ„3EÎ°ƒbœà-æ÷Y÷å ¦Óéd9ßSB«ÖúAĞ“Wbëø´~‚â%;nöì(]ëŠ\ªkÉR#«…¸aĞ’£SÔ›á™ Wz¨^™‚5UŒ” Fàx¥}pCm`[iò¸¾½Á××7ıiYiElcG'XÙv±XIşzÂÿ_ã±+iL~¬(Ú¥:÷Ç­D_‰õ	©Å$êÒpÅI˜´XTÒzR×½ô{¶£´†àÉhE‰E|„KTè,oƒ eçÅ’Ñ¤¤Éé™¢¯6qmyÑ:®õÔ,£wVŸRç¾³A@/Ö,¾£ıàÕY´q#¹æ*Hƒ6aØÀJ³tœ–ø‹ø€VlÚ™7ë>v1‹¢%âö5 ¶cÛy&¥#Àx4ôSûñø£óÔˆÏOÌuBfÅª ö+Ü:©ØS£9j2l$ê~töx ËÎGNèØĞv‘›ÅqßÙùEËn±¢°f½ùçÂâ¥’3Q6<‡b¿"³yv—Ín¯²ß5¼s­
+endstream
+endobj
+1058 0 obj
+<</BBox[ 0 0 460.01819 299.36069]/Filter/FlateDecode/FormType 1/Length 725/Matrix[ 1 0 0 1 0 0]/Resources<</Font 856 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœTMoÜ6½ëW¼ã:ë¬)íG¤´{°m`í|t4ÅÅ,E¯iP-IIşm~@N¹ùTP²\;íÛB@r†ó8oŞÌ.ˆŸÛ¶‹ÉLŒDš§²¢gbVÀ©$EŠÉ4¿7=ûÛtõ$y“œ¬>âìâ<ÙıÈó]b“³U"°MRdy>Ê[ËªLN~Uì¶š
+¬®’Á©ı™*ö0ä¡| ò«Z’‡d‹ÓËÓåû?ĞöƒòAo©d§üOGXİ$OÓl4ÍŠ¢Èó~ğ‚¤êBÅË¾1‹ß_/O_^â·Årq¾ÂüòöÕÅwñîÅâí9ÍøÙD±çŸÀKöpª,Ù£TæÕ³…dç”ìQ³Û5*æ© ¹"[2”GcÁuĞ•şŸƒè"ÉÈÆ”Ál+uÃ’*m59‚ºQ²	äpÜ]¼.MĞ‘ğÖesëw*	^ÉFY©Éàµè–¡>j”}„>"´à_m©¥ò£Czít¥ƒ7AÙ¾H†íV‡¦Dó-	¡©Å!ÚzT¦çX:Ì±\$—zË>4®0ÄrUëåjãTç´P­ŒÑ%ûşà®ğë#ÌC aˆ´Ày<›¦b‚Í§ b}Q76Ä|æ˜N&áì6hƒ9ò´ÈğÚ^±«Hêo¶e€mpüÀMÚõ,?àÊİİÀ	¦SÌ‘Nòã~±‡›M¼3	!â’Nb¾™È	lïšÿPä…ä¨¶®‚ÿ¦/¯Ü—h~p0Í]À¶ä4E™Ö\¶rj<9C Ój×Ç.`W*eÕ«éàD.{ùÃj»½µèäÛ†Û	TÕ,[|×>àš¤r]³]sL²'à{Ü|<}€;"+Æ]—tñÙÀ±óûÑ“kŠy–­í¤'¥Ÿ2Ç}+ın­–İ“ëF•jß4éÃ¡ıƒÅ*y“,.Î“¿ `Ür
+endstream
+endobj
+1059 0 obj
+<</BBox[ 0 0 457.18268 291.03903]/Filter/FlateDecode/FormType 1/Length 935/Matrix[ 1 0 0 1 0 0]/Resources<</Font 867 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœ¥UKoÛ8¾ëW|Ç´ğª²oí9¸®¶Í"±ÛÄûD`LM4©RĞôßæø´·œC?òhtX,‚Hñ{Í¯“òóe|Ø¼M»ÃŞÏCôFİ4ë²><']t±?l—†£‡¥‹×É—äÍüŞŸL’ëäı<ÉP&]ô†Y:ˆ›æEòæ#;_jB7Ãü"Ù«º!£¿ÓÒ
+àPS±
+µV œÅx:>şëïÚŞp¨uI…óŞá¶eå\9[{ª]x÷
+ó«$ÃOİ^:èF£áP(ì“İâ	BhLMÈÿü|<>šâ,?Î'sLf¿Mç_÷^}…_Ng'Ï@ _gGS´@´Q‚V˜M¡Så
+]ºóÇûp­^\øãS~šËâ¥ópˆaîxú:dÈk‡Cô²,ËZ}p£üÂlv&g¡œ÷¬„tÀ×ãrí™.ØSá°ä+ç¡h©­CEÀW¬šš¼¸Û¼5=EêxdĞ…Cåõ’½ëÀs,	Æ÷áºá‚X5l•&¶rzMCÏƒ‰.´©=y<!ĞÏ²îşÏ<ê ËÆ®ƒÀàee˜d_9•-´âH4~\ğ.€[Pe´"/†Fñ˜]²).¸$Å²+šp^4Ê0ÈêB¬¿•=-ğTú¦¢µrLDS®±uŠ±`A‘Q!ÏÒl¸¼_[ÌÎ¯(}åGØÓñÉGÓßó³ùÑÇñ‡Ùi~v 3[²­µfËè§Y–É_”×Me(tP±wQ¥‘¨+¥•Iµˆ"¦dœqèö;•ué9ü	ç“Ùt~:Ï¢ı fô¢"¬ô””‹´M{'<Òû•H=búo÷÷»½ÍÁ-öÆË…u+äÚa»©Ô «e¢ŞY8_°¥bÍĞÃ¸M7/üŠâcÈÃ-Œ.©v^ÓZb{¿Ğ—m¥€`—äï,ºı¦È¤b9oôÊK6pµŒ‚‚oœ¹a÷ğUŠ‰[:ÑzI·[¡QÚÿÌ Ù³!‹‹ÆFÛ?Q¸ì¬k§r…_ÅëáQ£>í<a¸0îºá¶~–Ö“¶“p—¸¼Ú^>kJ‘€¹äïÊø[ÍŞşĞtÃş`s{áŞjE(ôûh¼Œg‰pWzM a½WÒØ†nvƒ‹d€¶M¨$òlnöFñòŞÛ¨<‹ÔÔnIrS¯ke\å]éiInáy7¨ÛœÊçÉ—$?™$ÿı7­Ÿ
+endstream
+endobj
+1060 0 obj
+<</BBox[ 0 0 464.26962 252.77939]/Filter/FlateDecode/FormType 1/Length 802/Matrix[ 1 0 0 1 0 0]/Resources<</Font 869 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœ•UMo7½ï¯xG»ØnV–£¶)¸jÂ–›D@{0PŒ¸c‰Å‘9\£Í¿õğ©·œR–ü¥-Pè"ÉyïÍ¼]5Ò',ò—áhXõGãQı£~u|<Œ¸è¡‡á¨¿;ª®¾)>¯fãİùIq]¼›5Eıa¿êçK³¦xõKXXB¯Æìª88%Ã+Q8‚¯­‹ô&üvööıŸ&g““Låe5\ÂTì£m¨ÁÏ/ÎÓ‹(ŠÂà×‹÷SböWQãÛ^¿:êÇã×¯æõ7¬Ñ.¨‘ÀúçÃ3kp1…©Œ4v!»¼}ÌOSÁ¦÷]¨»¥Ü{ã¿ŸN>N2ŒÑ«ëºÆÛéO»Øè¥XvVJ‚•”a´»mMµ”@Š78ú~ÿÓ—¹ÎD8÷¤EÃn×#!°‰¢%–d­Ç¼5A>µH°¦@h½Ï«vyà¹KD«ä¶¸ó5Œu°«$êò0õ¼¥³ş\&ĞSÒå¦9ìcàG®¸<plbÊ¦eo,¹ËC<ÅÔuo¸Ç&yö§©:Ø¿”3ñ0-ù( 8ÑÌµÌš8”±¤pvûE0ºì[Â	®[†í*eÃ7ân8Ü¢õ¤ÊÁñ ±];Ò
+™@Ãså\‰à•u1$hÖHŠHsG
+vve=y¬Z³Láœä#ÿ&g?SHÕ.ZË>2Ö¤Rá“MøÛ´«ÊÓj<ëL§qº+ÅîÁÊPw”EVô„cp<*ë£zWœ© ²ÏÛicC-ámôUëı×§D¤b,å_Ş¦
+ŞzHhØSÃ”Vİ¶ %Ö¶MdZÍïí'XK2~š¯¼Şşlî$`îäºe­ş‡G7è†ô0¯å-Ÿd‡•Õ•l´”Š‰ùZ4.î'FmÃiê•Ân6ó`×E^yÑ¦qO8ÎäeMšÿÔ+c>wƒÂñ]³¹¼éÔ¶ßQr°x;Í¬P^|ñ;)%VÉ¥icf…I•<™ÄÆCkQ;wŒ6ÚÅİã%±©şdV|(&ç'ÅW{PUk
+endstream
+endobj
+1061 0 obj
+<</BBox[ 0 0 462.8526 267.371]/Filter/FlateDecode/FormType 1/Length 554/Matrix[ 1 0 0 1 0 0]/Resources<</Font 802 0 R >>/Subtype/Form/Type/XObject>>stream
+xœ•TÑjÛ0}÷Wô‡ª®İ®]ŒveO}(ö0¢J×Š-©’›B¾z?°9“†,i'0‚+sÏ=÷ZÏÑ}t6ù…ë»›è9ºD)Ê(ÃùåU2øœa¢¢³od}©²“"Šo+ÈßJ—ÒÖ®¢ÆÂXHñH¼…³Fyªm€@m•…"ĞÕ®ZA,Az ¿La'¼€¬4™†Â¨ÉS”â4;O.Ï‡Ãá`ĞŠØÄŠ
+”/Â+ád˜å±±õ£'%8¤¨yÿ a sİLa™-º¶ŠÆ½yÃĞ¼Ò†Æ½i•6å¸÷Ò§ƒ^Ş‡(tEÇèW)¼nÈcÜVš|Õ²ù¾
+äqæ(4UÊˆšÂ¸ü!ÂdµMI¨–ë¿@ŞÎC¯\:Šs^›&¶xõf‰’y¡Ú.zO²uÛ²„¢Ùç-¬‡†6ğÂ””Çiš¶ß;}šêŠÇUTXc1£`W/Œ²uÒn+­Yúº8†ë•÷—,ï·;lxèÊØµ‹4Í>í˜æDGDıƒ0JmUu÷ÈQ÷+$Â92*ït—­Z±ôIÆÁ^[ÆFX[$§VKêÆ<ä}&U•VvÿVwÒŞ;›uU²ÑÆ	FµĞ¡è4-ôI¶üÒFikÆÁœ·3m¤ûy7GÇ'sùñÛy!ØÆYfŒoŒæøñÆÂ­{o=âÛ‚7eîós-êvİG·w7Ñê¯Œ
+endstream
+endobj
+1062 0 obj
+<</BBox[ 0 0 461.43503 458.7211]/Filter/FlateDecode/FormType 1/Length 1005/Matrix[ 1 0 0 1 0 0]/Resources<</Font 936 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœVMÛ6½ëWÌ-Iá(’×ŞîE$uÚM7mƒú “c™Š”ùaÄûosÌ!§Şr*†’m­m†aÃ HÎÌ{oŞhÀW¥?“ë2Ÿ\M‹+˜LoòÇe	²J˜Lo÷O®÷O–?d³WóÏğæÃÛl½™gTY	“ÉM>æ=s™½ú•¬«BYÀ|™=ÿË©šœO°BA‚&¢Cğ$"¡PĞA¡dZ÷#ÖHâÓK¥ƒCh¬Ò@> ´ È9”˜Ã˜?d¼,Çùt|{{{sÃÉ<Ÿù@àÈG¶{2ã#Bp¸ùêArNp?{7‡÷Şıõœ²„í%åÈ“Û¤Œ–ÖÕë˜]£	d¤ûb X‰4úŞ-Ê½\GÒüˆo3‚"C¦‡Á¾ÆóqN¿æÄƒ2…ú×Œ8EG¨Õ#‚eÏ ïíÂÑÙZwèc£•@F*ñ`•kë¡&O	Û946‡S&ôLC4ĞC¿&©8^^D-Ğ(™¨î³Ñ|UãÛ«ù¼r„­tÈ²é*S’Së’®'½[î]´Ãßw54èíqå×7m|OP#«'Á=@OUth¤İ©%¥•`¹[Àƒ#r\½õ'¹¡Ş1è`¸ø®L&ıX+]~§gî#U6I„HÄ€Cıy¤+»Ç¬S„@˜*øÊi‘ÃıÓ “Ä½Ì?õ[Ô÷èoèWğŞ*Ói¡‡dzÊºñÁÅmk9˜µÕ¬øâ$‘>Ì=<–J(b]’	„õOµÔ²İgt1¿oâWÿ¤M9áÅw¿$[Ãûf¤tL‚Ğ)%Ñ'…‘ŞmlœªÑ)›ÃkFwP¯(©şâ9´Ş·øĞN†³•Zá„Ó>Y	¿h”k±OGS‰#üËIŠ¿çoÛHIP^U±E››íbãû›ª¨$Ö|r´8Éó.@³ÑøÈ¶‘ôq Ğ¶Êß[D/’t|w ·B±w ‚@¹wÖf}”Ú†Ÿàå¤gµ’}#5F8tä6)oÌ3¼\ŒŞ,Ù+lğ@ÀğôrC+%¢¶~Ô•ÂP^48„ÕÖµCcõ¯€OİÚİıİï3xf¨röÙ§9$ãêÌ}¡&É¥™!ôÀÌ`4y®_ŒÈ;ePwj’m›rrlä‡‰ŞI<©m‹f—´#àEë$<qûÿ¡íê”ìª<±¬U­/%9ò¸ÇôVd¾§w-IoÊeB2'ZDİnˆŞX'È|`d#ßX#Û^ÄÖM*buÔAíùå‚Ê¢€-HµQ|‚û'yåU^Eú¦˜³yö1›}x›ı? gy
+endstream
+endobj
+1063 0 obj
+<</BBox[ 0 0 461.43433 191.51468]/Filter/FlateDecode/FormType 1/Length 570/Matrix[ 1 0 0 1 0 0]/Resources<</Font 988 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœuRMO1½ï¯xG¨Òe—„(é¢´P-êzà2Ø“Ä•×vv£†ÿÜ·*;D‘/–=óæÍ{ï9+O3O—Á°ÌıA¿r\æå`8BÃY‰ƒ‹ñîk4~ûš}È²³ê7®î&ÙsvUeæ±aTæE*ªlvö…¥™;BY še'©—ÔP°#^kç[²¢°ì1ıùıöòæ×l
+-k®E±rÚ
+;Æ‚Ãj§µ|<3Ö8Eõ++ğ±<Ï/ÎÇãñ(Q8QölŒ“@à OhéÉSœËÍŠëøÖNŒ\0Îr0´+Á2ZªŸ\ìLCŞĞrLıûHçö~´e,i.Š5aæ|Û¥ÖàC<Ëà¸¯r"GĞ+~IHÆ;Êä¸íx.YÉ;KÇ(ü1–^â’k,¥Á_ßºzcÊŠÎt^4ÇgÈ×qTÒX”¶œMú)hŞtË£ó£é¼¥Æ“æïWmúEQ©­Kšà“p›kôAÙtÉ¥»šƒè^—ŞÖé˜•N)
+û'XgËÆÕÔ8Áã‰‘Z¶uGX›µu¯ãÇÓÓ ÓQh”‚ûõÛÍ}*­Äô>uÆ³‚‚³)ÍJìSa´sŸ¸¨òáÈƒò·	Ä®9&‘`m†T° ¸t×—?®sL£É¬°nÆM”Qö:¥3F‹ıŠãÎGö„É~çìkÌ¿Š—¤b±á“ìÜ0ziZeÙôn’ıª¨[d
+endstream
+endobj
+1064 0 obj
+<</BBox[ 0 0 461.43472 151.054016]/Filter/FlateDecode/FormType 1/Length 660/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1017 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœ}TAnÛ0¼ësLW‘;I`4-šAôX¬ÅµÌ‚"m.Ôùm=ä”¤¤ÔAëBJÜåÌìŒ¸-*¤Ç7y19—“ÓÉûŒ§ã²šNªñ<cŒ1™Î†½Élooõ¶¸-?qysUlÿ[ú­°Åå¢¨Ğ¤²IUN»­…*?°ó&Œ+,VÅÑÜ`ã]Íâ ÜD­6Îƒ6†¬^iRéUĞÆD·ÚaÃŞaM;i¢%Ò+ölkM¶©İy•y½Œ7Xü(*¼Ÿ”Ó“Ùlv~è­©fÔNH°ƒq‚öWpÊ	bĞF?r2)nŠ‚ævã R#jg%š@£Œ’‰Ök‡–vÎ—ÿí?œVUu6É,æ5µÚ:hÅ¤\:G7‘L@í’–‰æš$P††1ÜÈ °¯ÙãÓ×_JÌí>/8¯mÓQ!u&P¶Á36Ô¸<ê`á–­V”5;É@ ØkçYFhuê$ÉÌhŸşôv‡Ékè=í%èwœ¯M:‰¥ÄU$›&‘Õ¼ˆF¶ŒMGBñKË¨¯µ‘ïi¿PõŠÊCêç%dKûI„GÛ9Pâ¢sş•Ä¿YE¡%!Z\_Ü]cCö9 íYØßSŠÙ6j×qO)LFbkÃJ('ruô9e—»ì&§¸1ñ°9á}‚ÄõÊ²İØeõ‰JÜ=—‚¸Ô”äıÃüFCîÀGÉšŸ¬Òuçf¯K«ïƒBÔ>|ĞÒyŸŞ‡0aÔånÛĞõàİÜà×‘%èg‹YïÆ¯[òÚa×¥3Q „ë˜¯äuş×¨¦%Ùî
+É!Ü‚¤ÆÇM.yÉ»çüßÙÀlš/ŠÛb~sUüHµÀ
+endstream
+endobj
+1065 0 obj
+<</BBox[ 0 0 461.43518 243.18201]/Filter/FlateDecode/FormType 1/Length 549/Matrix[ 1 0 0 1 0 0]/Resources<</Font 1033 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœ­“IoÛ0„ïüsLW‘¼öµ»!i@@Åõ,¿‚&.A“ÿœ?SAyKR;]P’˜ù8ót­JäÇ·İÇğ¤*†ƒQ5F8(ªq¿¬àYU¨0M¶[ÕnköZ]ªãúŞŸªë—N~UV½­U‰VUèúÅI·S7êø=;ß
+¡*QÏÔÑÔ‚Cdh
+®‡è`\À§/?#8‹«¤•†z°‘ÁŠm,>P˜C»…C¸‡ÓÉ{!°ÅÒs›l¤€W¨¿«oª~1êO&“ñ8£‘ìÅyÅ^ì;Ã9iF²Ã:&O¬[-d²™çÀş†fb¢'Û8,‡!ÌXÏ	C¬hq¸}¤†³é»ú^vbµ4Uèá:q0Üe}ØàŞ6¢¹s\ƒHóm‹Ô9®¸Šf¿ºŸ%nİÆIa9ì±ô² /®·óXù%Ë|²«.Éd´d"5.§a‘®ı®œ'ÕÊ²îç>Óçİc¥¡»gùí\äÛ=ÉéŸbZRë¶…´ÉÈù–¬ÜÑz&¶í‚zÎŞ›¿Äpá<L”ÅävSÅÏE'³jÓÜÿ¢˜†¸©t­’3m²´øügS€¡€İ_—}oØR7=Ôú´¤.¢õ¼a“Qî)RUÚ&†ãÆ"™(K#z¥Y•åJ¬‘Éb£gŠ²,»÷ïù7ãÁ(/Lku©¦ç§ê'„q¦3
+endstream
+endobj
+1066 0 obj
+<</BBox[ 0 0 97.800003 18.359985]/Filter/FlateDecode/FormType 1/Length 79/Matrix[ 1 0 0 1 0 0]/Resources<</Font 811 0 R /ProcSet[/PDF]>>/Subtype/Form/Type/XObject>>stream
+xœ+ä
+äÒ©Ppòuæ*är
+á2PHç2T0Ñ362´´4´TIáÒ÷HÍ)S04QIãÒ0´Ğ70Ñ72ÕTÉârá
+ärõuæ 6İ€
 endstream
 endobj
 xref
@@ -4842,810 +4863,816 @@ xref
 0000504828 00000 n
 101 619
 0000506052 00000 n
-0000507911 00000 n
-0000510017 00000 n
-0000512880 00000 n
-0000514865 00000 n
-0000517198 00000 n
-0000520603 00000 n
-0000523584 00000 n
-0000523849 00000 n
-0000524125 00000 n
-0000524382 00000 n
-0000524654 00000 n
-0000524911 00000 n
-0000525179 00000 n
-0000525441 00000 n
-0000525716 00000 n
-0000525975 00000 n
-0000526249 00000 n
-0000526515 00000 n
-0000526790 00000 n
-0000528908 00000 n
-0000532774 00000 n
-0000534573 00000 n
-0000538852 00000 n
-0000543987 00000 n
-0000546191 00000 n
-0000547975 00000 n
-0000549445 00000 n
-0000553995 00000 n
-0000555820 00000 n
-0000559513 00000 n
-0000561762 00000 n
-0000562958 00000 n
-0000564753 00000 n
-0000566776 00000 n
-0000569045 00000 n
-0000569223 00000 n
-0000569399 00000 n
-0000572110 00000 n
-0000572142 00000 n
-0000572313 00000 n
-0000572579 00000 n
-0000572652 00000 n
-0000572905 00000 n
-0000574102 00000 n
-0000574180 00000 n
-0000574262 00000 n
-0000574508 00000 n
-0000574584 00000 n
-0000574750 00000 n
-0000574836 00000 n
-0000574892 00000 n
-0000575029 00000 n
-0000575086 00000 n
-0000575198 00000 n
-0000575255 00000 n
-0000575355 00000 n
-0000575411 00000 n
-0000575505 00000 n
-0000575561 00000 n
-0000575725 00000 n
-0000575781 00000 n
-0000575919 00000 n
-0000575975 00000 n
-0000576031 00000 n
-0000576127 00000 n
-0000577324 00000 n
-0000577405 00000 n
-0000577541 00000 n
-0000577611 00000 n
-0000577679 00000 n
-0000577917 00000 n
-0000578167 00000 n
-0000581994 00000 n
-0000582554 00000 n
-0000582690 00000 n
-0000582939 00000 n
-0000583268 00000 n
-0000583652 00000 n
-0000583999 00000 n
-0000584319 00000 n
-0000584854 00000 n
-0000585156 00000 n
-0000585494 00000 n
-0000585823 00000 n
-0000586152 00000 n
-0000586499 00000 n
-0000586837 00000 n
-0000587175 00000 n
-0000587622 00000 n
-0000587722 00000 n
-0000587822 00000 n
-0000587886 00000 n
-0000587950 00000 n
-0000588014 00000 n
-0000588078 00000 n
-0000588141 00000 n
-0000588191 00000 n
-0000588254 00000 n
-0000588304 00000 n
-0000588368 00000 n
-0000588419 00000 n
-0000588470 00000 n
-0000588534 00000 n
-0000588585 00000 n
-0000588636 00000 n
-0000588700 00000 n
-0000588751 00000 n
-0000588815 00000 n
-0000588866 00000 n
-0000588930 00000 n
-0000588981 00000 n
-0000589032 00000 n
-0000589096 00000 n
-0000589147 00000 n
-0000589198 00000 n
-0000589262 00000 n
-0000589313 00000 n
-0000589377 00000 n
-0000589428 00000 n
-0000589479 00000 n
-0000589543 00000 n
-0000589594 00000 n
-0000589658 00000 n
-0000589709 00000 n
-0000589781 00000 n
-0000589832 00000 n
-0000589883 00000 n
-0000589934 00000 n
-0000589985 00000 n
-0000590049 00000 n
-0000590100 00000 n
-0000590151 00000 n
-0000590216 00000 n
-0000590280 00000 n
-0000590344 00000 n
-0000590408 00000 n
-0000590472 00000 n
-0000590536 00000 n
-0000590599 00000 n
-0000590662 00000 n
-0000590729 00000 n
-0000590796 00000 n
-0000590864 00000 n
-0000590928 00000 n
-0000590997 00000 n
-0000591061 00000 n
-0000591125 00000 n
-0000591189 00000 n
-0000591257 00000 n
-0000591326 00000 n
-0000591395 00000 n
-0000591464 00000 n
-0000591533 00000 n
-0000591602 00000 n
-0000591668 00000 n
-0000591769 00000 n
-0000591821 00000 n
-0000591885 00000 n
-0000591949 00000 n
-0000592013 00000 n
-0000592077 00000 n
-0000592141 00000 n
-0000592205 00000 n
-0000592269 00000 n
-0000592333 00000 n
-0000592397 00000 n
-0000592462 00000 n
-0000592527 00000 n
-0000592592 00000 n
-0000592657 00000 n
-0000592722 00000 n
-0000592787 00000 n
-0000592852 00000 n
-0000592922 00000 n
-0000592974 00000 n
-0000593039 00000 n
-0000593104 00000 n
-0000593169 00000 n
-0000593234 00000 n
-0000593299 00000 n
-0000593364 00000 n
-0000593429 00000 n
-0000593494 00000 n
-0000593559 00000 n
-0000593624 00000 n
-0000593689 00000 n
-0000593754 00000 n
-0000593819 00000 n
-0000593884 00000 n
-0000593952 00000 n
-0000594003 00000 n
-0000594071 00000 n
-0000594139 00000 n
-0000594208 00000 n
-0000594273 00000 n
-0000594338 00000 n
-0000594407 00000 n
-0000594476 00000 n
-0000594545 00000 n
-0000594610 00000 n
-0000594675 00000 n
-0000594740 00000 n
-0000594805 00000 n
-0000594870 00000 n
-0000594935 00000 n
-0000595000 00000 n
-0000595065 00000 n
-0000595130 00000 n
-0000595195 00000 n
-0000595260 00000 n
-0000595325 00000 n
-0000595390 00000 n
-0000595455 00000 n
-0000595520 00000 n
-0000595585 00000 n
-0000595650 00000 n
-0000595715 00000 n
-0000595783 00000 n
-0000595834 00000 n
-0000595898 00000 n
-0000595962 00000 n
-0000596026 00000 n
-0000596090 00000 n
-0000596154 00000 n
-0000596218 00000 n
-0000596282 00000 n
-0000596347 00000 n
-0000596412 00000 n
-0000596477 00000 n
-0000596542 00000 n
-0000596607 00000 n
-0000596672 00000 n
-0000596737 00000 n
-0000596802 00000 n
-0000596872 00000 n
-0000596924 00000 n
-0000596989 00000 n
-0000597054 00000 n
-0000597119 00000 n
-0000597184 00000 n
-0000597249 00000 n
-0000597314 00000 n
-0000597379 00000 n
-0000597444 00000 n
-0000597509 00000 n
-0000597574 00000 n
-0000597639 00000 n
-0000597704 00000 n
-0000597769 00000 n
-0000597834 00000 n
-0000597899 00000 n
-0000597967 00000 n
-0000598018 00000 n
-0000598082 00000 n
-0000598146 00000 n
-0000598210 00000 n
-0000598274 00000 n
-0000598338 00000 n
-0000598402 00000 n
-0000598466 00000 n
-0000598531 00000 n
-0000598596 00000 n
-0000598661 00000 n
-0000598726 00000 n
-0000598791 00000 n
-0000598856 00000 n
-0000598921 00000 n
-0000598986 00000 n
-0000599056 00000 n
-0000599108 00000 n
-0000599173 00000 n
-0000599238 00000 n
-0000599303 00000 n
-0000599368 00000 n
-0000599433 00000 n
-0000599498 00000 n
-0000599563 00000 n
-0000599628 00000 n
-0000599693 00000 n
-0000599758 00000 n
-0000599823 00000 n
-0000599888 00000 n
-0000599952 00000 n
-0000600020 00000 n
-0000600071 00000 n
-0000600135 00000 n
-0000600199 00000 n
-0000600263 00000 n
-0000600327 00000 n
-0000600391 00000 n
-0000600455 00000 n
-0000600520 00000 n
-0000600585 00000 n
-0000600650 00000 n
-0000600715 00000 n
-0000600780 00000 n
-0000600845 00000 n
-0000600910 00000 n
-0000600975 00000 n
-0000601045 00000 n
-0000601097 00000 n
-0000601162 00000 n
-0000601227 00000 n
-0000601292 00000 n
-0000601357 00000 n
-0000601409 00000 n
-0000601474 00000 n
-0000601539 00000 n
-0000601591 00000 n
-0000601656 00000 n
-0000601721 00000 n
-0000601773 00000 n
-0000601838 00000 n
-0000601903 00000 n
-0000601955 00000 n
-0000602020 00000 n
-0000602085 00000 n
-0000602137 00000 n
-0000602202 00000 n
-0000602267 00000 n
-0000602319 00000 n
-0000602384 00000 n
-0000602449 00000 n
-0000602501 00000 n
-0000602566 00000 n
-0000602631 00000 n
-0000602696 00000 n
-0000602761 00000 n
-0000602825 00000 n
-0000602889 00000 n
-0000602953 00000 n
-0000603017 00000 n
-0000603081 00000 n
-0000603145 00000 n
-0000603209 00000 n
-0000603273 00000 n
-0000603337 00000 n
-0000603401 00000 n
-0000603466 00000 n
-0000603531 00000 n
-0000603596 00000 n
-0000603661 00000 n
-0000603726 00000 n
-0000603791 00000 n
-0000603856 00000 n
-0000603921 00000 n
-0000603991 00000 n
-0000604043 00000 n
-0000604108 00000 n
-0000604173 00000 n
-0000604238 00000 n
-0000604303 00000 n
-0000604368 00000 n
-0000604433 00000 n
-0000604498 00000 n
-0000604563 00000 n
-0000604628 00000 n
-0000604693 00000 n
-0000604757 00000 n
-0000604821 00000 n
-0000604885 00000 n
-0000604949 00000 n
-0000605013 00000 n
-0000605077 00000 n
-0000605141 00000 n
-0000605205 00000 n
-0000605269 00000 n
-0000605333 00000 n
-0000605398 00000 n
-0000605463 00000 n
-0000605528 00000 n
-0000605593 00000 n
-0000605658 00000 n
-0000605723 00000 n
-0000605788 00000 n
-0000605853 00000 n
-0000605918 00000 n
-0000605983 00000 n
-0000606048 00000 n
-0000606113 00000 n
-0000606178 00000 n
-0000606243 00000 n
-0000606308 00000 n
-0000606373 00000 n
-0000606438 00000 n
-0000606503 00000 n
-0000606568 00000 n
-0000606633 00000 n
-0000606698 00000 n
-0000606763 00000 n
-0000606828 00000 n
-0000606893 00000 n
-0000606958 00000 n
-0000607022 00000 n
-0000607086 00000 n
-0000607150 00000 n
-0000607214 00000 n
-0000607278 00000 n
-0000607342 00000 n
-0000607406 00000 n
-0000607470 00000 n
-0000607534 00000 n
-0000607598 00000 n
-0000607663 00000 n
-0000607733 00000 n
-0000607785 00000 n
-0000607850 00000 n
-0000607915 00000 n
-0000607980 00000 n
-0000608045 00000 n
-0000608110 00000 n
-0000608175 00000 n
-0000608240 00000 n
-0000608305 00000 n
-0000608370 00000 n
-0000608435 00000 n
-0000608500 00000 n
-0000608565 00000 n
-0000608630 00000 n
-0000608695 00000 n
-0000608760 00000 n
-0000608825 00000 n
-0000608890 00000 n
-0000608955 00000 n
-0000609020 00000 n
-0000609085 00000 n
-0000609149 00000 n
-0000609213 00000 n
-0000609277 00000 n
-0000609341 00000 n
-0000609405 00000 n
-0000609469 00000 n
-0000609533 00000 n
-0000609597 00000 n
-0000609661 00000 n
-0000609725 00000 n
-0000609790 00000 n
-0000609855 00000 n
-0000609925 00000 n
-0000609977 00000 n
-0000610042 00000 n
-0000610107 00000 n
-0000610172 00000 n
-0000610237 00000 n
-0000610302 00000 n
-0000610367 00000 n
-0000610432 00000 n
-0000610497 00000 n
-0000610562 00000 n
-0000610627 00000 n
-0000610692 00000 n
-0000610757 00000 n
-0000610822 00000 n
-0000610887 00000 n
-0000610952 00000 n
-0000611017 00000 n
-0000611082 00000 n
-0000611147 00000 n
-0000611212 00000 n
-0000611280 00000 n
-0000611331 00000 n
-0000611395 00000 n
-0000611459 00000 n
-0000611523 00000 n
-0000611587 00000 n
-0000611651 00000 n
-0000611715 00000 n
-0000611779 00000 n
-0000611844 00000 n
-0000611909 00000 n
-0000611974 00000 n
-0000612039 00000 n
-0000612104 00000 n
-0000612169 00000 n
-0000612234 00000 n
-0000612299 00000 n
-0000612364 00000 n
-0000612429 00000 n
-0000612494 00000 n
-0000612559 00000 n
-0000612624 00000 n
-0000612689 00000 n
-0000612754 00000 n
-0000612819 00000 n
-0000612884 00000 n
-0000612949 00000 n
-0000613014 00000 n
-0000613079 00000 n
-0000613144 00000 n
-0000613209 00000 n
-0000613274 00000 n
-0000613339 00000 n
-0000613404 00000 n
-0000613469 00000 n
-0000613533 00000 n
-0000613597 00000 n
-0000613661 00000 n
-0000613725 00000 n
-0000613789 00000 n
-0000613853 00000 n
-0000613917 00000 n
-0000613981 00000 n
-0000614045 00000 n
-0000614114 00000 n
-0000614166 00000 n
-0000614231 00000 n
-0000614296 00000 n
-0000614361 00000 n
-0000614426 00000 n
-0000614491 00000 n
-0000614556 00000 n
-0000614621 00000 n
-0000614686 00000 n
-0000614751 00000 n
-0000614821 00000 n
-0000614873 00000 n
-0000614938 00000 n
-0000615003 00000 n
-0000615068 00000 n
-0000615133 00000 n
-0000615198 00000 n
-0000615263 00000 n
-0000615328 00000 n
-0000615393 00000 n
-0000615458 00000 n
-0000615523 00000 n
-0000615588 00000 n
-0000615652 00000 n
-0000615716 00000 n
-0000615780 00000 n
-0000615844 00000 n
-0000615908 00000 n
-0000615972 00000 n
-0000616036 00000 n
-0000616100 00000 n
-0000616164 00000 n
-0000616228 00000 n
-0000616293 00000 n
-0000616358 00000 n
-0000616423 00000 n
-0000616488 00000 n
-0000616553 00000 n
-0000616618 00000 n
-0000616683 00000 n
-0000616748 00000 n
-0000616813 00000 n
-0000616878 00000 n
-0000616943 00000 n
-0000617008 00000 n
-0000617073 00000 n
-0000617138 00000 n
-0000617203 00000 n
-0000617268 00000 n
-0000617333 00000 n
-0000617398 00000 n
-0000617463 00000 n
-0000617528 00000 n
-0000617593 00000 n
-0000617658 00000 n
-0000617723 00000 n
-0000617788 00000 n
-0000617853 00000 n
-0000617921 00000 n
-0000617972 00000 n
-0000618036 00000 n
-0000618100 00000 n
-0000618164 00000 n
-0000618228 00000 n
-0000618293 00000 n
-0000618358 00000 n
-0000618422 00000 n
-0000618487 00000 n
-0000618552 00000 n
-0000618617 00000 n
-0000618682 00000 n
-0000618748 00000 n
-0000618813 00000 n
-0000618882 00000 n
-0000618951 00000 n
-0000619020 00000 n
-0000619089 00000 n
-0000619161 00000 n
-0000619233 00000 n
-0000619316 00000 n
-0000619368 00000 n
-0000619451 00000 n
-0000619503 00000 n
-0000619571 00000 n
-0000619639 00000 n
-0000619707 00000 n
-0000619759 00000 n
-0000619875 00000 n
-0000619927 00000 n
-0000619979 00000 n
-0000620031 00000 n
-0000620083 00000 n
-0000620135 00000 n
-0000620187 00000 n
-0000620239 00000 n
-0000620310 00000 n
-0000620408 00000 n
-0000620479 00000 n
-0000620550 00000 n
-0000620672 00000 n
-0000620724 00000 n
-0000620776 00000 n
-0000620828 00000 n
-0000620880 00000 n
-0000620932 00000 n
-0000620984 00000 n
-0000621036 00000 n
-0000621088 00000 n
-0000621140 00000 n
-0000621192 00000 n
-0000621244 00000 n
-0000621296 00000 n
-0000621348 00000 n
-0000621400 00000 n
+0000507920 00000 n
+0000510026 00000 n
+0000512889 00000 n
+0000514874 00000 n
+0000517210 00000 n
+0000520618 00000 n
+0000523600 00000 n
+0000523865 00000 n
+0000524141 00000 n
+0000524398 00000 n
+0000524670 00000 n
+0000524927 00000 n
+0000525195 00000 n
+0000525457 00000 n
+0000525732 00000 n
+0000525991 00000 n
+0000526265 00000 n
+0000526531 00000 n
+0000526806 00000 n
+0000528925 00000 n
+0000532796 00000 n
+0000534595 00000 n
+0000538876 00000 n
+0000544016 00000 n
+0000546223 00000 n
+0000548010 00000 n
+0000549480 00000 n
+0000554030 00000 n
+0000555855 00000 n
+0000559552 00000 n
+0000561799 00000 n
+0000562997 00000 n
+0000564792 00000 n
+0000566819 00000 n
+0000569086 00000 n
+0000569264 00000 n
+0000569440 00000 n
+0000572147 00000 n
+0000572179 00000 n
+0000572350 00000 n
+0000572616 00000 n
+0000572689 00000 n
+0000572942 00000 n
+0000574139 00000 n
+0000574217 00000 n
+0000574299 00000 n
+0000574545 00000 n
+0000574621 00000 n
+0000574787 00000 n
+0000574873 00000 n
+0000574929 00000 n
+0000575066 00000 n
+0000575123 00000 n
+0000575235 00000 n
+0000575292 00000 n
+0000575392 00000 n
+0000575448 00000 n
+0000575542 00000 n
+0000575598 00000 n
+0000575762 00000 n
+0000575818 00000 n
+0000575956 00000 n
+0000576012 00000 n
+0000576068 00000 n
+0000576164 00000 n
+0000577361 00000 n
+0000577442 00000 n
+0000577578 00000 n
+0000577648 00000 n
+0000577716 00000 n
+0000577954 00000 n
+0000578204 00000 n
+0000582031 00000 n
+0000582591 00000 n
+0000582727 00000 n
+0000582976 00000 n
+0000583305 00000 n
+0000583689 00000 n
+0000584036 00000 n
+0000584356 00000 n
+0000584891 00000 n
+0000585193 00000 n
+0000585531 00000 n
+0000585860 00000 n
+0000586189 00000 n
+0000586536 00000 n
+0000586874 00000 n
+0000587212 00000 n
+0000587659 00000 n
+0000587759 00000 n
+0000587859 00000 n
+0000587923 00000 n
+0000587987 00000 n
+0000588051 00000 n
+0000588115 00000 n
+0000588178 00000 n
+0000588228 00000 n
+0000588291 00000 n
+0000588341 00000 n
+0000588405 00000 n
+0000588456 00000 n
+0000588507 00000 n
+0000588571 00000 n
+0000588622 00000 n
+0000588673 00000 n
+0000588737 00000 n
+0000588788 00000 n
+0000588852 00000 n
+0000588903 00000 n
+0000588967 00000 n
+0000589018 00000 n
+0000589069 00000 n
+0000589133 00000 n
+0000589184 00000 n
+0000589235 00000 n
+0000589299 00000 n
+0000589350 00000 n
+0000589414 00000 n
+0000589465 00000 n
+0000589516 00000 n
+0000589580 00000 n
+0000589631 00000 n
+0000589695 00000 n
+0000589746 00000 n
+0000589818 00000 n
+0000589869 00000 n
+0000589920 00000 n
+0000589971 00000 n
+0000590022 00000 n
+0000590086 00000 n
+0000590137 00000 n
+0000590188 00000 n
+0000590253 00000 n
+0000590317 00000 n
+0000590381 00000 n
+0000590445 00000 n
+0000590509 00000 n
+0000590573 00000 n
+0000590636 00000 n
+0000590699 00000 n
+0000590766 00000 n
+0000590833 00000 n
+0000590901 00000 n
+0000590965 00000 n
+0000591034 00000 n
+0000591098 00000 n
+0000591162 00000 n
+0000591226 00000 n
+0000591294 00000 n
+0000591363 00000 n
+0000591432 00000 n
+0000591501 00000 n
+0000591570 00000 n
+0000591639 00000 n
+0000591705 00000 n
+0000591806 00000 n
+0000591858 00000 n
+0000591922 00000 n
+0000591986 00000 n
+0000592050 00000 n
+0000592114 00000 n
+0000592178 00000 n
+0000592242 00000 n
+0000592306 00000 n
+0000592370 00000 n
+0000592434 00000 n
+0000592499 00000 n
+0000592564 00000 n
+0000592629 00000 n
+0000592694 00000 n
+0000592759 00000 n
+0000592824 00000 n
+0000592889 00000 n
+0000592959 00000 n
+0000593011 00000 n
+0000593076 00000 n
+0000593141 00000 n
+0000593206 00000 n
+0000593271 00000 n
+0000593336 00000 n
+0000593401 00000 n
+0000593466 00000 n
+0000593531 00000 n
+0000593596 00000 n
+0000593661 00000 n
+0000593726 00000 n
+0000593791 00000 n
+0000593856 00000 n
+0000593921 00000 n
+0000593989 00000 n
+0000594040 00000 n
+0000594108 00000 n
+0000594176 00000 n
+0000594245 00000 n
+0000594310 00000 n
+0000594375 00000 n
+0000594444 00000 n
+0000594513 00000 n
+0000594582 00000 n
+0000594647 00000 n
+0000594712 00000 n
+0000594777 00000 n
+0000594842 00000 n
+0000594907 00000 n
+0000594972 00000 n
+0000595037 00000 n
+0000595102 00000 n
+0000595167 00000 n
+0000595232 00000 n
+0000595297 00000 n
+0000595362 00000 n
+0000595427 00000 n
+0000595492 00000 n
+0000595557 00000 n
+0000595622 00000 n
+0000595687 00000 n
+0000595752 00000 n
+0000595820 00000 n
+0000595871 00000 n
+0000595935 00000 n
+0000595999 00000 n
+0000596063 00000 n
+0000596127 00000 n
+0000596191 00000 n
+0000596255 00000 n
+0000596319 00000 n
+0000596384 00000 n
+0000596449 00000 n
+0000596514 00000 n
+0000596579 00000 n
+0000596644 00000 n
+0000596709 00000 n
+0000596774 00000 n
+0000596839 00000 n
+0000596909 00000 n
+0000596961 00000 n
+0000597026 00000 n
+0000597091 00000 n
+0000597156 00000 n
+0000597221 00000 n
+0000597286 00000 n
+0000597351 00000 n
+0000597416 00000 n
+0000597481 00000 n
+0000597546 00000 n
+0000597611 00000 n
+0000597676 00000 n
+0000597741 00000 n
+0000597806 00000 n
+0000597871 00000 n
+0000597936 00000 n
+0000598004 00000 n
+0000598055 00000 n
+0000598119 00000 n
+0000598183 00000 n
+0000598247 00000 n
+0000598311 00000 n
+0000598375 00000 n
+0000598439 00000 n
+0000598503 00000 n
+0000598568 00000 n
+0000598633 00000 n
+0000598698 00000 n
+0000598763 00000 n
+0000598828 00000 n
+0000598893 00000 n
+0000598958 00000 n
+0000599023 00000 n
+0000599093 00000 n
+0000599145 00000 n
+0000599210 00000 n
+0000599275 00000 n
+0000599340 00000 n
+0000599405 00000 n
+0000599470 00000 n
+0000599535 00000 n
+0000599600 00000 n
+0000599665 00000 n
+0000599730 00000 n
+0000599795 00000 n
+0000599860 00000 n
+0000599925 00000 n
+0000599989 00000 n
+0000600057 00000 n
+0000600108 00000 n
+0000600172 00000 n
+0000600236 00000 n
+0000600300 00000 n
+0000600364 00000 n
+0000600428 00000 n
+0000600492 00000 n
+0000600557 00000 n
+0000600622 00000 n
+0000600687 00000 n
+0000600752 00000 n
+0000600817 00000 n
+0000600882 00000 n
+0000600947 00000 n
+0000601012 00000 n
+0000601082 00000 n
+0000601134 00000 n
+0000601199 00000 n
+0000601264 00000 n
+0000601329 00000 n
+0000601394 00000 n
+0000601446 00000 n
+0000601511 00000 n
+0000601576 00000 n
+0000601628 00000 n
+0000601693 00000 n
+0000601758 00000 n
+0000601810 00000 n
+0000601875 00000 n
+0000601940 00000 n
+0000601992 00000 n
+0000602057 00000 n
+0000602122 00000 n
+0000602174 00000 n
+0000602239 00000 n
+0000602304 00000 n
+0000602356 00000 n
+0000602421 00000 n
+0000602486 00000 n
+0000602538 00000 n
+0000602603 00000 n
+0000602668 00000 n
+0000602733 00000 n
+0000602798 00000 n
+0000602862 00000 n
+0000602926 00000 n
+0000602990 00000 n
+0000603054 00000 n
+0000603118 00000 n
+0000603182 00000 n
+0000603246 00000 n
+0000603310 00000 n
+0000603374 00000 n
+0000603438 00000 n
+0000603503 00000 n
+0000603568 00000 n
+0000603633 00000 n
+0000603698 00000 n
+0000603763 00000 n
+0000603828 00000 n
+0000603893 00000 n
+0000603958 00000 n
+0000604028 00000 n
+0000604080 00000 n
+0000604145 00000 n
+0000604210 00000 n
+0000604275 00000 n
+0000604340 00000 n
+0000604405 00000 n
+0000604470 00000 n
+0000604535 00000 n
+0000604600 00000 n
+0000604665 00000 n
+0000604730 00000 n
+0000604794 00000 n
+0000604858 00000 n
+0000604922 00000 n
+0000604986 00000 n
+0000605050 00000 n
+0000605114 00000 n
+0000605178 00000 n
+0000605242 00000 n
+0000605306 00000 n
+0000605370 00000 n
+0000605435 00000 n
+0000605500 00000 n
+0000605565 00000 n
+0000605630 00000 n
+0000605695 00000 n
+0000605760 00000 n
+0000605825 00000 n
+0000605890 00000 n
+0000605955 00000 n
+0000606020 00000 n
+0000606085 00000 n
+0000606150 00000 n
+0000606215 00000 n
+0000606280 00000 n
+0000606345 00000 n
+0000606410 00000 n
+0000606475 00000 n
+0000606540 00000 n
+0000606605 00000 n
+0000606670 00000 n
+0000606735 00000 n
+0000606800 00000 n
+0000606865 00000 n
+0000606930 00000 n
+0000606995 00000 n
+0000607059 00000 n
+0000607123 00000 n
+0000607187 00000 n
+0000607251 00000 n
+0000607315 00000 n
+0000607379 00000 n
+0000607443 00000 n
+0000607507 00000 n
+0000607571 00000 n
+0000607635 00000 n
+0000607700 00000 n
+0000607770 00000 n
+0000607822 00000 n
+0000607887 00000 n
+0000607952 00000 n
+0000608017 00000 n
+0000608082 00000 n
+0000608147 00000 n
+0000608212 00000 n
+0000608277 00000 n
+0000608342 00000 n
+0000608407 00000 n
+0000608472 00000 n
+0000608537 00000 n
+0000608602 00000 n
+0000608667 00000 n
+0000608732 00000 n
+0000608797 00000 n
+0000608862 00000 n
+0000608927 00000 n
+0000608992 00000 n
+0000609057 00000 n
+0000609122 00000 n
+0000609186 00000 n
+0000609250 00000 n
+0000609314 00000 n
+0000609378 00000 n
+0000609442 00000 n
+0000609506 00000 n
+0000609570 00000 n
+0000609634 00000 n
+0000609698 00000 n
+0000609762 00000 n
+0000609827 00000 n
+0000609892 00000 n
+0000609962 00000 n
+0000610014 00000 n
+0000610079 00000 n
+0000610144 00000 n
+0000610209 00000 n
+0000610274 00000 n
+0000610339 00000 n
+0000610404 00000 n
+0000610469 00000 n
+0000610534 00000 n
+0000610599 00000 n
+0000610664 00000 n
+0000610729 00000 n
+0000610794 00000 n
+0000610859 00000 n
+0000610924 00000 n
+0000610989 00000 n
+0000611054 00000 n
+0000611119 00000 n
+0000611184 00000 n
+0000611249 00000 n
+0000611317 00000 n
+0000611368 00000 n
+0000611432 00000 n
+0000611496 00000 n
+0000611560 00000 n
+0000611624 00000 n
+0000611688 00000 n
+0000611752 00000 n
+0000611816 00000 n
+0000611881 00000 n
+0000611946 00000 n
+0000612011 00000 n
+0000612076 00000 n
+0000612141 00000 n
+0000612206 00000 n
+0000612271 00000 n
+0000612336 00000 n
+0000612401 00000 n
+0000612466 00000 n
+0000612531 00000 n
+0000612596 00000 n
+0000612661 00000 n
+0000612726 00000 n
+0000612791 00000 n
+0000612856 00000 n
+0000612921 00000 n
+0000612986 00000 n
+0000613051 00000 n
+0000613116 00000 n
+0000613181 00000 n
+0000613246 00000 n
+0000613311 00000 n
+0000613376 00000 n
+0000613441 00000 n
+0000613506 00000 n
+0000613570 00000 n
+0000613634 00000 n
+0000613698 00000 n
+0000613762 00000 n
+0000613826 00000 n
+0000613890 00000 n
+0000613954 00000 n
+0000614018 00000 n
+0000614082 00000 n
+0000614151 00000 n
+0000614203 00000 n
+0000614268 00000 n
+0000614333 00000 n
+0000614398 00000 n
+0000614463 00000 n
+0000614528 00000 n
+0000614593 00000 n
+0000614658 00000 n
+0000614723 00000 n
+0000614788 00000 n
+0000614858 00000 n
+0000614910 00000 n
+0000614975 00000 n
+0000615040 00000 n
+0000615105 00000 n
+0000615170 00000 n
+0000615235 00000 n
+0000615300 00000 n
+0000615365 00000 n
+0000615430 00000 n
+0000615495 00000 n
+0000615560 00000 n
+0000615625 00000 n
+0000615689 00000 n
+0000615753 00000 n
+0000615817 00000 n
+0000615881 00000 n
+0000615945 00000 n
+0000616009 00000 n
+0000616073 00000 n
+0000616137 00000 n
+0000616201 00000 n
+0000616265 00000 n
+0000616330 00000 n
+0000616395 00000 n
+0000616460 00000 n
+0000616525 00000 n
+0000616590 00000 n
+0000616655 00000 n
+0000616720 00000 n
+0000616785 00000 n
+0000616850 00000 n
+0000616915 00000 n
+0000616980 00000 n
+0000617045 00000 n
+0000617110 00000 n
+0000617175 00000 n
+0000617240 00000 n
+0000617305 00000 n
+0000617370 00000 n
+0000617435 00000 n
+0000617500 00000 n
+0000617565 00000 n
+0000617630 00000 n
+0000617695 00000 n
+0000617760 00000 n
+0000617825 00000 n
+0000617890 00000 n
+0000617958 00000 n
+0000618009 00000 n
+0000618073 00000 n
+0000618137 00000 n
+0000618201 00000 n
+0000618265 00000 n
+0000618330 00000 n
+0000618395 00000 n
+0000618459 00000 n
+0000618524 00000 n
+0000618589 00000 n
+0000618654 00000 n
+0000618719 00000 n
+0000618785 00000 n
+0000618850 00000 n
+0000618919 00000 n
+0000618988 00000 n
+0000619057 00000 n
+0000619126 00000 n
+0000619198 00000 n
+0000619270 00000 n
+0000619353 00000 n
+0000619405 00000 n
+0000619488 00000 n
+0000619540 00000 n
+0000619608 00000 n
+0000619676 00000 n
+0000619744 00000 n
+0000619796 00000 n
+0000619912 00000 n
+0000619964 00000 n
+0000620016 00000 n
+0000620068 00000 n
+0000620120 00000 n
+0000620172 00000 n
+0000620224 00000 n
+0000620276 00000 n
+0000620347 00000 n
+0000620445 00000 n
+0000620516 00000 n
+0000620587 00000 n
+0000620709 00000 n
+0000620761 00000 n
+0000620813 00000 n
+0000620865 00000 n
+0000620917 00000 n
+0000620969 00000 n
+0000621021 00000 n
+0000621073 00000 n
+0000621125 00000 n
+0000621177 00000 n
+0000621229 00000 n
+0000621281 00000 n
+0000621333 00000 n
+0000621385 00000 n
+0000621437 00000 n
 721 8
-0000621452 00000 n
-0000621548 00000 n
-0000621611 00000 n
-0000621674 00000 n
-0000621737 00000 n
-0000621800 00000 n
-0000621863 00000 n
-0000621926 00000 n
+0000621489 00000 n
+0000621585 00000 n
+0000621648 00000 n
+0000621711 00000 n
+0000621774 00000 n
+0000621837 00000 n
+0000621900 00000 n
+0000621963 00000 n
 730 22
-0000621989 00000 n
-0000622052 00000 n
-0000622115 00000 n
-0000622178 00000 n
-0000622230 00000 n
-0000622293 00000 n
-0000622345 00000 n
-0000622408 00000 n
-0000622460 00000 n
-0000622523 00000 n
-0000622575 00000 n
-0000622638 00000 n
-0000622690 00000 n
-0000622753 00000 n
-0000622805 00000 n
-0000622848 00000 n
-0000622891 00000 n
-0000622934 00000 n
-0000622977 00000 n
-0000623020 00000 n
-0000623063 00000 n
-0000623109 00000 n
+0000622026 00000 n
+0000622089 00000 n
+0000622152 00000 n
+0000622215 00000 n
+0000622267 00000 n
+0000622330 00000 n
+0000622382 00000 n
+0000622445 00000 n
+0000622497 00000 n
+0000622560 00000 n
+0000622612 00000 n
+0000622675 00000 n
+0000622727 00000 n
+0000622790 00000 n
+0000622842 00000 n
+0000622885 00000 n
+0000622928 00000 n
+0000622971 00000 n
+0000623014 00000 n
+0000623057 00000 n
+0000623100 00000 n
+0000623146 00000 n
 753 15
-0000623155 00000 n
-0000623219 00000 n
-0000623285 00000 n
-0000623372 00000 n
-0000623603 00000 n
-0000624150 00000 n
-0000624234 00000 n
-0000625053 00000 n
-0000625824 00000 n
-0000626388 00000 n
-0000627073 00000 n
-0000627813 00000 n
-0000628498 00000 n
-0000629254 00000 n
-0000629965 00000 n
-772 1
-0000630386 00000 n
+0000623192 00000 n
+0000623256 00000 n
+0000623322 00000 n
+0000623409 00000 n
+0000623640 00000 n
+0000624187 00000 n
+0000624271 00000 n
+0000625090 00000 n
+0000625861 00000 n
+0000626425 00000 n
+0000627110 00000 n
+0000627850 00000 n
+0000628535 00000 n
+0000629291 00000 n
+0000630002 00000 n
 774 18
-0000630610 00000 n
-0000631283 00000 n
-0000631847 00000 n
-0000661113 00000 n
-0000680207 00000 n
-0000702688 00000 n
-0000703102 00000 n
-0000703392 00000 n
-0000703640 00000 n
-0000703930 00000 n
-0000704174 00000 n
-0000704410 00000 n
-0000704684 00000 n
-0000705881 00000 n
-0000705959 00000 n
-0000706213 00000 n
-0000706473 00000 n
-0000706745 00000 n
+0000630423 00000 n
+0000631096 00000 n
+0000631660 00000 n
+0000660926 00000 n
+0000680020 00000 n
+0000702501 00000 n
+0000702915 00000 n
+0000703205 00000 n
+0000703453 00000 n
+0000703743 00000 n
+0000703987 00000 n
+0000704236 00000 n
+0000704510 00000 n
+0000705707 00000 n
+0000705785 00000 n
+0000706039 00000 n
+0000706299 00000 n
+0000706571 00000 n
 802 1
-0000706989 00000 n
+0000706815 00000 n
 804 11
-0000707030 00000 n
-0000707069 00000 n
-0000707108 00000 n
-0000707403 00000 n
-0000707688 00000 n
-0000707727 00000 n
-0000708023 00000 n
-0000708062 00000 n
-0000708101 00000 n
-0000708386 00000 n
-0000708425 00000 n
-823 1
-0000708466 00000 n
+0000706856 00000 n
+0000706895 00000 n
+0000706934 00000 n
+0000707229 00000 n
+0000707514 00000 n
+0000707553 00000 n
+0000707849 00000 n
+0000707888 00000 n
+0000707927 00000 n
+0000708212 00000 n
+0000708251 00000 n
 832 3
-0000709269 00000 n
-0000709546 00000 n
-0000709587 00000 n
+0000708292 00000 n
+0000708569 00000 n
+0000708610 00000 n
 843 1
-0000710448 00000 n
+0000709471 00000 n
 845 1
-0000710489 00000 n
+0000709512 00000 n
 854 1
-0000710530 00000 n
+0000709553 00000 n
 856 1
-0000711516 00000 n
+0000710539 00000 n
 865 1
-0000711557 00000 n
+0000710580 00000 n
 867 1
-0000712334 00000 n
+0000711357 00000 n
 869 1
-0000712375 00000 n
+0000711398 00000 n
 880 1
-0000712416 00000 n
+0000711439 00000 n
 889 24
-0000712455 00000 n
-0000712494 00000 n
-0000712786 00000 n
-0000712825 00000 n
-0000713111 00000 n
-0000713150 00000 n
-0000713440 00000 n
-0000713728 00000 n
-0000713767 00000 n
-0000713806 00000 n
-0000714093 00000 n
-0000714132 00000 n
-0000714425 00000 n
-0000714464 00000 n
-0000714756 00000 n
-0000714795 00000 n
-0000715083 00000 n
-0000715122 00000 n
-0000715410 00000 n
-0000715449 00000 n
-0000715735 00000 n
-0000715774 00000 n
-0000716069 00000 n
-0000716356 00000 n
-914 1
-0000716397 00000 n
-923 2
-0000717135 00000 n
-0000718303 00000 n
+0000711478 00000 n
+0000711517 00000 n
+0000711809 00000 n
+0000711848 00000 n
+0000712134 00000 n
+0000712173 00000 n
+0000712463 00000 n
+0000712751 00000 n
+0000712790 00000 n
+0000712829 00000 n
+0000713116 00000 n
+0000713155 00000 n
+0000713448 00000 n
+0000713487 00000 n
+0000713779 00000 n
+0000713818 00000 n
+0000714106 00000 n
+0000714145 00000 n
+0000714433 00000 n
+0000714472 00000 n
+0000714758 00000 n
+0000714797 00000 n
+0000715092 00000 n
+0000715379 00000 n
+924 1
+0000715420 00000 n
 935 2
-0000718344 00000 n
-0000718385 00000 n
-946 3
-0000718426 00000 n
-0000719355 00000 n
-0000720495 00000 n
-958 4
-0000721503 00000 n
-0000721585 00000 n
-0000722555 00000 n
-0000723610 00000 n
+0000715461 00000 n
+0000715502 00000 n
+958 1
+0000715543 00000 n
+960 2
+0000715625 00000 n
+0000716680 00000 n
 984 1
-0000723761 00000 n
-987 6
-0000723802 00000 n
-0000724710 00000 n
-0000724751 00000 n
-0000725525 00000 n
-0000726219 00000 n
-0000726260 00000 n
-1002 1
-0000726301 00000 n
-1011 9
-0000727280 00000 n
-0000728475 00000 n
-0000728517 00000 n
-0000729319 00000 n
-0000729361 00000 n
-0000730492 00000 n
-0000731703 00000 n
-0000731745 00000 n
-0000732611 00000 n
-1021 15
-0000732653 00000 n
-0000732789 00000 n
-0000732947 00000 n
-0000733021 00000 n
-0000733198 00000 n
-0000733614 00000 n
-0000733650 00000 n
-0000733875 00000 n
-0000734169 00000 n
-0000734774 00000 n
-0000734816 00000 n
-0000735609 00000 n
-0000736407 00000 n
-0000736449 00000 n
-0000737339 00000 n
+0000716831 00000 n
+988 1
+0000716872 00000 n
+990 3
+0000716913 00000 n
+0000717607 00000 n
+0000717648 00000 n
+1011 4
+0000717689 00000 n
+0000718884 00000 n
+0000718926 00000 n
+0000719728 00000 n
+1017 1
+0000719770 00000 n
+1019 1
+0000719812 00000 n
+1030 4
+0000719854 00000 n
+0000719896 00000 n
+0000720689 00000 n
+0000721487 00000 n
+1036 31
+0000721529 00000 n
+0000721665 00000 n
+0000721823 00000 n
+0000721897 00000 n
+0000722074 00000 n
+0000722490 00000 n
+0000722526 00000 n
+0000722751 00000 n
+0000723045 00000 n
+0000724216 00000 n
+0000725273 00000 n
+0000725425 00000 n
+0000726482 00000 n
+0000726634 00000 n
+0000727606 00000 n
+0000728663 00000 n
+0000728815 00000 n
+0000729726 00000 n
+0000730859 00000 n
+0000731464 00000 n
+0000732353 00000 n
+0000733321 00000 n
+0000734129 00000 n
+0000735060 00000 n
+0000736201 00000 n
+0000737209 00000 n
+0000737952 00000 n
+0000739163 00000 n
+0000739939 00000 n
+0000740807 00000 n
+0000741563 00000 n
 trailer
-<</Info 791 0 R /Root 756 0 R /Size 1036/ID[<99A0A5D93A62E8AC2F5BBBE862CDA3D2><B96C5C1AD83300CEFD8E9B363A749B3E>]>>
+<</Info 791 0 R /Root 756 0 R /Size 1067/ID[<99A0A5D93A62E8AC2F5BBBE862CDA3D2><49B1EEFF5AA93C06DAB52EA120D81EE7>]>>
 startxref
-738096
+741847
 %%EOF
