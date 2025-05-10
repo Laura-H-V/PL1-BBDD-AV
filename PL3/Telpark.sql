@@ -1,6 +1,6 @@
 SET client_encoding TO 'UTF8';
 
-
+/*
 CREATE TABLE clientes (
     
     clienteid INTEGER PRIMARY KEY,
@@ -73,3 +73,7 @@ CREATE TABLE incidencias (
     FOREIGN KEY (reservaid_reservas) REFERENCES reservas(reservaid)  
 
 );
+*/
+
+INSERT INTO clientes (clienteid, nombre, apellido, telefono, email, provincia ) VALUES (1, 'Juan', 'García', 949696969, 'email@email.email', 'Guadalajara');
+INSERT INTO vehiculos (vehiculoid, matricula, marca, modelo, color, clienteid_clientes) VALUES (1, '1234ACB', 'Opel', 'Astra', 'gris', 1);
