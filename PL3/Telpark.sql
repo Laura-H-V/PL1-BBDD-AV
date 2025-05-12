@@ -77,3 +77,20 @@ CREATE TABLE incidencias (
 
 INSERT INTO clientes (clienteid, nombre, apellido, telefono, email, provincia ) VALUES (1, 'Juan', 'García', 949696969, 'email@email.email', 'Guadalajara');
 INSERT INTO vehiculos (vehiculoid, matricula, marca, modelo, color, clienteid_clientes) VALUES (1, '1234ACB', 'Opel', 'Astra', 'gris', 1);
+
+/**
+BEGIN;
+INSERT INTO clientes (clienteid, nombre, apellido, telefono, email, provincia) 
+VALUES (10, 'Luis', 'Pérez', 918856931, 'luis.perez@email.com', 'Madrid');
+
+INSERT INTO vehiculos (vehiculoid, matricula, marca, modelo, color, clienteid_clientes) 
+VALUES (10, '1234MMG', 'Audi', 'A3', 'negro', 10);
+
+SELECT * FROM clientes WHERE clienteid = 10;
+SELECT * FROM vehiculos WHERE vehiculoid = 10;
+
+
+SELECT * FROM pg_stat_activity WHERE state = 'idle in transaction';
+
+SELECT * FROM pg_locks WHERE pid IN (SELECT pid FROM pg_stat_activity WHERE usename = 'usuario1');
+*/
