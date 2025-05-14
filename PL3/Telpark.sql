@@ -94,3 +94,65 @@ SELECT * FROM pg_stat_activity WHERE state = 'idle in transaction';
 
 SELECT * FROM pg_locks WHERE pid IN (SELECT pid FROM pg_stat_activity WHERE usename = 'usuario1');
 */
+
+/**
+BEGIN;
+INSERT INTO clientes (clienteid, nombre, apellido, telefono, email, provincia) 
+VALUES (11, 'Ana', 'Gómez', 942558741, 'ana.gomez@email.com', 'Cantabria');
+
+INSERT INTO vehiculos (vehiculoid, matricula, marca, modelo, color, clienteid_clientes) 
+VALUES (11, '6789HPT', 'BMW', 'X3', 'azul', 11);
+
+UPDATE vehiculos 
+SET matricula = '1234MMG'
+WHERE vehiculoid = 11;
+
+INSERT INTO clientes (clienteid, nombre, apellido, telefono, email, provincia) 
+VALUES (12, 'Carlos', 'Martínez', 915678934, 'carlos.martinez@email.com', 'Madrid');
+
+INSERT INTO vehiculos (vehiculoid, matricula, marca, modelo, color, clienteid_clientes) 
+VALUES (12, '4567HPG', 'Mercedes', 'C200', 'blanco', 12);
+
+COMMIT;
+*/
+
+/**
+BEGIN;
+
+INSERT INTO clientes (clienteid, nombre, apellido, telefono, email, provincia) 
+VALUES (13, 'Marta', 'Fernández', 937456123, 'marta.fernandez@email.com', 'Barcelona');
+
+INSERT INTO vehiculos (vehiculoid, matricula, marca, modelo, color, clienteid_clientes) 
+VALUES (13, '5678JKL', 'Toyota', 'Corolla', 'rojo', 13);
+
+SELECT * FROM clientes WHERE clienteid = 13;
+SELECT * FROM vehiculos WHERE vehiculoid = 13;
+
+SELECT * FROM pg_stat_activity WHERE state = 'idle in transaction';
+
+ROLLBACK;
+*/
+
+/**
+CREATE TABLE Tabla1 (
+    X REAL PRIMARY KEY
+);
+
+CREATE TABLE Tabla2 (
+    Y REAL PRIMARY KEY
+);
+
+CREATE TABLE Tabla3 (
+    Z REAL PRIMARY KEY
+);
+
+INSERT INTO Tabla1 (X) VALUES (30);
+INSERT INTO Tabla2 (Y) VALUES (40);
+INSERT INTO Tabla3 (Z) VALUES (50);
+
+
+SELECT * FROM Tabla1;
+SELECT * FROM Tabla2;
+SELECT * FROM Tabla3;
+
+*/
