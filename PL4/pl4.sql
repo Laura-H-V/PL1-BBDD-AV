@@ -105,3 +105,16 @@ INSERT INTO reservas (reservaid, fechainicio, fechafin, vehiculoid_vehiculos, pl
 (6, '2025-05-06 15:00:00', '2025-05-08 15:00:00', 6, 6, 6),
 (7, '2025-05-07 16:00:00', '2025-05-09 16:00:00', 7, 7, 7),
 (8, '2025-05-08 17:00:00', '2025-05-10 17:00:00', 8, 8, 8);
+
+
+CREATE PUBLICATION publicacion1 FOR TABLE clientes, vehiculos, plazas, reservas, pagos, incidencias;
+CREATE PUBLICATION publicacion2 FOR TABLE clientes, vehiculos, plazas, reservas, pagos, incidencias;
+
+
+CREATE SUBSCRIPTION subscripcion1
+CONNECTION 'host=localhost dbname=telpark1 user=replicador password=1234 port=5435'
+PUBLICATION publicacion1;
+
+CREATE SUBSCRIPTION subscripcion1
+CONNECTION 'host=localhost dbname=telpark2 user=replicador password=1234 port=5436'
+PUBLICATION publicacion2;
